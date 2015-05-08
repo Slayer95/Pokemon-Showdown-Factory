@@ -3,11 +3,15 @@ Pokemon Showdown Battle Factory Sets Generator
 
 ## Installation
 
-	npm install git+https://github.com/Slayer95/Pokemon-Showdown-Factory.git
+	git clone --recursive https://github.com/Slayer95/Pokemon-Showdown-Factory.git
+	cd Pokemon-Showdown-Factory
+	cd Pokemon-Showdown && npm install --production && cd ..
 
 ## Usage
 
 	node index
+
+The output is written to `factory-sets.json`.
 
 ## [License][license-url]
 
