@@ -1,0 +1,34 @@
+factory-sets.json
+/Pokemon-Showdown/*
+/node_modules
+/gulp-cache
+npm-debug.log
+
+# boilerplate #
+###############
+
+.DS_Store
+
+# editor temp files
+*~
+.idea/
+
+tmp/**/*
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.pyc
+*.pyo
+.installed.cfg
+
+downloads
+dist
+
+# django
+local_settings.py
+
+# SCM
+.hg
+.bzr
+.svn

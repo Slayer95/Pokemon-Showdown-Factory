@@ -1,0 +1,19 @@
+{
+  "name": "Pokemon-Showdown-Factory-Sets-Generator",
+  "version": "0.1.0",
+  "engines": {
+    "node": "> 0.10.1"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Slayer95/Pokemon-Showdown-Factory-Sets-Generator.git"
+  },
+  "author": {
+    "name": "Leonardo Julca Salazar",
+    "email": "ivojulca@hotmail.com"
+  },
+  "private": true
+}
