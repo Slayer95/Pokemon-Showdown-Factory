@@ -190,7 +190,7 @@ function buildSets () {
 	proofRead(setListsByTier);
 
 	// Export as JSON
-	fs.writeFileSync('./factory-sets.json', JSON.stringify(setListsByTier, null, '\t'));
+	fs.writeFileSync('./factory-sets.json', JSON.stringify(setListsByTier) + '\n');
 
 	console.log("Battle factory sets built");
 }
