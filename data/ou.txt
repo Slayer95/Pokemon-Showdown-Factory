@@ -2083,6 +2083,8 @@ Timid Nature
 - Hidden Power [Ground]
 - Giga Drain
 
+=== [ou] Feraligatr ===
+
 Feraligatr @ Life Orb
 Ability: Sheer Force
 EVs: 252 Atk / 4 SpD / 252 Spe
@@ -2091,8 +2093,6 @@ Adamant Nature
 - Crunch
 - Aqua Jet
 - Swords Dance
-
-=== [ou] Feraligatr ===
 
 Feraligatr @ Life Orb
 Ability: Sheer Force
