@@ -672,27 +672,6 @@ Timid Nature
 - U-Turn
 
 
-=== [ru] Serperior ===
-
-Serperior @ Life Orb
-Ability: Contrary
-EVs: 252 SpA / 4 SpD / 252 Spe
-Timid Nature
-- Leaf Storm
-- Giga Drain
-- Hidden Power [Fire]
-- Substitute
-
-Serperior @ Life Orb
-Ability: Contrary
-EVs: 252 SpA / 4 SpD / 252 Spe
-Timid Nature
-- Leaf Storm
-- Giga Drain
-- Hidden Power [Fire]
-- Dragon Pulse
-
-
 === [ru] Accelgor ===
 
 Accelgor @ Focus Sash
