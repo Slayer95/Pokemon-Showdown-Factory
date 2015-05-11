@@ -149,7 +149,14 @@ function proofRead (setLists) {
 	var Items = Tools.data.Items;
 	var Natures = Tools.data.Natures;
 
+	var tierList = ['Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU'];
+	var tierPosition = {};
+	for (var i = 0; i < tierList.length; i++) {
+		tierPosition[tierList[i]] = i;
+	}
+
 	for (var tier in setLists) {
+		var minTierIndex = tierPosition[tier];
 		for (var speciesid in setLists[tier]) {
 			if (!Pokedex[speciesid]) console.error("Invalid species id: " + speciesid);
 			for (var i = 0; i < setLists[tier][speciesid].length; i++) {
@@ -158,6 +165,7 @@ function proofRead (setLists) {
 				if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) console.error("Invalid nature for " + speciesid + ": " + set.nature);
 				if (!set.moves.every(isValidMove)) console.error("Invalid moveset for " + speciesid + ": " + JSON.stringify(set.moves));
 				if (!inValues(Pokedex[speciesid].abilities, set.ability)) console.error("Invalid ability for " + speciesid + ": '" + set.ability + "'");
+				if (tierPosition[Tools.getTemplate(speciesid).tier] < minTierIndex) console.error("Pokémon " + speciesid + " is banned from " + tier);
 			}
 		}
 	}
