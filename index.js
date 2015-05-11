@@ -39,74 +39,71 @@ function parseText (text) {
 		var line = text[i].trim();
 		if (line === '' || line === '---') {
 			curSet = null;
-		} else if (line.substr(0, 3) === '===' && teams) {
+		} else if (line.slice(0, 3) === '===' && teams) {
 			// Do nothing
 		} else if (!curSet) {
-			curSet = {name: '', species: '', gender: ''};
+			curSet = {species: '', gender: ''};
 			teams.push(curSet);
 			var atIndex = line.lastIndexOf(' @ ');
 			if (atIndex !== -1) {
-				curSet.item = line.substr(atIndex + 3);
-				line = line.substr(0, atIndex);
+				curSet.item = line.slice(atIndex + 3);
+				line = line.slice(0, atIndex);
 			}
-			if (line.substr(line.length - 4) === ' (M)') {
+			if (line.slice(line.length - 4) === ' (M)') {
 				curSet.gender = 'M';
-				line = line.substr(0, line.length - 4);
+				line = line.slice(0, -4);
 			}
-			if (line.substr(line.length - 4) === ' (F)') {
+			if (line.slice(line.length - 4) === ' (F)') {
 				curSet.gender = 'F';
-				line = line.substr(0, line.length - 4);
+				line = line.slice(0, -4);
 			}
 			var parenIndex = line.lastIndexOf(' (');
-			if (line.substr(line.length - 1) === ')' && parenIndex !== -1) {
-				line = line.substr(0, line.length - 1);
-				curSet.species = Tools.getTemplate(line.substr(parenIndex + 2)).name;
-				line = line.substr(0, parenIndex);
-				curSet.name = line;
+			if (line.slice(-1) === ')' && parenIndex !== -1) {
+				line = line.slice(0, -1);
+				curSet.species = Tools.getTemplate(line.slice(parenIndex + 2)).name;
 			} else {
 				curSet.species = Tools.getTemplate(line).name;
-				curSet.name = curSet.species;
 			}
-		} else if (line.substr(0, 7) === 'Trait: ') {
-			line = line.substr(7);
+		} else if (line.slice(0, 7) === 'Trait: ') {
+			line = line.slice(7);
 			curSet.ability = line;
-		} else if (line.substr(0, 9) === 'Ability: ') {
-			line = line.substr(9);
+		} else if (line.slice(0, 9) === 'Ability: ') {
+			line = line.slice(9);
 			curSet.ability = line;
 		} else if (line === 'Shiny: Yes') {
 			curSet.shiny = true;
-		} else if (line.substr(0, 7) === 'Level: ') {
-			line = line.substr(7);
+		} else if (line.slice(0, 7) === 'Level: ') {
+			line = line.slice(7);
 			curSet.level = +line;
-		} else if (line.substr(0, 11) === 'Happiness: ') {
-			line = line.substr(11);
+		} else if (line.slice(0, 11) === 'Happiness: ') {
+			line = line.slice(11);
 			curSet.happiness = +line;
-		} else if (line.substr(0, 9) === 'Ability: ') {
-			line = line.substr(9);
+		} else if (line.slice(0, 9) === 'Ability: ') {
+			line = line.slice(9);
 			curSet.ability = line;
-		} else if (line.substr(0, 5) === 'EVs: ') {
-			line = line.substr(5);
+		} else if (line.slice(0, 5) === 'EVs: ') {
+			line = line.slice(5);
 			var evLines = line.split('/');
 			curSet.evs = {hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0};
 			for (var j = 0; j < evLines.length; j++) {
 				var evLine = evLines[j].trim();
 				var spaceIndex = evLine.indexOf(' ');
 				if (spaceIndex === -1) continue;
-				var statid = BattleStatIDs[evLine.substr(spaceIndex + 1)];
-				var statval = parseInt(evLine.substr(0, spaceIndex));
+				var statid = BattleStatIDs[evLine.slice(spaceIndex + 1)];
+				var statval = parseInt(evLine.slice(0, spaceIndex), 10);
 				if (!statid) continue;
 				curSet.evs[statid] = statval;
 			}
-		} else if (line.substr(0, 5) === 'IVs: ') {
-			line = line.substr(5);
+		} else if (line.slice(0, 5) === 'IVs: ') {
+			line = line.slice(5);
 			var ivLines = line.split(' / ');
 			curSet.ivs = {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31};
 			for (var j = 0; j < ivLines.length; j++) {
 				var ivLine = ivLines[j];
 				var spaceIndex = ivLine.indexOf(' ');
 				if (spaceIndex === -1) continue;
-				var statid = BattleStatIDs[ivLine.substr(spaceIndex + 1)];
-				var statval = parseInt(ivLine.substr(0, spaceIndex));
+				var statid = BattleStatIDs[ivLine.slice(spaceIndex + 1)];
+				var statval = parseInt(ivLine.slice(0, spaceIndex), 10);
 				if (!statid) continue;
 				curSet.ivs[statid] = statval;
 			}
@@ -114,18 +111,16 @@ function parseText (text) {
 			var natureIndex = line.indexOf(' Nature');
 			if (natureIndex === -1) natureIndex = line.indexOf(' nature');
 			if (natureIndex === -1) continue;
-			line = line.substr(0, natureIndex);
+			line = line.slice(0, natureIndex);
 			curSet.nature = line;
 		} else if (line.charAt(0) === '-' || line.charAt(0) === '~') {
-			line = line.substr(1);
-			if (line.charAt(0) === ' ') line = line.substr(1);
+			line = line.slice(1);
+			if (line.charAt(0) === ' ') line = line.slice(1);
 			if (!curSet.moves) curSet.moves = [];
-			if (line.substr(0, 14) === 'Hidden Power [') {
-				var hptype = line.substr(14, line.length - 15);
-				line = 'Hidden Power ' + hptype;
-				if (!curSet.ivs && Tools.data.TypeChart) {
-					curSet.ivs = cloneObj(Tools.data.TypeChart[hptype].HPivs);
-				}
+			if (line.slice(0, 14) === 'Hidden Power [') {
+				var hpType = line.slice(14, -1);
+				line = 'Hidden Power ' + hpType;
+				if (!curSet.ivs) curSet.ivs = cloneObj(Tools.getType(hpType).HPivs);
 			}
 			if (line === 'Frustration') {
 				curSet.happiness = 0;
