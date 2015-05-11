@@ -397,6 +397,33 @@ Pidgeot @ Pidgeotite
 Ability: Keen Eye
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
+- Hurricane
+- Heat Wave
+- Hidden Power [Grass]
+- Roost
+
+Pidgeot @ Pidgeotite
+Ability: Keen Eye
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Hurricane
+- Heat Wave
+- U-Turn
+- Roost
+
+Pidgeot @ Pidgeotite
+Ability: Keen Eye
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Hurricane
+- Heat Wave
+- Hyper Beam
+- U-Turn
+
+Pidgeot @ Pidgeotite
+Ability: Keen Eye
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
 - Roost
 - Hurricane
 - Heat Wave
@@ -917,25 +944,25 @@ Jolly Nature
 - Earthquake
 
 
-=== Hippowdon ===
+=== Heliolisk ===
 
-Hippowdon (M) @ Leftovers
-Ability: Sand Stream
-EVs: 248 HP / 9 Atk / 252 Def
-Impish Nature
-- Slack Off
-- Stealth Rock
-- Whirlwind
-- Earthquake
+Heliolisk @ Choice Specs
+Ability: Dry Skin
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Volt Switch
+- Thunderbolt
+- Grass Knot
+- Hidden Power [Ice]
 
-Hippowdon (M) @ Leftovers
-Ability: Sand Stream
-EVs: 248 HP / 8 Atk / 252 SpD
-Careful Nature
-- Slack Off
-- Stealth Rock
-- Whirlwind
-- Earthquake
+Heliolisk @ Life Orb
+Ability: Dry Skin
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Volt Switch
+- Thunderbolt
+- Grass Knot
+- Hidden Power [Ice]
 
 
 === Honchkrow ===
@@ -1582,6 +1609,33 @@ IVs: 0 Atk
 - Calm Mind
 - Psyshock
 
+Cresselia @ Light Clay
+Ability: Levitate
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Reflect
+- Light Screen
+- Lunar Dance
+- Psyshock
+
+Cresselia @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 136 Def / 120 Spe
+Bold Nature
+- Substitute
+- Calm Mind
+- Moonblast
+- Moonlight
+
+Cresselia @ Leftovers
+Ability: Levitate
+EVs: 248 HP / 116 Def / 144 Spe
+Bold Nature
+- Substitute
+- Calm Mind
+- Psyshock
+- Moonblast
+
 
 === Gligar ===
 
@@ -1687,6 +1741,45 @@ Jolly Nature
 
 
 === Dragalge ===
+
+
+=== Dragalge ===
+
+Dragalge @ Choice Specs
+Ability: Adaptability
+EVs: 200 HP / 252 SpA / 56 Spe
+Modest Nature
+- Draco Meteor
+- Sludge Wave
+- Hidden Power [Fire]
+- Focus Blast
+
+Dragalge @ Choice Specs
+Ability: Adaptability
+EVs: 200 HP / 252 SpA / 56 Spe
+Modest Nature
+- Draco Meteor
+- Sludge Wave
+- Scald
+- Focus Blast
+
+Dragalge @ Black Sludge
+Ability: Adaptability
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Toxic Spikes
+- Dragon Tail
+- Sludge Bomb
+- Scald
+
+Dragalge @ Dragon Fang
+Ability: Adaptability
+EVs: 188 HP / 252 SpA / 68 Spe
+Modest Nature
+- Draco Meteor
+- Sludge Bomb
+- Focus Blast
+- Dragon Pulse
 
 Dragalge @ Choice Specs
 Ability: Adaptability
@@ -1798,6 +1891,43 @@ Bold Nature
 - Dragon Tail
 
 
+Slowking @ Leftovers
+Ability: Regenerator
+EVs: 248 HP / 252 Def / 8 SpD
+Bold Nature
+- Scald
+- Psyshock
+- Calm Mind
+- Slack Off
+
+Slowking @ Choice Specs
+Ability: Regenerator
+EVs: 172 HP / 252 SpA / 84 Spe
+Modest Nature
+- Trick
+- Scald
+- Psychic
+- Fire Blast
+
+Slowking @ Leftovers
+Ability: Regenerator
+EVs: 248 HP / 76 Def / 184 SpD
+Calm Nature
+- Scald
+- Fire Blast
+- Thunder Wave
+- Slack Off
+
+Slowking @ Leftovers
+Ability: Regenerator
+EVs: 248 HP / 252 SpA / 8 SpD
+Quiet Nature
+- Trick Room
+- Scald
+- Fire Blast
+- Nasty Plot
+
+
 === Whimsicott ===
 
 Whimsicott @ Life Orb
@@ -1906,6 +2036,15 @@ IVs: 0 Spe
 - Shadow Sneak
 - Gyro Ball
 - Sacred Sword
+
+Doublade @ Eviolite
+Ability: No Guard
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Swords Dance
+- Shadow Claw
+- Iron Head
+- Shadow Sneak
 
 
 === Dugtrio ===
@@ -2148,6 +2287,15 @@ Modest Nature
 - Draining Kiss
 - Flamethrower
 
+Slurpuff @ Sitrus Berry
+Ability: Unburden
+EVs: 52 HP / 252 Atk / 204 Spe
+Adamant Nature
+- Belly Drum
+- Play Rough
+- Return
+- Aromatherapy
+
 
 === Virizion ===
 
@@ -2322,7 +2470,7 @@ Timid Nature
 - Focus Blast
 - Hidden Power [Fire]
 
-=== [ou] Feraligatr ===
+=== Feraligatr ===
 
 Feraligatr @ Life Orb
 Ability: Sheer Force
@@ -2351,3 +2499,53 @@ Adamant Nature
 - Crunch
 - Dragon Dance
 
+
+=== [ru] Whimsicott ===
+
+Whimsicott @ Life Orb
+Ability: Prankster
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Moonblast
+- Giga Drain
+- Hidden Power [Fire]
+- Encore
+
+Whimsicott @ Leftovers
+Ability: Prankster
+EVs: 248 HP / 236 Def / 24 Spe
+Bold Nature
+- Encore
+- U-turn
+- Stun Spore
+- Moonblast
+
+
+=== Pangoro ===
+
+Pangoro @ Choice Band
+Ability: Scrappy
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Knock Off
+- Superpower
+- Gunk Shot
+- Ice Punch
+
+Pangoro @ Life Orb
+Ability: Iron Fist
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Drain Punch
+- Knock Off
+- Gunk Shot
+
+Pangoro @ Lum Berry
+Ability: Iron Fist
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Drain Punch
+- Knock Off
+- Gunk Shot

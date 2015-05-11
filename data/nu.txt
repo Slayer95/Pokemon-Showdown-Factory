@@ -436,27 +436,6 @@ Impish Nature
 - Psychic
 
 
-=== [nu] Typhlosion ===
-
-Typhlosion @ Choice Scarf
-Ability: Blaze
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Eruption
-- Fire Blast
-- Focus Blast
-- Hidden Power [Grass]
-
-Typhlosion @ Choice Specs
-Ability: Blaze
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Eruption
-- Fire Blast
-- Hidden Power [Grass]
-- Extrasensory
-
-
 === [nu] Torkoal ===
 
 Torkoal @ Leftovers
@@ -497,36 +476,6 @@ Jolly Nature
 - Brave Bird
 - U-turn
 - Protect
-
-
-=== [nu] Seismitoad ===
-
-Seismitoad @ Leftovers
-Ability: Water Absorb
-EVs: 200 HP / 252 Def / 56 SpD
-Relaxed Nature
-- Stealth Rock
-- Scald
-- Earthquake
-- Knock Off
-
-Seismitoad @ Life Orb
-Ability: Swift Swim
-EVs: 4 Def / 252 SpA / 252 Spe
-Modest Nature
-- Rain Dance
-- Hydro Pump
-- Earth Power
-- Sludge Bomb
-
-Seismitoad @ Leftovers
-Ability: Water Absorb
-EVs: 164 HP / 252 SpA / 92 Spe
-Modest Nature
-- Stealth Rock
-- Hydro Pump
-- Earth Power
-- Grass Knot
 
 
 === [nu] Sawk ===
@@ -728,27 +677,6 @@ Careful Nature
 - Rock Slide
 - Protect
 - Thunder Wave
-
-
-=== [nu] Qwilfish ===
-
-Qwilfish @ Black Sludge
-Ability: Intimidate
-EVs: 252 HP / 232 Def / 24 Spe
-Bold Nature
-- Spikes
-- Pain Split
-- Scald
-- Taunt
-
-Qwilfish @ Normal Gem
-Ability: Intimidate
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Spikes
-- Taunt
-- Toxic Spikes
-- Explosion
 
 
 === [nu] Pyroar ===
@@ -1552,27 +1480,6 @@ Sassy Nature
 - Toxic
 - Giga Drain
 - Rock Slide
-
-
-=== [nu] Camerupt ===
-
-Camerupt @ Cameruptite
-Ability: Solid Rock
-EVs: 168 HP / 252 SpA / 88 Spe
-Modest Nature
-- Fire Blast
-- Earth Power
-- Ancient Power
-- Stealth Rock
-
-Camerupt @ Leftovers
-Ability: Solid Rock
-EVs: 252 HP / 252 SpA / 4 SpD
-Modest Nature
-- Stealth Rock
-- Earth Power
-- Lava Plume
-- Stone Edge
 
 
 === [nu] Cacturne ===

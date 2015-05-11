@@ -28,6 +28,27 @@ Naive Nature
 - Protect
 
 
+=== Hippowdon ===
+
+Hippowdon (M) @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 9 Atk / 252 Def
+Impish Nature
+- Slack Off
+- Stealth Rock
+- Whirlwind
+- Earthquake
+
+Hippowdon (M) @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 8 Atk / 252 SpD
+Careful Nature
+- Slack Off
+- Stealth Rock
+- Whirlwind
+- Earthquake
+
+
 === [ou] [OU] Jirachi ===
 
 Jirachi @ Leftovers
