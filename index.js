@@ -167,7 +167,7 @@ function buildSets () {
 	var setListsRaw = {};
 	var setListsByTier = {};
 
-	var allTiers = ['Uber', 'OU', 'UU', 'RU', 'NU', 'LC'];
+	var allTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
 	var fileContents = allTiers.map(readTierFile);
 
 	for (var i = 0; i < allTiers.length; i++) {
