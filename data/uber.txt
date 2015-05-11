@@ -320,16 +320,6 @@ Bold Nature
 - Dragon Tail
 - Aeroblast
 
-Lugia @ Leftovers
-Ability: Multiscale
-EVs: 252 HP / 252 Def / 4 SpD
-Bold Nature
-- Roost
-- Substitute
-- Calm Mind
-- Future Sight
-
-
 === [ubers] [Ubers] Lucario-Mega ===
 
 Lucario @ Lucarionite
