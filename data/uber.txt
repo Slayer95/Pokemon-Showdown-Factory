@@ -9,6 +9,15 @@ Careful Nature
 - Heal Block
 - Play Rough
 
+Klefki @ Leftovers
+Ability: Prankster
+EVs: 248 HP / 8 Atk / 252 SpD
+Careful Nature
+- Spikes
+- Thunder Wave
+- Magnet Rise
+- Play Rough
+
 
 === [ubers] Zekrom ===
 
@@ -320,6 +329,16 @@ Bold Nature
 - Dragon Tail
 - Aeroblast
 
+Lugia @ Leftovers
+Ability: Multiscale
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Roost
+- Toxic
+- Dragon Tail
+- Substitute
+
+
 === [ubers] [Ubers] Lucario-Mega ===
 
 Lucario @ Lucarionite
@@ -327,19 +346,9 @@ Ability: Justified
 EVs: 252 Atk / 4 SpD / 252 Spe
 Jolly Nature
 - Close Combat
-- Iron Tail
 - Bullet Punch
-- Ice Punch
-
-Lucario @ Lucarionite
-Ability: Justified
-EVs: 252 SpA / 4 SpD / 252 Spe
-Serious Nature
-- Flash Cannon
-- Vacuum Wave
-- Aura Sphere
-- Nasty Plot
-
+- Stone Edge
+- Iron Tail
 
 === [ubers] [Ubers] Kyurem-White ===
 
