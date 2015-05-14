@@ -154,13 +154,34 @@ function proofRead (setLists) {
 		var minTierIndex = tierPosition[tier];
 		for (var speciesid in setLists[tier]) {
 			if (!Pokedex[speciesid]) console.error("Invalid species id: " + speciesid);
-			for (var i = 0; i < setLists[tier][speciesid].length; i++) {
-				var set = setLists[tier][speciesid][i];
+			for (var i = 0; i < setLists[tier][speciesid].sets.length; i++) {
+				var set = setLists[tier][speciesid].sets[i];
 				if (set.item && !Items.hasOwnProperty(toId(set.item))) console.error("Invalid item for " + speciesid + ": " + set.item);
 				if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) console.error("Invalid nature for " + speciesid + ": " + set.nature);
 				if (!set.moves.every(isValidMove)) console.error("Invalid moveset for " + speciesid + ": " + JSON.stringify(set.moves));
 				if (!inValues(Pokedex[speciesid].abilities, set.ability)) console.error("Invalid ability for " + speciesid + ": '" + set.ability + "'");
 				if (tierPosition[Tools.getTemplate(speciesid).tier] < minTierIndex) console.error("Pokémon " + speciesid + " is banned from " + tier);
+			}
+		}
+	}
+}
+
+function addFlags (setLists) {
+	var hasMegaEvo = Tools.data.Scripts.hasMegaEvo.bind(Tools);
+
+	for (var tier in setLists) {
+		for (var speciesId in setLists[tier]) {
+			var flags = setLists[tier]	[speciesId].flags;
+			var template = Tools.getTemplate(speciesId);
+			if (hasMegaEvo(template)) {
+				var megaOnly = true;
+				for (var i = 0, len = setLists[tier][speciesId].sets.length; i < len; i++) {
+					var set = setLists[tier][speciesId].sets[i];
+					if (Tools.getItem(set.item).megaStone) continue;
+					megaOnly = false;
+					break;
+				}
+				if (megaOnly) flags.megaOnly = 1;
 			}
 		}
 	}
@@ -184,18 +205,21 @@ function buildSets () {
 		for (var i = 0, len = setListsRaw[tier].length; i < len; i++) {
 			var set = setListsRaw[tier][i];
 			var speciesid = toId(set.species);
-			if (!viableSets[speciesid]) viableSets[speciesid] = [];
-			viableSets[speciesid].push(set);
+			if (!viableSets[speciesid]) viableSets[speciesid] = {flags: {}, sets: []};
+			viableSets[speciesid].sets.push(set);
 		}
 	}
 
 	// Check for weird stuff
 	proofRead(setListsByTier);
 
-	// Export as JSON
-	fs.writeFileSync('./factory-sets.json', JSON.stringify(setListsByTier) + '\n');
+	// Add flags to describe the sets of each Pokémon
+	addFlags(setListsByTier);
 
-	console.log("Battle factory sets built");
+	// Export as JSON
+	fs.writeFile('./factory-sets.json', JSON.stringify(setListsByTier) + '\n', function () {
+		console.log("Battle factory sets built");
+	});
 }
 
 // Do it!
