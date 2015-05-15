@@ -1941,37 +1941,10 @@ Azumarill @ Assault Vest
 Ability: Huge Power
 EVs: 240 HP / 252 Atk / 16 SpD
 Adamant Nature
-- Aqua Jet
 - Play Rough
+- Waterfall
+- Aqua Jet
 - Knock Off
-- Waterfall
-
-Azumarill @ Assault Vest
-Ability: Huge Power
-EVs: 240 HP / 252 Atk / 16 SpD
-Adamant Nature
-- Aqua Jet
-- Play Rough
-- Power-Up Punch
-- Waterfall
-
-Azumarill @ Sitrus Berry
-Ability: Huge Power
-EVs: 92 HP / 252 Atk / 164 Spe
-Adamant Nature
-- Belly Drum
-- Aqua Jet
-- Play Rough
-- Superpower
-
-Azumarill @ Sitrus Berry
-Ability: Huge Power
-EVs: 92 HP / 252 Atk / 164 Spe
-Adamant Nature
-- Belly Drum
-- Aqua Jet
-- Play Rough
-- Waterfall
 
 Azumarill @ Sitrus Berry
 Ability: Huge Power
@@ -1984,12 +1957,12 @@ Adamant Nature
 
 Azumarill @ Choice Band
 Ability: Huge Power
-EVs: 88 HP / 252 Atk / 4 Def / 164 Spe
+EVs: 172 HP / 252 Atk / 84 Spe
 Adamant Nature
-- Aqua Jet
 - Play Rough
-- Knock Off
 - Waterfall
+- Aqua Jet
+- Superpower
 
 
 === [ou] [OU] Altaria ===
