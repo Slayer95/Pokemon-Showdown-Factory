@@ -1247,21 +1247,21 @@ Timid Nature
 
 Hariyama @ Assault Vest
 Ability: Thick Fat
-EVs: 80 HP / 252 Atk / 176 SpD
-Adamant Nature
-- Close Combat
-- Heavy Slam
-- Fake Out
-- Knock Off
-
-Hariyama @ Flame Orb
-Ability: Guts
-EVs: 248 HP / 252 Atk / 8 SpD
+EVs: 252 Atk / 4 Def / 252 SpD
 Adamant Nature
 - Close Combat
 - Knock Off
 - Bullet Punch
 - Fake Out
+
+Hariyama @ Choice Band
+Ability: Guts
+EVs: 248 HP / 252 Atk / 8 SpD
+Adamant Nature
+- Close Combat
+- Knock Off
+- Earthquake
+- Bullet Punch
 
 
 === [nu] Gurdurr ===
