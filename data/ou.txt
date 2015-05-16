@@ -1572,28 +1572,19 @@ Timid Nature
 
 === [ou] [OU] Garchomp ===
 
-Garchomp @ Choice Scarf
+Garchomp @ Rocky Helmet
 Ability: Rough Skin
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Outrage
+EVs: 252 HP / 164 Def / 76 SpD / 16 Spe
+Impish Nature
+- Stealth Rock
 - Earthquake
-- Stone Edge
-- Dragon Claw
-
-Garchomp @ Garchompite
-Ability: Rough Skin
-EVs: 4 Atk / 252 SpA / 252 Spe
-Naughty Nature
-- Earthquake
-- Draco Meteor
+- Dragon Tail
 - Fire Blast
-- Stone Edge
 
 Garchomp @ Focus Sash
 Ability: Rough Skin
 EVs: 252 Atk / 4 SpA / 252 Spe
-Jolly Nature
+Naive Nature
 - Stealth Rock
 - Earthquake
 - Dragon Claw
@@ -1608,23 +1599,23 @@ Jolly Nature
 - Dragon Claw
 - Fire Fang
 
-Garchomp @ Rocky Helmet
+Garchomp @ Garchompite
 Ability: Rough Skin
-EVs: 252 HP / 252 Def / 4 SpD
-Impish Nature
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Draco Meteor
 - Earthquake
-- Dragon Tail
-- Stealth Rock
 - Fire Blast
+- Stone Edge
 
-Garchomp @ Rocky Helmet
+Garchomp @ Choice Scarf
 Ability: Rough Skin
-EVs: 252 HP / 252 Def / 4 SpD
-Impish Nature
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
 - Earthquake
-- Dragon Tail
-- Stealth Rock
-- Swords Dance
+- Outrage
+- Stone Edge
+- Dragon Claw
 
 
 === [ou] [OU] Ferrothorn ===
