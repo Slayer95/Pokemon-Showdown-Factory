@@ -1,0 +1,2403 @@
+=== [lc] Shieldon ===
+
+Shieldon @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 116 HP / 20 Atk / 212 Def / 132 SpD
+Impish Nature
+- Stealth Rock
+- Heavy Slam
+- Rock Blast
+- Earthquake
+
+
+=== [lc] Sewaddle ===
+
+Sewaddle @ Eviolite
+Ability: Chlorophyll
+Level: 5
+EVs: 156 HP / 196 Def / 40 SpA / 116 SpD
+Bold Nature
+- Sticky Web
+- Energy Ball
+- Hidden Power [Fire]
+- Air Slash
+
+
+=== [lc] Rufflet ===
+
+Rufflet @ Berry Juice
+Ability: Hustle
+Level: 5
+EVs: 116 HP / 12 Atk / 116 Def / 196 SpD / 36 Spe
+Impish Nature
+- Bulk Up
+- Aerial Ace
+- Return
+- Roost
+
+Rufflet @ Choice Scarf
+Ability: Hustle
+Level: 5
+EVs: 252 Atk / 36 Def / 196 Spe
+Jolly Nature
+- Return
+- Aerial Ace
+- Superpower
+- U-turn
+
+
+=== [lc] Pineco ===
+
+Pineco @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 236 Atk / 36 Def / 236 Spe
+Adamant Nature
+- Stealth Rock
+- Spikes
+- Rapid Spin
+- Explosion
+
+
+=== [lc] Phantump ===
+
+Phantump @ Oran Berry
+Ability: Harvest
+Level: 5
+EVs: 12 HP / 196 Atk / 132 Def / 116 SpD / 52 Spe
+Adamant Nature
+- Horn Leech
+- Shadow Claw
+- Rock Slide
+- Substitute
+
+
+=== [lc] Minccino ===
+
+Minccino @ Choice Scarf
+Ability: Skill Link
+Level: 5
+EVs: 196 Atk / 36 Def / 36 SpD / 236 Spe
+Jolly Nature
+- Tail Slap
+- Knock Off
+- U-turn
+- Wake-Up Slap
+
+Minccino @ Life Orb
+Ability: Skill Link
+Level: 5
+EVs: 196 Atk / 36 Def / 36 SpD / 236 Spe
+Jolly Nature
+- Tail Slap
+- Knock Off
+- U-turn
+- Seed Bomb
+
+
+=== [lc] Machop ===
+
+Machop @ Choice Scarf
+Ability: No Guard
+Level: 5
+EVs: 36 HP / 196 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Dynamic Punch
+- Knock Off
+- Rock Slide
+- Poison Jab
+
+
+=== [lc] Larvitar ===
+
+Larvitar @ Eviolite
+Ability: Guts
+Level: 5
+EVs: 244 Atk / 36 Def / 36 SpD / 188 Spe
+Jolly Nature
+- Dragon Dance
+- Rock Slide
+- Earthquake
+- Superpower
+
+Larvitar @ Flame Orb
+Ability: Guts
+Level: 5
+EVs: 244 Atk / 36 Def / 36 SpD / 188 Spe
+Jolly Nature
+- Dragon Dance
+- Rock Slide
+- Earthquake
+- Superpower
+
+
+=== [lc] Helioptile ===
+
+Helioptile @ Berry Juice
+Ability: Solar Power
+Level: 5
+EVs: 84 HP / 12 Def / 192 SpA / 12 SpD / 200 Spe
+Timid Nature
+- Volt Switch
+- Thunderbolt
+- Dark Pulse
+- Hidden Power [Fire]
+
+Helioptile @ Choice Scarf
+Ability: Dry Skin
+Level: 5
+EVs: 84 HP / 12 Def / 192 SpA / 12 SpD / 200 Spe
+Timid Nature
+- Volt Switch
+- Thunderbolt
+- Dark Pulse
+- Hidden Power [Fire]
+
+
+=== [lc] Goomy ===
+
+Goomy @ Eviolite
+Ability: Gooey
+Level: 5
+EVs: 156 HP / 156 SpA / 156 SpD / 36 Spe
+Modest Nature
+- Dragon Pulse
+- Hidden Power [Fighting]
+- Rest
+- Sleep Talk
+
+
+=== [lc] Golett ===
+
+Golett @ Eviolite
+Ability: Iron Fist
+Level: 5
+EVs: 44 HP / 164 Atk / 196 Def / 76 Spe
+Adamant Nature
+- Drain Punch
+- Earthquake
+- Stealth Rock
+- Ice Punch
+
+
+=== [lc] Geodude ===
+
+Geodude @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 36 HP / 196 Atk / 196 Def / 36 SpD / 36 Spe
+Adamant Nature
+- Stealth Rock
+- Counter
+- Earthquake
+- Rock Blast
+
+
+=== [lc] Fennekin ===
+
+Fennekin @ Power Herb
+Ability: Magician
+Level: 5
+EVs: 116 Def / 184 SpA / 196 Spe
+Timid Nature
+- Fire Blast
+- Solar Beam
+- Psychic
+- Hidden Power [Ground]
+
+
+=== [lc] Ekans ===
+
+Ekans @ Berry Juice
+Ability: Intimidate
+Level: 5
+EVs: 156 HP / 84 Def / 244 SpD
+Careful Nature
+- Coil
+- Gunk Shot
+- Earthquake
+- Glare
+
+
+=== [lc] Chikorita ===
+
+Chikorita @ Eviolite
+Ability: Overgrow
+Level: 5
+EVs: 156 HP / 160 Def / 48 SpA / 80 SpD
+Bold Nature
+- Aromatherapy
+- Synthesis
+- Giga Drain
+- Hidden Power [Fighting]
+
+
+=== [lc] Wooper ===
+
+Wooper @ Eviolite
+Ability: Unaware
+Level: 5
+EVs: 236 HP / 156 Def / 76 SpD
+Relaxed Nature
+- Recover
+- Scald
+- Earthquake
+- Toxic
+
+
+=== [lc] Tyrunt ===
+
+Tyrunt @ Berry Juice
+Ability: Strong Jaw
+Level: 5
+EVs: 52 HP / 124 Atk / 76 SpD / 212 Spe
+Adamant Nature
+- Dragon Dance
+- Dragon Claw
+- Stone Edge
+- Brick Break
+
+Tyrunt @ Berry Juice
+Ability: Strong Jaw
+Level: 5
+EVs: 52 HP / 124 Atk / 220 Def / 76 SpD
+Adamant Nature
+- Stealth Rock
+- Dragon Tail
+- Rock Slide
+- Brick Break
+
+
+=== [lc] Teddiursa ===
+
+Teddiursa @ Toxic Orb
+Ability: Quick Feet
+Level: 5
+EVs: 36 HP / 196 Atk / 36 Def / 36 SpD / 196 Spe
+Jolly Nature
+- Facade
+- Close Combat
+- Crunch
+- Protect
+
+
+=== [lc] Shelmet ===
+
+Shelmet @ Eviolite
+Ability: Overcoat
+Level: 5
+EVs: 116 HP / 156 Def / 236 SpD
+Bold Nature
+- Spikes
+- Infestation
+- Toxic
+- Recover
+
+
+=== [lc] Oddish ===
+
+Oddish @ Life Orb
+Ability: Chlorophyll
+Level: 5
+EVs: 240 SpA / 200 Spe
+Timid Nature
+- Giga Drain
+- Sludge Bomb
+- Hidden Power [Fire]
+- Sleep Powder
+
+Oddish @ Eviolite
+Ability: Chlorophyll
+Level: 5
+EVs: 76 Def / 160 SpA / 200 Spe
+Modest Nature
+- Giga Drain
+- Sludge Bomb
+- Hidden Power [Fire]
+- Sleep Powder
+
+
+=== [lc] Nosepass ===
+
+Nosepass @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 236 Def / 76 SpA / 196 SpD
+Bold Nature
+- Stealth Rock
+- Thunder Wave
+- Volt Switch
+- Power Gem
+
+
+=== [lc] Natu ===
+
+Natu @ Eviolite
+Ability: Magic Bounce
+Level: 5
+EVs: 196 HP / 156 Def / 36 SpA / 76 SpD / 36 Spe
+Bold Nature
+- Psychic
+- Roost
+- Heat Wave
+- Thunder Wave
+
+Natu @ Light Clay
+Ability: Magic Bounce
+Level: 5
+EVs: 116 HP / 36 Atk / 76 Def / 76 SpD / 196 Spe
+Jolly Nature
+- Reflect
+- Light Screen
+- U-turn
+- Psychic
+
+Natu @ Life Orb
+Ability: Magic Bounce
+Level: 5
+EVs: 116 Atk / 196 SpA / 196 Spe
+Naive Nature
+- Psychic
+- Dazzling Gleam
+- Giga Drain
+- U-turn
+
+
+=== [lc] Litleo ===
+
+Litleo @ Life Orb
+Ability: Unnerve
+Level: 5
+EVs: 20 HP / 52 Def / 176 SpA / 4 SpD / 180 Spe
+Timid Nature
+- Fire Blast
+- Hyper Voice
+- Hidden Power [Grass]
+- Will-O-Wisp
+
+
+=== [lc] Karrablast ===
+
+Karrablast @ Choice Scarf
+Ability: No Guard
+Level: 5
+EVs: 236 Atk / 76 Def / 196 Spe
+Jolly Nature
+- Megahorn
+- Knock Off
+- Drill Run
+- Poison Jab
+
+
+=== [lc] Inkay ===
+
+Inkay @ Choice Scarf
+Ability: Contrary
+Level: 5
+EVs: 12 HP / 244 Atk / 12 Def / 236 Spe
+Jolly Nature
+- Knock Off
+- Superpower
+- Psycho Cut
+- Switcheroo
+
+Inkay @ Eviolite
+Ability: Contrary
+Level: 5
+EVs: 12 HP / 244 Atk / 12 Def / 228 SpD
+Brave Nature
+- Trick Room
+- Knock Off
+- Superpower
+- Psycho Cut
+
+
+=== [lc] Zorua ===
+
+Zorua @ Life Orb
+Ability: Illusion
+Level: 5
+EVs: 36 Def / 196 SpA / 36 SpD / 236 Spe
+Timid Nature
+- Knock Off
+- Dark Pulse
+- Extrasensory
+- Hidden Power [Fighting]
+
+
+=== [lc] Wailmer ===
+
+Wailmer @ Choice Scarf
+Ability: Water Veil
+Level: 5
+EVs: 36 HP / 76 Def / 200 SpA / 196 Spe
+Timid Nature
+- Water Spout
+- Hydro Pump
+- Ice Beam
+- Hidden Power [Grass]
+
+Wailmer @ Eviolite
+Ability: Oblivious
+Level: 5
+EVs: 36 HP / 236 Def / 36 SpA / 156 SpD / 36 Spe
+Bold Nature
+- Scald
+- Roar
+- Rest
+- Sleep Talk
+
+
+=== [lc] Trapinch ===
+
+Trapinch @ Eviolite
+Ability: Arena Trap
+Level: 5
+EVs: 196 Atk / 236 Def / 76 SpD
+Brave Nature
+- Earthquake
+- Rock Slide
+- Crunch
+- Quick Attack
+
+
+=== [lc] Togepi ===
+
+Togepi @ Eviolite
+Ability: Hustle
+Level: 5
+EVs: 236 HP / 156 Def / 76 SpD / 36 Spe
+Bold Nature
+- Baton Pass
+- Nasty Plot
+- Morning Sun
+- Dazzling Gleam
+
+
+=== [lc] Starly ===
+
+Starly @ Choice Scarf
+Ability: Reckless
+Level: 5
+EVs: 36 HP / 236 Atk / 40 Def / 196 Spe
+Jolly Nature
+- Brave Bird
+- Double-Edge
+- U-turn
+- Return
+
+
+=== [lc] Solosis ===
+
+Solosis @ Eviolite
+Ability: Magic Guard
+Level: 5
+EVs: 76 HP / 120 Def / 240 SpA / 40 SpD
+Quiet Nature
+- Trick Room
+- Psychic
+- Shadow Ball
+- Hidden Power [Fighting]
+
+
+=== [lc] Slugma ===
+
+Slugma @ Eviolite
+Ability: Flame Body
+Level: 5
+EVs: 196 HP / 196 Def / 116 SpD
+Bold Nature
+- Light Screen
+- Reflect
+- Memento
+- Fire Blast
+
+Slugma @ Eviolite
+Ability: Flame Body
+Level: 5
+EVs: 196 HP / 196 Def / 116 SpD
+Bold Nature
+- Recover
+- Fire Blast
+- Acid Armor
+- Memento
+
+
+=== [lc] Skiddo ===
+
+Skiddo @ Eviolite
+Ability: Sap Sipper
+Level: 5
+EVs: 76 Atk / 52 Def / 140 SpD / 180 Spe
+Adamant Nature
+- Bulk Up
+- Horn Leech
+- Return
+- Brick Break
+
+
+=== [lc] Shroomish ===
+
+Shroomish @ Toxic Orb
+Ability: Poison Heal
+Level: 5
+EVs: 196 HP / 196 Def / 116 SpD
+Bold Nature
+- Spore
+- Hidden Power [Fire]
+- Leech Seed
+- Giga Drain
+
+Shroomish @ Eviolite
+Ability: Effect Spore
+Level: 5
+EVs: 36 HP / 196 Atk / 116 Def / 36 SpA / 116 SpD
+Adamant Nature
+- Spore
+- Synthesis
+- Bullet Seed
+- Drain Punch
+
+
+=== [lc] Grimer ===
+
+Grimer @ Berry Juice
+Ability: Sticky Hold
+Level: 5
+EVs: 36 HP / 196 Atk / 196 Def / 36 SpD
+Adamant Nature
+- Gunk Shot
+- Fire Punch
+- Shadow Sneak
+- Pain Split
+
+
+=== [lc] Froakie ===
+
+Froakie @ Choice Scarf
+Ability: Protean
+Level: 5
+EVs: 28 HP / 72 Atk / 36 Def / 184 SpA / 188 Spe
+Naive Nature
+- Hydro Pump
+- Ice Beam
+- U-turn
+- Hidden Power [Grass]
+
+Froakie @ Life Orb
+Ability: Protean
+Level: 5
+EVs: 72 Atk / 36 Def / 184 SpA / 188 Spe
+Naive Nature
+- Hydro Pump
+- Ice Beam
+- U-turn
+- Hidden Power [Grass]
+
+Froakie @ Berry Juice
+Ability: Protean
+Level: 5
+EVs: 28 HP / 152 Atk / 28 Def / 104 SpA / 188 Spe
+Naive Nature
+- Acrobatics
+- Hydro Pump
+- Substitute
+- Hidden Power [Grass]
+
+
+=== [lc] Finneon ===
+
+Finneon @ Berry Juice
+Ability: Storm Drain
+Level: 5
+EVs: 44 HP / 152 Def / 48 SpA / 232 SpD
+Timid Nature
+- Defog
+- Scald
+- U-turn
+- Hidden Power [Fighting]
+
+
+=== [lc] Cubone ===
+
+Cubone @ Thick Club
+Ability: Battle Armor
+Level: 5
+EVs: 196 Atk / 76 Def / 236 Spe
+Jolly Nature
+- Bonemerang
+- Knock Off
+- Rock Slide
+- Fire Punch
+
+
+=== [lc] Cacnea ===
+
+Cacnea @ Eviolite
+Ability: Water Absorb
+Level: 5
+EVs: 36 HP / 156 Atk / 196 Def / 116 SpD
+Impish Nature
+- Swords Dance
+- Seed Bomb
+- Drain Punch
+- Sucker Punch
+
+
+=== [lc] Buneary ===
+
+Buneary @ Choice Band
+Ability: Limber
+Level: 5
+EVs: 228 Atk / 4 Def / 236 Spe
+Jolly Nature
+- Return
+- Drain Punch
+- Healing Wish
+- Switcheroo
+
+Buneary @ Choice Band
+Ability: Klutz
+Level: 5
+EVs: 236 HP / 4 Def / 236 Spe
+Jolly Nature
+- Switcheroo
+- Fake Out
+- Heal Bell
+- Healing Wish
+
+
+=== [lc] Anorith ===
+
+Anorith @ Life Orb
+Ability: Battle Armor
+Level: 5
+EVs: 236 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Swords Dance
+- X-Scissor
+- Rock Blast
+- Aerial Ace
+
+Anorith @ Berry Juice
+Ability: Battle Armor
+Level: 5
+EVs: 236 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Stealth Rock
+- Rapid Spin
+- Rock Blast
+- Knock Off
+
+
+=== [lc] Snover ===
+
+Snover @ Choice Scarf
+Ability: Snow Warning
+Level: 5
+EVs: 104 Atk / 184 SpA / 200 Spe
+Naive Nature
+- Blizzard
+- Giga Drain
+- Ice Shard
+- Hidden Power [Fire]
+
+Snover @ Eviolite
+Ability: Snow Warning
+Level: 5
+EVs: 36 HP / 104 Atk / 40 Def / 184 SpA / 120 SpD
+Quiet Nature
+- Blizzard
+- Giga Drain
+- Ice Shard
+- Hidden Power [Fire]
+
+
+=== [lc] Sandshrew ===
+
+Sandshrew @ Eviolite
+Ability: Sand Rush
+Level: 5
+EVs: 116 HP / 156 Atk / 156 Def / 36 SpD / 36 Spe
+Impish Nature
+- Rapid Spin
+- Earthquake
+- Knock Off
+- Rock Slide
+
+
+=== [lc] Remoraid ===
+
+Remoraid @ Choice Scarf
+Ability: Hustle
+Level: 5
+EVs: 236 SpA / 236 Spe
+Timid Nature
+- Water Spout
+- Hydro Pump
+- Fire Blast
+- Ice Beam
+
+Remoraid @ Choice Scarf
+Ability: Hustle
+Level: 5
+EVs: 236 SpA / 236 Spe
+Naive Nature
+- Water Spout
+- Hydro Pump
+- Fire Blast
+- Bullet Seed
+
+
+=== [lc] Purrloin ===
+
+Purrloin @ Berry Juice
+Ability: Prankster
+Level: 5
+EVs: 188 HP / 180 Def / 60 SpD / 68 Spe
+Careful Nature
+- Encore
+- U-turn
+- Knock Off
+- Taunt
+
+
+=== [lc] Poliwag ===
+
+Poliwag @ Berry Juice
+Ability: Water Absorb
+Level: 5
+EVs: 116 HP / 196 Atk / 196 Spe
+Jolly Nature
+- Belly Drum
+- Waterfall
+- Encore
+- Return
+
+
+=== [lc] Meowth ===
+
+Meowth @ Life Orb
+Ability: Technician
+Level: 5
+EVs: 36 HP / 236 Atk / 36 SpD / 196 Spe
+Jolly Nature
+- Fake Out
+- Return
+- U-turn
+- Knock Off
+
+Meowth @ Normal Gem
+Ability: Technician
+Level: 5
+EVs: 36 HP / 236 Atk / 36 SpD / 196 Spe
+Jolly Nature
+- Fake Out
+- Covet
+- U-turn
+- Knock Off
+
+
+=== [lc] Mantyke ===
+
+Mantyke @ Eviolite
+Ability: Swift Swim
+Level: 5
+EVs: 76 HP / 36 Def / 200 SpA / 196 Spe
+Modest Nature
+- Hydro Pump
+- Rain Dance
+- Air Slash
+- Hidden Power [Grass]
+
+Mantyke @ Eviolite
+Ability: Water Absorb
+Level: 5
+EVs: 156 HP / 196 Def / 116 SpD / 36 Spe
+Calm Nature
+- Rest
+- Sleep Talk
+- Scald
+- Air Slash
+
+
+=== [lc] Kabuto ===
+
+Kabuto @ Eviolite
+Ability: Battle Armor
+Level: 5
+EVs: 116 HP / 196 Atk / 196 Def
+Adamant Nature
+- Rapid Spin
+- Rock Slide
+- Aqua Jet
+- Knock Off
+
+
+=== [lc] Growlithe ===
+
+Growlithe @ Eviolite
+Ability: Intimidate
+Level: 5
+EVs: 236 HP / 156 Def / 116 SpD
+Impish Nature
+- Will-O-Wisp
+- Flare Blitz
+- Morning Sun
+- Wild Charge
+
+
+=== [lc] Frillish ===
+
+Frillish @ Choice Scarf
+Ability: Cursed Body
+Level: 5
+EVs: 76 HP / 236 SpA / 196 Spe
+Timid Nature
+- Water Spout
+- Shadow Ball
+- Energy Ball
+- Trick
+
+Frillish @ Eviolite
+Ability: Cursed Body
+Level: 5
+EVs: 236 HP / 116 Def / 76 SpA / 76 SpD
+Bold Nature
+- Scald
+- Shadow Ball
+- Recover
+- Toxic
+
+
+=== [lc] Dratini ===
+
+Dratini @ Life Orb
+Ability: Shed Skin
+Level: 5
+EVs: 244 Atk / 36 SpD / 196 Spe
+Adamant Nature
+- Dragon Dance
+- Outrage
+- Extreme Speed
+- Fire Blast
+
+Dratini @ Life Orb
+Ability: Shed Skin
+Level: 5
+EVs: 164 Atk / 196 SpA / 116 Spe
+Rash Nature
+- Draco Meteor
+- Extreme Speed
+- Fire Blast
+- Iron Tail
+
+
+=== [lc] Clamperl ===
+
+Clamperl @ DeepSeaTooth
+Ability: Shell Armor
+Level: 5
+EVs: 248 SpA / 80 SpD / 180 Spe
+Timid Nature
+- Shell Smash
+- Surf
+- Ice Beam
+- Hidden Power [Grass]
+
+
+=== [lc] Bulbasaur ===
+
+Bulbasaur @ Eviolite
+Ability: Chlorophyll
+Level: 5
+EVs: 240 SpA / 240 Spe
+Timid Nature
+- Growth
+- Sleep Powder
+- Giga Drain
+- Hidden Power [Fire]
+
+Bulbasaur @ Life Orb
+Ability: Chlorophyll
+Level: 5
+EVs: 240 SpA / 240 Spe
+Modest Nature
+- Sludge Bomb
+- Giga Drain
+- Sleep Powder
+- Hidden Power [Fire]
+
+
+=== [lc] Axew ===
+
+Axew @ Choice Band
+Ability: Mold Breaker
+Level: 5
+EVs: 68 HP / 220 Atk / 220 Spe
+Jolly Nature
+- Dragon Claw
+- Outrage
+- Superpower
+- Iron Tail
+
+Axew @ Choice Scarf
+Ability: Mold Breaker
+Level: 5
+EVs: 68 HP / 220 Atk / 220 Spe
+Jolly Nature
+- Dragon Claw
+- Outrage
+- Superpower
+- Iron Tail
+
+Axew @ Eviolite
+Ability: Mold Breaker
+Level: 5
+EVs: 68 HP / 220 Atk / 220 Spe
+Jolly Nature
+- Dragon Dance
+- Dragon Claw
+- Iron Tail
+- Superpower
+
+
+=== [lc] Wynaut ===
+
+Wynaut @ Berry Juice
+Ability: Shadow Tag
+Level: 5
+EVs: 236 HP / 132 Def / 132 SpD
+Bold Nature
+- Encore
+- Counter
+- Mirror Coat
+- Destiny Bond
+
+
+=== [lc] Tentacool ===
+
+Tentacool @ Berry Juice
+Ability: Liquid Ooze
+Level: 5
+EVs: 196 HP / 76 Def / 196 SpD / 36 Spe
+Calm Nature
+- Rapid Spin
+- Sludge Bomb
+- Scald
+- Knock Off
+
+
+=== [lc] Spinarak ===
+
+Spinarak @ Eviolite
+Ability: Insomnia
+Level: 5
+EVs: 116 HP / 196 Atk / 196 Spe
+Adamant Nature
+- Sticky Web
+- Megahorn
+- Poison Jab
+- Protect
+
+Spinarak @ Focus Sash
+Ability: Insomnia
+Level: 5
+EVs: 116 HP / 196 Atk / 196 Spe
+Adamant Nature
+- Sticky Web
+- Megahorn
+- Poison Jab
+- Protect
+
+
+=== [lc] Magby ===
+
+Magby @ Berry Juice
+Ability: Vital Spirit
+Level: 5
+EVs: 236 Atk / 252 Spe
+Jolly Nature
+- Belly Drum
+- Fire Punch
+- Mach Punch
+- Return
+
+Magby @ Life Orb
+Ability: Vital Spirit
+Level: 5
+EVs: 236 Atk / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Cross Chop
+- Mach Punch
+- Return
+
+
+=== [lc] Lileep ===
+
+Lileep @ Eviolite
+Ability: Storm Drain
+Level: 5
+EVs: 228 HP / 140 Def / 140 SpD
+Calm Nature
+- Stealth Rock
+- Giga Drain
+- Recover
+- Ancient Power
+
+
+=== [lc] Koffing ===
+
+Koffing @ Eviolite
+Ability: Levitate
+Level: 5
+EVs: 36 HP / 236 Def / 236 SpD
+Bold Nature
+- Will-O-Wisp
+- Pain Split
+- Clear Smog
+- Destiny Bond
+
+
+=== [lc] Honedge ===
+
+Honedge @ Berry Juice
+Ability: No Guard
+Level: 5
+EVs: 196 Atk / 116 Def / 60 SpD / 132 Spe
+Adamant Nature
+- Autotomize
+- Iron Head
+- Sacred Sword
+- Destiny Bond
+
+Honedge @ Eviolite
+Ability: No Guard
+Level: 5
+EVs: 196 Atk / 116 Def / 140 SpD / 52 Spe
+Adamant Nature
+- Swords Dance
+- Iron Head
+- Sacred Sword
+- Shadow Claw
+
+
+=== [lc] Binacle ===
+
+Binacle @ Berry Juice
+Ability: Tough Claws
+Level: 5
+EVs: 100 HP / 180 Atk / 196 Spe
+Adamant Nature
+- Shell Smash
+- Razor Shell
+- Cross Chop
+- Earthquake
+
+Binacle @ Choice Band
+Ability: Tough Claws
+Level: 5
+EVs: 100 HP / 180 Atk / 196 Spe
+Jolly Nature
+- Switcheroo
+- Razor Shell
+- Cross Chop
+- Stone Edge
+
+Binacle @ Choice Scarf
+Ability: Tough Claws
+Level: 5
+EVs: 100 HP / 180 Atk / 196 Spe
+Jolly Nature
+- Switcheroo
+- Razor Shell
+- Stone Edge
+- Earthquake
+
+
+=== [lc] Aron ===
+
+Aron @ Berry Juice
+Ability: Rock Head
+Level: 5
+EVs: 36 HP / 196 Atk / 116 Def / 116 SpD / 36 Spe
+Adamant Nature
+- Head Smash
+- Heavy Slam
+- Superpower
+- Rock Polish
+
+Aron @ Life Orb
+Ability: Heavy Metal
+Level: 5
+EVs: 116 HP / 196 Atk / 196 Spe
+Adamant Nature
+- Heavy Slam
+- Hone Claws
+- Earthquake
+- Head Smash
+
+Aron @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 196 Atk / 196 Def / 116 SpD
+Brave Nature
+- Rock Slide
+- Heavy Slam
+- Superpower
+- Metal Burst
+
+
+=== [lc] Torchic ===
+
+Torchic @ Berry Juice
+Ability: Speed Boost
+Level: 5
+EVs: 196 Def / 36 SpA / 36 SpD / 236 Spe
+Bold Nature
+IVs: 0 Atk
+- Baton Pass
+- Protect
+- Fire Blast
+- Curse
+
+Torchic @ Berry Juice
+Ability: Speed Boost
+Level: 5
+EVs: 196 Def / 36 SpA / 36 SpD / 236 Spe
+Bold Nature
+IVs: 0 Atk
+- Baton Pass
+- Protect
+- Substitute
+- Swords Dance
+
+
+=== [lc] Stunky ===
+
+Surskit @ Focus Sash
+Ability: Swift Swim
+Level: 5
+EVs: 36 HP / 20 Def / 196 SpA / 20 SpD / 236 Spe
+Timid Nature
+- Sticky Web
+- Hydro Pump
+- Ice Beam
+- Baton Pass
+
+
+=== [lc] Slowpoke ===
+
+Slowpoke @ Eviolite
+Ability: Regenerator
+Level: 5
+EVs: 116 HP / 236 Def / 36 SpA / 116 SpD
+Bold Nature
+- Scald
+- Slack Off
+- Thunder Wave
+- Fire Blast
+
+
+=== [lc] Shellos ===
+
+Shellos @ Eviolite
+Ability: Sticky Hold
+Level: 5
+EVs: 228 HP / 132 Def / 100 SpD / 4 Spe
+Bold Nature
+- Scald
+- Recover
+- Earth Power
+- Clear Smog
+
+
+=== [lc] Riolu ===
+
+Riolu @ Eviolite
+Ability: Prankster
+Level: 5
+EVs: 196 HP / 196 Def / 116 SpD
+Impish Nature
+- Copycat
+- Protect
+- Drain Punch
+- Crunch
+
+
+=== [lc] Elekid ===
+
+Elekid @ Life Orb
+Ability: Vital Spirit
+Level: 5
+EVs: 252 Atk / 236 Spe
+Hasty Nature
+- Wild Charge
+- Cross Chop
+- Fire Punch
+- Volt Switch
+
+Elekid @ Life Orb
+Ability: Vital Spirit
+Level: 5
+EVs: 240 SpA / 236 Spe
+Timid Nature
+- Thunderbolt
+- Volt Switch
+- Cross Chop
+- Hidden Power [Grass]
+
+
+=== [lc] Drifloon ===
+
+Drifloon @ Berry Juice
+Ability: Unburden
+Level: 5
+EVs: 196 Atk / 116 SpA / 196 Spe
+Naive Nature
+- Acrobatics
+- Shadow Ball
+- Destiny Bond
+- Substitute
+
+Drifloon @ Weakness Policy
+Ability: Unburden
+Level: 5
+EVs: 36 HP / 164 Def / 84 SpD / 196 Spe
+Timid Nature
+- Calm Mind
+- Shadow Ball
+- Will-O-Wisp
+- Baton Pass
+
+Drifloon @ Berry Juice
+Ability: Unburden
+Level: 5
+EVs: 116 HP / 184 Def / 36 SpA / 4 SpD / 120 Spe
+Modest Nature
+- Calm Mind
+- Shadow Ball
+- Hidden Power [Fighting]
+- Recycle
+
+
+=== [lc] Amaura ===
+
+Amaura @ Choice Scarf
+Ability: Refrigerate
+Level: 5
+EVs: 28 Def / 224 SpA / 28 SpD / 228 Spe
+Modest Nature
+- Hyper Voice
+- Earth Power
+- Thunderbolt
+- Ancient Power
+
+
+=== [lc] Aipom ===
+
+Aipom @ Life Orb
+Ability: Skill Link
+Level: 5
+EVs: 76 HP / 196 Atk / 236 Spe
+Jolly Nature
+- Fury Swipes
+- Fake Out
+- U-turn
+- Knock Off
+
+
+=== [lc] Trubbish ===
+
+Trubbish @ Berry Juice
+Ability: Sticky Hold
+Level: 5
+EVs: 116 HP / 36 Atk / 100 Def / 236 Spe
+Jolly Nature
+- Spikes
+- Recycle
+- Gunk Shot
+- Drain Punch
+
+
+=== [lc] Shellder ===
+
+Shellder @ Choice Scarf
+Ability: Skill Link
+Level: 5
+EVs: 36 HP / 236 Atk / 36 SpD / 196 Spe
+Jolly Nature
+- Icicle Spear
+- Rock Blast
+- Razor Shell
+- Ice Shard
+
+Shellder @ Eviolite
+Ability: Skill Link
+Level: 5
+EVs: 36 HP / 236 Atk / 36 SpD / 196 Spe
+Jolly Nature
+- Shell Smash
+- Icicle Spear
+- Rock Blast
+- Razor Shell
+
+
+=== [lc] Taillow ===
+
+Taillow @ Choice Specs
+Ability: Scrappy
+Level: 5
+EVs: 68 HP / 200 SpA / 240 Spe
+Timid Nature
+- Boomburst
+- Air Slash
+- U-turn
+- Hidden Power [Fighting]
+
+Taillow @ Toxic Orb
+Ability: Guts
+Level: 5
+EVs: 36 HP / 236 Atk / 236 Spe
+Jolly Nature
+- Facade
+- Brave Bird
+- Quick Attack
+- Protect
+
+
+=== [lc] Scraggy ===
+
+Scraggy @ Eviolite
+Ability: Shed Skin
+Level: 5
+EVs: 236 Atk / 36 SpD / 212 Spe
+Jolly Nature
+- Knock Off
+- High Jump Kick
+- Poison Jab
+- Dragon Dance
+
+Scraggy @ Choice Scarf
+Ability: Moxie
+Level: 5
+EVs: 36 HP / 236 Atk / 212 Spe
+Jolly Nature
+- High Jump Kick
+- Knock Off
+- Poison Jab
+- Drain Punch
+
+
+=== [lc] Onix ===
+
+Onix @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 76 HP / 236 Atk / 196 Spe
+Jolly Nature
+- Stealth Rock
+- Earthquake
+- Rock Slide
+- Explosion
+
+
+=== [lc] Lickitung ===
+
+Lickitung @ Eviolite
+Ability: Oblivious
+Level: 5
+EVs: 196 HP / 76 Def / 236 SpD
+Careful Nature
+- Wish
+- Protect
+- Body Slam
+- Knock Off
+
+
+=== [lc] Houndour ===
+
+Houndour @ Life Orb
+Ability: Flash Fire
+Level: 5
+EVs: 196 Atk / 36 SpA / 36 SpD / 236 Spe
+Lonely Nature
+- Crunch
+- Fire Blast
+- Sucker Punch
+- Protect
+
+
+=== [lc] Untitled 37 ===
+
+Doduo @ Life Orb
+Ability: Early Bird
+Level: 5
+EVs: 236 Atk / 240 Spe
+Jolly Nature
+IVs: 29 HP
+- Return
+- Brave Bird
+- Knock Off
+- Quick Attack
+
+
+=== [lc] Cranidos ===
+
+Cranidos @ Life Orb
+Ability: Sheer Force
+Level: 5
+EVs: 236 Atk / 60 SpD / 212 Spe
+Adamant Nature
+- Rock Polish
+- Rock Slide
+- Superpower
+- Zen Headbutt
+
+
+=== [lc] Corpish ===
+
+Corphish @ Eviolite
+Ability: Adaptability
+Level: 5
+EVs: 196 Atk / 76 Def / 236 Spe
+Jolly Nature
+- Dragon Dance
+- Crabhammer
+- Knock Off
+- Aqua Jet
+
+
+=== [lc] Zigzagoon ===
+
+Zigzagoon @ Berry Juice
+Ability: Pickup
+Level: 5
+EVs: 132 HP / 196 Atk / 28 Def / 108 SpD / 36 Spe
+Adamant Nature
+- Belly Drum
+- Extreme Speed
+- Thief
+- Rock Smash
+
+
+=== [lc] Munchlax ===
+
+Munchlax @ Berry Juice
+Ability: Thick Fat
+Level: 5
+EVs: 236 Atk / 36 Def / 236 SpD
+Impish Nature
+- Body Slam
+- Fire Punch
+- Curse
+- Recycle
+
+Munchlax @ Eviolite
+Ability: Thick Fat
+Level: 5
+EVs: 236 Atk / 36 Def / 236 SpD
+Impish Nature
+- Body Slam
+- Curse
+- Rest
+- Sleep Talk
+
+Munchlax @ Eviolite
+Ability: Thick Fat
+Level: 5
+EVs: 236 Atk / 36 Def / 236 SpD
+Adamant Nature
+- Return
+- Fire Punch
+- Seed Bomb
+- Pursuit
+
+
+=== [lc] Larvesta ===
+
+Larvesta @ Choice Scarf
+Ability: Flame Body
+Level: 5
+EVs: 76 HP / 236 Atk / 196 Spe
+Jolly Nature
+- U-turn
+- Flare Blitz
+- Wild Charge
+- Zen Headbutt
+
+Larvesta @ Eviolite
+Ability: Flame Body
+Level: 5
+EVs: 76 HP / 236 Atk / 156 Def / 36 Spe
+Adamant Nature
+- U-turn
+- Flare Blitz
+- Morning Sun
+- Sunny Day
+
+
+=== [lc] Hippopotas ===
+
+Hippopotas @ Eviolite
+Ability: Sand Stream
+Level: 5
+EVs: 212 HP / 20 Atk / 212 Def / 20 SpD / 20 Spe
+Impish Nature
+- Earthquake
+- Slack Off
+- Stealth Rock
+- Rock Tomb
+
+
+=== [lc] Dwebble ===
+
+Dwebble @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 236 Atk / 236 Spe
+Jolly Nature
+- Stealth Rock
+- Spikes
+- Rock Blast
+- Knock Off
+
+Dwebble @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 236 Atk / 236 Spe
+Adamant Nature
+- Shell Smash
+- X-Scissor
+- Rock Blast
+- Earthquake
+
+
+=== [lc] Bunnelby ===
+
+Bunnelby @ Choice Scarf
+Ability: Huge Power
+Level: 5
+EVs: 228 Atk / 52 Def / 220 Spe
+Jolly Nature
+- Return
+- U-turn
+- Earthquake
+- Quick Attack
+
+Bunnelby @ Life Orb
+Ability: Huge Power
+Level: 5
+EVs: 228 Atk / 52 Def / 220 Spe
+Jolly Nature
+- Return
+- Quick Attack
+- U-turn
+- Earthquake
+
+
+=== [lc] Bellsprout ===
+
+Bellsprout @ Eviolite
+Ability: Chlorophyll
+Level: 5
+EVs: 36 HP / 76 Def / 196 SpA / 196 Spe
+Modest Nature
+- Solar Beam
+- Sunny Day
+- Weather Ball
+- Sludge Bomb
+
+Bellsprout @ Life Orb
+Ability: Chlorophyll
+Level: 5
+EVs: 36 HP / 76 Def / 196 SpA / 196 Spe
+Modest Nature
+- Solar Beam
+- Sleep Powder
+- Weather Ball
+- Sludge Bomb
+
+
+=== [lc] Vullaby ===
+
+Vullaby @ Eviolite
+Ability: Weak Armor
+Level: 5
+EVs: 116 HP / 240 SpA / 120 Spe
+Modest Nature
+- Nasty Plot
+- Dark Pulse
+- Air Slash
+- Heat Wave
+
+Vullaby @ Eviolite
+Ability: Overcoat
+Level: 5
+EVs: 116 HP / 236 Def / 76 SpD / 36 Spe
+Impish Nature
+- Defog
+- Roost
+- Knock Off
+- Brave Bird
+
+Vullaby @ Eviolite
+Ability: Overcoat
+Level: 5
+EVs: 116 HP / 156 Atk / 80 SpA / 120 Spe
+Jolly Nature
+- Brave Bird
+- Knock Off
+- Roost
+- Hidden Power [Fighting]
+
+
+=== [lc] Staryu ===
+
+Staryu @ Eviolite
+Ability: Natural Cure
+Level: 5
+EVs: 116 HP / 156 Def / 236 Spe
+Timid Nature
+- Rapid Spin
+- Scald
+- Ice Beam
+- Recover
+
+Staryu @ Life Orb
+Ability: Analytic
+Level: 5
+EVs: 200 SpA / 240 Spe
+Timid Nature
+- Hydro Pump
+- Psychic
+- Ice Beam
+- Hidden Power [Fire]
+
+Staryu @ Berry Juice
+Ability: Natural Cure
+Level: 5
+EVs: 36 HP / 200 SpA / 240 Spe
+Timid Nature
+- Rapid Spin
+- Hydro Pump
+- Ice Beam
+- Thunderbolt
+
+
+=== [lc] Snubbull ===
+
+Snubbull @ Berry Juice
+Ability: Intimidate
+Level: 5
+EVs: 116 HP / 196 Def / 196 SpD
+Careful Nature
+- Play Rough
+- Earthquake
+- Heal Bell
+- Thunder Wave
+
+Snubbull @ Eviolite
+Ability: Intimidate
+Level: 5
+EVs: 116 HP / 196 Def / 196 SpD
+Careful Nature
+- Play Rough
+- Earthquake
+- Heal Bell
+- Thunder Wave
+
+Snubbull @ Berry Juice
+Ability: Intimidate
+Level: 5
+EVs: 116 HP / 196 Atk / 36 Def / 116 SpD / 36 Spe
+Adamant Nature
+- Play Rough
+- Earthquake
+- Close Combat
+- Bulk Up
+
+
+=== [lc] Pumpkaboo ===
+
+Pumpkaboo-Super @ Eviolite
+Ability: Frisk
+Level: 5
+EVs: 204 HP / 28 Atk / 196 Def / 4 SpA / 76 SpD
+Relaxed Nature
+- Will-O-Wisp
+- Bullet Seed
+- Foul Play
+- Synthesis
+
+
+=== [lc] Omanyte ===
+
+Omanyte @ Eviolite
+Ability: Shell Armor
+Level: 5
+EVs: 76 HP / 196 SpA / 236 Spe
+Modest Nature
+- Shell Smash
+- Hydro Pump
+- Earth Power
+- Ice Beam
+
+Omanyte @ Eviolite
+Ability: Shell Armor
+Level: 5
+EVs: 156 HP / 116 Def / 236 SpD
+Calm Nature
+- Stealth Rock
+- Spikes
+- Scald
+- Knock Off
+
+
+=== [lc] Gastly ===
+
+Gastly @ Choice Scarf
+Ability: Levitate
+Level: 5
+EVs: 200 SpA / 80 SpD / 200 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Dazzling Gleam
+- Destiny Bond
+
+Gastly @ Choice Scarf
+Ability: Levitate
+Level: 5
+EVs: 200 SpA / 80 SpD / 200 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Hidden Power [Fighting]
+- Destiny Bond
+
+Gastly @ Life Orb
+Ability: Levitate
+Level: 5
+EVs: 200 SpA / 80 SpD / 200 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Dazzling Gleam
+- Destiny Bond
+
+Gastly @ Life Orb
+Ability: Levitate
+Level: 5
+EVs: 200 SpA / 80 SpD / 200 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Hidden Power [Fighting]
+- Destiny Bond
+
+
+=== [lc] Digglet ===
+
+Diglett @ Focus Sash
+Ability: Arena Trap
+Level: 5
+EVs: 36 HP / 236 Atk / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Protect
+- Stealth Rock
+
+Diglett @ Focus Sash
+Ability: Arena Trap
+Level: 5
+EVs: 36 HP / 236 Atk / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Protect
+- Memento
+
+Diglett @ Life Orb
+Ability: Arena Trap
+Level: 5
+EVs: 36 HP / 236 Atk / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Sucker Punch
+- Memento
+
+
+=== [lc] Cottonee ===
+
+Cottonee @ Eviolite
+Ability: Prankster
+Level: 5
+EVs: 224 SpA / 40 SpD / 232 Spe
+Timid Nature
+- Dazzling Gleam
+- Giga Drain
+- Encore
+- Memento
+
+Cottonee @ Eviolite
+Ability: Prankster
+Level: 5
+EVs: 116 HP / 196 Def / 196 SpD
+Bold Nature
+- Encore
+- Memento
+- Knock Off
+- Dazzling Gleam
+
+Cottonee @ Eviolite
+Ability: Prankster
+Level: 5
+EVs: 116 HP / 196 Def / 196 SpD
+Bold Nature
+- Encore
+- Taunt
+- Giga Drain
+- Stun Spore
+
+
+=== [lc] Carvanha ===
+
+Carvanha @ Life Orb
+Ability: Speed Boost
+Level: 5
+EVs: 196 Atk / 36 Def / 36 SpD / 236 Spe
+Adamant Nature
+- Waterfall
+- Crunch
+- Aqua Jet
+- Destiny Bond
+
+Carvanha @ Life Orb
+Ability: Speed Boost
+Level: 5
+EVs: 196 Atk / 36 Def / 36 SpD / 236 Spe
+Adamant Nature
+- Waterfall
+- Crunch
+- Aqua Jet
+- Protect
+
+
+=== [lc] Vulpix ===
+
+Vulpix @ Choice Scarf
+Ability: Drought
+Level: 5
+EVs: 52 HP / 196 SpA / 240 Spe
+Timid Nature
+- Fire Blast
+- Energy Ball
+- Hidden Power [Rock]
+- Overheat
+
+Vulpix @ Life Orb
+Ability: Drought
+Level: 5
+EVs: 40 Def / 196 SpA / 240 Spe
+Timid Nature
+- Overheat
+- Fire Blast
+- Energy Ball
+- Hidden Power [Rock]
+
+Vulpix @ Heat Rock
+Ability: Drought
+Level: 5
+EVs: 52 HP / 196 SpA / 236 Spe
+Timid Nature
+- Fire Blast
+- Energy Ball
+- Hypnosis
+- Hidden Power [Ground]
+
+
+=== [lc] Tirtouga ===
+
+Tirtouga @ Eviolite
+Ability: Solid Rock
+Level: 5
+EVs: 84 HP / 252 Def / 12 SpA / 156 SpD
+Sassy Nature
+- Stealth Rock
+- Scald
+- Stone Edge
+- Aqua Jet
+
+Tirtouga @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 212 Atk / 92 Def / 180 Spe
+Adamant Nature
+- Shell Smash
+- Waterfall
+- Stone Edge
+- Aqua Jet
+
+
+=== [lc] Spritzee ===
+
+Spritzee @ Eviolite
+Ability: Aroma Veil
+Level: 5
+EVs: 212 HP / 196 Def / 12 SpA / 76 SpD / 12 Spe
+Bold Nature
+- Calm Mind
+- Wish
+- Aromatherapy
+- Draining Kiss
+
+Spritzee @ Eviolite
+Ability: Aroma Veil
+Level: 5
+EVs: 212 HP / 196 Def / 12 SpA / 76 SpD / 12 Spe
+Bold Nature
+- Aromatherapy
+- Wish
+- Protect
+- Moonblast
+
+
+=== [lc] Porygon ===
+
+Porygon @ Berry Juice
+Ability: Download
+Level: 5
+EVs: 36 Def / 240 SpA / 200 Spe
+Modest Nature
+- Agility
+- Tri Attack
+- Psychic
+- Hidden Power [Fighting]
+
+Porygon @ Eviolite
+Ability: Download
+Level: 5
+EVs: 236 HP / 36 Def / 236 SpA
+Modest Nature
+- Tri Attack
+- Shadow Ball
+- Hidden Power [Fighting]
+- Recover
+
+Porygon @ Eviolite
+Ability: Trace
+Level: 5
+EVs: 236 HP / 196 Def / 76 SpD
+Calm Nature
+- Recover
+- Tri Attack
+- Shadow Ball
+- Thunder Wave
+
+
+=== [lc] Pancham ===
+
+Pancham @ Eviolite
+Ability: Mold Breaker
+Level: 5
+EVs: 180 Atk / 100 Def / 212 SpD / 12 Spe
+Adamant Nature
+- Parting Shot
+- Drain Punch
+- Knock Off
+- Gunk Shot
+
+Pancham @ Eviolite
+Ability: Mold Breaker
+Level: 5
+EVs: 180 Atk / 100 Def / 212 SpD / 12 Spe
+Adamant Nature
+- Swords Dance
+- Drain Punch
+- Knock Off
+- Gunk Shot
+
+
+=== [lc] Foongus ===
+
+Foongus @ Eviolite
+Ability: Regenerator
+Level: 5
+EVs: 124 HP / 160 Def / 160 SpD
+Bold Nature
+- Spore
+- Giga Drain
+- Clear Smog
+- Hidden Power [Fire]
+
+
+=== [lc] Ferroseed ===
+
+Ferroseed @ Eviolite
+Ability: Iron Barbs
+Level: 5
+EVs: 84 HP / 36 Atk / 188 Def / 148 SpD / 36 Spe
+Careful Nature
+- Leech Seed
+- Bullet Seed
+- Spikes
+- Protect
+
+Ferroseed @ Eviolite
+Ability: Iron Barbs
+Level: 5
+EVs: 84 HP / 36 Atk / 188 Def / 148 SpD / 36 Spe
+Careful Nature
+- Leech Seed
+- Bullet Seed
+- Stealth Rock
+- Thunder Wave
+
+
+=== [lc] Drilbur ===
+
+Drilbur @ Choice Scarf
+Ability: Mold Breaker
+Level: 5
+EVs: 236 Atk / 36 Def / 212 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Poison Jab
+- Rapid Spin
+
+Drilbur @ Eviolite
+Ability: Mold Breaker
+Level: 5
+EVs: 36 HP / 236 Atk / 212 Spe
+Jolly Nature
+- Earthquake
+- Rapid Spin
+- Rock Slide
+- Stealth Rock
+
+Drilbur @ Life Orb
+Ability: Mold Breaker
+Level: 5
+EVs: 236 Atk / 36 Def / 212 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Poison Jab
+- Rapid Spin
+
+
+=== [lc] Croagunk ===
+
+Croagunk @ Eviolite
+Ability: Dry Skin
+Level: 5
+EVs: 132 HP / 28 Atk / 116 Def / 108 SpA / 116 SpD
+Quiet Nature
+- Drain Punch
+- Sludge Bomb
+- Vacuum Wave
+- Knock Off
+
+Croagunk @ Berry Juice
+Ability: Dry Skin
+Level: 5
+EVs: 52 HP / 116 Def / 188 SpA / 116 SpD / 36 Spe
+Modest Nature
+- Nasty Plot
+- Sludge Bomb
+- Vacuum Wave
+- Icy Wind
+
+Croagunk @ Eviolite
+Ability: Dry Skin
+Level: 5
+EVs: 52 HP / 188 Atk / 116 Def / 116 SpD / 36 Spe
+Adamant Nature
+- Drain Punch
+- Gunk Shot
+- Knock Off
+- Bulk Up
+
+
+=== [lc] Timburr ===
+
+Timburr @ Eviolite
+Ability: Guts
+Level: 5
+EVs: 76 HP / 196 Atk / 76 Def / 156 SpD
+Impish Nature
+- Drain Punch
+- Knock Off
+- Mach Punch
+- Bulk Up
+
+Timburr @ Eviolite
+Ability: Guts
+Level: 5
+EVs: 76 HP / 196 Atk / 76 Def / 156 SpD
+Adamant Nature
+- Drain Punch
+- Knock Off
+- Mach Punch
+- Poison Jab
+
+
+=== [lc] Ponyta ===
+
+Ponyta @ Eviolite
+Ability: Flame Body
+Level: 5
+EVs: 76 Atk / 236 Def / 196 Spe
+Jolly Nature
+- Flare Blitz
+- Morning Sun
+- Wild Charge
+- Sunny Day
+
+Ponyta @ Eviolite
+Ability: Flame Body
+Level: 5
+EVs: 236 Def / 76 SpA / 196 Spe
+Timid Nature
+- Sunny Day
+- Fire Blast
+- Solar Beam
+- Morning Sun
+
+
+=== [lc] Magnemite ===
+
+Magnemite @ Choice Scarf
+Ability: Sturdy
+Level: 5
+EVs: 240 SpA / 236 Spe
+Modest Nature
+- Volt Switch
+- Flash Cannon
+- Hidden Power [Grass]
+- Thunderbolt
+
+Magnemite @ Berry Juice
+Ability: Sturdy
+Level: 5
+EVs: 240 SpA / 236 Spe
+Timid Nature
+- Flash Cannon
+- Volt Switch
+- Hidden Power [Grass]
+- Recycle
+
+
+=== [lc] Fletchling ===
+
+Fletchling
+Ability: Gale Wings
+Level: 5
+EVs: 156 HP / 200 Atk / 92 Def / 40 SpA / 20 Spe
+Naughty Nature
+- Acrobatics
+- U-turn
+- Roost
+- Overheat
+
+Fletchling
+Ability: Gale Wings
+Level: 5
+EVs: 156 HP / 196 Atk / 92 Def / 52 SpD
+Adamant Nature
+- Acrobatics
+- Swords Dance
+- U-turn
+- Roost
+
+
+=== [ou] Chinchou ===
+
+Chinchou @ Berry Juice
+Ability: Volt Absorb
+Level: 5
+EVs: 76 HP / 212 Def / 152 SpA / 60 Spe
+Bold Nature
+- Hydro Pump
+- Volt Switch
+- Heal Bell
+- Hidden Power [Ground]
+
+Chinchou @ Eviolite
+Ability: Volt Absorb
+Level: 5
+EVs: 76 HP / 212 Def / 152 SpA / 60 Spe
+Bold Nature
+- Hydro Pump
+- Volt Switch
+- Heal Bell
+- Hidden Power [Ground]
+
+Chinchou @ Choice Scarf
+Ability: Volt Absorb
+Level: 5
+EVs: 52 Def / 232 SpA / 224 Spe
+Modest Nature
+- Volt Switch
+- Hydro Pump
+- Dazzling Gleam
+- Thunderbolt
+
+Chinchou @ Eviolite
+Ability: Volt Absorb
+Level: 5
+EVs: 76 HP / 212 Def / 148 SpD / 60 Spe
+Bold Nature
+- Rest
+- Sleep Talk
+- Scald
+- Discharge
+
+
+=== [lc] Archen ===
+
+Archen @ Eviolite
+Ability: Defeatist
+Level: 5
+EVs: 236 HP / 156 Def / 76 SpD / 36 Spe
+Impish Nature
+- Rock Slide
+- Roost
+- Earthquake
+- Defog
+
+Archen @ Berry Juice
+Ability: Defeatist
+Level: 5
+EVs: 76 HP / 156 Def / 76 SpD / 196 Spe
+Jolly Nature
+- Defog
+- Rock Slide
+- Acrobatics
+- Earthquake
+
+Archen @ Berry Juice
+Ability: Defeatist
+Level: 5
+EVs: 76 HP / 180 Atk / 196 Spe
+Jolly Nature
+- Stone Edge
+- Acrobatics
+- Earthquake
+- Knock Off
+
+
+=== [lc] Abra ===
+
+Abra @ Focus Sash
+Ability: Magic Guard
+Level: 5
+EVs: 240 SpA / 200 Spe
+Timid Nature
+- Psychic
+- Dazzling Gleam
+- Hidden Power [Fighting]
+- Protect
+
+Abra @ Life Orb
+Ability: Magic Guard
+Level: 5
+EVs: 240 SpA / 200 Spe
+Timid Nature
+- Psychic
+- Dazzling Gleam
+- Hidden Power [Fighting]
+- Energy Ball
+
+
+=== [lc] Mienfoo ===
+
+Mienfoo @ Eviolite
+Ability: Regenerator
+Level: 5
+EVs: 76 HP / 76 Atk / 116 Def / 196 SpD
+Impish Nature
+- Baton Pass
+- Bulk Up
+- Drain Punch
+- Knock Off
+
+Mienfoo @ Eviolite
+Ability: Regenerator
+Level: 5
+EVs: 196 Def / 36 SpD / 236 Spe
+Jolly Nature
+- Drain Punch
+- Knock Off
+- U-turn
+- Fake Out
+
+Mienfoo @ Choice Scarf
+Ability: Regenerator
+Level: 5
+EVs: 236 Atk / 36 SpD / 236 Spe
+Adamant Nature
+- High Jump Kick
+- Knock Off
+- Drain Punch
+- U-turn
+
+Mienfoo @ Life Orb
+Ability: Regenerator
+Level: 5
+EVs: 236 Atk / 36 Def / 236 Spe
+Jolly Nature
+- High Jump Kick
+- Knock Off
+- U-turn
+- Fake Out
+
+
+=== [lc] Pawniard ===
+
+Pawniard @ Choice Scarf
+Ability: Defiant
+Level: 5
+EVs: 236 Atk / 36 Def / 36 SpD / 196 Spe
+Jolly Nature
+- Knock Off
+- Iron Head
+- Brick Break
+- Pursuit
+
+Pawniard @ Berry Juice
+Ability: Defiant
+Level: 5
+EVs: 156 Atk / 36 Def / 116 SpD / 196 Spe
+Jolly Nature
+- Sucker Punch
+- Knock Off
+- Iron Head
+- Brick Break
+
+Pawniard @ Eviolite
+Ability: Defiant
+Level: 5
+EVs: 156 Atk / 36 Def / 116 SpD / 196 Spe
+Jolly Nature
+- Sucker Punch
+- Knock Off
+- Iron Head
+- Swords Dance
+
+Pawniard @ Life Orb
+Ability: Defiant
+Level: 5
+EVs: 156 Atk / 36 Def / 116 SpD / 196 Spe
+Jolly Nature
+- Sucker Punch
+- Knock Off
+- Iron Head
+- Stealth Rock
+

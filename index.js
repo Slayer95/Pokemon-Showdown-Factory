@@ -32,7 +32,7 @@ const Pokedex = Tools.data.Pokedex;
 const Items = Tools.data.Items;
 const Natures = Tools.data.Natures;
 
-const factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU'];
+const factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU', 'LC'];
 const uniqueOptionMoves = utils.toDict(['stealthrock', 'spikes', 'toxicspikes', 'rapidspin', 'defog', 'batonpass']); // High-impact moves
 
 function proofRead(setLists, strict) {
