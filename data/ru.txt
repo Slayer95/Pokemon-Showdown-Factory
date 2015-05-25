@@ -998,32 +998,32 @@ Impish Nature
 
 === [ru] Emboar ===
 
-Emboar @ Choice Scarf
-Ability: Blaze
-EVs: 252 Atk / 4 SpD / 252 Spe
-Jolly Nature
+Emboar @ Choice Band
+Ability: Reckless
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Superpower
+- Wild Charge
+- Sucker Punch
+
+Emboar @ Expert Belt
+Ability: Reckless
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
 - Flare Blitz
 - Superpower
 - Wild Charge
 - Sleep Talk
 
-Emboar @ Choice Band
+Emboar @ Choice Scarf
 Ability: Reckless
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
 - Flare Blitz
 - Superpower
 - Wild Charge
-- Head Smash
-
-Emboar @ Expert Belt
-Ability: Blaze
-EVs: 72 Atk / 252 SpA / 184 Spe
-Rash Nature
-- Fire Blast
-- Grass Knot
-- Superpower
-- Sucker Punch
+- Sleep Talk
 
 
 === Seismitoad ===
