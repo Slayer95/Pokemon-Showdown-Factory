@@ -664,21 +664,21 @@ Careful Nature
 
 Cloyster @ Focus Sash
 Ability: Skill Link
-EVs: 252 Atk / 4 Def / 252 Spe
+EVs: 252 Atk / 4 SpD / 252 Spe
 Jolly Nature
 - Shell Smash
-- Ice Shard
 - Icicle Spear
 - Rock Blast
+- Ice Shard
 
 Cloyster @ Focus Sash
 Ability: Skill Link
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
-- Shell Smash
-- Spikes
 - Rapid Spin
+- Spikes
 - Icicle Spear
+- Explosion
 
 
 === Darmanitan ===
