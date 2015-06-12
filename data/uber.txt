@@ -895,3 +895,32 @@ Hasty Nature
 - Moonblast
 - Earth Power
 - Stealth Rock
+
+=== [ubers] Landorus ===
+
+Landorus @ Life Orb
+Ability: Sheer Force
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Calm Mind
+- Earth Power
+- Psychic
+- Focus Blast
+
+Landorus @ Life Orb
+Ability: Sheer Force
+EVs: 8 Atk / 252 SpA / 248 Spe
+Modest Nature
+- Rock Polish
+- Earth Power
+- Psychic
+- Focus Blast
+
+Landorus @ Life Orb
+Ability: Sheer Force
+EVs: 4 Def / 252 SpA / 252 Spe
+Naive Nature
+- Earth Power
+- Psychic
+- Focus Blast
+- Knock Off

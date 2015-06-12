@@ -2146,3 +2146,33 @@ Jolly Nature
 - Drain Punch
 - Knock Off
 - Gunk Shot
+
+
+=== [ru] Reuniclus ===
+
+Reuniclus @ Leftovers
+Ability: Magic Guard
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+- Calm Mind
+- Recover
+- Psyshock
+- Focus Blast
+
+Reuniclus @ Choice Specs
+Ability: Regenerator
+EVs: 252 HP / 4 Def / 252 SpA
+Modest Nature
+- Future Sight
+- Psychic
+- Focus Blast
+- Shadow Ball
+
+Reuniclus @ Life Orb
+Ability: Magic Guard
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+- Trick Room
+- Psychic
+- Shadow Ball
+- Focus Blast
