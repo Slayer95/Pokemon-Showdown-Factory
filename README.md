@@ -7,6 +7,11 @@ Pokemon Showdown Battle Factory Sets Generator
 	cd Pokemon-Showdown-Factory
 	cd Pokemon-Showdown && npm install --production && cd ..
 
+## Updating
+
+	git pull origin master
+	git submodule foreach git pull origin master
+
 ## Usage
 
 	node index
