@@ -3,6 +3,18 @@ var fs = require('fs');
 require('./Pokemon-Showdown');
 var Tools = global.Tools;
 
+var Pokedex = Tools.data.Pokedex;
+var Items = Tools.data.Items;
+var Natures = Tools.data.Natures;
+
+var fullTierList = ['Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU'];
+var tierPositions = Object.create(null);
+for (var i = 0; i < fullTierList.length; i++) {
+	tierPositions[fullTierList[i]] = i;
+}
+
+var factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
+
 // Generic helper functions
 
 function cloneObj (obj) {
@@ -13,11 +25,40 @@ function cloneObj (obj) {
 	return clone;
 }
 
+function deepCloneSet (set) {
+	var keys = ['species', 'gender', 'item', 'ability', 'shiny', 'level', 'happiness', 'evs', 'ivs', 'nature', 'moves'];
+	var clone = {};
+
+	for (var i = 0; i < keys.length; i++) {
+		var key = keys[i];
+		if (!(key in set)) continue;
+		if (typeof set[key] !== 'object') {
+			// Primitive; never a function (or symbol)
+			clone[key] = set[key];
+		} else if (!Array.isArray(set[key])) {
+			// Object with depth 1
+			clone[key] = cloneObj(set[key]);
+		} else {
+			// Array of arrays
+			clone[key] = Array(set[key].length);
+			for (var j = 0; j < set[key].length; j++) {
+				clone[key][j] = set[key][j].slice();
+			}
+		}
+	}
+
+	return clone;
+}
+
 function inValues (obj, val) {
 	for (var key in obj) {
 		if (obj[key] === val) return true;
 	}
 	return false;
+}
+
+function getSetDataMove (setData) {
+	return setData.move;
 }
 
 // Notations supported by PS teambuilder
@@ -47,6 +88,7 @@ function parseText (text) {
 			var atIndex = line.lastIndexOf(' @ ');
 			if (atIndex !== -1) {
 				curSet.item = line.slice(atIndex + 3);
+				if (toId(curSet.item) === 'noitem') curSet.item = '';
 				line = line.slice(0, atIndex);
 			}
 			if (line.slice(line.length - 4) === ' (M)') {
@@ -96,10 +138,10 @@ function parseText (text) {
 			}
 		} else if (line.slice(0, 5) === 'IVs: ') {
 			line = line.slice(5);
-			var ivLines = line.split(' / ');
+			var ivLines = line.split('/');
 			curSet.ivs = {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31};
 			for (var j = 0; j < ivLines.length; j++) {
-				var ivLine = ivLines[j];
+				var ivLine = ivLines[j].trim();
 				var spaceIndex = ivLine.indexOf(' ');
 				if (spaceIndex === -1) continue;
 				var statid = BattleStatIDs[ivLine.slice(spaceIndex + 1)];
@@ -117,15 +159,7 @@ function parseText (text) {
 			line = line.slice(1);
 			if (line.charAt(0) === ' ') line = line.slice(1);
 			if (!curSet.moves) curSet.moves = [];
-			if (line.slice(0, 14) === 'Hidden Power [') {
-				var hpType = line.slice(14, -1);
-				line = 'Hidden Power ' + hpType;
-				if (!curSet.ivs) curSet.ivs = cloneObj(Tools.getType(hpType).HPivs);
-			}
-			if (line === 'Frustration') {
-				curSet.happiness = 0;
-			}
-			curSet.moves.push(line);
+			curSet.moves.push(line.split(/\s*\/\s*/g));
 		}
 	}
 	return teams;
@@ -139,31 +173,109 @@ function isValidMove (move) {
 	return Tools.data.Movedex.hasOwnProperty(toId(move));
 }
 
-function proofRead (setLists) {
-	var Pokedex = Tools.data.Pokedex;
-	var Items = Tools.data.Items;
-	var Natures = Tools.data.Natures;
-
-	var tierList = ['Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU'];
-	var tierPosition = {};
-	for (var i = 0; i < tierList.length; i++) {
-		tierPosition[tierList[i]] = i;
-	}
+function proofRead (setLists, callback) {
+	var errors = [];
+	var sets = {};
 
 	for (var tier in setLists) {
-		var minTierIndex = tierPosition[tier];
+		var minTierIndex = tierPositions[tier];
+
 		for (var speciesid in setLists[tier]) {
-			if (!Pokedex[speciesid]) console.error("Invalid species id: " + speciesid);
-			for (var i = 0; i < setLists[tier][speciesid].sets.length; i++) {
-				var set = setLists[tier][speciesid].sets[i];
-				if (set.item && !Items.hasOwnProperty(toId(set.item))) console.error("Invalid item for " + speciesid + ": " + set.item);
-				if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) console.error("Invalid nature for " + speciesid + ": " + set.nature);
-				if (!set.moves.every(isValidMove)) console.error("Invalid moveset for " + speciesid + ": " + JSON.stringify(set.moves));
-				if (!inValues(Pokedex[speciesid].abilities, set.ability)) console.error("Invalid ability for " + speciesid + ": '" + set.ability + "'");
-				if (tierPosition[Tools.getTemplate(speciesid).tier] < minTierIndex) console.error("Pokémon " + speciesid + " is banned from " + tier);
+			if (!Pokedex.hasOwnProperty(speciesid)) {
+				errors.push("Invalid species id: " + speciesid);
+			} else if (tierPositions[Tools.getTemplate(speciesid).tier] < minTierIndex) {
+				errors.push("Pokémon " + speciesid + " is banned from " + tier);
+			}
+
+			var speciesResult = proofReadSpeciesSets(setLists[tier][speciesid].sets, speciesid, tier);
+			if (speciesResult.errors.length) {
+				errors = errors.concat(speciesResult.errors);
+			} else {
+				if (!sets[tier]) sets[tier] = {};
+				sets[tier][speciesid] = {flags: {}, sets: speciesResult.sets};
 			}
 		}
 	}
+
+	return {errors: errors, sets: sets};
+}
+
+function proofReadSpeciesSets (setList, speciesid, tier) {
+	var errors = [];
+
+	for (var i = 0, len = setList.length; i < len; i++) {
+		var hiddenPowerSlot = 4; // Only one slot allowed for Hidden Power.
+		var happinessSlot = 4; // Only one slot allowed for Return / Frustration.
+		var moveSlots = Object.create(null); // Only one slot allowed for any other move as well.
+
+		var set = setList[i];
+		if (set.item && !Items.hasOwnProperty(toId(set.item))) errors.push("Invalid item for " + speciesid + ": '" + set.item + "'.");
+		if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) errors.push("Invalid nature for " + speciesid + ": '" + set.nature + "'.");
+		if (!inValues(Pokedex[speciesid].abilities, set.ability)) errors.push("Invalid ability for " + speciesid + ": '" + set.ability + "'.");
+		for (var j = 0, moveCount = set.moves.length; j < moveCount; j++) {
+			var moveSlot = set.moves[j];
+
+			// TODO: Account for Happiness / Hidden Power combinations across different move slots.
+			// This requires some sort of loop or recursion.
+			// Total set variants that require a different weight:
+			// (Happiness options + (Any base options ? 1 : 0)) * (Hidden Power options + (Any base options ? 1 : 0))
+
+			var setsBase = [];
+			var setsImplied = [];
+
+			for (var k = 0, totalOptions = moveSlot.length; k < totalOptions; k++) {
+				var moveOption = moveSlot[k];
+				if (!isValidMove(moveOption)) {
+					errors.push("Invalid move for " + speciesid + ": '" + moveOption + "'");
+				} else {
+					if (moveSlots[moveOption] <= j) {
+						errors.push("Duplicate move " + moveOption + " for " + speciesid + ".");
+					} else {
+						moveSlots[moveOption] = j;
+					}
+
+					if (moveOption.slice(0, 14) === 'Hidden Power [') {
+						if (hiddenPowerSlot < j) {
+							errors.push("Duplicate Hidden Power for " + speciesid + ".");
+						} else {
+							var hpType = moveOption.slice(14, -1);
+							moveOption = 'Hidden Power ' + hpType;
+							setsImplied.push({ivs: cloneObj(Tools.getType(hpType).HPivs), move: moveOption});
+						}
+					} else if (moveOption === 'Frustration' || moveOption === 'Return') {
+						if (happinessSlot < j) {
+							// Meta-based rejection that should simplify everything.
+							// After all, it's complex due to the meta-based code.
+							errors.push("Duplicate happiness-based moves for " + speciesid + ".");
+						} else {
+							happinessSlot = j;
+							setsImplied.push({happiness: moveOption === 'Frustration' ? 0 : 255, move: moveOption});
+						}
+					} else {
+						setsBase.push({move: moveOption});
+					}
+				}
+			}
+
+			for (var k = 0, totalImplied = setsImplied.length; k < totalImplied; k++) {
+				var setClone = deepCloneSet(set);
+				setClone.moves[j] = [setsImplied[k].move];
+				if ('ivs' in setsImplied[k]) setClone.ivs = setsImplied[k].ivs;
+				if ('happiness' in setsImplied[k]) setClone.happiness = setsImplied[k].happiness
+				// Don't proof-read these extra sets for now. (This actually blocks previous TODO).
+				setList.push(setClone);
+			}
+
+			if (setsBase.length) {
+				set.moves[j] = setsBase.map(getSetDataMove);
+			} else {
+				setList.splice(i, 1);
+				i--; len--;
+				break;
+			}
+		}
+	}
+	return {errors: errors, sets: setList};
 }
 
 function addFlags (setLists) {
@@ -171,7 +283,7 @@ function addFlags (setLists) {
 
 	for (var tier in setLists) {
 		for (var speciesId in setLists[tier]) {
-			var flags = setLists[tier]	[speciesId].flags;
+			var flags = setLists[tier][speciesId].flags;
 			var template = Tools.getTemplate(speciesId);
 			if (hasMegaEvo(template)) {
 				var megaOnly = true;
@@ -191,12 +303,11 @@ function buildSets () {
 	var setListsRaw = {};
 	var setListsByTier = {};
 
-	var allTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
-	var fileContents = allTiers.map(readTierFile);
+	var fileContents = factoryTiers.map(readTierFile);
 
-	for (var i = 0; i < allTiers.length; i++) {
-		setListsRaw[allTiers[i]] = parseText(fileContents[i]);
-		setListsByTier[allTiers[i]] = {};
+	for (var i = 0; i < factoryTiers.length; i++) {
+		setListsRaw[factoryTiers[i]] = parseText(fileContents[i]);
+		setListsByTier[factoryTiers[i]] = {};
 	}
 
 	// Classify sets according to tier and species
@@ -205,19 +316,23 @@ function buildSets () {
 		for (var i = 0, len = setListsRaw[tier].length; i < len; i++) {
 			var set = setListsRaw[tier][i];
 			var speciesid = toId(set.species);
-			if (!viableSets[speciesid]) viableSets[speciesid] = {flags: {}, sets: []};
+			if (!viableSets[speciesid]) viableSets[speciesid] = {sets: []};
 			viableSets[speciesid].sets.push(set);
 		}
 	}
 
-	// Check for weird stuff
-	proofRead(setListsByTier);
+	// Check for weird stuff, and fix if possible
+	var result = proofRead(setListsByTier);
+	if (result.errors.length) {
+		console.error("Failed:\n" + result.errors.join('\n'));
+		return;
+	}
 
 	// Add flags to describe the sets of each Pokémon
-	addFlags(setListsByTier);
+	addFlags(result.sets);
 
 	// Export as JSON
-	fs.writeFile('./factory-sets.json', JSON.stringify(setListsByTier) + '\n', function () {
+	fs.writeFile('./factory-sets.json', JSON.stringify(result.sets) + '\n', function () {
 		console.log("Battle factory sets built");
 	});
 }
