@@ -48,7 +48,7 @@ Careful Nature
 - Stone Edge
 - Earthquake
 
-ippowdon (M) @ Leftovers
+Hippowdon (M) @ Leftovers
 Ability: Sand Stream
 EVs: 252 HP / 144 Def / 112 SpD
 Careful Nature
