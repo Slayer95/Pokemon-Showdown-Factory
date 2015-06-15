@@ -2,8 +2,8 @@
 
 Diancie @ Diancite
 Ability: Clear Body
-EVs: 92 HP / 252 SpA / 164 Spe
-Mild Nature
+EVs: 44 HP / 32 Atk / 252 SpA / 180 Spe
+Rash Nature
 - Moonblast
 - Diamond Storm
 - Earth Power
@@ -20,7 +20,7 @@ Timid Nature
 
 Diancie @ Diancite
 Ability: Clear Body
-EVs: 4 Def / 252 SpA / 252 Spe
+EVs: 32 Atk / 224 SpA / 252 Spe
 Naive Nature
 - Diamond Storm
 - Moonblast
@@ -32,16 +32,25 @@ Naive Nature
 
 Hippowdon (M) @ Leftovers
 Ability: Sand Stream
-EVs: 248 HP / 252 Def / 8 SpD
+EVs: 252 HP / 252 Def / 4 SpD
 Impish Nature
 - Slack Off
 - Stealth Rock
-- Whirlwind
+- Stone Edge
 - Earthquake
 
 Hippowdon (M) @ Leftovers
 Ability: Sand Stream
-EVs: 248 HP / 8 Def / 252 SpD
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Slack Off
+- Stealth Rock
+- Stone Edge
+- Earthquake
+
+ippowdon (M) @ Leftovers
+Ability: Sand Stream
+EVs: 252 HP / 144 Def / 112 SpD
 Careful Nature
 - Slack Off
 - Stealth Rock
@@ -681,7 +690,7 @@ Adamant Nature
 - U-turn
 - Steel Wing
 
-Talonflame @ Leftovers
+Talonflame
 Ability: Gale Wings
 EVs: 248 HP / 8 Def / 252 SpD
 Careful Nature
@@ -708,12 +717,12 @@ Jolly Nature
 - Brave Bird
 - Flare Blitz
 
-Talonflame
+Talonflame @ Leftovers
 Ability: Gale Wings
 EVs: 248 HP / 252 Atk / 4 Spe
 Jolly Nature
 - Swords Dance
-- Acrobatics
+- Brave Bird
 - Will-O-Wisp
 - Roost
 
@@ -1147,7 +1156,7 @@ Ability: Levitate
 EVs: 248 HP / 68 Def / 192 Spe
 Timid Nature
 IVs: 0 Atk
-- Thudner Wave
+- Thunder Wave
 - Roar
 - Recover
 - Dragon Pulse
@@ -1287,7 +1296,7 @@ EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
 - Close Combat
 - Megahorn
-- Knock Off
+- Facade
 - Swords Dance
 
 
@@ -1480,7 +1489,7 @@ Timid Nature
 - Hyper Voice
 - Psyshock
 - Focus Blast
-- Will-o-Wisp
+- Will-O-Wisp
 
 
 === [ou] [OU] Garchomp ===
@@ -1506,7 +1515,7 @@ Naive Nature
 Garchomp @ Lum Berry
 Ability: Rough Skin
 EVs: 252 Atk / 4 Def / 252 Spe
-Naive Nature
+Jolly Nature
 - Stealth Rock
 - Earthquake
 - Outrage
@@ -1590,10 +1599,10 @@ Jolly Nature
 - Rock Slide
 - Rapid Spin
 
-Excadrill @ Life Orb
-Ability: Sand Rush
+Excadrill @ Leftovers
+Ability: Mold Breaker
 EVs: 252 HP / 4 Atk / 252 SpD
-Adamant Nature
+Careful Nature
 - Earthquake
 - Iron Head
 - Rapid Spin
