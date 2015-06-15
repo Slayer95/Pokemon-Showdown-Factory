@@ -12,5 +12,8 @@
     "name": "Leonardo Julca Salazar",
     "email": "ivojulca@hotmail.com"
   },
+  "devDependencies": {
+    "mocha": "~2.2.5"
+  },
   "private": true
 }
