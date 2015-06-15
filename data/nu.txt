@@ -282,8 +282,8 @@ EVs: 248 HP / 252 Def / 8 SpA
 Bold Nature
 - Will-O-Wisp
 - Sludge Bomb
-- Pain Split
-- Flamethrower
+- Pain Split / Taunt
+- Flamethrower / Toxic Spikes
 
 === [nu] Vivillon ===
 
@@ -361,7 +361,7 @@ Ability: Levitate
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Calm Mind
-- Giga Drain
+- Giga Drain / Hidden Power [Fire]
 - Psyshock
 - Signal Beam
 
@@ -468,7 +468,7 @@ Modest Nature
 - Hydro Pump
 - Ice Beam
 - Grass Knot
-- Aqua Jet
+- Aqua Jet / Megahorn / Taunt
 
 Samurott @ Life Orb
 Ability: Torrent
@@ -576,7 +576,7 @@ Adamant Nature
 - Stealth Rock
 - Earthquake
 - Rock Blast
-- Roar
+- Megahorn / Roar
 
 
 === [nu] Regirock ===
@@ -586,9 +586,9 @@ Ability: Clear Body
 EVs: 252 HP / 44 Atk / 16 Def / 196 SpD
 Impish Nature
 - Stealth Rock
-- Stone Edge
-- Thunder Wave
-- Drain Punch
+- Stone Edge / Rock Slide
+- Thunder Wave / Toxic
+- Drain Punch / Earthquake
 
 
 === [nu] Pyroar ===
@@ -641,7 +641,7 @@ EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
 - Close Combat
 - U-turn
-- Ice Punch
+- Stone Edge
 - Gunk Shot
 
 Primeape @ Expert Belt
@@ -701,7 +701,7 @@ EVs: 252 HP / 4 Def / 252 SpA
 Quiet Nature
 - Trick Room
 - Psychic
-- Moonlight
+- Healing Wish / Moonlight
 - Signal Beam
 
 Musharna @ Leftovers
@@ -781,7 +781,7 @@ Careful Nature
 Mesprit @ Choice Scarf
 Ability: Levitate
 EVs: 252 SpA / 4 SpD / 252 Spe
-Timid Nature
+Modest Nature
 - Psychic
 - Thunderbolt
 - U-turn
@@ -883,7 +883,7 @@ Mild Nature
 Ludicolo @ Life Orb
 Ability: Swift Swim
 EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
+Modest Nature
 - Hydro Pump
 - Giga Drain
 - Ice Beam
@@ -899,7 +899,7 @@ Timid Nature
 - Quiver Dance
 - Sleep Powder
 - Giga Drain
-- Hidden Power [Fire]
+- Hidden Power [Fire] / Hidden Power [Ice]
 
 Lilligant @ Choice Scarf
 Ability: Own Tempo
@@ -1012,7 +1012,7 @@ Jolly Nature
 - Swords Dance
 - Stone Edge
 - Aqua Jet
-- Superpower
+- Superpower / Waterfall
 
 
 === [nu] Jynx ===
@@ -1063,7 +1063,7 @@ Adamant Nature
 - Close Combat
 - Knock Off
 - Bullet Punch
-- Fake Out
+- Fake Out / Earthquake
 
 Hariyama @ Choice Band
 Ability: Guts
@@ -1084,16 +1084,7 @@ Adamant Nature
 - Drain Punch
 - Mach Punch
 - Knock Off
-- Bulk Up
-
-Gurdurr @ Eviolite
-Ability: Guts
-EVs: 252 HP / 136 Atk / 64 Def / 56 SpD
-Adamant Nature
-- Drain Punch
-- Mach Punch
-- Knock Off
-- Stone Edge
+- Bulk Up / Stone Edge
 
 === [nu] Granbull ===
 
@@ -1111,7 +1102,7 @@ Ability: Intimidate
 EVs: 212 HP / 252 Atk / 44 Spe
 Adamant Nature
 - Play Rough
-- Ice Punch
+- Fire Punch
 - Thunder Punch
 - Earthquake
 
@@ -1125,7 +1116,7 @@ Adamant Nature
 - Shadow Punch
 - Earthquake
 - Ice Punch
-- Zen Headbutt
+- Zen Headbutt / Thunder Punch
  
 Golurk @ Colbur Berry
 Ability: No Guard
@@ -1172,10 +1163,10 @@ Ferroseed @ Eviolite
 Ability: Iron Barbs
 EVs: 252 HP / 252 Def / 4 SpD
 Relaxed Nature
-- Spikes
-- Gyro Ball
+- Spikes / Stealth Rock
+- Gyro Ball / Knock Off
 - Leech Seed
-- Protect
+- Protect / Thunder Wave
 
 === [nu] Exeggutor ===
 
@@ -1308,7 +1299,7 @@ Rash Nature
 - Dark Pulse
 - Giga Drain
 - Sucker Punch
-- Spikes
+- Spikes / Destiny Bond
 
 Cacturne @ Focus Sash
 Ability: Water Absorb
@@ -1347,7 +1338,7 @@ Modest Nature
 - Calm Mind
 - Dazzling Gleam
 - Fire Blast
-- Psychic
+- Psychic / Surf
 
 Audino @ Leftovers
 Ability: Regenerator
@@ -1356,7 +1347,7 @@ Careful Nature
 - Wish
 - Protect
 - Encore
-- Double-Edge
+- Knock Off
 
 === [nu] Archeops ===
 
@@ -1397,7 +1388,7 @@ Modest Nature
 - Rapid Spin
 - Earth Power
 - Shadow Ball
-- Psychic
+- Psychic / Psyshock
 
 === [nu] Quagsire ===
 
@@ -1408,16 +1399,7 @@ Relaxed Nature
 - Scald
 - Earthquake
 - Recover
-- Toxic
-
-Quagsire @ Leftovers
-Ability: Unaware
-EVs: 252 HP / 252 Def / 4 SpD
-Relaxed Nature
-- Scald
-- Earthquake
-- Recover
-- Curse
+- Toxic / Curse
 
 === [nu] Sneasel ===
 
@@ -1426,7 +1408,7 @@ Ability: Inner Focus
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
 - Knock Off
-- Pursuit
+- Pursuit / Low Kick
 - Icicle Crash
 - Ice Shard
 
@@ -1449,7 +1431,7 @@ Ability: Sheer Force
 EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
 - Play Rough
-- Iron Head
+- Iron Head / Fire Fang
 - Swords Dance
 - Sucker Punch
 
@@ -1520,7 +1502,7 @@ Timid Nature
 - Shadow Ball
 - Sludge Bomb
 - Taunt
-- Destiny Bond
+- Destiny Bond / Will-O-Wisp
  
 === [nu] Prinplup ===
  
