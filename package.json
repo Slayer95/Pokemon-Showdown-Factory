@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/Slayer95/Pokemon-Showdown-Factory-Sets-Generator.git"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "author": {
     "name": "Leonardo Julca Salazar",
     "email": "ivojulca@hotmail.com"
