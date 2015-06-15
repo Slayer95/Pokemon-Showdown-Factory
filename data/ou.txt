@@ -588,7 +588,7 @@ Ability: Sand Stream
 EVs: 248 HP / 80 Def / 180 SpD
 Relaxed Nature
 - Stealth Rock
-- Stone Egde
+- Stone Edge
 - Ice Beam
 - Pursuit
 
