@@ -1,6 +1,8 @@
 Pokemon Showdown Battle Factory Sets Generator
 ========================================================================
 
+[![Build Status](https://travis-ci.org/Slayer95/Pokemon-Showdown-Factory.svg)](https://travis-ci.org/Slayer95/Pokemon-Showdown-Factory)
+
 ## Installation
 
 	git clone --recursive https://github.com/Slayer95/Pokemon-Showdown-Factory.git
