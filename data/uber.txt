@@ -873,6 +873,15 @@ Jolly Nature
 - Swords Dance
 - Shadow Force
 - Shadow Claw / Brick Break
+- Extreme Speed
+
+Arceus-Ghost @ Spooky Plate
+Ability: Multitype
+EVs: 4 Def / 252 Atk / 252 Spe
+Jolly Nature
+- Swords Dance
+- Shadow Force
+- Shadow Claw
 - Brick Break / Extreme Speed
 
 Arceus-Poison @ Toxic Plate
