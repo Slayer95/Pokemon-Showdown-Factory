@@ -19,18 +19,6 @@ Jolly Nature
 - Quick Attack
 
 
-=== [nu] Chimecho ===
-
-Chimecho @ Focus Sash
-Ability: Levitate
-EVs: 252 HP / 4 Def / 252 Spe
-Timid Nature
-- Healing Wish
-- Yawn
-- Psychic
-- Taunt
-
-
 === [nu] Chatot ===
 
 Chatot @ Choice Scarf
@@ -93,13 +81,14 @@ Bold Nature
 - Sleep Talk
 - Moonblast
 
-Carbink @ Heat Rock
+Carbink @ Custap Berry
 Ability: Sturdy
-EVs: 252 HP / 4 Def / 252 Spe
-Jolly Nature
-- Sunny Day
-- Stealth Rock
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+IVs: 0 Spe
 - Explosion
+- Trick Room
+- Stealth Rock
 - Magic Coat
 
 
@@ -122,18 +111,6 @@ Modest Nature
 - Thunderbolt
 - Signal Beam
 - Trick
-
-
-=== [nu] Beartic ===
-
-Beartic @ Life Orb
-Ability: Swift Swim
-EVs: 32 HP / 252 Atk / 8 Def / 216 Spe
-Adamant Nature
-- Icicle Crash
-- Superpower
-- Aqua Jet
-- Stone Edge
 
 
 === [nu] Basculin ===
@@ -198,7 +175,7 @@ EVs: 252 SpA / 4 SpD / 252 Spe
 Modest Nature
 - Hyper Voice
 - Freeze-Dry
-- Thunderbolt
+- Psychic
 - Earth Power
 
 Aurorus @ Life Orb
@@ -210,23 +187,13 @@ Modest Nature
 - Hyper Voice
 - Earth Power
 
-Aurorus @ Leftovers
-Ability: Refrigerate
-EVs: 252 SpA / 4 SpD / 252 Spe
-Modest Nature
-- Rock Polish
-- Calm Mind
-- Hyper Voice
-- Earth Power
-
-
 === [nu] Articuno ===
 
 Articuno @ Life Orb
 Ability: Pressure
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
-- Substitute
+- Hidden Power [Fire]
 - Roost
 - Hurricane
 - Freeze-Dry
@@ -285,35 +252,26 @@ Jolly Nature
 - Quick Attack
 - Close Combat
 
-Zangoose @ Toxic Orb
-Ability: Toxic Boost
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Facade
-- Knock Off
-- Close Combat
-- Protect
-
 
 === [nu] Xatu ===
 
+Xatu @ Rocky Helmet
+Ability: Magic Bounce
+EVs: 252 HP / 176 Def / 80 Spe
+Timid Nature
+- Roost
+- Psychic
+- U-turn
+- Heat Wave
+ 
 Xatu @ Leftovers
 Ability: Magic Bounce
-EVs: 252 HP / 4 Def / 252 SpD
-Calm Nature
-- Night Shade
-- U-turn
-- Thunder Wave
-- Roost
-
-Xatu @ Life Orb
-Ability: Magic Bounce
-EVs: 4 Def / 252 SpA / 252 Spe
+EVs: 252 HP / 176 Def / 80 Spe
 Timid Nature
+- Calm Mind
 - Psychic
-- Heat Wave
-- Giga Drain
 - Roost
+- Signal Beam
 
 
 === [nu] Weezing ===
@@ -327,21 +285,11 @@ Bold Nature
 - Pain Split
 - Flamethrower
 
-Weezing @ Choice Specs
-Ability: Levitate
-EVs: 248 HP / 252 SpA / 8 SpD
-Modest Nature
-- Shadow Ball
-- Sludge Bomb
-- Fire Blast
-- Thunderbolt
-
-
 === [nu] Vivillon ===
 
 Vivillon @ Leftovers
 Ability: Compound Eyes
-EVs: 12 Def / 244 SpA / 252 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Quiver Dance
 - Sleep Powder
@@ -392,7 +340,7 @@ Modest Nature
 
 Uxie @ Leftovers
 Ability: Levitate
-EVs: 252 HP / 252 Def / 4 SpD
+EVs: 252 HP / 200 Def / 56 Spe
 Relaxed Nature
 - Stealth Rock
 - Thunder Wave
@@ -401,8 +349,8 @@ Relaxed Nature
 
 Uxie @ Light Clay
 Ability: Levitate
-EVs: 252 HP / 252 Def / 4 Spe
-Bold Nature
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
 - Reflect
 - Light Screen
 - Memento
@@ -410,30 +358,12 @@ Bold Nature
 
 Uxie @ Leftovers
 Ability: Levitate
-EVs: 184 HP / 64 Def / 36 SpA / 224 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Calm Mind
-- Substitute
+- Giga Drain
 - Psyshock
-- Hidden Power [Fire]
-
-Uxie @ Damp Rock
-Ability: Levitate
-EVs: 252 HP / 252 Def / 4 Spe
-Impish Nature
-- Rain Dance
-- Stealth Rock
-- Memento
-- Psychic
-
-Uxie @ Heat Rock
-Ability: Levitate
-EVs: 252 HP / 252 Def / 4 Spe
-Impish Nature
-- Sunny Day
-- Stealth Rock
-- Memento
-- Psychic
+- Signal Beam
 
 
 === [nu] Torkoal ===
@@ -475,19 +405,19 @@ Jolly Nature
 - Facade
 - Brave Bird
 - U-turn
-- Protect
+- Quick Attack
 
 
 === [nu] Sawk ===
 
 Sawk @ Choice Band
-Ability: Mold Breaker
-EVs: 4 HP / 252 Atk / 252 Spe
+Ability: Sturdy
+EVs: 252 Atk / 4 SpD / 252 Spe
 Adamant Nature
 - Close Combat
 - Knock Off
-- Ice Punch
-- Poison Jab
+- Zen Headbutt
+- Stone Edge
 
 Sawk @ Life Orb
 Ability: Mold Breaker
@@ -579,15 +509,6 @@ Bold Nature
 - Air Slash
 - Pain Split
 
-Rotom-Fan @ Leftovers
-Ability: Levitate
-EVs: 248 HP / 252 Def / 8 SpA
-Bold Nature
-- Will-O-Wisp
-- Thunderbolt
-- Air Slash
-- Pain Split
-
 
 === [nu] Rotom ===
 
@@ -618,14 +539,14 @@ Timid Nature
 - Volt Switch
 - Pain Split
 
-Rotom @ Life Orb
+Rotom @ Spell Tag
 Ability: Levitate
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
-- Substitute
-- Pain Split
-- Thunderbolt
+- Will-O-Wisp
+- Hex
 - Shadow Ball
+- Thunderbolt
 
 
 === [nu] Rhydon ===
@@ -662,33 +583,15 @@ Adamant Nature
 
 Regirock @ Leftovers
 Ability: Clear Body
-EVs: 252 HP / 252 Atk / 4 SpD
+EVs: 252 HP / 44 Atk / 16 Def / 196 SpD
 Impish Nature
 - Stealth Rock
-- Drain Punch
-- Rock Slide
-- Explosion
-
-Regirock @ Leftovers
-Ability: Clear Body
-EVs: 252 HP / 4 Atk / 252 SpD
-Careful Nature
-- Stealth Rock
-- Rock Slide
-- Protect
+- Stone Edge
 - Thunder Wave
+- Drain Punch
 
 
 === [nu] Pyroar ===
-
-Pyroar @ Choice Scarf
-Ability: Unnerve
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Flamethrower
-- Fire Blast
-- Hyper Voice
-- Hidden Power [Grass]
 
 Pyroar @ Choice Specs
 Ability: Unnerve
@@ -741,15 +644,6 @@ Jolly Nature
 - Ice Punch
 - Gunk Shot
 
-Primeape @ Choice Scarf
-Ability: Defiant
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Close Combat
-- U-turn
-- Ice Punch
-- Gunk Shot
-
 Primeape @ Expert Belt
 Ability: Defiant
 EVs: 252 Atk / 4 Def / 252 Spe
@@ -776,15 +670,6 @@ Ability: Defiant
 EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
 - Pursuit
-- Knock Off
-- Iron Head
-- Sucker Punch
-
-Pawniard @ Life Orb
-Ability: Defiant
-EVs: 252 Atk / 4 Def / 252 Spe
-Adamant Nature
-- Swords Dance
 - Knock Off
 - Iron Head
 - Sucker Punch
@@ -868,11 +753,11 @@ Timid Nature
 - Taunt
 - Shadow Ball
 - Dazzling Gleam
-- Destiny Bond
+- Nasty Plot
 
 Mismagius @ Leftovers
 Ability: Levitate
-EVs: 252 HP / 40 Def / 216 Spe
+EVs: 252 HP / 80 Def / 176 Spe
 Timid Nature
 - Taunt
 - Will-O-Wisp
@@ -891,16 +776,6 @@ Careful Nature
 - Milk Drink
 - Heal Bell
 
-Miltank @ Life Orb
-Ability: Scrappy
-EVs: 40 HP / 252 Atk / 216 Spe
-Adamant Nature
-- Fire Punch
-- Body Slam
-- Milk Drink
-- Heal Bell
-
-
 === [nu] Mesprit ===
 
 Mesprit @ Choice Scarf
@@ -908,8 +783,17 @@ Ability: Levitate
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
 - Psychic
-- Energy Ball
-- Hidden Power [Fire]
+- Thunderbolt
+- U-turn
+- Healing Wish
+ 
+Mesprit @ Choice Scarf
+Ability: Levitate
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Zen Headbutt
+- U-turn
+- Knock Off
 - Healing Wish
 
 Mesprit @ Life Orb
@@ -935,21 +819,12 @@ Timid Nature
 
 Mantine @ Leftovers
 Ability: Water Absorb
-EVs: 252 HP / 4 SpA / 252 SpD
+EVs: 248 HP / 228 Def / 16 SpD / 16 Spe
 Calm Nature
 - Defog
 - Scald
 - Air Slash
 - Toxic
-
-Mantine @ Leftovers
-Ability: Water Absorb
-EVs: 252 HP / 252 Def / 4 SpD
-Bold Nature
-- Defog
-- Scald
-- Rest
-- Sleep Talk
 
 Mantine @ Life Orb
 Ability: Swift Swim
@@ -984,14 +859,14 @@ Adamant Nature
 
 === [nu] Magmortar ===
 
-Magmortar @ Expert Belt
+Magmortar @ Assault Vest
 Ability: Vital Spirit
-EVs: 4 Atk / 252 SpA / 252 Spe
-Mild Nature
+EVs: 104 HP / 252 SpA / 152 Spe
+Modest Nature
 - Fire Blast
+- Psychic
 - Thunderbolt
 - Hidden Power [Grass]
-- Focus Blast
 
 Magmortar @ Life Orb
 Ability: Vital Spirit
@@ -1000,24 +875,6 @@ Mild Nature
 - Fire Blast
 - Thunderbolt
 - Earthquake
-- Focus Blast
-
-Magmortar @ Choice Scarf
-Ability: Vital Spirit
-EVs: 4 Atk / 252 SpA / 252 Spe
-Mild Nature
-- Fire Blast
-- Thunderbolt
-- Earthquake
-- Focus Blast
-
-Magmortar @ Choice Specs
-Ability: Vital Spirit
-EVs: 4 Atk / 252 SpA / 252 Spe
-Mild Nature
-- Fire Blast
-- Thunderbolt
-- Hidden Power [Grass]
 - Focus Blast
 
 
@@ -1036,15 +893,6 @@ Timid Nature
 === [nu] Lilligant ===
 
 Lilligant @ Life Orb
-Ability: Own Tempo
-EVs: 4 HP / 252 SpA / 252 Spe
-Timid Nature
-- Quiver Dance
-- Sleep Powder
-- Giga Drain
-- Hidden Power [Fire]
-
-Lilligant @ Lum Berry
 Ability: Own Tempo
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -1083,24 +931,6 @@ Jolly Nature
 - Sucker Punch
 - U-turn
 
-Liepard @ Damp Rock
-Ability: Prankster
-EVs: 248 HP / 8 Atk / 252 Spe
-Jolly Nature
-- Rain Dance
-- Encore
-- Knock Off
-- U-turn
-
-Liepard @ Heat Rock
-Ability: Prankster
-EVs: 248 HP / 8 Atk / 252 Spe
-Jolly Nature
-- Sunny Day
-- Encore
-- Knock Off
-- U-turn
-
 Liepard @ Life Orb
 Ability: Limber
 EVs: 252 Atk / 4 Def / 252 Spe
@@ -1124,7 +954,7 @@ Modest Nature
 
 Lanturn @ Leftovers
 Ability: Volt Absorb
-EVs: 40 HP / 252 Def / 216 SpD
+EVs: 40 HP / 220 Def / 208 SpD / 40 Spe
 Calm Nature
 - Scald
 - Volt Switch
@@ -1142,16 +972,6 @@ Adamant Nature
 - Gear Grind
 - Return
 - Substitute
-
-Klinklang @ Lum Berry
-Ability: Clear Body
-EVs: 92 HP / 252 Atk / 164 Spe
-Adamant Nature
-- Shift Gear
-- Gear Grind
-- Return
-- Wild Charge
-
 
 === [nu] Kangaskhan ===
 
@@ -1171,7 +991,7 @@ Adamant Nature
 - Fake Out
 - Double-Edge
 - Sucker Punch
-- Drain Punch
+- Earthquake
 
 
 === [nu] Kabutops ===
@@ -1183,7 +1003,7 @@ Jolly Nature
 - Rapid Spin
 - Stone Edge
 - Aqua Jet
-- Knock Off
+- Waterfall
 
 Kabutops @ Life Orb
 Ability: Swift Swim
@@ -1193,15 +1013,6 @@ Jolly Nature
 - Stone Edge
 - Aqua Jet
 - Superpower
-
-Kabutops @ Weakness Policy
-Ability: Weak Armor
-EVs: 252 Atk / 4 Def / 252 Spe
-Adamant Nature
-- Endure
-- Stone Edge
-- Aqua Jet
-- Waterfall
 
 
 === [nu] Jynx ===
@@ -1268,7 +1079,7 @@ Adamant Nature
 
 Gurdurr @ Eviolite
 Ability: Guts
-EVs: 252 HP / 252 Atk / 4 Def
+EVs: 252 HP / 136 Atk / 64 Def / 56 SpD
 Adamant Nature
 - Drain Punch
 - Mach Punch
@@ -1277,13 +1088,12 @@ Adamant Nature
 
 Gurdurr @ Eviolite
 Ability: Guts
-EVs: 252 HP / 252 Atk / 4 Def
+EVs: 252 HP / 136 Atk / 64 Def / 56 SpD
 Adamant Nature
 - Drain Punch
 - Mach Punch
-- Ice Punch
-- Bulk Up
-
+- Knock Off
+- Stone Edge
 
 === [nu] Granbull ===
 
@@ -1310,22 +1120,30 @@ Adamant Nature
 
 Golurk @ Choice Band
 Ability: Iron Fist
-EVs: 120 HP / 252 Atk / 136 Spe
+EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
-- Earthquake
 - Shadow Punch
+- Earthquake
 - Ice Punch
-- Drain Punch
-
-Golurk @ Leftovers
-Ability: Iron Fist
-EVs: 252 HP / 252 Atk / 4 SpD
+- Zen Headbutt
+ 
+Golurk @ Colbur Berry
+Ability: No Guard
+EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
 - Stealth Rock
 - Earthquake
 - Shadow Punch
-- Drain Punch
-
+- Dynamic Punch
+ 
+Golurk @ Life Orb
+Ability: Iron Fist
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Rock Polish
+- Earthquake
+- Shadow Punch
+- Ice Punch
 
 === [nu] Garbodor ===
 
@@ -1336,7 +1154,16 @@ Impish Nature
 - Spikes
 - Gunk Shot
 - Drain Punch
-- Toxic
+- Toxic Spikes
+
+Garbodor @ Rocky Helmet
+Ability: Aftermath
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Spikes
+- Gunk Shot
+- Drain Punch
+- Seed Bomb
 
 
 === [nu] Ferroseed ===
@@ -1372,22 +1199,12 @@ Modest Nature
 
 Exeggutor @ Lum Berry
 Ability: Harvest
-EVs: 248 HP / 152 SpA / 108 Spe
+EVs: 248 HP / 176 SpA / 84 Spe
 Modest Nature
 - Sleep Powder
 - Giga Drain
 - Psychic
 - Rest
-
-Exeggutor @ Sitrus Berry
-Ability: Harvest
-EVs: 252 HP / 148 Def / 108 Spe
-Bold Nature
-- Leech Seed
-- Substitute
-- Psychic
-- Giga Drain
-
 
 === [nu] Electivire ===
 
@@ -1396,7 +1213,7 @@ Ability: Motor Drive
 EVs: 252 Atk / 4 SpA / 252 Spe
 Naive Nature
 - Wild Charge
-- Cross Chop
+- Earthquake
 - Ice Punch
 - Hidden Power [Grass]
 
@@ -1405,7 +1222,7 @@ Naive Nature
 
 Cryogonal @ Leftovers
 Ability: Levitate
-EVs: 240 HP / 172 Def / 56 SpD / 40 Spe
+EVs: 240 HP / 212 Def / 56 SpD
 Calm Nature
 - Rapid Spin
 - Freeze-Dry
@@ -1484,6 +1301,15 @@ Sassy Nature
 
 === [nu] Cacturne ===
 
+Cacturne @ Life Orb
+Ability: Water Absorb
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Dark Pulse
+- Giga Drain
+- Sucker Punch
+- Spikes
+
 Cacturne @ Focus Sash
 Ability: Water Absorb
 EVs: 4 HP / 252 Atk / 252 Spe
@@ -1493,10 +1319,10 @@ Jolly Nature
 - Sucker Punch
 - Destiny Bond
 
-Cacturne @ Focus Sash
+Cacturne @ Life Orb
 Ability: Water Absorb
 EVs: 252 Atk / 4 SpD / 252 Spe
-Jolly Nature
+Adamant Nature
 - Swords Dance
 - Sucker Punch
 - Seed Bomb
@@ -1514,6 +1340,15 @@ Bold Nature
 - Wish
 - Heal Bell
 
+Audino @ Audinoite
+Ability: Regenerator
+EVs: 172 HP / 252 SpA / 84 Spe
+Modest Nature
+- Calm Mind
+- Dazzling Gleam
+- Fire Blast
+- Psychic
+
 Audino @ Leftovers
 Ability: Regenerator
 EVs: 252 HP / 4 Atk / 252 SpD
@@ -1522,19 +1357,6 @@ Careful Nature
 - Protect
 - Encore
 - Double-Edge
-
-
-=== [nu] Armaldo ===
-
-Armaldo @ Leftovers
-Ability: Battle Armor
-EVs: 252 HP / 252 Atk / 4 Def
-Adamant Nature
-- Rapid Spin
-- Rock Blast
-- Earthquake
-- Stealth Rock
-
 
 === [nu] Archeops ===
 
@@ -1570,12 +1392,12 @@ Jolly Nature
 
 Claydol @ Leftovers
 Ability: Levitate
-EVs: 252 HP / 252 Def / 4 SpD
-Bold Nature
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
 - Rapid Spin
 - Earth Power
-- Toxic
-- Stealth Rock
+- Shadow Ball
+- Psychic
 
 === [nu] Quagsire ===
 
@@ -1588,6 +1410,15 @@ Relaxed Nature
 - Recover
 - Toxic
 
+Quagsire @ Leftovers
+Ability: Unaware
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+- Scald
+- Earthquake
+- Recover
+- Curse
+
 === [nu] Sneasel ===
 
 Sneasel @ Life Orb
@@ -1596,7 +1427,7 @@ EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
 - Knock Off
 - Pursuit
-- Ice Punch
+- Icicle Crash
 - Ice Shard
 
 
@@ -1616,8 +1447,150 @@ Naive Nature
 Mawile @ Life Orb
 Ability: Sheer Force
 EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
+Adamant Nature
 - Play Rough
 - Iron Head
 - Swords Dance
 - Sucker Punch
+
+=== [nu] Scyther ===
+ 
+Scyther @ Eviolite
+Ability: Technician
+EVs: 248 HP / 8 Atk / 252 Spe
+Jolly Nature
+- Swords Dance
+- Aerial Ace
+- U-turn
+- Roost
+ 
+Scyther @ Choice Band
+Ability: Technician
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- U-turn
+- Aerial Ace
+- Knock Off
+- Quick Attack
+ 
+=== [nu] Torterra ===
+ 
+Torterra @ Leftovers
+Ability: Overgrow
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Wood Hammer
+- Earthquake
+- Stealth Rock
+- Synthesis
+ 
+Torterra @ Life Orb
+Ability: Overgrow
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Rock Polish
+- Wood Hammer
+- Earthquake
+- Stone Edge
+ 
+Torterra @ Choice Band
+Ability: Overgrow
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Wood Hammer
+- Earthquake
+- Stone Edge
+- Crunch
+ 
+=== [nu] Haunter ===
+ 
+Haunter @ Choice Scarf
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Destiny Bond
+- Trick
+ 
+Haunter @ Life Orb
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb
+- Taunt
+- Destiny Bond
+ 
+=== [nu] Prinplup ===
+ 
+Prinplup @ Eviolite
+Ability: Torrent
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Defog
+- Scald
+- Stealth Rock
+- Toxic
+ 
+=== [nu] Tangela ===
+ 
+Tangela @ Eviolite
+Ability: Regenerator
+EVs: 236 HP / 48 Def / 224 SpA
+Modest Nature
+- Leaf Storm
+- Giga Drain
+- Sleep Powder
+- Hidden Power Fire
+ 
+Tangela @ Eviolite
+Ability: Regenerator
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+- Giga Drain
+- Hidden Power Fire
+- Sleep Powder
+- Leech Seed
+ 
+=== [nu] Pelipper ===
+ 
+Pelipper @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+- Defog
+- Scald
+- Roost
+- Toxic
+ 
+=== [nu] Piloswine ===
+ 
+Piloswine @ Eviolite
+Ability: Thick Fat
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Earthquake
+- Stealth Rock
+- Icicle Crash
+- Ice Shard
+ 
+=== [nu] Poliwrath ===
+ 
+Poliwrath @ Life Orb
+Ability: Water Absorb
+EVs: 96 HP / 252 SpA / 160 Spe
+Modest Nature
+- Hydro Pump
+- Focus Blast
+- Ice Beam
+- Vacuum Wave
+ 
+Poliwrath @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 4 Atk / 252 Def
+Relaxed Nature
+- Rest
+- Sleep Talk
+- Circle Throw
+- Scald
