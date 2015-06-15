@@ -324,9 +324,7 @@ function buildSets (callback) {
 	// Check for weird stuff, and fix if possible
 	var result = proofRead(setListsByTier);
 	if (result.errors.length) {
-		var err = new Error("Invalid data");
-		err.details = result.errors;
-		return callback(err);
+		return callback(new Error(result.errors.join('\n')));
 	}
 
 	// Add flags to describe the sets of each Pokémon
@@ -344,7 +342,7 @@ exports.proofRead = proofRead;
 
 if (require.main === module) {
 	buildSets(function (error) {
-		if (error) return console.error("Failed:\n" + error.details.join('\n'));
+		if (error) return console.error("Failed:\n" + error.message);
 		console.log("Battle Factory sets built.");
 	});
 }
