@@ -14,8 +14,25 @@ for (var i = 0; i < fullTierList.length; i++) {
 }
 
 var factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
+var uniqueOptionMoves = toDict(['stealthrock', 'spikes', 'toxicspikes', 'rapidspin', 'defog', 'batonpass']); // High-impact moves
 
 // Generic helper functions
+
+function toDict (data) {
+	if (!Array.isArray(data)) throw new TypeError("toDict only accepts arrays as input");
+	var dict = Object.create(null);
+	for (var i = 0, len = data.length; i < len; i++) {
+		dict[data[i]] = 1;
+	}
+	return dict;
+}
+
+function inValues (obj, val) {
+	for (var key in obj) {
+		if (obj[key] === val) return true;
+	}
+	return false;
+}
 
 function cloneObj (obj) {
 	var clone = {};
@@ -48,13 +65,6 @@ function deepCloneSet (set) {
 	}
 
 	return clone;
-}
-
-function inValues (obj, val) {
-	for (var key in obj) {
-		if (obj[key] === val) return true;
-	}
-	return false;
 }
 
 function getSetDataMove (setData) {
@@ -228,6 +238,9 @@ function proofReadSpeciesSets (setList, speciesid, tier) {
 				if (!isValidMove(moveOption)) {
 					errors.push("Invalid move for " + speciesid + ": '" + moveOption + "'");
 				} else {
+					if (totalOptions > 1 && uniqueOptionMoves[toId(moveOption)]) {
+						errors.push("Invalid slashed move for " + speciesid + ": '" + moveOption + "'");
+					}
 					if (moveSlots[moveOption] <= j) {
 						errors.push("Duplicate move " + moveOption + " for " + speciesid + ".");
 					} else {
