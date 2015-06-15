@@ -173,7 +173,7 @@ function isValidMove (move) {
 	return Tools.data.Movedex.hasOwnProperty(toId(move));
 }
 
-function proofRead (setLists, callback) {
+function proofRead (setLists) {
 	var errors = [];
 	var sets = {};
 
@@ -299,7 +299,7 @@ function addFlags (setLists) {
 	}
 }
 
-function buildSets () {
+function buildSets (callback) {
 	var setListsRaw = {};
 	var setListsByTier = {};
 
@@ -324,8 +324,9 @@ function buildSets () {
 	// Check for weird stuff, and fix if possible
 	var result = proofRead(setListsByTier);
 	if (result.errors.length) {
-		console.error("Failed:\n" + result.errors.join('\n'));
-		return;
+		var err = new Error("Invalid data");
+		err.details = result.errors;
+		return callback(err);
 	}
 
 	// Add flags to describe the sets of each Pokémon
@@ -333,9 +334,17 @@ function buildSets () {
 
 	// Export as JSON
 	fs.writeFile('./factory-sets.json', JSON.stringify(result.sets) + '\n', function () {
-		console.log("Battle factory sets built");
+		callback(null);
 	});
 }
 
-// Do it!
-buildSets();
+exports.run = buildSets;
+exports.addFlags = addFlags;
+exports.proofRead = proofRead;
+
+if (require.main === module) {
+	buildSets(function (error) {
+		if (error) return console.error("Failed:\n" + error.details.join('\n'));
+		console.log("Battle Factory sets built.");
+	});
+}
