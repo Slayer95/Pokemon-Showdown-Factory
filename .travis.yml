@@ -4,4 +4,4 @@ node_js:
   - "iojs-v2.3"
 before_install:
   - git submodule update --init
-  - git submodule foreach npm install
+  - git submodule foreach npm install --production
