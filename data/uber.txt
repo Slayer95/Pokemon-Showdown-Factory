@@ -882,7 +882,7 @@ Jolly Nature
 - Swords Dance
 - Shadow Force
 - Shadow Claw
-- Brick Break / Extreme Speed
+- Brick Break
 
 Arceus-Poison @ Toxic Plate
 Ability: Multitype
