@@ -62,7 +62,7 @@ Modest Nature
 Yveltal @ Life Orb
 Ability: Dark Aura
 EVs: 132 HP / 28 Atk / 252 SpA / 96 Spe
-Mild Nature
+Rash Nature
 - Dark Pulse
 - Oblivion Wing
 - Sucker Punch
@@ -185,7 +185,6 @@ Adamant Nature
 - Refresh / Earthquake
 - Roost
 - Dragon Dance
-
 
 Salamence @ Salamencite
 Ability: Intimidate
@@ -409,7 +408,16 @@ EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Draco Meteor
 - Psyshock
-- Defog / Calm Mind
+- Defog
+- Hidden Power [Fire] / Memento / Recover
+
+Latios @ Soul Dew
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Draco Meteor
+- Psyshock
+- Calm Mind
 - Hidden Power [Fire] / Memento / Recover
 
 
@@ -648,8 +656,36 @@ Careful Nature
 - Leech Seed
 - Spikes
 - Power Whip / Gyro Ball
+- Protect
+
+Ferrothorn @ Leftovers
+Ability: Iron Barbs
+EVs: 248 HP / 8 Atk / 252 SpD
+Careful Nature
+- Leech Seed
+- Spikes
+- Power Whip
 - Protect / Gyro Ball
 
+
+=== [ubers] Excadrill ===
+
+Excadrill @ Life Orb
+Ability: Sand Rush 
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Iron Head
+- Earthquake
+- Rock Slide
+- Rapid Spin
+
+Excadrill @ Air Balloon
+Ability: Sand Rush
+EVs: 252 Atk / 4 Def / 252 Spe
+- Iron Head
+- Earthquake
+- Swords Dance
+- Rapid Spin
 
 === [ubers] [Ubers] Dialga ===
 
@@ -766,7 +802,7 @@ Calm Nature
 
 Blaziken @ Leftovers
 Ability: Speed Boost
-EVs: 4 HP / 252 Atk / 252 Spe
+EVs: 4 Def / 252 Atk / 252 Spe
 Jolly Nature
 - Baton Pass
 - Protect
@@ -775,7 +811,7 @@ Jolly Nature
 
 Blaziken @ Blazikenite
 Ability: Speed Boost
-EVs: 4 HP / 252 Atk / 252 Spe
+EVs: 4 Def / 252 Atk / 252 Spe
 Jolly Nature
 - Low Kick
 - Flare Blitz
@@ -784,7 +820,7 @@ Jolly Nature
 
 Blaziken @ Blazikenite
 Ability: Speed Boost
-EVs: 4 HP / 252 Atk / 252 Spe
+EVs: 4 Def / 252 Atk / 252 Spe
 Naive Nature
 - Low Kick
 - Flare Blitz
@@ -793,7 +829,7 @@ Naive Nature
 
 Blaziken @ Life Orb
 Ability: Speed Boost
-EVs: 4 HP / 252 Atk / 252 Spe
+EVs: 4 Def / 252 Atk / 252 Spe
 Naive Nature
 - Low Kick
 - Flare Blitz
@@ -832,7 +868,7 @@ Timid Nature
 
 Arceus-Ghost @ Spooky Plate
 Ability: Multitype
-EVs: 4 HP / 252 Atk / 252 Spe
+EVs: 4 Def / 252 Atk / 252 Spe
 Jolly Nature
 - Swords Dance
 - Shadow Force
@@ -903,16 +939,7 @@ Jolly Nature
 - Swords Dance
 - Earthquake
 - Stone Edge
-- Extreme Speed
-
-Arceus-Ground @ Earth Plate
-Ability: Multitype
-EVs: 252 Atk / 4 SpD / 252 Spe
-Jolly Nature
-- Swords Dance
-- Earthquake
-- Stone Edge
-- Recover
+- Recover / Extreme Speed
 
 Arceus-Water @ Splash Plate
 Ability: Multitype
@@ -954,7 +981,16 @@ Hasty Nature
 - Diamond Storm
 - Moonblast
 - Earth Power / Protect
-- Protect / Stealth Rock
+- Stealth Rock
+
+Diancie @ Diancite
+Ability: Clear Body
+EVs: 68 Atk / 188 SpA / 252 Spe
+Hasty Nature
+- Diamond Storm
+- Moonblast
+- Earth Power 
+- Protect
 
 
 === [ubers] Landorus ===
