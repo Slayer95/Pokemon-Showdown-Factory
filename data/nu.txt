@@ -164,7 +164,7 @@ Careful Nature
 - Rapid Spin
 - Recover
 - Avalanche
-- Earthquake
+- Earthquake / Roar
 
 
 === [nu] Aurorus ===
@@ -262,7 +262,7 @@ Timid Nature
 - Roost
 - Psychic
 - U-turn
-- Heat Wave
+- Heat Wave / Giga Drain
  
 Xatu @ Leftovers
 Ability: Magic Bounce
@@ -271,7 +271,7 @@ Timid Nature
 - Calm Mind
 - Psychic
 - Roost
-- Signal Beam
+- Signal Beam / Heat Wave
 
 
 === [nu] Weezing ===
@@ -283,7 +283,7 @@ Bold Nature
 - Will-O-Wisp
 - Sludge Bomb
 - Pain Split / Taunt
-- Flamethrower / Toxic Spikes
+- Flamethrower 
 
 === [nu] Vivillon ===
 
@@ -324,7 +324,7 @@ Bold Nature
 - Giga Drain
 - Sludge Bomb
 - Synthesis
-- Aromatherapy
+- Aromatherapy / Sleep Powder
 
 Vileplume @ Black Sludge
 Ability: Effect Spore
@@ -692,7 +692,7 @@ EVs: 240 HP / 252 Def / 16 SpD
 Bold Nature
 - Calm Mind
 - Psyshock
-- Heal Bell
+- Heal Bell / Signal Beam
 - Moonlight
 
 Musharna @ Life Orb
@@ -710,7 +710,7 @@ EVs: 240 HP / 252 Def / 16 SpD
 Bold Nature
 - Baton Pass
 - Moonlight
-- Heal Bell
+- Thunder Wave / Signal Beam
 - Psychic
 
 
@@ -810,8 +810,8 @@ Ability: Levitate
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
 - Psychic
-- Energy Ball
-- Hidden Power [Fire]
+- Energy Ball / Thunderbolt
+- Hidden Power [Fire] / Signal Beam
 - Healing Wish
 
 
@@ -959,7 +959,7 @@ Calm Nature
 - Scald
 - Volt Switch
 - Heal Bell
-- Thunder Wave
+- Thunder Wave / Protect
 
 
 === [nu] Klinklang ===
@@ -1026,7 +1026,7 @@ Timid Nature
 - Focus Blast
 - Trick
 
-Jynx @ Life Orb
+Jynx @ Focus Sash
 Ability: Dry Skin
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
@@ -1163,10 +1163,19 @@ Ferroseed @ Eviolite
 Ability: Iron Barbs
 EVs: 252 HP / 252 Def / 4 SpD
 Relaxed Nature
-- Spikes / Stealth Rock
+- Spikes 
 - Gyro Ball / Knock Off
 - Leech Seed
-- Protect / Thunder Wave
+- Protect 
+
+Ferroseed @ Eviolite
+Ability: Iron Barbs
+EVs: 252 HP / 112 Def / 144 SpD
+Impish Nature
+- Stealth Rock
+- Seed Bomb
+- Leech Seed
+- Thunder Wave
 
 === [nu] Exeggutor ===
 
@@ -1241,7 +1250,7 @@ Jolly Nature
 - Rock Blast
 - Knock Off
 
-Crustle @ Red Card
+Crustle @ Custap Berry
 Ability: Sturdy
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
@@ -1268,28 +1277,6 @@ Adamant Nature
 - Stone Edge
 - Earthquake
 
-
-=== [nu] Cradily ===
-
-Cradily @ Leftovers
-Ability: Storm Drain
-EVs: 252 HP / 4 SpA / 252 SpD
-Sassy Nature
-- Stealth Rock
-- Giga Drain
-- Rock Slide
-- Recover
-
-Cradily @ Leftovers
-Ability: Storm Drain
-EVs: 252 HP / 4 SpA / 252 SpD
-Sassy Nature
-- Recover
-- Toxic
-- Giga Drain
-- Rock Slide
-
-
 === [nu] Cacturne ===
 
 Cacturne @ Life Orb
@@ -1299,7 +1286,7 @@ Rash Nature
 - Dark Pulse
 - Giga Drain
 - Sucker Punch
-- Spikes / Destiny Bond
+- Destiny Bond
 
 Cacturne @ Focus Sash
 Ability: Water Absorb
@@ -1331,7 +1318,7 @@ Bold Nature
 - Wish
 - Heal Bell
 
-Audino @ Audinoite
+Audino @ Audinite
 Ability: Regenerator
 EVs: 172 HP / 252 SpA / 84 Spe
 Modest Nature
@@ -1346,7 +1333,7 @@ EVs: 252 HP / 4 Atk / 252 SpD
 Careful Nature
 - Wish
 - Protect
-- Encore
+- Heal Bell
 - Knock Off
 
 === [nu] Archeops ===
@@ -1355,7 +1342,7 @@ Archeops
 Ability: Defeatist
 EVs: 248 HP / 8 Atk / 252 Spe
 Jolly Nature
-- Taunt
+- Taunt 
 - Roost
 - Acrobatics
 - Defog
@@ -1373,7 +1360,7 @@ Archeops
 Ability: Defeatist
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
-- Taunt
+- Taunt / Aqua Tail
 - Roost
 - Acrobatics
 - Earthquake
@@ -1422,7 +1409,7 @@ Naive Nature
 - Rock Climb
 - Earthquake
 - Fire Blast
-- Zen Headbutt
+- Rock Slide / Zen Headbutt
 
 === [nu] Mawile ===
 
@@ -1443,7 +1430,7 @@ EVs: 248 HP / 8 Atk / 252 Spe
 Jolly Nature
 - Swords Dance
 - Aerial Ace
-- U-turn
+- U-turn / Bug Bite
 - Roost
  
 Scyther @ Choice Band
@@ -1522,7 +1509,7 @@ Ability: Regenerator
 EVs: 236 HP / 48 Def / 224 SpA
 Modest Nature
 - Leaf Storm
-- Giga Drain
+- Giga Drain / Ancient Power
 - Sleep Powder
 - Hidden Power Fire
  
@@ -1544,7 +1531,7 @@ Bold Nature
 - Defog
 - Scald
 - Roost
-- Toxic
+- Toxic / U-turn
  
 === [nu] Piloswine ===
  
@@ -1576,3 +1563,14 @@ Relaxed Nature
 - Sleep Talk
 - Circle Throw
 - Scald
+
+=== [nu] Fletchinder ===
+
+Fletchinder
+Ability: Gale Wings
+EVs: 112 HP / 252 Atk / 144 Spe
+Adamant Nature
+- Swords Dance
+- Acrobatics
+- Will-O-Wisp
+- Roost
