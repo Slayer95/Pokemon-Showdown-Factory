@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 
 require('./Pokemon-Showdown');
 var utils = require('./utils.js');
@@ -12,10 +13,6 @@ var Natures = Tools.data.Natures;
 
 var factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
 var uniqueOptionMoves = utils.toDict(['stealthrock', 'spikes', 'toxicspikes', 'rapidspin', 'defog', 'batonpass']); // High-impact moves
-
-function readTierFile (tier) {
-	return '' + fs.readFileSync('./data/' + tier.toLowerCase() + '.txt');
-}
 
 function getSetDataMove (setData) {
 	return setData.move;
@@ -154,15 +151,45 @@ function addFlags (setLists) {
 	}
 }
 
-function buildSets (callback) {
+function buildSets (options, callback) {
+	if (typeof callback === 'undefined' && typeof options === 'function') {
+		callback = options;
+		options = {};
+	} else if (!options) {
+		options = {};
+	} else {
+		// Validate options
+		if (options.output && !options.output.write) throw new TypeError("Option `output` must be a writable stream");
+		if (options.setData && typeof options.setData !== 'object') throw new TypeError("Option `setData` must be an object");
+	}
+
 	var setListsRaw = {};
 	var setListsByTier = {};
 
-	var fileContents = factoryTiers.map(readTierFile);
+	var setData = [];
+	if (!options.setData) {
+		factoryTiers.forEach(function (tier) {
+			setData.push({
+				tier: tier,
+				path: path.resolve(__dirname, 'data', tier.toLowerCase() + '.txt')
+			});
+		});
+	} else {
+		for (var tier in options.setData) {
+			setData.push({
+				tier: tier,
+				path: options.setData[tier]
+			});
+		}
+	}
 
-	for (var i = 0; i < factoryTiers.length; i++) {
-		setListsRaw[factoryTiers[i]] = parseTeams(fileContents[i]);
-		setListsByTier[factoryTiers[i]] = {};
+	setData.forEach(function (tierData) {
+		tierData.content = fs.readFileSync(tierData.path, 'utf8');
+	});
+
+	for (var i = 0; i < setData.length; i++) {
+		setListsRaw[setData[i].tier] = parseTeams(setData[i].content);
+		setListsByTier[setData[i].tier] = {};
 	}
 
 	// Classify sets according to tier and species
@@ -186,9 +213,9 @@ function buildSets (callback) {
 	addFlags(result.sets);
 
 	// Export as JSON
-	fs.writeFile('./factory-sets.json', JSON.stringify(result.sets) + '\n', function () {
-		callback(null);
-	});
+	var output = options.output || fs.createWriteStream(path.resolve(__dirname, 'factory-sets.json'), {encoding: 'utf8'});
+	output.write(JSON.stringify(result.sets) + '\n');
+	output.end(callback);
 }
 
 exports.run = buildSets;
