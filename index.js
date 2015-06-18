@@ -1,5 +1,6 @@
 var fs = require('fs');
 var path = require('path');
+var cProduct = require('cartesian-product');
 
 require('./Pokemon-Showdown');
 var utils = require('./utils.js');
@@ -13,10 +14,6 @@ var Natures = Tools.data.Natures;
 
 var factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
 var uniqueOptionMoves = utils.toDict(['stealthrock', 'spikes', 'toxicspikes', 'rapidspin', 'defog', 'batonpass']); // High-impact moves
-
-function getSetDataMove (setData) {
-	return setData.move;
-}
 
 function isValidMove (move) {
 	return Movedex.hasOwnProperty(toId(move));
@@ -51,68 +48,6 @@ function proofRead (setLists) {
 	return {errors: errors, sets: sets};
 }
 
-function splitSets (sets) {
-	var output = [];
-	for (var i = 0; i < sets.length; i++) {
-		output = output.concat(splitSet(sets[i]));
-	}
-	if (output.length === sets.length) return output;
-	return splitSets(output);
-}
-
-function splitSet (set) {
-	var sets = [];
-	var baseSet = utils.copySet(set);
-	var addBaseSet = true;
-
-	for (var i = 0, moveCount = set.moves.length; i < moveCount; i++) {
-		var slotAlts = set.moves[i];
-		var setsBase = [];
-		var setsImplied = [];
-
-		for (var j = 0, totalOptions = slotAlts.length; j < totalOptions; j++) {
-			var move = Tools.getMove(slotAlts[j]);
-			var moveName = move.name;
-
-			if (move.id === 'hiddenpower') {
-				var hpType = moveName.slice(13);
-				setsImplied.push({ivs: utils.clone(Tools.getType(hpType).HPivs || {}), move: move.name});
-			} else if (move.id === 'frustration' || move.id === 'return') {
-				setsImplied.push({happiness: move.id === 'frustration' ? 0 : 255, move: move.name});
-			} else if (totalOptions > 1 && uniqueOptionMoves[move.id]) {
-				//console.log("Invalid slashed move for " + set.species + ": '" + move.name + "'. Fixed :]");
-				setsImplied.push({move: move.name});
-			} else {
-				setsBase.push({move: move.name});
-			}
-		}
-
-		for (var j = 0; j < setsImplied.length; j++) {
-			var setClone = utils.copySet(set);
-			setClone.moves[i] = [setsImplied[j].move];
-			if ('ivs' in setsImplied[j]) setClone.ivs = setsImplied[j].ivs;
-			if ('happiness' in setsImplied[j]) setClone.happiness = setsImplied[j].happiness
-			sets.push(setClone);
-		}
-
-		if (setsBase.length) {
-			baseSet.moves[i] = setsBase.map(getSetDataMove);
-		} else {
-			addBaseSet = false;
-		}
-	}
-
-	if (addBaseSet) {
-		sets.unshift(baseSet);
-	}
-
-	return sets;
-}
-
-function splitSetRecursive (set) {
-	return splitSets(splitSet(set));
-}
-
 function proofReadSpeciesSets (setList, speciesid, tier) {
 	var errors = [];
 	var output = [];
@@ -123,7 +58,7 @@ function proofReadSpeciesSets (setList, speciesid, tier) {
 		if (set.item && !Items.hasOwnProperty(toId(set.item))) errors.push("Invalid item for " + speciesid + ": '" + set.item + "'.");
 		if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) errors.push("Invalid nature for " + speciesid + ": '" + set.nature + "'.");
 		if (!utils.inValues(Pokedex[speciesid].abilities, set.ability)) errors.push("Invalid ability for " + speciesid + ": '" + set.ability + "'.");
-		output = output.concat(splitSetRecursive(set));
+		output = output.concat(splitSetClosed(set));
 	}
 
 	for (var i = 0; i < output.length; i++) {
@@ -154,13 +89,67 @@ function proofReadSpeciesSets (setList, speciesid, tier) {
 						errors.push("Duplicate happiness-based moves for " + speciesid + "."); // Meta-based rejection
 					} else {
 						happinessSlot = j;
+						set.happiness = (move.id === 'frustration' ? 0 : 255);
 					}
+				}
+
+				if (move.id === 'hiddenpower') {
+					var hpType = moveName.slice(13);
+					set.ivs = utils.clone(Tools.getType(hpType).HPivs || {});
 				}
 			}
 		}
 	}
 
 	return {errors: errors, sets: output};
+}
+
+function getSetVariants (set) {
+	var setVariants = {moves: []};
+
+	for (var i = 0; i < set.moves.length; i++) {
+		var slotAlts = set.moves[i];
+		var setsBase = [];
+		var setsImplied = [];
+
+		for (var j = 0, totalOptions = slotAlts.length; j < totalOptions; j++) {
+			var move = Tools.getMove(slotAlts[j]);
+			var moveName = move.name;
+
+			if (move.id === 'hiddenpower') {
+				var hpType = moveName.slice(13);
+				setsImplied.push([move.name]);
+			} else if (move.id === 'frustration' || move.id === 'return') {
+				setsImplied.push([move.name]);
+			} else if (totalOptions > 1 && uniqueOptionMoves[move.id]) {
+				setsImplied.push([move.name]);
+			} else {
+				setsBase.push(move.name);
+			}
+		}
+		var slotAltsOutput = [].concat(setsImplied);
+		if (setsBase.length) slotAltsOutput.unshift(setsBase);
+		setVariants.moves.push(slotAltsOutput);
+	}
+
+	return setVariants;
+}
+
+function combineVariants (set, setDivided) {
+	var output = [];
+	var combinations = cProduct(setDivided.moves);
+	for (var i = 0; i < combinations.length; i++) {
+		var setClone = utils.copySet(set);
+		setClone.moves = combinations[i];
+		output.push(setClone);
+	}
+	return output;
+}
+
+function splitSetClosed (set) {
+	var output = [];
+	var variantsSplit = getSetVariants(set);
+	return combineVariants(set, variantsSplit);
 }
 
 function addFlags (setLists) {

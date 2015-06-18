@@ -15,6 +15,9 @@
     "name": "Leonardo Julca Salazar",
     "email": "ivojulca@hotmail.com"
   },
+  "dependencies": {
+    "cartesian-product": "2.1.2"
+  },
   "devDependencies": {
     "mocha": "~2.2.5"
   },
