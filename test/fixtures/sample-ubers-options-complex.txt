@@ -1,0 +1,10 @@
+=== [ubers] Xerneas ===
+
+Xerneas @ Power Herb
+Ability: Fairy Aura
+EVs: 184 HP / 28 Def / 252 SpA / 44 Spe
+Modest Nature
+- Geomancy / Reflect / Light Screen
+- Moonblast / Dazzling Gleam
+- Hidden Power [Ground] / Return / Hidden Power [Ice]
+- Thunder

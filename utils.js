@@ -1,3 +1,6 @@
+var util = require('util');
+var stream = require('stream');
+
 var fullTierList = ['Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU'];
 var tierPositions = Object.create(null);
 for (var i = 0; i < fullTierList.length; i++) {
@@ -77,3 +80,14 @@ exports.statIDs = {
 	SpD: 'spd', SDef: 'spd', SpDef: 'spd', spd: 'spd',
 	Spe: 'spe', Spd: 'spe', spe: 'spe'
 };
+
+function outputStream (data) {
+	stream.Writable.call(this);
+	this.setData = '';
+}
+util.inherits(outputStream, stream.Writable);
+outputStream.prototype.write = function (data) {
+	this.setData += data;
+};
+
+exports.outputStream = outputStream;

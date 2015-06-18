@@ -1,0 +1,30 @@
+=== [ubers] Klefki ===
+
+Klefki @ Leftovers
+Ability: Prankster
+EVs: 248 HP / 8 Atk / 252 SpD
+Careful Nature
+- Spikes
+- Thunder Wave
+- Toxic
+- Play Rough
+
+=== [ubers] Zekrom ===
+
+Zekrom @ Choice Band
+Ability: Teravolt
+EVs: 252 Atk / 4 SpA / 252 Spe
+Adamant Nature
+- Bolt Strike
+- Outrage
+- Dragon Claw
+- Volt Switch
+
+Zekrom @ Choice Scarf
+Ability: Teravolt
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Bolt Strike
+- Volt Switch
+- Draco Meteor
+- Outrage
