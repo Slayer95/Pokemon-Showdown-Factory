@@ -32,8 +32,10 @@ function proofRead (setLists) {
 		for (var speciesid in setLists[tier]) {
 			if (!Pokedex.hasOwnProperty(speciesid)) {
 				errors.push("Invalid species id: " + speciesid);
+				continue;
 			} else if (utils.getTierIndex(Tools.getTemplate(speciesid).tier) < minTierIndex) {
 				errors.push("Pokémon " + speciesid + " is banned from " + tier);
+				continue;
 			}
 
 			var speciesResult = proofReadSpeciesSets(setLists[tier][speciesid].sets, speciesid, tier);
@@ -49,85 +51,116 @@ function proofRead (setLists) {
 	return {errors: errors, sets: sets};
 }
 
+function splitSets (sets) {
+	var output = [];
+	for (var i = 0; i < sets.length; i++) {
+		output = output.concat(splitSet(sets[i]));
+	}
+	if (output.length === sets.length) return output;
+	return splitSets(output);
+}
+
+function splitSet (set) {
+	var sets = [];
+	var baseSet = utils.copySet(set);
+	var addBaseSet = true;
+
+	for (var i = 0, moveCount = set.moves.length; i < moveCount; i++) {
+		var slotAlts = set.moves[i];
+		var setsBase = [];
+		var setsImplied = [];
+
+		for (var j = 0, totalOptions = slotAlts.length; j < totalOptions; j++) {
+			var move = Tools.getMove(slotAlts[j]);
+			var moveName = move.name;
+
+			if (move.id === 'hiddenpower') {
+				var hpType = moveName.slice(13);
+				setsImplied.push({ivs: utils.clone(Tools.getType(hpType).HPivs || {}), move: move.name});
+			} else if (move.id === 'frustration' || move.id === 'return') {
+				setsImplied.push({happiness: move.id === 'frustration' ? 0 : 255, move: move.name});
+			} else if (totalOptions > 1 && uniqueOptionMoves[move.id]) {
+				//console.log("Invalid slashed move for " + set.species + ": '" + move.name + "'. Fixed :]");
+				setsImplied.push({move: move.name});
+			} else {
+				setsBase.push({move: move.name});
+			}
+		}
+
+		for (var j = 0; j < setsImplied.length; j++) {
+			var setClone = utils.copySet(set);
+			setClone.moves[i] = [setsImplied[j].move];
+			if ('ivs' in setsImplied[j]) setClone.ivs = setsImplied[j].ivs;
+			if ('happiness' in setsImplied[j]) setClone.happiness = setsImplied[j].happiness
+			sets.push(setClone);
+		}
+
+		if (setsBase.length) {
+			baseSet.moves[i] = setsBase.map(getSetDataMove);
+		} else {
+			addBaseSet = false;
+		}
+	}
+
+	if (addBaseSet) {
+		sets.unshift(baseSet);
+	}
+
+	return sets;
+}
+
+function splitSetRecursive (set) {
+	return splitSets(splitSet(set));
+}
+
 function proofReadSpeciesSets (setList, speciesid, tier) {
 	var errors = [];
+	var output = [];
 
-	for (var i = 0, len = setList.length; i < len; i++) {
-		var hiddenPowerSlot = 4; // Only one slot allowed for Hidden Power.
-		var happinessSlot = 4; // Only one slot allowed for Return / Frustration.
-		var moveSlots = Object.create(null); // Only one slot allowed for any other move as well.
-
+	for (var i = 0; i < setList.length; i++) {
 		var set = setList[i];
+		if (set.isClone) throw new Error("Unexpected `isClone` property");
 		if (set.item && !Items.hasOwnProperty(toId(set.item))) errors.push("Invalid item for " + speciesid + ": '" + set.item + "'.");
 		if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) errors.push("Invalid nature for " + speciesid + ": '" + set.nature + "'.");
 		if (!utils.inValues(Pokedex[speciesid].abilities, set.ability)) errors.push("Invalid ability for " + speciesid + ": '" + set.ability + "'.");
-		for (var j = 0, moveCount = set.moves.length; j < moveCount; j++) {
+		output = output.concat(splitSetRecursive(set));
+	}
+
+	for (var i = 0; i < output.length; i++) {
+		var happinessSlot = 4; // Only one slot allowed for Return / Frustration.
+		var moveSlots = Object.create(null); // Only one slot allowed for any other move as well.
+		var set = output[i];
+
+		for (var j = 0; j < set.moves.length; j++) {
 			var moveSlot = set.moves[j];
 
-			// TODO: Account for Happiness / Hidden Power combinations across different move slots.
-			// This requires some sort of loop or recursion.
-			// Total set variants that require a different weight:
-			// (Happiness options + (Any base options ? 1 : 0)) * (Hidden Power options + (Any base options ? 1 : 0))
-
-			var setsBase = [];
-			var setsImplied = [];
-
-			for (var k = 0, totalOptions = moveSlot.length; k < totalOptions; k++) {
-				var moveOption = moveSlot[k];
-				if (!isValidMove(moveOption)) {
+			for (var k = 0, totalSlashed = moveSlot.length; k < totalSlashed; k++) {
+				var move = Tools.getMove(moveSlot[k]);
+				if (!move.exists) {
 					errors.push("Invalid move for " + speciesid + ": '" + moveOption + "'");
-				} else {
-					if (totalOptions > 1 && uniqueOptionMoves[toId(moveOption)]) {
-						errors.push("Invalid slashed move for " + speciesid + ": '" + moveOption + "'");
-					}
-					if (moveSlots[moveOption] <= j) {
-						errors.push("Duplicate move " + moveOption + " for " + speciesid + ".");
-					} else {
-						moveSlots[moveOption] = j;
-					}
+					continue;
+				}
+				var moveName = move.name;
+				if (moveName !== moveSlot[k]) moveSlot[k] = moveName;
 
-					if (moveOption.slice(0, 14) === 'Hidden Power [') {
-						if (hiddenPowerSlot < j) {
-							errors.push("Duplicate Hidden Power for " + speciesid + ".");
-						} else {
-							var hpType = moveOption.slice(14, -1);
-							moveOption = 'Hidden Power ' + hpType;
-							setsImplied.push({ivs: utils.clone(Tools.getType(hpType).HPivs), move: moveOption});
-						}
-					} else if (moveOption === 'Frustration' || moveOption === 'Return') {
-						if (happinessSlot < j) {
-							// Meta-based rejection that should simplify everything.
-							// After all, it's complex due to the meta-based code.
-							errors.push("Duplicate happiness-based moves for " + speciesid + ".");
-						} else {
-							happinessSlot = j;
-							setsImplied.push({happiness: moveOption === 'Frustration' ? 0 : 255, move: moveOption});
-						}
+				if (moveSlots[move.id] <= j) {
+					errors.push("Duplicate move " + moveName + " for " + speciesid + ".");
+				} else {
+					moveSlots[move.id] = j;
+				}
+
+				if (move.id === 'frustration' || move.id === 'return') {
+					if (happinessSlot < j) {
+						errors.push("Duplicate happiness-based moves for " + speciesid + "."); // Meta-based rejection
 					} else {
-						setsBase.push({move: moveOption});
+						happinessSlot = j;
 					}
 				}
 			}
-
-			for (var k = 0, totalImplied = setsImplied.length; k < totalImplied; k++) {
-				var setClone = utils.copySet(set);
-				setClone.moves[j] = [setsImplied[k].move];
-				if ('ivs' in setsImplied[k]) setClone.ivs = setsImplied[k].ivs;
-				if ('happiness' in setsImplied[k]) setClone.happiness = setsImplied[k].happiness
-				// Don't proof-read these extra sets for now. (This actually blocks previous TODO).
-				setList.push(setClone);
-			}
-
-			if (setsBase.length) {
-				set.moves[j] = setsBase.map(getSetDataMove);
-			} else {
-				setList.splice(i, 1);
-				i--; len--;
-				break;
-			}
 		}
 	}
-	return {errors: errors, sets: setList};
+
+	return {errors: errors, sets: output};
 }
 
 function addFlags (setLists) {

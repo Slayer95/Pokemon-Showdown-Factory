@@ -34,6 +34,16 @@ var cloneObject = exports.clone = function clone (obj) {
 };
 
 var setKeys = ['species', 'gender', 'item', 'ability', 'shiny', 'level', 'happiness', 'evs', 'ivs', 'nature', 'moves'];
+
+function markClone (set) {
+	return Object.defineProperty(set, 'isClone', {
+		value: true,
+		enumerable: false,
+		writable: true,
+		configurable: true
+	});
+}
+
 exports.copySet = function copySet (set) {
 	var clone = {};
 
@@ -55,7 +65,7 @@ exports.copySet = function copySet (set) {
 		}
 	}
 
-	return clone;
+	return markClone(clone);
 };
 
 // Notations supported by PS teambuilder

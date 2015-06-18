@@ -49,13 +49,26 @@ describe("inValues", function () {
 describe("copySet", function () {
 	it("should return a deep clone of a set", function () {
 		var set = {
-			species:"Gengar", item:"Choice Scarf", nature: "Timid",
-			evs: {"spe":252,"spa":252,"spd":4}, ivs:{"hp":31,"atk":0,"def":31,"spa":31,"spd":31,"spe":31},
+			species:"Gengar", item: "Choice Scarf", nature: "Timid",
+			evs: {"spe":252,"spa":252,"spd":4}, ivs: {"hp":31,"atk":0,"def":31,"spa":31,"spd":31,"spe":31},
 			moves: ["Will-O-Wisp", "Hex", "Sludge Bomb", "Destiny Bond"],
 			ability:"Levitate", level: 100
 		};
 		var copy = utils.copySet(set);
 		assert.notStrictEqual(set, copy);
 		assert.deepEqual(set, copy);
+	});
+
+	it("should have a non-enumerable truthy `isClone` property", function () {
+		var set = {
+			species:"Gengar", item: "Choice Scarf", nature: "Timid",
+			evs: {"spe":252,"spa":252,"spd":4}, ivs: {"hp":31,"atk":0,"def":31,"spa":31,"spd":31,"spe":31},
+			moves: ["Will-O-Wisp", "Hex", "Sludge Bomb", "Destiny Bond"],
+			ability:"Levitate", level: 100
+		};
+		var copy = utils.copySet(set);
+		var descriptor = Object.getOwnPropertyDescriptor(copy, 'isClone');
+		assert.ok(descriptor);
+		assert.ok(!descriptor.enumerable);
 	});
 });
