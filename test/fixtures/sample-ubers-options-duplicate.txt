@@ -1,0 +1,10 @@
+=== [ubers] Klefki ===
+
+Klefki @ Leftovers
+Ability: Prankster
+EVs: 248 HP / 8 Atk / 252 SpD
+Careful Nature
+- Spikes
+- Thunder Wave / Toxic
+- Light Screen / Toxic
+- Play Rough
