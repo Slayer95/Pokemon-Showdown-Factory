@@ -16,7 +16,7 @@ var Natures = Tools.data.Natures;
 var factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
 var uniqueOptionMoves = utils.toDict(['stealthrock', 'spikes', 'toxicspikes', 'rapidspin', 'defog', 'batonpass']); // High-impact moves
 
-function proofRead (setLists) {
+function proofRead (setLists, strict) {
 	var errors = [];
 	var sets = {};
 
@@ -32,7 +32,7 @@ function proofRead (setLists) {
 				continue;
 			}
 
-			var speciesResult = proofReadSpeciesSets(setLists[tier][speciesid].sets, speciesid, tier);
+			var speciesResult = proofReadSpeciesSets(setLists[tier][speciesid].sets, speciesid, tier, strict);
 			if (speciesResult.errors.length) {
 				errors = errors.concat(speciesResult.errors);
 			} else {
@@ -45,7 +45,7 @@ function proofRead (setLists) {
 	return {errors: errors, sets: sets};
 }
 
-function proofReadSpeciesSets (setList, speciesid, tier) {
+function proofReadSpeciesSets (setList, speciesid, tier, strict) {
 	var errors = [];
 	var output = [];
 
@@ -55,7 +55,16 @@ function proofReadSpeciesSets (setList, speciesid, tier) {
 		if (set.item && !Items.hasOwnProperty(toId(set.item))) errors.push("Invalid item for " + tier + " " + speciesid + ": '" + set.item + "'.");
 		if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) errors.push("Invalid nature for " + tier + " " + speciesid + ": '" + set.nature + "'.");
 		if (!utils.inValues(Pokedex[speciesid].abilities, set.ability)) errors.push("Invalid ability for " + tier + " " + speciesid + ": '" + set.ability + "'.");
-		output = output.concat(splitSetClosed(set));
+		var setsSplit = splitSetClosed(set);
+		output = output.concat(setsSplit.valid);
+		for (var j = 0; j < setsSplit.invalid.length; j++) {
+			errors.push("Conflict between moves for " + tier + " " + speciesid + ": '" + Object.keys(setsSplit.invalid[j].conflict).join("', '") + "'");
+		}
+		if (strict) {
+			for (var j = 0; j < setsSplit.discarded.length; j++) {
+				errors.push("Conflict between alternate moves for " + tier + " " + speciesid + "'");
+			}
+		}
 	}
 
 	for (var i = 0; i < output.length; i++) {
@@ -104,6 +113,20 @@ function proofReadSpeciesSets (setList, speciesid, tier) {
 function getSetVariants (set) {
 	var setVariants = {moves: []};
 
+	var moveCount = Object.create(null);
+	var duplicateMoves = Object.create(null);
+	for (var i = 0; i < set.moves.length; i++) {
+		for (var j = 0; j < set.moves[i].length; j++) {
+			var move = Tools.getMove(set.moves[i][j]);
+			if (moveCount[move.id]) {
+				moveCount[move.id]++;
+				duplicateMoves[move.id] = 1;
+			} else {
+				moveCount[move.id] = 1;
+			}
+		}
+	}
+
 	for (var i = 0; i < set.moves.length; i++) {
 		var slotAlts = set.moves[i];
 		var setsBase = [];
@@ -112,12 +135,13 @@ function getSetVariants (set) {
 		for (var j = 0, totalOptions = slotAlts.length; j < totalOptions; j++) {
 			var move = Tools.getMove(slotAlts[j]);
 			var moveName = move.name;
+			moveCount[moveName] = moveCount[moveName] ? moveCount[moveName] + 1 : 1;
 
 			if (move.id === 'hiddenpower') {
 				setsImplied.push([move.name]);
 			} else if (move.id === 'frustration' || move.id === 'return') {
 				setsImplied.push([move.name]);
-			} else if (totalOptions > 1 && uniqueOptionMoves[move.id]) {
+			} else if (totalOptions > 1 && (uniqueOptionMoves[move.id] || duplicateMoves[move.id])) {
 				setsImplied.push([move.name]);
 			} else {
 				setsBase.push(move.name);
@@ -131,20 +155,62 @@ function getSetVariants (set) {
 	return setVariants;
 }
 
+// `setDivided` has a property `moves`, which is an array (thereafter "the moveset"), whose elements are n arrays with arbitrary dimensions D1, D2, ..., Dn.
+// Returns an array of up to Π Di copies of `set`, having their property `moves` replaced by each element of the n-ary Cartesian product of the moveset elements, holding the condition:
+// a) Subsets of each such element should be disjoint sets.
+
 function combineVariants (set, setDivided) {
-	var output = [];
+	// 1) `valid`: Valid combinations
+	// 2) `discarded`: Invalid combinations between slashed moves only
+	// 3) `invalid`: Invalid combinations including fixed moves
+	var output = {valid: [], discarded: [], invalid: []};
 	var combinations = cProduct(setDivided.moves);
+	var fixedMoves = Object.create(null);
+	for (var i = 0; i < set.moves.length; i++) {
+		if (set.moves[i].length <= 1) fixedMoves[Tools.getMove(set.moves[i][0]).name] = 1;
+	}
 	for (var i = 0; i < combinations.length; i++) {
+		var combination = combinations[i];
+		var partitionCheck = checkPartition(combination);
 		var setClone = utils.copySet(set);
-		setClone.moves = combinations[i];
-		output.push(setClone);
+		setClone.moves = combination;
+		if (partitionCheck.result) {
+			output.valid.push(setClone);
+		} else {
+			partitionCheck = checkPartition([Object.keys(fixedMoves), Object.keys(partitionCheck.intersection)]);
+			if (partitionCheck.result) {
+				utils.markConflict(setClone, partitionCheck.intersection);
+				output.discarded.push(setClone);
+			} else {
+				utils.markConflict(setClone, partitionCheck.intersection);
+				output.invalid.push(setClone);
+			}
+		}
 	}
 	return output;
 }
 
+function checkPartition (arr) {
+	var result = true;
+	var duplicateMoves = Object.create(null);
+	var elems = Object.create(null);
+	for (var i = 0; i < arr.length; i++) {
+		for (var j = 0; j < arr[i].length; j++) {
+			if (elems[arr[i][j]]) {
+				duplicateMoves[arr[i][j]] = 1;
+				result = false;
+			} else {
+				elems[arr[i][j]] = 1;
+			}
+		}
+	}
+	return {result: result, intersection: duplicateMoves};
+}
+
 function splitSetClosed (set) {
 	var variantsSplit = getSetVariants(set);
-	return combineVariants(set, variantsSplit);
+	var combinedVariants = combineVariants(set, variantsSplit);
+	return combinedVariants;
 }
 
 function addFlags (setLists) {
@@ -221,7 +287,7 @@ function buildSets (options, callback) {
 	}
 
 	// Check for weird stuff, and fix if possible
-	var result = proofRead(setListsByTier);
+	var result = proofRead(setListsByTier, !!options.strict);
 	if (result.errors.length) {
 		return callback(new Error(result.errors.join('\n')));
 	}
@@ -231,8 +297,9 @@ function buildSets (options, callback) {
 
 	// Export as JSON
 	var output = options.output || fs.createWriteStream(path.resolve(__dirname, 'factory-sets.json'), {encoding: 'utf8'});
+	output.on('finish', callback);
 	output.write(JSON.stringify(result.sets) + '\n');
-	output.end(callback);
+	output.end();
 }
 
 exports.run = buildSets;
