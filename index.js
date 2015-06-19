@@ -6,6 +6,7 @@ require('./Pokemon-Showdown');
 var utils = require('./utils.js');
 var parseTeams = require('./parser.js');
 
+var toId = global.toId;
 var Tools = global.Tools;
 var Pokedex = Tools.data.Pokedex;
 var Movedex = Tools.data.Movedex;
@@ -14,10 +15,6 @@ var Natures = Tools.data.Natures;
 
 var factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
 var uniqueOptionMoves = utils.toDict(['stealthrock', 'spikes', 'toxicspikes', 'rapidspin', 'defog', 'batonpass']); // High-impact moves
-
-function isValidMove (move) {
-	return Movedex.hasOwnProperty(toId(move));
-}
 
 function proofRead (setLists) {
 	var errors = [];
@@ -55,9 +52,9 @@ function proofReadSpeciesSets (setList, speciesid, tier) {
 	for (var i = 0; i < setList.length; i++) {
 		var set = setList[i];
 		if (set.isClone) throw new Error("Unexpected `isClone` property");
-		if (set.item && !Items.hasOwnProperty(toId(set.item))) errors.push("Invalid item for " + speciesid + ": '" + set.item + "'.");
-		if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) errors.push("Invalid nature for " + speciesid + ": '" + set.nature + "'.");
-		if (!utils.inValues(Pokedex[speciesid].abilities, set.ability)) errors.push("Invalid ability for " + speciesid + ": '" + set.ability + "'.");
+		if (set.item && !Items.hasOwnProperty(toId(set.item))) errors.push("Invalid item for " + tier + " " + speciesid + ": '" + set.item + "'.");
+		if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) errors.push("Invalid nature for " + tier + " " + speciesid + ": '" + set.nature + "'.");
+		if (!utils.inValues(Pokedex[speciesid].abilities, set.ability)) errors.push("Invalid ability for " + tier + " " + speciesid + ": '" + set.ability + "'.");
 		output = output.concat(splitSetClosed(set));
 	}
 
@@ -72,7 +69,7 @@ function proofReadSpeciesSets (setList, speciesid, tier) {
 			for (var k = 0, totalSlashed = moveSlot.length; k < totalSlashed; k++) {
 				var move = Tools.getMove(moveSlot[k]);
 				if (!move.exists) {
-					errors.push("Invalid move for " + speciesid + ": '" + moveOption + "'");
+					errors.push("Invalid move for " + speciesid + ": '" + move.name + "'");
 					continue;
 				}
 				var moveName = move.name;
@@ -117,7 +114,6 @@ function getSetVariants (set) {
 			var moveName = move.name;
 
 			if (move.id === 'hiddenpower') {
-				var hpType = moveName.slice(13);
 				setsImplied.push([move.name]);
 			} else if (move.id === 'frustration' || move.id === 'return') {
 				setsImplied.push([move.name]);
@@ -147,7 +143,6 @@ function combineVariants (set, setDivided) {
 }
 
 function splitSetClosed (set) {
-	var output = [];
 	var variantsSplit = getSetVariants(set);
 	return combineVariants(set, variantsSplit);
 }

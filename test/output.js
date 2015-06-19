@@ -3,7 +3,7 @@ var path = require('path');
 var assert = require('assert');
 
 var builder = require('./..');
-var outStream = require('./../utils.js').outputStream;
+var OutStream = require('./../utils.js').OutputStream;
 
 describe("Builder", function () {
 	describe("Output stream", function () {
@@ -23,14 +23,14 @@ describe("Builder", function () {
 				setData: {
 					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers.txt')
 				},
-				output: new outStream().on('finish', done)
+				output: new OutStream().on('finish', done)
 			});
 		});
 	});
 
 	describe("Output data", function () {
 		it('should be a valid JSON string for an object', function (done) {
-			var stream = new outStream();
+			var stream = new OutStream();
 			builder.run({
 				setData: {
 					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers.txt')
@@ -45,7 +45,7 @@ describe("Builder", function () {
 		});
 
 		it('should consist of correct sets', function (done) {
-			var stream = new outStream();
+			var stream = new OutStream();
 			builder.run({
 				setData: {
 					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers.txt')
@@ -57,20 +57,20 @@ describe("Builder", function () {
 							klefki: {
 								"flags": {},
 								"sets": [{
-									species: "Klefki",gender: "", item: "Leftovers",ability: "Prankster",
-									evs: {"hp": 248,"atk": 8,"def": 0,"spa": 0,"spd": 252,"spe": 0}, nature: "Careful",
+									species: "Klefki", gender: "", item: "Leftovers", ability: "Prankster",
+									evs: {"hp": 248, "atk": 8, "def": 0, "spa": 0, "spd": 252, "spe": 0}, nature: "Careful",
 									moves: [["Spikes"], ["Thunder Wave"], ["Toxic"], ["Play Rough"]]
 								}]
 							},
 							zekrom:  {
 								"flags": {},
 								"sets": [{
-									species: "Zekrom","gender": "", item: "Choice Band", ability: "Teravolt",
-									evs: {"hp": 0,"atk": 252,"def": 0,"spa": 4,"spd": 0,"spe": 252}, nature: "Adamant",
+									species: "Zekrom", "gender": "", item: "Choice Band", ability: "Teravolt",
+									evs: {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, nature: "Adamant",
 									moves: [["Bolt Strike"], ["Outrage"], ["Dragon Claw"], ["Volt Switch"]]
 								}, {
-									species: "Zekrom",gender: "", item: "Choice Scarf", ability: "Teravolt",
-									evs: {"hp": 0,"atk": 252,"def": 0,"spa": 4,"spd": 0,"spe": 252}, nature: "Lonely",
+									species: "Zekrom", gender: "", item: "Choice Scarf", ability: "Teravolt",
+									evs: {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, nature: "Lonely",
 									moves: [["Bolt Strike"], ["Volt Switch"], ["Draco Meteor"], ["Outrage"]]
 								}]
 							}
@@ -82,7 +82,7 @@ describe("Builder", function () {
 		});
 
 		it('should parse sets with Hidden Power correctly', function (done) {
-			var stream = new outStream();
+			var stream = new OutStream();
 			builder.run({
 				setData: {
 					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-hiddenpower.txt')
@@ -94,8 +94,8 @@ describe("Builder", function () {
 							xerneas: {
 								"flags": {},
 								"sets": [{
-									species: "Xerneas",gender: "", item: "Power Herb",ability: "Fairy Aura",
-									evs: {"hp": 184,"atk": 0,"def": 28,"spa": 252,"spd": 0,"spe": 44}, nature: "Modest",
+									species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
+									evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 									ivs: {"spa":30, "spd":30},
 									moves: [["Geomancy"], ["Moonblast"], ["Hidden Power Ground"], ["Thunder"]]
 								}]
@@ -104,11 +104,11 @@ describe("Builder", function () {
 					});
 					done();
 				})
-			})
+			});
 		});
 
 		it('should parse sets with Frustration correctly', function (done) {
-			var stream = new outStream();
+			var stream = new OutStream();
 			builder.run({
 				setData: {
 					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-frustration.txt')
@@ -120,8 +120,8 @@ describe("Builder", function () {
 							xerneas: {
 								"flags": {},
 								"sets": [{
-									species: "Xerneas",gender: "", item: "Power Herb",ability: "Fairy Aura",
-									evs: {"hp": 184,"atk": 0,"def": 28,"spa": 252,"spd": 0,"spe": 44}, nature: "Modest",
+									species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
+									evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 									happiness: 0,
 									moves: [["Geomancy"], ["Moonblast"], ["Frustration"], ["Thunder"]]
 								}]
@@ -130,11 +130,11 @@ describe("Builder", function () {
 					});
 					done();
 				})
-			})
+			});
 		});
 
 		it('should parse sets with Hidden Power and Frustration correctly', function (done) {
-			var stream = new outStream();
+			var stream = new OutStream();
 			builder.run({
 				setData: {
 					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-hiddenpower-frustration.txt')
@@ -146,8 +146,8 @@ describe("Builder", function () {
 							xerneas: {
 								"flags": {},
 								"sets": [{
-									species: "Xerneas",gender: "", item: "Power Herb",ability: "Fairy Aura",
-									evs: {"hp": 184,"atk": 0,"def": 28,"spa": 252,"spd": 0,"spe": 44}, nature: "Modest",
+									species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
+									evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 									ivs: {"spa":30, "spd":30}, happiness: 0,
 									moves: [["Geomancy"], ["Moonblast"], ["Hidden Power Ground"], ["Frustration"]]
 								}]
@@ -156,11 +156,11 @@ describe("Builder", function () {
 					});
 					done();
 				})
-			})
+			});
 		});
 
 		it('should parse sets with options correctly', function (done) {
-			var stream = new outStream();
+			var stream = new OutStream();
 			builder.run({
 				setData: {
 					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options.txt')
@@ -172,8 +172,8 @@ describe("Builder", function () {
 							xerneas: {
 								"flags": {},
 								"sets": [{
-									species: "Xerneas",gender: "", item: "Power Herb",ability: "Fairy Aura",
-									evs: {"hp": 184,"atk": 0,"def": 28,"spa": 252,"spd": 0,"spe": 44}, nature: "Modest",
+									species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
+									evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 									ivs: {"spa":30, "spd":30}, happiness: 0,
 									moves: [["Geomancy"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Frustration"]]
 								}]
@@ -182,11 +182,11 @@ describe("Builder", function () {
 					});
 					done();
 				})
-			})
+			});
 		});
 
 		it('should parse sets with complex options correctly', function (done) {
-			var stream = new outStream();
+			var stream = new OutStream();
 			builder.run({
 				setData: {
 					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-complex.txt')
@@ -199,8 +199,8 @@ describe("Builder", function () {
 								xerneas: {
 									"flags": {},
 									"sets": [{
-										species: "Xerneas",gender: "", item: "Power Herb",ability: "Fairy Aura",
-										evs: {"hp": 184,"atk": 0,"def": 28,"spa": 252,"spd": 0,"spe": 44}, nature: "Modest",
+										species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
+										evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 										ivs: {"spa":30, "spd":30},
 										moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Thunder"]]
 									}]
@@ -212,8 +212,8 @@ describe("Builder", function () {
 								xerneas: {
 									"flags": {},
 									"sets": [{
-										species: "Xerneas",gender: "", item: "Power Herb",ability: "Fairy Aura",
-										evs: {"hp": 184,"atk": 0,"def": 28,"spa": 252,"spd": 0,"spe": 44}, nature: "Modest",
+										species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
+										evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 										happiness: 255,
 										moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Return"], ["Thunder"]]
 									}]
@@ -225,8 +225,8 @@ describe("Builder", function () {
 								xerneas: {
 									"flags": {},
 									"sets": [{
-										species: "Xerneas",gender: "", item: "Power Herb",ability: "Fairy Aura",
-										evs: {"hp": 184,"atk": 0,"def": 28,"spa": 252,"spd": 0,"spe": 44}, nature: "Modest",
+										species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
+										evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 										ivs: {"atk":30, "def":30},
 										moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ice"], ["Thunder"]]
 									}]
@@ -254,11 +254,11 @@ describe("Builder", function () {
 
 					done();
 				})
-			})
+			});
 		});
 
 		it('should split off Defog', function (done) {
-			var stream = new outStream();
+			var stream = new OutStream();
 			builder.run({
 				setData: {
 					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-defog.txt')
@@ -271,8 +271,8 @@ describe("Builder", function () {
 								xerneas: {
 									"flags": {},
 									"sets": [{
-										species: "Xerneas",gender: "", item: "Power Herb",ability: "Fairy Aura",
-										evs: {"hp": 184,"atk": 0,"def": 28,"spa": 252,"spd": 0,"spe": 44}, nature: "Modest",
+										species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
+										evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 										ivs: {"spa":30, "spd":30},
 										moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Defog"]]
 									}]
@@ -284,8 +284,8 @@ describe("Builder", function () {
 								xerneas: {
 									"flags": {},
 									"sets": [{
-										species: "Xerneas",gender: "", item: "Power Herb",ability: "Fairy Aura",
-										evs: {"hp": 184,"atk": 0,"def": 28,"spa": 252,"spd": 0,"spe": 44}, nature: "Modest",
+										species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
+										evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 										ivs: {"spa":30, "spd":30},
 										moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Clear Smog"]]
 									}]
@@ -313,7 +313,7 @@ describe("Builder", function () {
 
 					done();
 				})
-			})
+			});
 		});
 	});
 });

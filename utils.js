@@ -29,11 +29,11 @@ exports.inValues = function inValues (obj, val) {
 };
 
 var cloneObject = exports.clone = function clone (obj) {
-	var clone = {};
+	var clonedObj = {};
 	for (var key in obj) {
-		clone[key] = obj[key];
+		clonedObj[key] = obj[key];
 	}
-	return clone;
+	return clonedObj;
 };
 
 var setKeys = ['species', 'gender', 'item', 'ability', 'shiny', 'level', 'happiness', 'evs', 'ivs', 'nature', 'moves'];
@@ -81,13 +81,13 @@ exports.statIDs = {
 	Spe: 'spe', Spd: 'spe', spe: 'spe'
 };
 
-function outputStream (data) {
+function OutputStream () {
 	stream.Writable.call(this);
 	this.setData = '';
 }
-util.inherits(outputStream, stream.Writable);
-outputStream.prototype.write = function (data) {
+util.inherits(OutputStream, stream.Writable);
+OutputStream.prototype.write = function (data) {
 	this.setData += data;
 };
 
-exports.outputStream = outputStream;
+exports.OutputStream = OutputStream;

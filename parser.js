@@ -1,18 +1,20 @@
+var toId = global.toId;
 var Tools = global.Tools;
 var utils = require('./utils.js');
 var statIDs = utils.statIDs;
 
-// Mostly from http://github.com/Zarel/Pokemon-Showdown-Client/js/client-teambuilder.js
+// Mostly from http://github.com/Zarel/Pokemon-Showdown-Client/blob/master/js/client-teambuilder.js
 module.exports = function parseTeams (text) {
 	var teams = [];
-	var text = text.split('\n');
+	var lines = text.split('\n');
 	var curSet = null;
-	for (var i = 0; i < text.length; i++) {
-		var line = text[i].trim();
+	for (var i = 0; i < lines.length; i++) {
+		var line = lines[i].trim();
 		if (line === '' || line === '---') {
 			curSet = null;
 		} else if (line.slice(0, 3) === '===' && teams) {
 			// Do nothing
+			continue;
 		} else if (!curSet) {
 			curSet = {species: '', gender: ''};
 			teams.push(curSet);
