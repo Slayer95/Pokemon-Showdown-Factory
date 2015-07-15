@@ -219,18 +219,6 @@ Adamant Nature
 - Power-Up Punch
 
 
-=== [ou] [OU] Venomoth ===
-
-Venomoth @ Black Sludge
-Ability: Tinted Lens
-EVs: 248 HP / 8 Def / 252 Spe
-Timid Nature
-- Quiver Dance
-- Sleep Powder
-- Baton Pass
-- Bug Buzz
-
-
 === [ou] [OU] Tornadus-Therian ===
 
 Tornadus-Therian @ Assault Vest
@@ -345,15 +333,6 @@ Adamant Nature
 - Earthquake
 - Poison Jab
 - Protect
-
-Scolipede @ Mental Herb
-Ability: Speed Boost
-EVs: 248 HP / 20 Def / 240 Spe
-Timid Nature
-- Protect
-- Substitute
-- Baton Pass
-- Iron Defense
 
 
 === [ou] [OU] Medicham ===

@@ -64,18 +64,6 @@ Bold Nature
 - Earth Power
 
 
-=== [ru] Gorebyss ===
-
-Gorebyss @ White Herb
-Ability: Swift Swim
-EVs: 252 HP / 24 SpA / 232 Spe
-Modest Nature
-- Shell Smash
-- Baton Pass
-- Hydro Pump
-- Ice Beam
-
-
 === [ru] Delphox ===
 
 Delphox @ Choice Scarf
@@ -113,18 +101,6 @@ Timid Nature
 - Calm Mind
 - Fire Blast
 - Psychic
-
-
-=== [ru] Combusken ===
-
-Combusken @ Eviolite
-Ability: Speed Boost
-EVs: 252 HP / 64 Def / 192 Spe
-Jolly Nature
-- Protect
-- Baton Pass
-- Bulk Up
-- Flare Blitz
 
 
 === [ru] Clawitzer ===
@@ -790,45 +766,6 @@ Adamant Nature
 - Iron Head
 - Knock Off
 - Drill Run
-
-
-=== [ru] Cobalion ===
-
-Cobalion @ Leftovers
-Ability: Justified
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Calm Mind
-- Flash Cannon
-- Hidden Power [Ghost]
-- Focus Blast
-
-Cobalion @ Lum Berry
-Ability: Justified
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Swords Dance
-- Close Combat
-- Iron Head
-- Magnet Rise
-
-Cobalion @ Leftovers
-Ability: Justified
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Substitute
-- Swords Dance
-- Close Combat
-- Iron Head
-
-Cobalion @ Leftovers
-Ability: Justified
-EVs: 160 HP / 96 Atk / 252 Spe
-Jolly Nature
-- Stealth Rock
-- Close Combat
-- Volt Switch
-- Iron Head
 
 
 === [ru] Aromatisse ===

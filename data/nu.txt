@@ -1388,18 +1388,6 @@ Relaxed Nature
 - Recover
 - Toxic / Curse
 
-=== [nu] Sneasel ===
-
-Sneasel @ Life Orb
-Ability: Inner Focus
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Knock Off
-- Pursuit / Low Kick
-- Icicle Crash
-- Ice Shard
-
-
 === [nu] Tauros ===
 
 Tauros @ Life Orb
