@@ -3,7 +3,7 @@ var Tools = global.Tools;
 var utils = require('./utils.js');
 var statIDs = utils.statIDs;
 
-// Mostly from http://github.com/Zarel/Pokemon-Showdown-Client/blob/master/js/client-teambuilder.js
+// Mostly from https://github.com/Zarel/Pokemon-Showdown-Client/blob/2a6a2667a751f/js/storage.js#L262
 module.exports = function parseTeams (text) {
 	var teams = [];
 	var lines = text.split('\n');
