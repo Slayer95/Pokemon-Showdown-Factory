@@ -54,8 +54,8 @@ function proofReadSpeciesSets (setList, speciesid, tier, strict) {
 		if (set.isClone) throw new Error("Unexpected `isClone` property");
 		if (set.item && !Items.hasOwnProperty(toId(set.item))) errors.push("Invalid item for " + tier + " " + speciesid + ": '" + set.item + "'.");
 		if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) errors.push("Invalid nature for " + tier + " " + speciesid + ": '" + set.nature + "'.");
-		if (set.evs && (!Object.all(utils.isValidEV) || Object.sum(set.evs) > 510)) errors.push("Invalid EVs for " + tier + " " + speciesid + ": '" + Object.values(set.evs).join(", ") + "'.");
-		if (set.ivs && !Object.all(utils.isValidIV)) errors.push("Invalid IVs for " + tier + " " + speciesid + ": '" + Object.values(set.evs).join(", ") + "'.");
+		if (set.evs && (!Object.values(set.evs).every(utils.isValidEV) || Object.sum(set.evs) > 510)) errors.push("Invalid EVs for " + tier + " " + speciesid + ": '" + Object.values(set.evs).join(", ") + "'.");
+		if (set.ivs && !Object.values(set.ivs).every(utils.isValidIV)) errors.push("Invalid IVs for " + tier + " " + speciesid + ": '" + Object.values(set.evs).join(", ") + "'.");
 		if (set.happiness && !utils.isValidHappiness(set.happiness)) errors.push("Happiness out of bounds for " + tier + " " + speciesid + ": '" + set.happiness + "'.");
 		if ('level' in set && !utils.isValidLevel(set.level)) errors.push("Level out of bounds for " + tier + " " + speciesid + ": '" + set.level + "'.");
 
