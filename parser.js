@@ -49,10 +49,10 @@ module.exports = function parseTeams (text) {
 			curSet.shiny = true;
 		} else if (line.slice(0, 7) === 'Level: ') {
 			line = line.slice(7);
-			curSet.level = +line;
+			curSet.level = parseInt(line, 10);
 		} else if (line.slice(0, 11) === 'Happiness: ') {
 			line = line.slice(11);
-			curSet.happiness = +line;
+			curSet.happiness = parseInt(line, 10);
 		} else if (line.slice(0, 9) === 'Ability: ') {
 			line = line.slice(9);
 			curSet.ability = line;

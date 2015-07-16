@@ -12,6 +12,18 @@ exports.getTierIndex = function (tier) {
 	return tierPositions[tier];
 };
 
+var RangeValidator = function (start, end) {
+	return function (value) {
+		return value >= start && value <= end;
+	};
+}
+
+/* Assume integer inputs */
+exports.isValidEV = new RangeValidator(0, 252);
+exports.isValidIV = new RangeValidator(0, 32);
+exports.isValidLevel = new RangeValidator(1, 100);
+exports.isValidHappiness = new RangeValidator(0, 252);
+
 exports.toDict = function (data) {
 	if (!Array.isArray(data)) throw new TypeError("toDict only accepts arrays as input");
 	var dict = Object.create(null);
