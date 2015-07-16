@@ -13,7 +13,7 @@ Pokemon Showdown Battle Factory Sets Generator
 ## Updating
 
 	git pull origin master
-	git submodule foreach git pull origin master
+	git submodule update --remote
 
 ## Usage
 
