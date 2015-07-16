@@ -12,7 +12,7 @@ exports.getTierIndex = function (tier) {
 	return tierPositions[tier];
 };
 
-var RangeValidator = function (start, end) {
+function RangeValidator (start, end) {
 	return function (value) {
 		return value >= start && value <= end;
 	};
