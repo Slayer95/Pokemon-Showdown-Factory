@@ -52,7 +52,7 @@ Lonely Nature
 
 Yveltal @ Choice Scarf
 Ability: Dark Aura
-EVs: 32 Atk / 4 Def / 252 SpA / 224 Spe
+EVs: 32 Atk / 252 SpA / 224 Spe
 Modest Nature
 - Dark Pulse
 - Oblivion Wing
@@ -129,7 +129,7 @@ Modest Nature
 
 Tyranitar @ Leftovers
 Ability: Sand Stream
-EVs: 248 HP / 96 Def / 168 SpD
+EVs: 248 HP / 96 Def / 166 SpD
 Careful Nature
 - Stealth Rock
 - Pursuit
@@ -547,7 +547,7 @@ Adamant Nature
 
 Groudon @ Red Orb
 Ability: Drought
-EVs: 252 HP / 56 Def / 196 SpD / 12 Spe
+EVs: 252 HP / 56 Def / 196 SpD / 6 Spe
 Impish Nature
 - Stealth Rock
 - Precipice Blades
