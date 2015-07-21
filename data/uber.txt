@@ -880,43 +880,64 @@ Jolly Nature
 - Stone Edge / Knock Off
 
 
-=== [ubers] [Ubers] Arceus 2 ===
+=== [ubers] [Ubers] Arceus 4 ===
 
-Arceus-Rock @ Stone Plate
+Arceus-Water @ Splash Plate
 Ability: Multitype
-EVs: 248 HP / 8 SpA / 252 Spe
-Timid Nature
-- Judgment
+EVs: 248 HP / 204 Def / 56 Spe
+Bold Nature
+- Ice Beam / Judgment
 - Defog
 - Recover
-- Will-O-Wisp
+- Toxic
 
-Arceus-Ghost @ Spooky Plate
+Arceus-Steel @ Iron Plate
 Ability: Multitype
-EVs: 248 HP / 8 SpA / 252 Spe
+EVs: 248 HP / 84 SpA / 176 Spe
 Timid Nature
 - Calm Mind
 - Judgment
 - Recover
-- Will-O-Wisp
+- Earth Power / Thunder
 
-Arceus-Ghost @ Spooky Plate
+Arceus-Steel @ Iron Plate
 Ability: Multitype
-EVs: 4 Def / 252 Atk / 252 Spe
+EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
 - Swords Dance
-- Shadow Force
-- Shadow Claw / Brick Break
-- Extreme Speed
+- Iron Head
+- Earthquake
+- Stone Edge / Recover / Extreme Speed
 
-Arceus-Ghost @ Spooky Plate
+Arceus-Fire @ Flame Plate
 Ability: Multitype
-EVs: 4 Def / 252 Atk / 252 Spe
-Jolly Nature
-- Swords Dance
-- Shadow Force
-- Shadow Claw
-- Brick Break
+EVs: 200 HP / 252 SpA / 56 Spe
+Modest Nature
+- Overheat / Fire Blast
+- Calm Mind
+- Thunder
+- Earth Power
+
+Arceus-Flying @ Sky Plate
+Ability: Multitype
+EVs: 96 HP / 236 SpA / 176
+Timid Nature
+- Judgment
+- Calm Mind
+- Recover
+- Refresh / Earth Power / Substitute
+
+Arceus-Psychic @ Mind Plate
+Ability: Multitype
+EVs: 248 HP / 204 Def / 56 Spe
+Bold Nature
+- Fire Blast / Payback
+- Ice Beam
+- Recover 
+- Toxic
+
+
+=== [ubers] [Ubers] Arceus 3 ===
 
 Arceus-Poison @ Toxic Plate
 Ability: Multitype
@@ -925,24 +946,6 @@ Impish Nature
 - Defog
 - Poison Jab
 - Thunder Wave
-- Recover
-
-Arceus-Dragon @ Draco Plate
-Ability: Multitype
-EVs: 248 HP / 204 Def / 56 Spe
-Bold Nature
-- Judgment
-- Defog
-- Recover
-- Toxic
-
-Arceus-Dragon @ Draco Plate
-Ability: Multitype
-EVs: 248 HP / 84 SpA / 176 Spe
-Timid Nature
-- Calm Mind
-- Judgment
-- Fire Blast
 - Recover
 
 Arceus-Bug @ Insect Plate
@@ -989,6 +992,62 @@ Timid Nature
 - Recover
 - Calm Mind
 - Thunder / Fire Blast
+
+=== [ubers] [Ubers] Arceus 2 ===
+
+Arceus-Rock @ Stone Plate
+Ability: Multitype
+EVs: 248 HP / 8 SpA / 252 Spe
+Timid Nature
+- Judgment
+- Defog
+- Recover
+- Will-O-Wisp
+
+Arceus-Ghost @ Spooky Plate
+Ability: Multitype
+EVs: 248 HP / 8 SpA / 252 Spe
+Timid Nature
+- Calm Mind
+- Judgment
+- Recover
+- Will-O-Wisp
+
+Arceus-Ghost @ Spooky Plate
+Ability: Multitype
+EVs: 4 Def / 252 Atk / 252 Spe
+Jolly Nature
+- Swords Dance
+- Shadow Force
+- Shadow Claw / Brick Break
+- Extreme Speed
+
+Arceus-Ghost @ Spooky Plate
+Ability: Multitype
+EVs: 4 Def / 252 Atk / 252 Spe
+Jolly Nature
+- Swords Dance
+- Shadow Force
+- Shadow Claw
+- Brick Break
+
+Arceus-Dragon @ Draco Plate
+Ability: Multitype
+EVs: 248 HP / 204 Def / 56 Spe
+Bold Nature
+- Judgment
+- Defog
+- Recover
+- Toxic
+
+Arceus-Dragon @ Draco Plate
+Ability: Multitype
+EVs: 248 HP / 84 SpA / 176 Spe
+Timid Nature
+- Calm Mind
+- Judgment
+- Fire Blast
+- Recover
 
 
 === [ubers] [Ubers] Arceus ===
@@ -1046,60 +1105,6 @@ Jolly Nature
 - Earthquake
 - Stone Edge
 - Recover / Extreme Speed
-
-Arceus-Water @ Splash Plate
-Ability: Multitype
-EVs: 248 HP / 204 Def / 56 Spe
-Bold Nature
-- Ice Beam / Judgment
-- Defog
-- Recover
-- Toxic
-
-Arceus-Steel @ Iron Plate
-Ability: Multitype
-EVs: 248 HP / 84 SpA / 176 Spe
-Timid Nature
-- Calm Mind
-- Judgment
-- Recover
-- Earth Power / Thunder
-
-Arceus-Steel @ Iron Plate
-Ability: Multitype
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Swords Dance
-- Iron Head
-- Earthquake
-- Stone Edge / Recover / Extreme Speed
-
-Arceus-Fire @ Flame Plate
-Ability: Multitype
-EVs: 200 HP / 252 SpA / 56 Spe
-Modest Nature
-- Overheat / Fire Blast
-- Calm Mind
-- Thunder
-- Earth Power
-
-Arceus-Flying @ Sky Plate
-Ability: Multitype
-EVs: 96 HP / 236 SpA / 176
-Timid Nature
-- Judgment
-- Calm Mind
-- Recover
-- Refresh / Earth Power / Substitute
-
-Arceus-Psychic @ Mind Plate
-Ability: Multitype
-EVs: 248 HP / 204 Def / 56 Spe
-Bold Nature
-- Fire Blast / Payback
-- Ice Beam
-- Recover 
-- Toxic
 
 
 === [ubers] [Ubers] Aegislash ===
