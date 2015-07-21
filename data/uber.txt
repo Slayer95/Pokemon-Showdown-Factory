@@ -564,7 +564,7 @@ Adamant Nature
 
 Groudon @ Red Orb
 Ability: Drought
-EVs: 248 HP / 56 Def / 196 SpD / 12 Spe
+EVs: 248 HP / 56 Def / 192 SpD / 12 Spe
 Impish Nature
 - Stealth Rock
 - Precipice Blades / Earthquake
