@@ -880,7 +880,7 @@ Jolly Nature
 - Stone Edge / Knock Off
 
 
-=== [ubers] [Ubers] Arceus 4 ===
+=== [ubers] [Ubers] Arceus ===
 
 Arceus-Water @ Splash Plate
 Ability: Multitype
@@ -936,9 +936,6 @@ Bold Nature
 - Recover 
 - Toxic
 
-
-=== [ubers] [Ubers] Arceus 3 ===
-
 Arceus-Poison @ Toxic Plate
 Ability: Multitype
 EVs: 248 HP / 204 Def / 56 Spe
@@ -993,8 +990,6 @@ Timid Nature
 - Calm Mind
 - Thunder / Fire Blast
 
-=== [ubers] [Ubers] Arceus 2 ===
-
 Arceus-Rock @ Stone Plate
 Ability: Multitype
 EVs: 248 HP / 8 SpA / 252 Spe
@@ -1048,9 +1043,6 @@ Timid Nature
 - Judgment
 - Fire Blast
 - Recover
-
-
-=== [ubers] [Ubers] Arceus ===
 
 Arceus @ Life Orb
 Ability: Multitype
