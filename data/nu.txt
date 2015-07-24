@@ -21,15 +21,6 @@ Jolly Nature
 
 === [nu] Chatot ===
 
-Chatot @ Choice Scarf
-Ability: Keen Eye
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Boomburst
-- Chatter
-- U-turn
-- Hidden Power [Ground]
-
 Chatot @ Choice Specs
 Ability: Keen Eye
 EVs: 4 Def / 252 SpA / 252 Spe
@@ -136,24 +127,14 @@ Adamant Nature
 
 === [nu] Barbaracle ===
 
-Barbaracle @ Life Orb
+Barbaracle @ Shuca Berry
 Ability: Tough Claws
-EVs: 4 HP / 252 Atk / 252 Spe
-Jolly Nature
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
 - Shell Smash
 - Razor Shell
-- Stone Edge
-- Cross Chop
-
-Barbaracle @ Lum Berry
-Ability: Tough Claws
-EVs: 4 HP / 252 Atk / 252 Spe
-Jolly Nature
-- Shell Smash
-- Razor Shell
-- Stone Edge
-- Cross Chop
-
+- Return
+- Earthquake
 
 === [nu] Avalugg ===
 
@@ -175,7 +156,7 @@ EVs: 252 SpA / 4 SpD / 252 Spe
 Modest Nature
 - Hyper Voice
 - Freeze-Dry
-- Psychic
+- Frost Breath
 - Earth Power
 
 Aurorus @ Life Orb
@@ -395,8 +376,8 @@ EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Boomburst
 - U-turn
-- Endeavor
-- Hidden Power [Fighting]
+- Heat Wave
+- Sleep Talk
 
 Swellow @ Toxic Orb
 Ability: Guts
@@ -509,6 +490,14 @@ Bold Nature
 - Air Slash
 - Pain Split
 
+Rotom-Fan @ Expert Belt
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Volt Switch
+- Air Slash
+- Hidden Power [Grass]
+- Will-O-Wisp
 
 === [nu] Rotom ===
 
@@ -564,7 +553,7 @@ Rhydon @ Eviolite
 Ability: Lightning Rod
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
-- Swords Dance
+- Rock Polish
 - Earthquake
 - Stone Edge
 - Megahorn
@@ -718,20 +707,20 @@ Bold Nature
 
 Muk @ Assault Vest
 Ability: Poison Touch
-EVs: 4 HP / 252 Atk / 252 SpD
-Adamant Nature
-- Gunk Shot
-- Poison Jab
-- Fire Punch
-- Ice Punch
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+- Poison Jab / Gunk Shot
+- Shadow Sneak
+- Giga Drain
+- Fire Punch / Ice Punch
 
-Muk @ Chesto Berry
+Muk @ Black Sludge
 Ability: Poison Touch
-EVs: 4 HP / 252 Atk / 252 SpD
-Adamant Nature
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Poison Jab
 - Curse
-- Rest
-- Gunk Shot
+- Shadow Sneak
 - Fire Punch
 
 
@@ -775,6 +764,15 @@ Careful Nature
 - Body Slam
 - Milk Drink
 - Heal Bell
+
+Miltank @ Leftovers
+Ability: Sap Sipper
+EVs: 252 HP / 236 Def / 20 Spe
+Impish Nature
+- Stealth Rock
+- Seismic Toss / Body Slam
+- Thunder Wave / Toxic
+- Milk Drink
 
 === [nu] Mesprit ===
 
@@ -866,7 +864,7 @@ Modest Nature
 - Fire Blast
 - Psychic
 - Thunderbolt
-- Hidden Power [Grass]
+- Hidden Power [Grass] / Focus Blast
 
 Magmortar @ Life Orb
 Ability: Vital Spirit
@@ -904,10 +902,10 @@ Timid Nature
 Lilligant @ Choice Scarf
 Ability: Own Tempo
 EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
+Modest Nature
 - Sleep Powder
 - Leaf Storm
-- Hidden Power [Fire]
+- Hidden Power [Fire] / Giga Drain
 - Healing Wish
 
 
@@ -931,25 +929,15 @@ Jolly Nature
 - Sucker Punch
 - U-turn
 
-Liepard @ Life Orb
-Ability: Limber
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Knock Off
-- Play Rough
-- Sucker Punch
-- U-turn
-
-
 === [nu] Lanturn ===
 
 Lanturn @ Choice Specs
 Ability: Volt Absorb
-EVs: 196 HP / 252 SpA / 60 Spe
+EVs: 252 SpA / 72 SpD / 184 Spe
 Modest Nature
 - Hydro Pump
 - Volt Switch
-- Ice Beam
+- Ice Beam / Signal Beam
 - Hidden Power [Grass]
 
 Lanturn @ Leftovers
@@ -966,7 +954,7 @@ Calm Nature
 
 Klinklang @ Leftovers
 Ability: Clear Body
-EVs: 92 HP / 252 Atk / 164 Spe
+EVs: 160 HP / 252 Atk / 96 Spe
 Adamant Nature
 - Shift Gear
 - Gear Grind
@@ -1014,7 +1002,6 @@ Jolly Nature
 - Aqua Jet
 - Superpower / Waterfall
 
-
 === [nu] Jynx ===
 
 Jynx @ Choice Scarf
@@ -1023,7 +1010,7 @@ EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
 - Ice Beam
 - Psychic
-- Focus Blast
+- Focus Blast / Lovely Kiss
 - Trick
 
 Jynx @ Focus Sash
@@ -1040,19 +1027,9 @@ Ability: Dry Skin
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Lovely Kiss
-- Nasty Plot
+- Nasty Plot / Focus Blast
 - Psychic
 - Ice Beam
-
-Jynx @ Life Orb
-Ability: Dry Skin
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Lovely Kiss
-- Nasty Plot
-- Substitute
-- Ice Beam
-
 
 === [nu] Hariyama ===
 
@@ -1229,7 +1206,7 @@ Calm Nature
 - Recover
 - Haze
 
-Cryogonal @ Life Orb
+Cryogonal @ Icicle Plate
 Ability: Levitate
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
@@ -1538,7 +1515,7 @@ Poliwrath @ Life Orb
 Ability: Water Absorb
 EVs: 96 HP / 252 SpA / 160 Spe
 Modest Nature
-- Hydro Pump
+- Hydro Pump / Scald
 - Focus Blast
 - Ice Beam
 - Vacuum Wave
@@ -1562,3 +1539,14 @@ Adamant Nature
 - Acrobatics
 - Will-O-Wisp
 - Roost
+
+=== [nu] Misdreavus ===
+
+Misdreavus @ Eviolite
+Ability: Levitate
+EVs: 252 HP / 240 Def / 16 Spe
+Timid Nature
+- Will-O-Wisp
+- Hex
+- Taunt
+- Pain Split
