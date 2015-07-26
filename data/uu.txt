@@ -735,8 +735,8 @@ Adamant Nature
 === Espeon ===
 
 Espeon @ Light Clay
-Ability: Synchronize
-EVs: 248 HP / 252 Spe
+Ability: Magic Bounce
+EVs: 248 HP / 8 SpA / 252 Spe
 Timid Nature
 IVs: 0 Atk
 - Morning Sun

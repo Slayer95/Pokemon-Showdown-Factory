@@ -47,12 +47,20 @@ Lonely Nature
 - Dragon Claw
 - Tailwind
 
+Zekrom @ Shuca Berry
+Ability: Teravolt
+EVs: 132 HP / 252 Atk / 124 Spe
+Adamant Nature
+- Substitute / Outrage
+- Hone Claws
+- Bolt Strike
+- Dragon Claw
 
 === [ubers] Yveltal ===
 
 Yveltal @ Choice Scarf
 Ability: Dark Aura
-EVs: 32 Atk / 252 SpA / 224 Spe
+EVs: 32 Atk / 4 Def / 248 SpA / 224 Spe
 Modest Nature
 - Dark Pulse
 - Oblivion Wing
@@ -121,7 +129,7 @@ EVs: 184 HP / 28 Def / 252 SpA / 44 Spe
 Modest Nature
 - Geomancy
 - Moonblast
-- Hidden Power [Ground]
+- Hidden Power [Ground] / Focus Blast
 - Thunder
 
 
@@ -354,15 +362,6 @@ Timid Nature
 - Ice Beam
 - Focus Blast
 
-Mewtwo @ Leftovers
-Ability: Unnerve
-EVs: 252 HP / 80 Def / 176 Spe
-Timid Nature
-- Taunt
-- Will-O-Wisp
-- Recover
-- Psystrike
-
 
 === [ubers] [Ubers] Mawile-Mega ===
 
@@ -482,6 +481,33 @@ Bold Nature
 - Scald
 - Ice Beam / Roar
 
+Kyogre @ Blue Orb
+Ability: Drizzle
+EVs: 248 HP / 248 SpA / 12 Spe
+Modest Nature
+- Origin Pulse
+- Thunder / Rest / Substitute
+- Ice Beam
+- Calm Mind
+
+Kyogre @ Choice Specs
+Ability: Drizzle
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Water Spout
+- Origin Pulse / Scald
+- Ice Beam
+- Thunder
+
+Kyogre @ Choice Scarf
+Ability: Drizzle
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Water Spout
+- Ice Beam
+- Origin Pulse
+- Thunder / Sleep Talk
+
 
 === [ubers] [Ubers] Mega Kangaskhan ===
 
@@ -498,7 +524,7 @@ Kangaskhan @ Kangaskhanite
 Ability: Scrappy
 EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
-- Return
+- Return / Double-Edge
 - Fake Out
 - Sucker Punch
 - Low Kick
@@ -515,23 +541,14 @@ Adamant Nature
 - Earthquake
 - Sleep Talk
 
-Ho-Oh @ Leftovers
-Ability: Regenerator
-EVs: 248 HP / 208 Def / 52 SpD
-Impish Nature
-- Brave Bird
-- Sacred Fire
-- Roost
-- Whirlwind
-
 Ho-Oh @ Life Orb
 Ability: Regenerator
 EVs: 248 HP / 208 Atk / 52 SpD
 Adamant Nature
 - Brave Bird
 - Sacred Fire
-- Roost
-- Thunder Wave
+- Recover
+- Thunder Wave / Earthquake / Substitute
 
 
 === [ubers] [Ubers] Groudon ===
@@ -541,16 +558,16 @@ Ability: Drought
 EVs: 252 Atk / 200 SpD / 56 Spe
 Adamant Nature
 - Rock Polish
-- Earthquake
+- Precipice Blades / Earthquake
 - Stone Edge
 - Swords Dance / Dragon Claw
 
 Groudon @ Red Orb
 Ability: Drought
-EVs: 252 HP / 56 Def / 196 SpD / 6 Spe
+EVs: 248 HP / 56 Def / 192 SpD / 12 Spe
 Impish Nature
 - Stealth Rock
-- Precipice Blades
+- Precipice Blades / Earthquake
 - Lava Plume / Stone Edge
 - Thunder Wave / Roar
 
@@ -562,6 +579,15 @@ Calm Nature
 - Roar
 - Rest 
 - Sleep Talk
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 248 HP / 248 Def / 12 Spe
+Impish Nature
+- Precipice Blades
+- Stealth Rock
+- Stone Edge
+- Dragon Tail / Roar
 
 
 === [ubers] [Ubers] Greninja ===
@@ -575,6 +601,14 @@ Jolly Nature
 - Taunt
 - Shadow Sneak
 
+Greninja @ Focus Sash
+Ability: Protean
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Toxic Spikes
+- Scald
+- Taunt
+- Shadow Sneak
 
 === [ubers] [Ubers] Giratina ===
 
@@ -846,11 +880,119 @@ Jolly Nature
 - Stone Edge / Knock Off
 
 
-=== [ubers] [Ubers] Arceus 2 ===
+=== [ubers] [Ubers] Arceus ===
+
+Arceus-Water @ Splash Plate
+Ability: Multitype
+EVs: 248 HP / 204 Def / 56 Spe
+Bold Nature
+- Ice Beam / Judgment
+- Defog
+- Recover
+- Toxic
+
+Arceus-Steel @ Iron Plate
+Ability: Multitype
+EVs: 248 HP / 84 SpA / 176 Spe
+Timid Nature
+- Calm Mind
+- Judgment
+- Recover
+- Earth Power / Thunder
+
+Arceus-Steel @ Iron Plate
+Ability: Multitype
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Iron Head
+- Earthquake
+- Stone Edge / Recover / Extreme Speed
+
+Arceus-Fire @ Flame Plate
+Ability: Multitype
+EVs: 200 HP / 252 SpA / 56 Spe
+Modest Nature
+- Overheat / Fire Blast
+- Calm Mind
+- Thunder
+- Earth Power
+
+Arceus-Flying @ Sky Plate
+Ability: Multitype
+EVs: 96 HP / 236 SpA / 176
+Timid Nature
+- Judgment
+- Calm Mind
+- Recover
+- Refresh / Earth Power / Substitute
+
+Arceus-Psychic @ Mind Plate
+Ability: Multitype
+EVs: 248 HP / 204 Def / 56 Spe
+Bold Nature
+- Fire Blast / Payback
+- Ice Beam
+- Recover 
+- Toxic
+
+Arceus-Poison @ Toxic Plate
+Ability: Multitype
+EVs: 248 HP / 204 Def / 56 Spe
+Impish Nature
+- Defog
+- Poison Jab
+- Thunder Wave
+- Recover
+
+Arceus-Bug @ Insect Plate
+Ability: Multitype
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- X-Scissor
+- Stone Edge
+- Earthquake
+
+Arceus-Fighting @ Fist Plate
+Ability: Multitype
+EVs: 40 Def / 252 SpA / 216 Spe
+Modest Nature
+- Judgment
+- Thunder Wave
+- Recover
+- Ice Beam / Stone Edge
+
+Arceus-Fairy @ Pixie Plate
+Ability: Multitype
+EVs: 248 HP / 204 Def / 56 Spe
+Bold Nature
+- Judgment
+- Recover
+- Defog
+- Toxic
+
+Arceus-Fairy @ Pixie Plate
+Ability: Multitype
+EVs: 248 HP / 8 SpA / 252 Spe
+Timid Nature
+- Judgment
+- Calm Mind
+- Recover
+- Earth Power / Thunder
+
+Arceus-Ice @ Icicle Plate
+Ability: Multitype
+EVs: 248 HP / 8 SpA / 252 Spe
+Timid Nature
+- Judgment
+- Recover
+- Calm Mind
+- Thunder / Fire Blast
 
 Arceus-Rock @ Stone Plate
 Ability: Multitype
-EVs: 252 HP / 4 SpA / 252 Spe
+EVs: 248 HP / 8 SpA / 252 Spe
 Timid Nature
 - Judgment
 - Defog
@@ -859,7 +1001,7 @@ Timid Nature
 
 Arceus-Ghost @ Spooky Plate
 Ability: Multitype
-EVs: 252 HP / 4 SpA / 252 Spe
+EVs: 248 HP / 8 SpA / 252 Spe
 Timid Nature
 - Calm Mind
 - Judgment
@@ -884,17 +1026,23 @@ Jolly Nature
 - Shadow Claw
 - Brick Break
 
-Arceus-Poison @ Toxic Plate
+Arceus-Dragon @ Draco Plate
 Ability: Multitype
-EVs: 252 HP / 200 Def / 56 Spe
-Impish Nature
+EVs: 248 HP / 204 Def / 56 Spe
+Bold Nature
+- Judgment
 - Defog
-- Poison Jab
-- Thunder Wave
 - Recover
+- Toxic
 
-
-=== [ubers] [Ubers] Arceus ===
+Arceus-Dragon @ Draco Plate
+Ability: Multitype
+EVs: 248 HP / 84 SpA / 176 Spe
+Timid Nature
+- Calm Mind
+- Judgment
+- Fire Blast
+- Recover
 
 Arceus @ Life Orb
 Ability: Multitype
@@ -950,14 +1098,6 @@ Jolly Nature
 - Stone Edge
 - Recover / Extreme Speed
 
-Arceus-Water @ Splash Plate
-Ability: Multitype
-EVs: 248 HP / 204 Def / 56 Spe
-Bold Nature
-- Ice Beam / Judgment
-- Defog
-- Recover
-- Toxic
 
 === [ubers] [Ubers] Aegislash ===
 
