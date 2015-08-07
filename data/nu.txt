@@ -189,18 +189,6 @@ Timid Nature
 - Freeze-Dry
 
 
-=== [nu] Ariados ===
-
-Ariados @ Focus Sash
-Ability: Insomnia
-EVs: 252 Atk / 4 SpD / 252 Spe
-Jolly Nature
-- Sticky Web
-- Toxic Spikes
-- Megahorn
-- Poison Jab
-
-
 === [nu] Arbok ===
 
 Arbok @ Black Sludge
@@ -227,7 +215,7 @@ Adamant Nature
 Zangoose @ Toxic Orb
 Ability: Toxic Boost
 EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
+Adamant Nature
 - Facade
 - Knock Off
 - Quick Attack
@@ -305,7 +293,7 @@ Bold Nature
 - Giga Drain
 - Sludge Bomb
 - Synthesis
-- Aromatherapy / Sleep Powder
+- Hidden Power [Ground] / Sleep Powder
 
 Vileplume @ Black Sludge
 Ability: Effect Spore
@@ -313,38 +301,8 @@ EVs: 112 HP / 252 SpA / 144 Spe
 Modest Nature
 - Giga Drain
 - Sludge Bomb
-- Hidden Power [Fire]
+- Hidden Power [Ground] / Hidden Power [Fire]
 - Synthesis
-
-
-=== [nu] Uxie ===
-
-Uxie @ Leftovers
-Ability: Levitate
-EVs: 252 HP / 200 Def / 56 Spe
-Relaxed Nature
-- Stealth Rock
-- Thunder Wave
-- Psychic
-- U-turn
-
-Uxie @ Light Clay
-Ability: Levitate
-EVs: 252 HP / 4 Def / 252 Spe
-Timid Nature
-- Reflect
-- Light Screen
-- Memento
-- Stealth Rock
-
-Uxie @ Leftovers
-Ability: Levitate
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Calm Mind
-- Giga Drain / Hidden Power [Fire]
-- Psyshock
-- Signal Beam
 
 
 === [nu] Torkoal ===
@@ -565,7 +523,7 @@ Adamant Nature
 - Stealth Rock
 - Earthquake
 - Rock Blast
-- Megahorn / Roar
+- Megahorn 
 
 
 === [nu] Regirock ===
@@ -589,7 +547,7 @@ Timid Nature
 - Fire Blast
 - Hyper Voice
 - Hidden Power [Grass]
-- Flamethrower
+- Overheat
 
 
 === [nu] Probopass ===
@@ -630,7 +588,7 @@ EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
 - Close Combat
 - U-turn
-- Stone Edge
+- Stone Edge / Earthquake
 - Gunk Shot
 
 Primeape @ Expert Belt
@@ -639,7 +597,7 @@ EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
 - Close Combat
 - U-turn
-- Stone Edge
+- Stone Edge / Earthquake
 - Encore
 
 
@@ -650,15 +608,6 @@ Ability: Defiant
 EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
 - Swords Dance
-- Knock Off
-- Iron Head
-- Sucker Punch
-
-Pawniard @ Eviolite
-Ability: Defiant
-EVs: 252 Atk / 4 Def / 252 Spe
-Adamant Nature
-- Pursuit
 - Knock Off
 - Iron Head
 - Sucker Punch
@@ -750,7 +699,7 @@ EVs: 252 HP / 80 Def / 176 Spe
 Timid Nature
 - Taunt
 - Will-O-Wisp
-- Shadow Ball
+- Hex / Shadow Ball
 - Pain Split
 
 
@@ -771,7 +720,7 @@ EVs: 252 HP / 236 Def / 20 Spe
 Impish Nature
 - Stealth Rock
 - Seismic Toss / Body Slam
-- Thunder Wave / Toxic
+- Toxic / Thunder Wave
 - Milk Drink
 
 === [nu] Mesprit ===
@@ -1074,13 +1023,13 @@ Impish Nature
 - Heal Bell
 - Roar
 
-Granbull @ Choice Band
+Granbull @ Leftovers
 Ability: Intimidate
 EVs: 212 HP / 252 Atk / 44 Spe
 Adamant Nature
 - Play Rough
 - Fire Punch
-- Thunder Punch
+- Thunder Wave
 - Earthquake
 
 
@@ -1212,7 +1161,7 @@ EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Rapid Spin
 - Freeze-Dry
-- Hidden Power [Ground]
+- Hidden Power [Ground] / Ice Beam
 - Recover
 
 
@@ -1236,22 +1185,13 @@ Jolly Nature
 - Rock Blast
 - Knock Off
 
-Crustle @ Life Orb
+Crustle @ Mental Herb
 Ability: Sturdy
 EVs: 252 Atk / 4 Def / 252 Spe
-Adamant Nature
+Jolly Nature
 - Shell Smash
-- X-Scissor
-- Stone Edge
-- Earthquake
-
-Crustle @ White Herb
-Ability: Sturdy
-EVs: 252 Atk / 4 Def / 252 Spe
-Adamant Nature
-- Shell Smash
-- X-Scissor
-- Stone Edge
+- Rock Blast
+- Stealth Rock
 - Earthquake
 
 === [nu] Cacturne ===
@@ -1292,8 +1232,8 @@ EVs: 252 HP / 252 Def / 4 SpD
 Bold Nature
 - Calm Mind
 - Dazzling Gleam
-- Wish
-- Heal Bell
+- Rest
+- Sleep Talk
 
 Audino @ Audinite
 Ability: Regenerator
@@ -1302,7 +1242,7 @@ Modest Nature
 - Calm Mind
 - Dazzling Gleam
 - Fire Blast
-- Psychic / Surf
+- Psychic 
 
 Audino @ Leftovers
 Ability: Regenerator
@@ -1337,10 +1277,10 @@ Archeops
 Ability: Defeatist
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
-- Taunt / Aqua Tail
-- Roost
 - Acrobatics
 - Earthquake
+- Knock Off
+- Aqua Tail / Roost
 
 
 === [nu] Claydol ===
@@ -1363,7 +1303,7 @@ Relaxed Nature
 - Scald
 - Earthquake
 - Recover
-- Toxic / Curse
+- Curse / Toxic
 
 === [nu] Tauros ===
 
@@ -1374,7 +1314,7 @@ Naive Nature
 - Rock Climb
 - Earthquake
 - Fire Blast
-- Rock Slide / Zen Headbutt
+- Zen Headbutt / Rock Slide / Pursuit
 
 === [nu] Mawile ===
 
@@ -1386,6 +1326,15 @@ Adamant Nature
 - Iron Head / Fire Fang
 - Swords Dance
 - Sucker Punch
+
+Mawile @ Leftovers
+Ability: Intimidate
+EVs: 252 HP / 4 Atk / 252 Def
+Impish Nature
+- Play Rough / Iron Head
+- Stealth Rock
+- Baton Pass
+- Super Fang / Toxic
 
 === [nu] Scyther ===
  
@@ -1411,7 +1360,7 @@ Jolly Nature
  
 Torterra @ Leftovers
 Ability: Overgrow
-EVs: 252 HP / 252 Atk / 4 Def
+EVs: 252 HP / 128 Atk / 128 Def
 Adamant Nature
 - Wood Hammer
 - Earthquake
@@ -1426,15 +1375,6 @@ Adamant Nature
 - Wood Hammer
 - Earthquake
 - Stone Edge
- 
-Torterra @ Choice Band
-Ability: Overgrow
-EVs: 252 Atk / 4 Def / 252 Spe
-Adamant Nature
-- Wood Hammer
-- Earthquake
-- Stone Edge
-- Crunch
  
 === [nu] Haunter ===
  
@@ -1476,7 +1416,7 @@ Modest Nature
 - Leaf Storm
 - Giga Drain / Ancient Power
 - Sleep Powder
-- Hidden Power Fire
+- Hidden Power [Fire]
  
 Tangela @ Eviolite
 Ability: Regenerator
@@ -1496,7 +1436,7 @@ Bold Nature
 - Defog
 - Scald
 - Roost
-- Toxic / U-turn
+- Toxic / U-turn / Hurricane
  
 === [nu] Piloswine ===
  
@@ -1529,17 +1469,6 @@ Relaxed Nature
 - Circle Throw
 - Scald
 
-=== [nu] Fletchinder ===
-
-Fletchinder
-Ability: Gale Wings
-EVs: 112 HP / 252 Atk / 144 Spe
-Adamant Nature
-- Swords Dance
-- Acrobatics
-- Will-O-Wisp
-- Roost
-
 === [nu] Misdreavus ===
 
 Misdreavus @ Eviolite
@@ -1547,6 +1476,26 @@ Ability: Levitate
 EVs: 252 HP / 240 Def / 16 Spe
 Timid Nature
 - Will-O-Wisp
-- Hex
+- Hex / Shadow Ball
 - Taunt
 - Pain Split
+
+=== [nu] Shiftry ===
+
+Shiftry @ Life Orb
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Knock Off
+- Extrasensory / Defog
+- Sucker Punch
+- Leaf Storm
+
+Shiftry @ Life Orb
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Swords Dance
+- Knock Off
+- Leaf Blade
+- Sucker Punch
