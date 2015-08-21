@@ -7,7 +7,7 @@ var utils = require('./utils.js');
 var parseTeams = require('./parser.js');
 
 var toId = global.toId;
-var Tools = global.Tools;
+var Tools = global.Tools.includeData();
 var Pokedex = Tools.data.Pokedex;
 var Movedex = Tools.data.Movedex;
 var Items = Tools.data.Items;
