@@ -380,36 +380,6 @@ Bold Nature
 - Ice Beam
 
 
-=== Pidgeot ===
-
-Pidgeot @ Pidgeotite
-Ability: Keen Eye
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Hurricane
-- Heat Wave
-- Hidden Power [Grass]
-- Roost
-
-Pidgeot @ Pidgeotite
-Ability: Keen Eye
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Hurricane
-- Heat Wave
-- U-Turn
-- Roost
-
-Pidgeot @ Pidgeotite
-Ability: Keen Eye
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Roost
-- Hurricane
-- Heat Wave
-- Hidden Power [Grass]
-
-
 === Shaymin ===
 
 Shaymin @ Leftovers
