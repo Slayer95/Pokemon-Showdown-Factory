@@ -9,7 +9,7 @@ for (var i = 0; i < fullTierList.length; i++) {
 
 exports.tiers = fullTierList;
 exports.getTierIndex = function (tier) {
-	return tierPositions[tier];
+	return tierPositions[tier.replace(/\(\)/g, '')];
 };
 
 function RangeValidator (start, end) {

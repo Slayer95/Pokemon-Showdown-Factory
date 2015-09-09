@@ -27,9 +27,6 @@ function proofRead (setLists, strict) {
 			if (!Pokedex.hasOwnProperty(speciesid)) {
 				errors.push("Invalid species id: " + speciesid);
 				continue;
-			} else if (utils.getTierIndex(Tools.getTemplate(speciesid).tier) < minTierIndex) {
-				errors.push("Pokémon " + speciesid + " is banned from " + tier);
-				continue;
 			}
 
 			var speciesResult = proofReadSpeciesSets(setLists[tier][speciesid].sets, speciesid, tier, strict);
@@ -45,12 +42,15 @@ function proofRead (setLists, strict) {
 	return {errors: errors, sets: sets};
 }
 
-function proofReadSpeciesSets (setList, speciesid, tier, strict) {
+function proofReadSpeciesSets (setList, startSpecies, tier, strict) {
 	var errors = [];
 	var output = [];
 
+	var minTierIndex = utils.getTierIndex(tier);
+
 	for (var i = 0; i < setList.length; i++) {
 		var set = setList[i];
+		var speciesid = startSpecies;
 		if (set.isClone) throw new Error("Unexpected `isClone` property");
 		if (set.item && !Items.hasOwnProperty(toId(set.item))) errors.push("Invalid item for " + tier + " " + speciesid + ": '" + set.item + "'.");
 		if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) errors.push("Invalid nature for " + tier + " " + speciesid + ": '" + set.nature + "'.");
@@ -58,8 +58,14 @@ function proofReadSpeciesSets (setList, speciesid, tier, strict) {
 		if (set.ivs && !Object.values(set.ivs).every(utils.isValidIV)) errors.push("Invalid IVs for " + tier + " " + speciesid + ": '" + Object.values(set.evs).join(", ") + "'.");
 		if (set.happiness && !utils.isValidHappiness(set.happiness)) errors.push("Happiness out of bounds for " + tier + " " + speciesid + ": '" + set.happiness + "'.");
 		if ('level' in set && !utils.isValidLevel(set.level)) errors.push("Level out of bounds for " + tier + " " + speciesid + ": '" + set.level + "'.");
-
 		if (!utils.inValues(Pokedex[speciesid].abilities, set.ability)) errors.push("Invalid ability for " + tier + " " + speciesid + ": '" + set.ability + "'.");
+
+		// Mega formes are tiered separately
+		if (set.item && toId(Tools.getItem(set.item).megaEvolves) === speciesid) {
+			speciesid = toId(Tools.getItem(set.item).megaStone);
+			if (utils.getTierIndex(Tools.getTemplate(speciesid).tier) < minTierIndex) errors.push("Pokémon " + speciesid + " is banned from " + tier);
+		}
+
 		var setsSplit = splitSetClosed(set);
 		output = output.concat(setsSplit.valid);
 		for (var j = 0; j < setsSplit.invalid.length; j++) {
@@ -83,21 +89,21 @@ function proofReadSpeciesSets (setList, speciesid, tier, strict) {
 			for (var k = 0, totalSlashed = moveSlot.length; k < totalSlashed; k++) {
 				var move = Tools.getMove(moveSlot[k]);
 				if (!move.exists) {
-					errors.push("Invalid move for " + speciesid + ": '" + move.name + "'");
+					errors.push("Invalid move for " + startSpecies + ": '" + move.name + "'");
 					continue;
 				}
 				var moveName = move.name;
 				if (moveName !== moveSlot[k]) moveSlot[k] = moveName;
 
 				if (moveSlots[move.id] <= j) {
-					errors.push("Duplicate move " + moveName + " for " + speciesid + ".");
+					errors.push("Duplicate move " + moveName + " for " + startSpecies + ".");
 				} else {
 					moveSlots[move.id] = j;
 				}
 
 				if (move.id === 'frustration' || move.id === 'return') {
 					if (happinessSlot < j) {
-						errors.push("Duplicate happiness-based moves for " + speciesid + "."); // Meta-based rejection
+						errors.push("Duplicate happiness-based moves for " + startSpecies + "."); // Meta-based rejection
 					} else {
 						happinessSlot = j;
 						set.happiness = (move.id === 'frustration' ? 0 : 255);
