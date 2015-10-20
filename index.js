@@ -2,6 +2,23 @@ var fs = require('fs');
 var path = require('path');
 var cProduct = require('cartesian-product');
 
+(function () {
+	var psConfig;
+	try {
+		psConfig = require('./Pokemon-Showdown/config/config.js');
+	} catch (err) {
+		if (err.code !== 'MODULE_NOT_FOUND') throw err;
+
+		console.log("config.js doesn't exist - creating one with default settings...");
+		fs.writeFileSync(path.resolve(__dirname, 'Pokemon-Showdown', 'config/config.js'),
+			fs.readFileSync(path.resolve(__dirname, 'Pokemon-Showdown', 'config/config-example.js'))
+		);
+		psConfig = require('./Pokemon-Showdown/config/config.js');
+	}
+
+	psConfig.workers = 0;
+})();
+
 require('./Pokemon-Showdown');
 var utils = require('./utils.js');
 var parseTeams = require('./parser.js');
