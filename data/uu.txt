@@ -23,6 +23,7 @@ Jolly Nature
 
 Entei @ Choice Band
 Ability: Pressure
+Shiny: Yes
 EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
 - Extreme Speed
@@ -32,6 +33,7 @@ Adamant Nature
 
 Entei @ Life Orb
 Ability: Pressure
+Shiny: Yes
 EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
 - Extreme Speed
@@ -41,6 +43,7 @@ Adamant Nature
 
 Entei @ Assault Vest
 Ability: Pressure
+Shiny: Yes
 EVs: 252 Atk / 240 SpD / 16 Spe
 Adamant Nature
 - Extreme Speed
