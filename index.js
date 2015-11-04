@@ -81,6 +81,8 @@ function proofReadSpeciesSets (setList, startSpecies, tier, strict) {
 		if (set.item && toId(Tools.getItem(set.item).megaEvolves) === speciesid) {
 			speciesid = toId(Tools.getItem(set.item).megaStone);
 			if (utils.getTierIndex(Tools.getTemplate(speciesid).tier) < minTierIndex) errors.push("Pokémon " + speciesid + " is banned from " + tier);
+		} else {
+			if (utils.getTierIndex(Tools.getTemplate(speciesid).tier) < minTierIndex) errors.push("Pokémon " + speciesid + " is banned from " + tier);
 		}
 
 		var setsSplit = splitSetClosed(set);

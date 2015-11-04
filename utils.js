@@ -1,7 +1,7 @@
 var util = require('util');
 var stream = require('stream');
 
-var fullTierList = ['Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU'];
+var fullTierList = ['Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU', 'BL4', 'PU'];
 var tierPositions = Object.create(null);
 for (var i = 0; i < fullTierList.length; i++) {
 	tierPositions[fullTierList[i]] = i;
