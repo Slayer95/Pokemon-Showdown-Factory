@@ -30,7 +30,7 @@ var Movedex = Tools.data.Movedex;
 var Items = Tools.data.Items;
 var Natures = Tools.data.Natures;
 
-var factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
+var factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU'];
 var uniqueOptionMoves = utils.toDict(['stealthrock', 'spikes', 'toxicspikes', 'rapidspin', 'defog', 'batonpass']); // High-impact moves
 
 function proofRead (setLists, strict) {
