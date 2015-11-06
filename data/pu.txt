@@ -1,4 +1,4 @@
-== [pu] Bouffalant ==
+=== [pu] Bouffalant ===
  
 Bouffalant @ Leftovers  
 Ability: Sap Sipper  
@@ -28,7 +28,7 @@ Adamant Nature
 - Pursuit
  
  
-== [pu] Exeggutor ==
+=== [pu] Exeggutor ===
  
 Exeggutor @ Choice Specs
 Ability: Chlorophyll
@@ -67,7 +67,7 @@ Timid Nature
 - Hidden Power [Fire] / Giga Drain / Sleep Powder
 
  
-== [pu] Gorebyss ==
+=== [pu] Gorebyss ===
  
 Gorebyss @ White Herb  
 Ability: Swift Swim  
@@ -79,7 +79,7 @@ Modest Nature
 - Hidden Power [Electric]
 
  
-== [pu] Pawniard ==
+=== [pu] Pawniard ===
  
 Pawniard @ Eviolite  
 Ability: Defiant  
@@ -91,7 +91,7 @@ Adamant Nature
 - Swords Dance / Pursuit / Stealth Rock
 
  
-== [pu] Gothitelle ==
+=== [pu] Gothitelle ===
  
 Gothitelle @ Leftovers
 Ability: Competitive
@@ -103,7 +103,7 @@ Bold Nature
 - Psychic
 
  
-== [pu] Roselia ==
+=== [pu] Roselia ===
  
 Roselia @ Eviolite  
 Ability: Natural Cure  
@@ -124,7 +124,7 @@ Modest Nature
 - Spikes / Sleep Powder / Toxic Spikes
  
  
-== [pu] Vigoroth ==
+=== [pu] Vigoroth ===
  
 Vigoroth @ Eviolite  
 Ability: Vital Spirit  
@@ -136,7 +136,7 @@ Careful Nature
 - Taunt / Substitute
  
  
-== [pu] Floatzel ==
+=== [pu] Floatzel ===
  
 Floatzel @ Choice Specs
 Ability: Water Veil  
@@ -175,7 +175,7 @@ Modest Nature
 - Surf / Switcheroo / Baton Pass
  
  
-== [pu] Stoutland ==
+=== [pu] Stoutland ===
  
 Stoutland @ Choice Band  
 Ability: Scrappy  
@@ -187,7 +187,7 @@ Adamant Nature
 - Pursuit / Crunch
  
  
-== [pu] Dodrio ==
+=== [pu] Dodrio ===
  
 Dodrio @ Choice Band
 Ability: Early Bird  
@@ -208,10 +208,19 @@ Jolly Nature
 - Pursuit
  
  
-== [pu] Zebstrika ==
+=== [pu] Zebstrika ===
  
 Zebstrika @ Life Orb  
-Ability: Sap Sipper  / Lightningrod
+Ability: Sap Sipper 
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Volt Switch  
+- Thunderbolt  
+- Overheat  
+- Hidden Power [Ice]
+
+Zebstrika @ Life Orb  
+Ability: Lightning Rod 
 EVs: 252 SpA / 4 SpD / 252 Spe  
 Timid Nature  
 - Volt Switch  
@@ -220,7 +229,7 @@ Timid Nature
 - Hidden Power [Ice]
  
  
-== [pu] Jumpluff ==
+=== [pu] Jumpluff ===
  
 Jumpluff  
 Ability: Infiltrator
@@ -241,7 +250,7 @@ Jolly Nature
 - Swords Dance
 
 
-== [pu] Grumpig ==
+=== [pu] Grumpig ===
  
 Grumpig @ Colbur Berry
 Ability: Thick Fat  
@@ -280,7 +289,7 @@ Calm Nature
 - Protect
  
  
-== [pu] Stunfisk ==
+=== [pu] Stunfisk ===
  
 Stunfisk @ Leftovers  
 Ability: Static  
@@ -301,7 +310,7 @@ Bold Nature
 - Toxic / Yawn / Scald
  
  
-== [pu] Rapidash ==
+=== [pu] Rapidash ===
  
 Rapidash @ Leftovers
 Ability: Flash Fire  
@@ -322,7 +331,7 @@ Jolly Nature
 - Morning Sun
  
  
-== [pu] Tangela ==
+=== [pu] Tangela ===
  
 Tangela @ Eviolite  
 Ability: Regenerator  
@@ -343,7 +352,7 @@ Modest Nature
 - Sleep Powder
  
  
-== [pu] Simipour ==
+=== [pu] Simipour ===
  
 Simipour @ Life Orb  
 Ability: Torrent  
@@ -373,7 +382,7 @@ Timid Nature
 - Nasty Plot
  
  
- == [pu] Kadabra ==
+=== [pu] Kadabra ===
  
 Kadabra @ Focus Sash  
 Ability: Magic Guard  
@@ -394,10 +403,10 @@ Timid Nature
 - Encore
  
  
-== [pu] Raichu ==
+=== [pu] Raichu ===
  
 Raichu @ Life Orb
-Ability: Lightningrod
+Ability: Lightning Rod
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
 IVs: 29 HP / 0 Atk / 30 Def
@@ -407,7 +416,7 @@ IVs: 29 HP / 0 Atk / 30 Def
 - Focus Blast
  
 Raichu @ Life Orb
-Ability: Lightningrod
+Ability: Lightning Rod
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
 IVs: 29 HP / 0 Atk / 30 Def
@@ -427,7 +436,7 @@ IVs: 29 HP / 0 Atk
 - Surf
  
 Raichu @ Choice Scarf
-Ability: Lightningrod
+Ability: Lightning Rod
 EVs: 252 SpA / 4 SpD / 252 Spe
 Modest Nature
 IVs: 0 Atk / 30 Def
@@ -437,7 +446,7 @@ IVs: 0 Atk / 30 Def
 - Focus Blast
  
  
-== [pu] Machoke ==
+=== [pu] Machoke ===
  
 Machoke @ Eviolite  
 Ability: No Guard  
@@ -458,7 +467,7 @@ Adamant Nature
 - Sleep Talk
  
  
-== [pu] Regice ==
+=== [pu] Regice ===
  
 Regice @ Life Orb
 Ability: Clear Body
@@ -481,7 +490,7 @@ IVs: 0 Atk
 - Focus Blast
  
  
-== [pu] Relicanth ==
+=== [pu] Relicanth ===
  
 Relicanth @ Stone Plate
 Ability: Rock Head
@@ -511,7 +520,7 @@ Adamant Nature
 - Toxic / Earthquake
  
  
-== [pu] Rotom-Frost ==
+=== [pu] Rotom-Frost ===
  
 Rotom-Frost @ Choice Scarf
 Ability: Levitate
@@ -541,7 +550,7 @@ Timid Nature
 - Will-O-Wisp / Volt Switch
  
  
-== [pu] Simisage ==
+=== [pu] Simisage ===
  
 Simisage @ Life Orb
 Ability: Overgrow
@@ -554,7 +563,7 @@ IVs: 29 HP
 - Knock Off
  
  
-== [pu] Chatot ==
+=== [pu] Chatot ===
  
 Chatot @ Choice Scarf
 Ability: Keen Eye
@@ -577,7 +586,7 @@ IVs: 1 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - U-turn
  
  
-== [pu] Mr. Mime ==
+=== [pu] Mr. Mime ===
  
 Mr. Mime @ Choice Scarf
 Ability: Soundproof
@@ -610,7 +619,7 @@ IVs: 29 HP / 0 Atk
 - Shadow Ball / Healing Wish
  
  
-== [pu] Mightyena ==
+=== [pu] Mightyena ===
  
 Mightyena @ Life Orb
 Ability: Moxie
@@ -623,7 +632,7 @@ IVs: 29 HP
 - Iron Tail
  
  
-== [pu] Fraxure ==
+=== [pu] Fraxure ===
  
 Fraxure @ Eviolite
 Ability: Mold Breaker
@@ -635,7 +644,7 @@ Jolly Nature
 - Dual Chop / Taunt / Poison Jab
  
  
-== [pu] Misdreavus ==
+=== [pu] Misdreavus ===
  
 Misdreavus @ Eviolite
 Ability: Levitate
@@ -665,7 +674,7 @@ Timid Nature
 - Pain Split / Thunder Wave
  
  
-== [pu] Linoone ==
+=== [pu] Linoone ===
  
 Linoone @ Sitrus Berry
 Ability: Pickup
@@ -686,7 +695,7 @@ Adamant Nature
 - Shadow Claw / Switcheroo
  
  
-== [pu] Probopass ==
+=== [pu] Probopass ===
  
 Probopass @ Leftovers
 Ability: Magnet Pull
@@ -716,7 +725,7 @@ Modest Nature
 - Earth Power / Toxic / Thunder Wave
  
  
-== [pu] Sawsbuck ==
+=== [pu] Sawsbuck ===
  
 Sawsbuck @ Choice Scarf  
 Ability: Sap Sipper  
@@ -737,7 +746,7 @@ Jolly Nature
 - Swords Dance
  
  
-== [pu] Arbok ==
+=== [pu] Arbok ===
  
 Arbok @ Black Sludge
 Ability: Intimidate
@@ -767,7 +776,7 @@ Careful Nature
 - Earthquake
  
  
-== [pu] Duosion ==
+=== [pu] Duosion ===
  
 Duosion @ Eviolite
 Ability: Magic Guard
@@ -779,7 +788,7 @@ Impish Nature
 - Acid Armor / Signal Beam
  
  
-== [pu] Ninetales ==
+=== [pu] Ninetales ===
  
 Ninetales @ Leftovers
 Ability: Flash Fire
@@ -800,7 +809,7 @@ Timid Nature
 - Hidden Power [Ground]
  
  
-== [pu] Articuno ==
+=== [pu] Articuno ===
  
 Articuno @ Life Orb
 Ability: Pressure
@@ -821,7 +830,7 @@ Timid Nature
 - Roost
  
  
-== [pu] Clefairy ==
+=== [pu] Clefairy ===
  
 Clefairy @ Eviolite
 Ability: Magic Guard
@@ -844,7 +853,7 @@ IVs: 0 Atk
 - Thunder Wave / Flamethrower / Stored Power
  
  
-== [pu] Golduck ==
+=== [pu] Golduck ===
  
 Golduck @ Life Orb  
 Ability: Swift Swim  
@@ -857,7 +866,7 @@ IVs: 29 HP / 0 Atk
 - Psyshock / Focus Blast
  
  
-== [pu] Golem ==
+=== [pu] Golem ===
  
 Golem @ Custap Berry
 Ability: Sturdy
@@ -887,7 +896,7 @@ Adamant Nature
 - Toxic
  
  
-== [pu] Gourgeist-XL ==
+=== [pu] Gourgeist-XL ===
  
 Gourgeist-Super @ Leftovers
 Ability: Frisk
@@ -899,7 +908,7 @@ Impish Nature
 - Seed Bomb
  
  
-== [pu] Lickilicky ==
+=== [pu] Lickilicky ===
  
 Lickilicky @ Leftovers
 Ability: Oblivious
@@ -911,7 +920,7 @@ Careful Nature
 - Dragon Tail / Heal Bell
  
  
-== [pu] Monferno ==
+=== [pu] Monferno ===
  
 Monferno @ Eviolite
 Ability: Iron Fist
@@ -941,7 +950,7 @@ Adamant Nature
 - Close Combat / Stealth Rock
  
  
-== [pu] Politoed ==
+=== [pu] Politoed ===
  
 Politoed @ Leftovers
 Ability: Water Absorb
@@ -964,7 +973,7 @@ IVs: 0 Atk
 - Protect
  
  
-== [pu] Simisear ==
+=== [pu] Simisear ===
  
 Simisear @ Life Orb
 Ability: Blaze
@@ -1007,7 +1016,7 @@ IVs: 0 Atk
 - Fire Blast
  
  
-== [pu] Swanna ==
+=== [pu] Swanna ===
  
 Swanna @ Life Orb
 Ability: Keen Eye
@@ -1020,7 +1029,7 @@ IVs: 29 HP / 0 Atk
 - Hurricane
  
  
-== [pu] Vullaby ==
+=== [pu] Vullaby ===
  
 Vullaby @ Eviolite
 Ability: Overcoat
@@ -1041,7 +1050,7 @@ Careful Nature
 - Foul Play
  
  
-== [pu] Basculin ==
+=== [pu] Basculin ===
  
 Basculin @ Choice Band
 Ability: Adaptability
@@ -1063,7 +1072,7 @@ IVs: 29 HP / 30 SpA
 - Hidden Power [Electric]  / Superpower
  
  
-== [pu] Gabite ==
+=== [pu] Gabite ===
  
 Gabite @ Eviolite
 Ability: Rough Skin
@@ -1093,7 +1102,7 @@ Jolly Nature
 - Stone Edge / Toxic / Roar
  
  
-== [pu] Gourgeist-S ==
+=== [pu] Gourgeist-S ===
  
 Gourgeist-Small @ Leftovers
 Ability: Frisk
@@ -1114,7 +1123,7 @@ Jolly Nature
 - Explosion / Destiny Bond
  
  
-== [pu] Klang ==
+=== [pu] Klang ===
  
 Klang @ Eviolite
 Ability: Clear Body
@@ -1135,7 +1144,7 @@ Careful Nature
 - Gear Grind
  
  
-== [pu] Leafeon ==
+=== [pu] Leafeon ===
  
 Leafeon @ Choice Band
 Ability: Leaf Guard
@@ -1165,7 +1174,7 @@ Jolly Nature
 - Synthesis / Baton Pass
  
  
-== [pu] Leavanny ==
+=== [pu] Leavanny ===
  
 Leavanny @ Focus Sash
 Ability: Chlorophyll
@@ -1177,7 +1186,7 @@ Naive Nature
 - Knock Off
  
  
-== [pu] Metang ==
+=== [pu] Metang ===
  
 Metang @ Eviolite
 Ability: Clear Body
@@ -1207,7 +1216,7 @@ Impish Nature
 - Earthquake / Zen Headbutt / Pursuit / Bullet Punch
  
  
-== [pu] Ninjask ==
+=== [pu] Ninjask ===
  
 Ninjask @ Choice Band
 Ability: Infiltrator
@@ -1219,7 +1228,7 @@ Nature: Adamant
 - Toxic
  
  
-== [pu] Pelipper ==
+=== [pu] Pelipper ===
  
 Pelipper @ Leftovers
 Ability: Keen Eye
@@ -1240,7 +1249,7 @@ Bold Nature
 - U-turn / Air Slash / Toxic
  
  
-== [pu] Purugly ==
+=== [pu] Purugly ===
  
 Purugly @ Life Orb
 Ability: Defiant
@@ -1252,7 +1261,7 @@ Jolly Nature
 - U-Turn / Sucker Punch
  
  
-== [pu] Solrock ==
+=== [pu] Solrock ===
  
 Solrock @ Leftovers
 Ability: Levitate
@@ -1273,7 +1282,7 @@ Impish Nature
 - Morning Sun
  
  
-== [pu] Venipede ==
+=== [pu] Venipede ===
  
 Venipede @ Focus Sash
 Ability: Speed Boost
@@ -1285,7 +1294,7 @@ Timid Nature
 - Endeavor
  
  
-== [pu] Armaldo ==
+=== [pu] Armaldo ===
  
 Armaldo @ Leftovers
 Ability: Battle Armor
@@ -1306,7 +1315,7 @@ Adamant Nature
 - Earthquake
  
  
-== [pu] Dusknoir ==
+=== [pu] Dusknoir ===
  
 Dusknoir @ Choice Band
 Ability: Frisk
@@ -1327,7 +1336,7 @@ Adamant Nature
 - Will-O-Wisp
  
  
-== [pu] Huntail ==
+=== [pu] Huntail ===
  
 Huntail @ White Herb
 Ability: Water Veil
@@ -1348,7 +1357,7 @@ Adamant Nature
 - Double Edge
  
  
-== [pu] Murkrow ==
+=== [pu] Murkrow ===
  
 Murkrow @ Life Orb
 Ability: Prankster
@@ -1369,7 +1378,7 @@ Naive Nature
 - Thunder Wave
  
  
-== [pu] Vibrava ==
+=== [pu] Vibrava ===
  
 Vibrava @ Eviolite
 Ability: Levitate
@@ -1381,7 +1390,7 @@ Careful Nature
 - Roost
  
  
-== [pu] Zweilous ==
+=== [pu] Zweilous ===
  
 Zweilous @ Eviolite
 Ability: Hustle
@@ -1402,7 +1411,7 @@ Adamant Nature
 - Sleep Talk
  
  
-== [pu] Avalugg ==
+=== [pu] Avalugg ===
  
 Avalugg @ Leftovers
 Ability: Sturdy
@@ -1414,7 +1423,7 @@ Careful Nature
 - Roar / Toxic
  
  
-== [pu] Electrode ==
+=== [pu] Electrode ===
  
 Electrode @ Life Orb
 Ability: Soundproof
@@ -1426,7 +1435,7 @@ Modest Nature
 - Hidden Power [Ice]
  
  
-== [pu] Marowak ==
+=== [pu] Marowak ===
  
 Marowak @ Thick Club
 Ability: Rock Head
@@ -1438,7 +1447,7 @@ Adamant Nature
 - Stealth Rock / Stone Edge
  
  
-== [pu] Meowstic-M ==
+=== [pu] Meowstic-M ===
  
 Meowstic-M @ Light Clay
 Ability: Prankster
@@ -1450,7 +1459,7 @@ Bold Nature
 - Psychic / Thunder Wave
  
  
-== [pu] Quilladin ==
+=== [pu] Quilladin ===
  
 Quilladin @ Eviolite
 Ability: Bulletproof
@@ -1471,7 +1480,7 @@ Jolly Nature
 - Zen Headbutt / Drain Punch
  
  
-== [pu] Rampardos ==
+=== [pu] Rampardos ===
  
 Rampardos @ Life Orb
 Ability: Sheer Force
@@ -1492,7 +1501,7 @@ Naive Nature
 - Surf
  
  
-== [pu] Drifblim ==
+=== [pu] Drifblim ===
  
 Drifblim @ Liechi Berry
 Ability: Unburden
