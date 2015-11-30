@@ -978,6 +978,17 @@ IVs: 0 Atk
 - Scald
 - Toxic
 - Protect
+
+=== [pu] Seaking ===
+ 
+Seaking @ Leftovers  
+Ability: Lightning Rod  
+EVs: 104 HP / 252 Atk / 152 Spe  
+Adamant Nature  
+- Waterfall  
+- Knock Off  
+- Megahorn  
+- Haze / Protect
  
  
 === [pu] Simisear ===
@@ -1452,18 +1463,6 @@ Adamant Nature
 - Knock Off
 - Double-Edge / Stone Edge
 - Stealth Rock / Stone Edge
- 
- 
-=== [pu] Meowstic-M ===
- 
-Meowstic-M @ Light Clay
-Ability: Prankster
-EVs: 252 HP / 252 Def / 4 SpD
-Bold Nature
-- Reflect
-- Light Screen
-- Yawn / Thunder Wave
-- Psychic / Thunder Wave
  
  
 === [pu] Quilladin ===
