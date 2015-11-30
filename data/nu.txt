@@ -633,6 +633,15 @@ Bold Nature
 - Heal Bell / Signal Beam
 - Moonlight
 
+Musharna @ Leftovers  
+Ability: Synchronize  
+EVs: 240 HP / 252 Def / 16 SpD  
+Bold Nature  
+- Calm Mind  
+- Barrier  
+- Moonlight  
+- Stored Power
+
 Musharna @ Life Orb
 Ability: Synchronize
 EVs: 252 HP / 4 Def / 252 SpA
@@ -1186,29 +1195,11 @@ Jolly Nature
 Cacturne @ Life Orb
 Ability: Water Absorb
 EVs: 4 Atk / 252 SpA / 252 Spe
-Rash Nature
+Mild Nature
 - Dark Pulse
 - Giga Drain
 - Sucker Punch
-- Destiny Bond
-
-Cacturne @ Focus Sash
-Ability: Water Absorb
-EVs: 4 HP / 252 Atk / 252 Spe
-Jolly Nature
 - Spikes
-- Seed Bomb
-- Sucker Punch
-- Destiny Bond
-
-Cacturne @ Life Orb
-Ability: Water Absorb
-EVs: 252 Atk / 4 SpD / 252 Spe
-Adamant Nature
-- Swords Dance
-- Sucker Punch
-- Seed Bomb
-- Drain Punch
 
 === [nu] Audino ===
 
@@ -1298,7 +1289,7 @@ Ability: Sheer Force
 EVs: 252 Atk / 4 SpA / 252 Spe
 Naive Nature
 - Rock Climb
-- Earthquake
+- Earthquake / Iron Tail
 - Fire Blast
 - Zen Headbutt / Rock Slide / Pursuit
 
@@ -1462,7 +1453,7 @@ Ability: Levitate
 EVs: 252 HP / 240 Def / 16 Spe
 Timid Nature
 - Will-O-Wisp
-- Hex / Shadow Ball
+- Hex
 - Taunt
 - Pain Split
 
