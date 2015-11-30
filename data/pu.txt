@@ -537,7 +537,7 @@ Adamant Nature
 - Waterfall
 - Toxic / Earthquake
 
-Relicanth @ Leftvers
+Relicanth @ Leftovers
 Ability: Rock Head
 EVs: 168 HP / 252 Atk / 88 Spe
 Adamant Nature
