@@ -92,7 +92,7 @@ Quiet Nature
 - Trick Room
 - Psychic
 - Thunderbolt
-- Hidden Power [Fighting]
+- Signal Beam
 
 Beheeyem @ Choice Specs
 Ability: Analytic
@@ -263,7 +263,7 @@ Timid Nature
 - Quiver Dance
 - Sleep Powder
 - Hurricane
-- Hidden Power [Ground]
+- Energy Ball
 
 Vivillon @ Focus Sash
 Ability: Compound Eyes
@@ -272,7 +272,7 @@ Timid Nature
 - Sleep Powder
 - Quiver Dance
 - Hurricane
-- Bug Buzz
+- Energy Ball
 
 Vivillon @ Life Orb
 Ability: Compound Eyes
@@ -547,7 +547,7 @@ Timid Nature
 - Fire Blast
 - Hyper Voice
 - Hidden Power [Grass]
-- Overheat
+- Overheat / Sleep Talk
 
 
 === [nu] Probopass ===
@@ -730,7 +730,7 @@ Ability: Levitate
 EVs: 252 SpA / 4 SpD / 252 Spe
 Modest Nature
 - Psychic
-- Thunderbolt
+- Energy Ball / Thunderbolt
 - U-turn
 - Healing Wish
  
@@ -766,8 +766,8 @@ Timid Nature
 
 Mantine @ Leftovers
 Ability: Water Absorb
-EVs: 248 HP / 228 Def / 16 SpD / 16 Spe
-Calm Nature
+EVs: 196 HP / 216 Def / 96 Spe  
+Bold Nature
 - Defog
 - Scald
 - Air Slash
@@ -923,7 +923,7 @@ Adamant Nature
 
 Kangaskhan (F) @ Silk Scarf
 Ability: Scrappy
-EVs: 40 HP / 252 Atk / 216 Spe
+EVs: 252 Atk / 4 Def / 252 Spe  
 Adamant Nature
 - Fake Out
 - Double-Edge
@@ -984,7 +984,7 @@ Timid Nature
 
 Hariyama @ Assault Vest
 Ability: Thick Fat
-EVs: 252 Atk / 4 Def / 252 SpD
+EVs: 252 Atk / 128 Def / 128 SpD  
 Adamant Nature
 - Close Combat
 - Knock Off
@@ -1123,6 +1123,14 @@ Naive Nature
 - Ice Punch
 - Hidden Power [Grass]
 
+Electivire @ Life Orb
+Ability: Motor Drive
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature
+- Thunderbolt  
+- Flamethrower  
+- Earthquake  
+- Hidden Power [Grass]
 
 === [nu] Cryogonal ===
 
@@ -1143,7 +1151,6 @@ Timid Nature
 - Freeze-Dry
 - Hidden Power [Ground] / Ice Beam
 - Recover
-
 
 === [nu] Crustle ===
 
@@ -1203,17 +1210,16 @@ Adamant Nature
 - Seed Bomb
 - Drain Punch
 
-
 === [nu] Audino ===
 
-Audino @ Audinite
-Ability: Regenerator
-EVs: 252 HP / 252 Def / 4 SpD
-Bold Nature
-- Calm Mind
-- Dazzling Gleam
-- Rest
+Audino @ Audinite  
+Ability: Regenerator  
+EVs: 232 HP / 208 Def / 48 SpA / 20 Spe  
+Bold Nature  
 - Sleep Talk
+- Calm Mind
+- Dazzling Gleam  
+- Rest
 
 Audino @ Audinite
 Ability: Regenerator
@@ -1385,7 +1391,7 @@ Bold Nature
 - Defog
 - Scald
 - Stealth Rock
-- Toxic
+- Toxic / Signal Beam
  
 === [nu] Tangela ===
  
@@ -1410,13 +1416,13 @@ Bold Nature
 === [nu] Pelipper ===
  
 Pelipper @ Leftovers
-Ability: Keen Eye
-EVs: 252 HP / 252 Def / 4 SpA
-Bold Nature
+Ability: Keen Eye  
+EVs: 200 HP / 252 Def / 56 Spe  
+Bold Nature  
+- Scald  
+- Roost  
 - Defog
-- Scald
-- Roost
-- Toxic / U-turn / Hurricane
+- U-turn / Toxic / Hurricane
  
 === [nu] Piloswine ===
  
