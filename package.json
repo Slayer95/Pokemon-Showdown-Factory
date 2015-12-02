@@ -9,7 +9,7 @@
     "url": "https://github.com/Slayer95/Pokemon-Showdown-Factory-Sets-Generator.git"
   },
   "scripts": {
-    "test": "gulp && mocha"
+    "test": "eslint --config=Pokemon-Showdown/dev-tools/eslint/config-base.js --rulesdir=Pokemon-Showdown/dev-tools/eslint *.js && eslint --config=Pokemon-Showdown/dev-tools/eslint/config-test.js --rulesdir=Pokemon-Showdown/dev-tools/eslint test/**/*.js && mocha"
   },
   "author": {
     "name": "Leonardo Julca Salazar",
@@ -19,11 +19,8 @@
     "cartesian-product": "2.1.2"
   },
   "devDependencies": {
-    "mocha": "~2.2.5",
-    "gulp": "~3.9.0",
-    "gulp-jshint": "git://github.com/spalger/gulp-jshint#c18df3a11",
-    "gulp-jscs": "~1.6.0",
-    "jshint-stylish": "~2.0.0"
+    "eslint": "^1.10.3",
+    "mocha": "~2.3.4"
   },
   "private": true
 }
