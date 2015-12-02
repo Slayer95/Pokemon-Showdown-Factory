@@ -1,3 +1,5 @@
+"use strict";
+
 var util = require('util');
 var stream = require('stream');
 
@@ -12,7 +14,7 @@ exports.getTierIndex = function (tier) {
 	return tierPositions[tier.replace(/[\(\)]/g, '')];
 };
 
-function RangeValidator (start, end) {
+function RangeValidator(start, end) {
 	return function (value) {
 		return value >= start && value <= end;
 	};
@@ -33,14 +35,14 @@ exports.toDict = function (data) {
 	return dict;
 };
 
-exports.inValues = function inValues (obj, val) {
+exports.inValues = function inValues(obj, val) {
 	for (var key in obj) {
 		if (obj[key] === val) return true;
 	}
 	return false;
 };
 
-var cloneObject = exports.clone = function clone (obj) {
+var cloneObject = exports.clone = function clone(obj) {
 	var clonedObj = {};
 	for (var key in obj) {
 		clonedObj[key] = obj[key];
@@ -50,7 +52,7 @@ var cloneObject = exports.clone = function clone (obj) {
 
 var setKeys = ['species', 'gender', 'item', 'ability', 'shiny', 'level', 'happiness', 'evs', 'ivs', 'nature', 'moves'];
 
-exports.markConflict = function markConflict (set, conflict) {
+exports.markConflict = function markConflict(set, conflict) {
 	return Object.defineProperty(set, 'conflict', {
 		value: conflict,
 		enumerable: false,
@@ -59,7 +61,7 @@ exports.markConflict = function markConflict (set, conflict) {
 	});
 };
 
-var markClone = exports.markClone = function markClone (set) {
+var markClone = exports.markClone = function markClone(set) {
 	return Object.defineProperty(set, 'isClone', {
 		value: true,
 		enumerable: false,
@@ -68,7 +70,7 @@ var markClone = exports.markClone = function markClone (set) {
 	});
 };
 
-exports.copySet = function copySet (set) {
+exports.copySet = function copySet(set) {
 	var clone = {};
 
 	for (var i = 0; i < setKeys.length; i++) {
@@ -102,7 +104,7 @@ exports.statIDs = {
 	Spe: 'spe', Spd: 'spe', spe: 'spe'
 };
 
-function OutputStream () {
+function OutputStream() {
 	stream.Writable.call(this);
 	this.setData = '';
 }

@@ -1,3 +1,5 @@
+"use strict";
+
 var OutStream = require('./../utils.js').OutputStream;
 var builder = require('./..');
 

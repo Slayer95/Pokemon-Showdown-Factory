@@ -1,10 +1,12 @@
+"use strict";
+
 var toId = global.toId;
 var Tools = global.Tools;
 var utils = require('./utils.js');
 var statIDs = utils.statIDs;
 
 // Mostly from https://github.com/Zarel/Pokemon-Showdown-Client/blob/2a6a2667a751f/js/storage.js#L262
-module.exports = function parseTeams (text) {
+module.exports = function parseTeams(text) {
 	var teams = [];
 	var lines = text.split('\n');
 	var curSet = null;
@@ -60,12 +62,12 @@ module.exports = function parseTeams (text) {
 			line = line.slice(5);
 			var evLines = line.split('/');
 			curSet.evs = {hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0};
-			for (var j = 0; j < evLines.length; j++) {
-				var evLine = evLines[j].trim();
-				var spaceIndex = evLine.indexOf(' ');
+			for (let j = 0; j < evLines.length; j++) {
+				let evLine = evLines[j].trim();
+				let spaceIndex = evLine.indexOf(' ');
 				if (spaceIndex === -1) continue;
-				var statid = statIDs[evLine.slice(spaceIndex + 1)];
-				var statval = parseInt(evLine.slice(0, spaceIndex), 10);
+				let statid = statIDs[evLine.slice(spaceIndex + 1)];
+				let statval = parseInt(evLine.slice(0, spaceIndex), 10);
 				if (!statid) continue;
 				curSet.evs[statid] = statval;
 			}
@@ -73,12 +75,12 @@ module.exports = function parseTeams (text) {
 			line = line.slice(5);
 			var ivLines = line.split('/');
 			curSet.ivs = {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31};
-			for (var j = 0; j < ivLines.length; j++) {
-				var ivLine = ivLines[j].trim();
-				var spaceIndex = ivLine.indexOf(' ');
+			for (let j = 0; j < ivLines.length; j++) {
+				let ivLine = ivLines[j].trim();
+				let spaceIndex = ivLine.indexOf(' ');
 				if (spaceIndex === -1) continue;
-				var statid = statIDs[ivLine.slice(spaceIndex + 1)];
-				var statval = parseInt(ivLine.slice(0, spaceIndex), 10);
+				let statid = statIDs[ivLine.slice(spaceIndex + 1)];
+				let statval = parseInt(ivLine.slice(0, spaceIndex), 10);
 				if (!statid) continue;
 				curSet.ivs[statid] = statval;
 			}
