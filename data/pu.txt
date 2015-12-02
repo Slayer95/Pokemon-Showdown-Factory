@@ -88,7 +88,7 @@ Adamant Nature
 - Knock Off  
 - Iron Head  
 - Sucker Punch
-- Swords Dance / Pursuit / Stealth Rock
+- Swords Dance 
 
  
 === [pu] Gothitelle ===
@@ -284,8 +284,8 @@ Ability: Thick Fat
 EVs: 252 HP / 4 SpA / 252 SpD  
 Calm Nature  
 - Psychic  
-- Thunder Wave
-- Toxic / Whirlwind
+- Thunder Wave / Toxic
+- Focus Blast / Whirlwind
 - Protect
  
  
@@ -298,7 +298,16 @@ Bold Nature
 - Stealth Rock  
 - Discharge  
 - Earth Power  
-- Toxic / Yawn / Scald
+- Hidden Power [Bug] / Protect
+
+Stunfisk @ Passho Berry 
+Ability: Static  
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature  
+- Stealth Rock  
+- Discharge  
+- Earth Power  
+- Toxic / Hidden Power [Bug]
  
 Stunfisk @ Leftovers  
 Ability: Static  
@@ -307,7 +316,7 @@ Bold Nature
 - Stealth Rock  
 - Discharge  
 - Earth Power  
-- Toxic / Yawn / Scald
+- Hidden Power [Bug] / Protect
  
  
 === [pu] Rapidash ===
@@ -401,6 +410,15 @@ Timid Nature
 - Shadow Ball  
 - Thunder Wave  
 - Encore
+
+Kadabra @ Life Orb 
+Ability: Magic Guard  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Psychic  
+- Hidden Power [Fighting]
+- Shadow Ball
+- Substitute / Encore
  
  
 === [pu] Raichu ===
@@ -499,7 +517,7 @@ Adamant Nature
 - Rock Polish
 - Head Smash
 - Waterfall
-- Earthquake / Stealth Rock / Rest
+- Earthquake
  
 Relicanth @ Leftovers
 Ability: Rock Head
@@ -518,6 +536,15 @@ Adamant Nature
 - Stealth Rock
 - Waterfall
 - Toxic / Earthquake
+
+Relicanth @ Leftovers
+Ability: Rock Head
+EVs: 168 HP / 252 Atk / 88 Spe
+Adamant Nature
+- Head Smash
+- Stealth Rock
+- Waterfall
+- Toxic / Earthquake
  
  
 === [pu] Rotom-Frost ===
@@ -529,7 +556,7 @@ Timid Nature
 - Thunderbolt  
 - Volt Switch  
 - Blizzard  
-- Will-O-Wisp
+- Hidden Power [Ice] / Trick / Will-O-Wisp
  
 Rotom-Frost @ Leftovers
 Ability: Levitate
@@ -547,7 +574,7 @@ Timid Nature
 - Substitute
 - Thunderbolt
 - Blizzard
-- Will-O-Wisp / Volt Switch
+- Pain Split / Will-O-Wisp
  
  
 === [pu] Simisage ===
@@ -569,6 +596,16 @@ Chatot @ Choice Scarf
 Ability: Keen Eye
 EVs: 252 SpA / 4 SpD / 252 Spe
 Modest Nature
+IVs: 1 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Boomburst
+- Heat Wave
+- Hidden Power [Fighting]
+- U-turn
+
+Chatot @ Choice Scarf
+Ability: Keen Eye
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
 IVs: 1 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Boomburst
 - Heat Wave
@@ -648,15 +685,6 @@ Jolly Nature
  
 Misdreavus @ Eviolite
 Ability: Levitate
-EVs: 252 HP / 240 Def / 16 Spe
-Timid Nature
-- Foul Play / Shadow Ball
-- Will-O-Wisp
-- Pain Split
-- Taunt
- 
-Misdreavus @ Eviolite
-Ability: Levitate
 EVs: 252 SpA / 4 SpDef / 252 Spe
 Modest Nature
 - Nasty Plot
@@ -670,31 +698,10 @@ EVs: 248 HP / 124 Def / 136 Spe
 Timid Nature
 - Will-O-Wisp
 - Taunt
-- Foul Play / Hex
+- Foul Play
 - Pain Split / Thunder Wave
- 
- 
-=== [pu] Linoone ===
- 
-Linoone @ Sitrus Berry
-Ability: Pickup
-EVs: 116 HP / 252 Atk / 4 Def / 136 Spe
-Adamant Nature
-- Belly Drum
-- Extreme Speed
-- Seed Bomb / Shadow Claw
-- Gunk Shot / Shadow Claw
- 
-Linoone @ Choice Band
-Ability: Pickup
-EVs: 116 HP / 252 Atk / 4 Def / 136 Spe
-Adamant Nature
-- Extreme Speed
-- Seed Bomb
-- Gunk Shot
-- Shadow Claw / Switcheroo
- 
- 
+
+
 === [pu] Probopass ===
  
 Probopass @ Leftovers
@@ -732,9 +739,9 @@ Ability: Sap Sipper
 EVs: 252 Atk / 4 SpD / 252 Spe  
 Jolly Nature  
 - Double-Edge  
-- Horn Leech / Seed Bomb
-- Jump Kick / Megahorn
-- Baton Pass
+- Horn Leech
+- Jump Kick 
+- Baton Pass / Megahorn
  
 Sawsbuck @ Salac Berry
 Ability: Sap Sipper  
@@ -850,7 +857,7 @@ IVs: 0 Atk
 - Calm Mind
 - Soft-Boiled
 - Moonblast
-- Thunder Wave / Flamethrower / Stored Power
+- Thunder Wave / Knock Off / Encore
  
  
 === [pu] Golduck ===
@@ -893,7 +900,7 @@ Adamant Nature
 - Stealth Rock
 - Stone Edge
 - Earthquake
-- Toxic
+- Protect
  
  
 === [pu] Gourgeist-XL ===
@@ -930,7 +937,7 @@ Adamant Nature
 - Mach Punch
 - Flare Blitz
 - Close Combat
- 
+
 Monferno @ Life Orb
 Ability: Iron Fist
 EVs: 252 Atk / 4 Def / 252 Spe
@@ -971,6 +978,17 @@ IVs: 0 Atk
 - Scald
 - Toxic
 - Protect
+
+=== [pu] Seaking ===
+ 
+Seaking @ Leftovers  
+Ability: Lightning Rod  
+EVs: 104 HP / 252 Atk / 152 Spe  
+Adamant Nature  
+- Waterfall  
+- Knock Off  
+- Megahorn  
+- Haze / Protect
  
  
 === [pu] Simisear ===
@@ -1127,15 +1145,6 @@ Jolly Nature
  
 Klang @ Eviolite
 Ability: Clear Body
-EVs: 120 HP / 252 Atk / 136 Spe
-Adamant Nature
-- Shift Gear
-- Gear Grind
-- Frustration
-- Wild Charge
- 
-Klang @ Eviolite
-Ability: Clear Body
 EVs: 252 HP / 156 Def / 100 SpD
 Careful Nature
 - Rest
@@ -1172,6 +1181,15 @@ Jolly Nature
 - Leaf Blade
 - Knock Off
 - Synthesis / Baton Pass
+
+Leafeon @ Life Orb
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Leaf Blade
+- Knock Off
+- X-Scissor / Baton Pass
  
  
 === [pu] Leavanny ===
@@ -1258,7 +1276,7 @@ Jolly Nature
 - Return
 - Fake Out
 - Knock Off
-- U-Turn / Sucker Punch
+- U-Turn / Sucker Punch / Wake-Up Slap
  
  
 === [pu] Solrock ===
@@ -1269,7 +1287,7 @@ EVs: 248 HP / 252 Def / 8 SpDef
 Impish Nature
 - Stealth Rock
 - Will-O-Wisp
-- Zen Headbutt / Stone Edge
+- Zen Headbutt / Stone Edge 
 - Morning Sun
  
 Solrock @ Colbur Berry
@@ -1278,7 +1296,7 @@ EVs: 248 HP / 252 Def / 8 SpDef
 Impish Nature
 - Stealth Rock
 - Will-O-Wisp
-- Zen Headbutt / Stone Edge
+- Stone Edge
 - Morning Sun
  
  
@@ -1375,7 +1393,7 @@ Naive Nature
 - Brave Bird
 - Sucker Punch
 - Hidden Power [Fighting]
-- Thunder Wave
+- Thunder Wave / Pursuit
  
  
 === [pu] Vibrava ===
@@ -1385,7 +1403,7 @@ Ability: Levitate
 EVs: 248 HP / 8 Def / 252 SpD
 Careful Nature
 - Earthquake
-- U-Turn
+- U-Turn / Toxic
 - Defog
 - Roost
  
@@ -1447,18 +1465,6 @@ Adamant Nature
 - Stealth Rock / Stone Edge
  
  
-=== [pu] Meowstic-M ===
- 
-Meowstic-M @ Light Clay
-Ability: Prankster
-EVs: 252 HP / 252 Def / 4 SpD
-Bold Nature
-- Reflect
-- Light Screen
-- Yawn / Thunder Wave
-- Psychic / Thunder Wave
- 
- 
 === [pu] Quilladin ===
  
 Quilladin @ Eviolite
@@ -1481,15 +1487,6 @@ Jolly Nature
  
  
 === [pu] Rampardos ===
- 
-Rampardos @ Life Orb
-Ability: Sheer Force
-EVs: 252 Atk / 4 SpA / 252 Spe
-Naive Nature
-- Rock Slide
-- Superpower
-- Zen Headbutt
-- Ice Beam / Fire Blast
  
 Rampardos @ Focus Sash
 Ability: Mold Breaker
