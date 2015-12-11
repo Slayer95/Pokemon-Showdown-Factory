@@ -1,3 +1,56 @@
+=== [pu] Glalie ===
+ 
+Glalie @ Focus Sash  
+Ability: Inner Focus  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Naive Nature  
+- Spikes  
+- Taunt  
+- Ice Beam / Freeze Dry
+- Explosion
+
+=== [pu] Camerupt ===
+ 
+Camerupt @ Leftovers  
+Ability: Solid Rock  
+EVs: 252 HP / 4 SpA / 252 SpD 
+Timid Nature  
+- Stealth Rock  
+- Lava Plume  / Fire Blast
+- Earth Power  
+- Roar / Toxic
+
+=== [pu] Altaria ===
+ 
+Altaria @ Leftovers  
+Ability: Natural Cure  
+EVs: 116 HP / 252 Atk / 140 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Dragon Claw  
+- Substitute / Earthquake
+- Roost
+
+Altaria @ Life Orb  
+Ability: Natural Cure  
+EVs: 116 HP / 252 SpA / 140 Spe  
+Modest Nature  
+- Draco Meteor  
+- Roost  
+- Fire Blast  
+- Hidden Power [Fighting] / Toxic
+
+=== [pu] Audino ===
+ 
+Audino @ Leftovers  
+Ability: Regenerator  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Knock Off  
+- Wish  
+- Protect  
+- Encore / Toxic / Double Edge / Thunder Wave
+
 === [pu] Bouffalant ===
  
 Bouffalant @ Leftovers  
