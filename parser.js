@@ -1,17 +1,17 @@
 "use strict";
 
-var toId = global.toId;
-var Tools = global.Tools;
-var utils = require('./utils.js');
-var statIDs = utils.statIDs;
+const toId = global.toId;
+const Tools = global.Tools;
+const utils = require('./utils.js');
+const statIDs = utils.statIDs;
 
 // Mostly from https://github.com/Zarel/Pokemon-Showdown-Client/blob/2a6a2667a751f/js/storage.js#L262
 module.exports = function parseTeams(text) {
-	var teams = [];
-	var lines = text.split('\n');
-	var curSet = null;
-	for (var i = 0; i < lines.length; i++) {
-		var line = lines[i].trim();
+	const teams = [];
+	const lines = text.split('\n');
+	let curSet = null;
+	for (let i = 0; i < lines.length; i++) {
+		let line = lines[i].trim();
 		if (line === '' || line === '---') {
 			curSet = null;
 		} else if (line.slice(0, 3) === '===' && teams) {
@@ -20,7 +20,7 @@ module.exports = function parseTeams(text) {
 		} else if (!curSet) {
 			curSet = {species: '', gender: ''};
 			teams.push(curSet);
-			var atIndex = line.lastIndexOf(' @ ');
+			let atIndex = line.lastIndexOf(' @ ');
 			if (atIndex !== -1) {
 				curSet.item = line.slice(atIndex + 3);
 				if (toId(curSet.item) === 'noitem') curSet.item = '';
@@ -34,7 +34,7 @@ module.exports = function parseTeams(text) {
 				curSet.gender = 'F';
 				line = line.slice(0, -4);
 			}
-			var parenIndex = line.lastIndexOf(' (');
+			let parenIndex = line.lastIndexOf(' (');
 			if (line.slice(-1) === ')' && parenIndex !== -1) {
 				line = line.slice(0, -1);
 				curSet.species = Tools.getTemplate(line.slice(parenIndex + 2)).name;
@@ -60,7 +60,7 @@ module.exports = function parseTeams(text) {
 			curSet.ability = line;
 		} else if (line.slice(0, 5) === 'EVs: ') {
 			line = line.slice(5);
-			var evLines = line.split('/');
+			let evLines = line.split('/');
 			curSet.evs = {hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0};
 			for (let j = 0; j < evLines.length; j++) {
 				let evLine = evLines[j].trim();
@@ -73,7 +73,7 @@ module.exports = function parseTeams(text) {
 			}
 		} else if (line.slice(0, 5) === 'IVs: ') {
 			line = line.slice(5);
-			var ivLines = line.split('/');
+			let ivLines = line.split('/');
 			curSet.ivs = {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31};
 			for (let j = 0; j < ivLines.length; j++) {
 				let ivLine = ivLines[j].trim();
@@ -85,7 +85,7 @@ module.exports = function parseTeams(text) {
 				curSet.ivs[statid] = statval;
 			}
 		} else if (line.match(/^[A-Za-z]+ (N|n)ature/)) {
-			var natureIndex = line.indexOf(' Nature');
+			let natureIndex = line.indexOf(' Nature');
 			if (natureIndex === -1) natureIndex = line.indexOf(' nature');
 			if (natureIndex === -1) continue;
 			line = line.slice(0, natureIndex);

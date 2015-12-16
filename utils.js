@@ -1,11 +1,11 @@
 "use strict";
 
-var util = require('util');
-var stream = require('stream');
+const util = require('util');
+const stream = require('stream');
 
-var fullTierList = ['Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU', 'BL4', 'PU'];
-var tierPositions = Object.create(null);
-for (var i = 0; i < fullTierList.length; i++) {
+const fullTierList = ['Uber', 'OU', 'BL', 'UU', 'BL2', 'RU', 'BL3', 'NU', 'BL4', 'PU'];
+const tierPositions = Object.create(null);
+for (let i = 0; i < fullTierList.length; i++) {
 	tierPositions[fullTierList[i]] = i;
 }
 
@@ -28,29 +28,29 @@ exports.isValidHappiness = new RangeValidator(0, 252);
 
 exports.toDict = function (data) {
 	if (!Array.isArray(data)) throw new TypeError("toDict only accepts arrays as input");
-	var dict = Object.create(null);
-	for (var i = 0, len = data.length; i < len; i++) {
+	const dict = Object.create(null);
+	for (let i = 0, len = data.length; i < len; i++) {
 		dict[data[i]] = 1;
 	}
 	return dict;
 };
 
 exports.inValues = function inValues(obj, val) {
-	for (var key in obj) {
+	for (let key in obj) {
 		if (obj[key] === val) return true;
 	}
 	return false;
 };
 
-var cloneObject = exports.clone = function clone(obj) {
-	var clonedObj = {};
-	for (var key in obj) {
+const cloneObject = exports.clone = function clone(obj) {
+	const clonedObj = {};
+	for (let key in obj) {
 		clonedObj[key] = obj[key];
 	}
 	return clonedObj;
 };
 
-var setKeys = ['species', 'gender', 'item', 'ability', 'shiny', 'level', 'happiness', 'evs', 'ivs', 'nature', 'moves'];
+const setKeys = ['species', 'gender', 'item', 'ability', 'shiny', 'level', 'happiness', 'evs', 'ivs', 'nature', 'moves'];
 
 exports.markConflict = function markConflict(set, conflict) {
 	return Object.defineProperty(set, 'conflict', {
@@ -61,7 +61,7 @@ exports.markConflict = function markConflict(set, conflict) {
 	});
 };
 
-var markClone = exports.markClone = function markClone(set) {
+const markClone = exports.markClone = function markClone(set) {
 	return Object.defineProperty(set, 'isClone', {
 		value: true,
 		enumerable: false,
@@ -71,10 +71,10 @@ var markClone = exports.markClone = function markClone(set) {
 };
 
 exports.copySet = function copySet(set) {
-	var clone = {};
+	const clone = {};
 
-	for (var i = 0; i < setKeys.length; i++) {
-		var key = setKeys[i];
+	for (let i = 0; i < setKeys.length; i++) {
+		let key = setKeys[i];
 		if (!(key in set)) continue;
 		if (typeof set[key] !== 'object') {
 			// Primitive; never a function (or symbol)
@@ -85,7 +85,7 @@ exports.copySet = function copySet(set) {
 		} else {
 			// Array of arrays
 			clone[key] = Array(set[key].length);
-			for (var j = 0; j < set[key].length; j++) {
+			for (let j = 0; j < set[key].length; j++) {
 				clone[key][j] = set[key][j].slice();
 			}
 		}

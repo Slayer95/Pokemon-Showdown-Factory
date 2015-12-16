@@ -1,11 +1,11 @@
 "use strict";
 
-var fs = require('fs');
-var path = require('path');
-var cProduct = require('cartesian-product');
+const fs = require('fs');
+const path = require('path');
+const cProduct = require('cartesian-product');
 
 (function () {
-	var psConfig;
+	let psConfig;
 	try {
 		psConfig = require('./Pokemon-Showdown/config/config.js');
 	} catch (err) {
@@ -22,31 +22,31 @@ var cProduct = require('cartesian-product');
 })();
 
 require('./Pokemon-Showdown');
-var utils = require('./utils.js');
-var parseTeams = require('./parser.js');
+const utils = require('./utils.js');
+const parseTeams = require('./parser.js');
 
-var toId = global.toId;
-var Tools = global.Tools.includeData();
-var Pokedex = Tools.data.Pokedex;
-// var Movedex = Tools.data.Movedex;
-var Items = Tools.data.Items;
-var Natures = Tools.data.Natures;
+const toId = global.toId;
+const Tools = global.Tools.includeData();
+const Pokedex = Tools.data.Pokedex;
+// const Movedex = Tools.data.Movedex;
+const Items = Tools.data.Items;
+const Natures = Tools.data.Natures;
 
-var factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU'];
-var uniqueOptionMoves = utils.toDict(['stealthrock', 'spikes', 'toxicspikes', 'rapidspin', 'defog', 'batonpass']); // High-impact moves
+const factoryTiers = ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU'];
+const uniqueOptionMoves = utils.toDict(['stealthrock', 'spikes', 'toxicspikes', 'rapidspin', 'defog', 'batonpass']); // High-impact moves
 
 function proofRead(setLists, strict) {
-	var errors = [];
-	var sets = {};
+	const sets = {};
+	let errors = [];
 
-	for (var tier in setLists) {
-		for (var speciesid in setLists[tier]) {
+	for (let tier in setLists) {
+		for (let speciesid in setLists[tier]) {
 			if (!Pokedex.hasOwnProperty(speciesid)) {
 				errors.push("Invalid species id: " + speciesid);
 				continue;
 			}
 
-			var speciesResult = proofReadSpeciesSets(setLists[tier][speciesid].sets, speciesid, tier, strict);
+			let speciesResult = proofReadSpeciesSets(setLists[tier][speciesid].sets, speciesid, tier, strict);
 			if (speciesResult.errors.length) {
 				errors = errors.concat(speciesResult.errors);
 			} else {
@@ -60,10 +60,10 @@ function proofRead(setLists, strict) {
 }
 
 function proofReadSpeciesSets(setList, startSpecies, tier, strict) {
-	var errors = [];
-	var output = [];
+	const errors = [];
+	const minTierIndex = utils.getTierIndex(tier);
 
-	var minTierIndex = utils.getTierIndex(tier);
+	let output = [];
 
 	for (let i = 0; i < setList.length; i++) {
 		let set = setList[i];
@@ -141,10 +141,10 @@ function proofReadSpeciesSets(setList, startSpecies, tier, strict) {
 }
 
 function getSetVariants(set) {
-	var setVariants = {moves: []};
+	const setVariants = {moves: []};
 
-	var moveCount = Object.create(null);
-	var duplicateMoves = Object.create(null);
+	const moveCount = Object.create(null);
+	const duplicateMoves = Object.create(null);
 	for (let i = 0; i < set.moves.length; i++) {
 		for (let j = 0; j < set.moves[i].length; j++) {
 			let move = Tools.getMove(set.moves[i][j]);
@@ -193,9 +193,9 @@ function combineVariants(set, setDivided) {
 	// 1) `valid`: Valid combinations
 	// 2) `discarded`: Invalid combinations between slashed moves only
 	// 3) `invalid`: Invalid combinations including fixed moves
-	var output = {valid: [], discarded: [], invalid: []};
-	var combinations = cProduct(setDivided.moves);
-	var fixedMoves = Object.create(null);
+	const output = {valid: [], discarded: [], invalid: []};
+	const combinations = cProduct(setDivided.moves);
+	const fixedMoves = Object.create(null);
 	for (let i = 0; i < set.moves.length; i++) {
 		if (set.moves[i].length <= 1) fixedMoves[Tools.getMove(set.moves[i][0]).name] = 1;
 	}
@@ -221,11 +221,11 @@ function combineVariants(set, setDivided) {
 }
 
 function checkPartition(arr) {
-	var result = true;
-	var duplicateMoves = Object.create(null);
-	var elems = Object.create(null);
-	for (var i = 0; i < arr.length; i++) {
-		for (var j = 0; j < arr[i].length; j++) {
+	let result = true;
+	const duplicateMoves = Object.create(null);
+	const elems = Object.create(null);
+	for (let i = 0; i < arr.length; i++) {
+		for (let j = 0; j < arr[i].length; j++) {
 			if (elems[arr[i][j]]) {
 				duplicateMoves[arr[i][j]] = 1;
 				result = false;
@@ -238,22 +238,22 @@ function checkPartition(arr) {
 }
 
 function splitSetClosed(set) {
-	var variantsSplit = getSetVariants(set);
-	var combinedVariants = combineVariants(set, variantsSplit);
+	const variantsSplit = getSetVariants(set);
+	const combinedVariants = combineVariants(set, variantsSplit);
 	return combinedVariants;
 }
 
 function addFlags(setLists) {
-	var hasMegaEvo = Tools.data.Scripts.hasMegaEvo.bind(Tools);
+	const hasMegaEvo = Tools.data.Scripts.hasMegaEvo.bind(Tools);
 
-	for (var tier in setLists) {
-		for (var speciesId in setLists[tier]) {
-			var flags = setLists[tier][speciesId].flags;
-			var template = Tools.getTemplate(speciesId);
+	for (let tier in setLists) {
+		for (let speciesId in setLists[tier]) {
+			let flags = setLists[tier][speciesId].flags;
+			let template = Tools.getTemplate(speciesId);
 			if (hasMegaEvo(template)) {
-				var megaOnly = true;
-				for (var i = 0, len = setLists[tier][speciesId].sets.length; i < len; i++) {
-					var set = setLists[tier][speciesId].sets[i];
+				let megaOnly = true;
+				for (let i = 0, len = setLists[tier][speciesId].sets.length; i < len; i++) {
+					let set = setLists[tier][speciesId].sets[i];
 					if (Tools.getItem(set.item).megaStone) continue;
 					megaOnly = false;
 					break;
@@ -276,10 +276,10 @@ function buildSets(options, callback) {
 		if (options.setData && typeof options.setData !== 'object') throw new TypeError("Option `setData` must be an object");
 	}
 
-	var setListsRaw = {};
-	var setListsByTier = {};
+	const setListsRaw = {};
+	const setListsByTier = {};
 
-	var setData = [];
+	const setData = [];
 	if (!options.setData) {
 		factoryTiers.forEach(function (tier) {
 			setData.push({
@@ -317,7 +317,7 @@ function buildSets(options, callback) {
 	}
 
 	// Check for weird stuff, and fix if possible
-	var result = proofRead(setListsByTier, !!options.strict);
+	const result = proofRead(setListsByTier, !!options.strict);
 	if (result.errors.length) {
 		return callback(new Error(result.errors.join('\n')));
 	}
@@ -326,7 +326,7 @@ function buildSets(options, callback) {
 	addFlags(result.sets);
 
 	// Export as JSON
-	var output = options.output || fs.createWriteStream(path.resolve(__dirname, 'factory-sets.json'), {encoding: 'utf8'});
+	const output = options.output || fs.createWriteStream(path.resolve(__dirname, 'factory-sets.json'), {encoding: 'utf8'});
 	output.on('finish', callback);
 	output.write(JSON.stringify(result.sets) + '\n');
 	output.end();

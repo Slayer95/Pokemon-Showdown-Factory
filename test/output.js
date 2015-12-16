@@ -1,15 +1,15 @@
 "use strict";
 
-var fs = require('fs');
-var path = require('path');
-var assert = require('assert');
+const fs = require('fs');
+const path = require('path');
+const assert = require('assert');
 
-var builder = require('./..');
-var OutStream = require('./../utils.js').OutputStream;
+const builder = require('./..');
+const OutStream = require('./../utils.js').OutputStream;
 
 describe("Builder", function () {
 	describe("Output stream", function () {
-		var streamWrite;
+		let streamWrite;
 
 		beforeEach(function () {
 			streamWrite = fs.WriteStream.prototype.write;
@@ -39,7 +39,7 @@ describe("Builder", function () {
 				output: new OutStream()
 			}, function () {
 				assert.ok(typeof this.setData === 'string');
-				var parsedJSON = JSON.parse(this.setData);
+				const parsedJSON = JSON.parse(this.setData);
 				assert.ok(typeof parsedJSON === 'object' && !Array.isArray(parsedJSON));
 				done();
 			});
@@ -52,7 +52,7 @@ describe("Builder", function () {
 				},
 				output: new OutStream()
 			}, function () {
-				var parsedJSON = JSON.parse(this.setData);
+				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
 					ubers: {
 						klefki: {
@@ -88,7 +88,7 @@ describe("Builder", function () {
 				},
 				output: new OutStream()
 			}, function () {
-				var parsedJSON = JSON.parse(this.setData);
+				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
 					ubers: {
 						xerneas: {
@@ -113,7 +113,7 @@ describe("Builder", function () {
 				},
 				output: new OutStream()
 			}, function () {
-				var parsedJSON = JSON.parse(this.setData);
+				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
 					ubers: {
 						xerneas: {
@@ -138,7 +138,7 @@ describe("Builder", function () {
 				},
 				output: new OutStream()
 			}, function () {
-				var parsedJSON = JSON.parse(this.setData);
+				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
 					ubers: {
 						xerneas: {
@@ -163,7 +163,7 @@ describe("Builder", function () {
 				},
 				output: new OutStream()
 			}, function () {
-				var parsedJSON = JSON.parse(this.setData);
+				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
 					ubers: {
 						xerneas: {
@@ -188,8 +188,8 @@ describe("Builder", function () {
 				},
 				output: new OutStream()
 			}, function () {
-				var parsedJSON = JSON.parse(this.setData);
-				var expectedResults = {
+				const parsedJSON = JSON.parse(this.setData);
+				const expectedResults = {
 					'Hidden Power Ground': {
 						ubers: {
 							xerneas: {
@@ -232,9 +232,9 @@ describe("Builder", function () {
 				};
 
 				assert.ok(parsedJSON && parsedJSON.ubers && parsedJSON.ubers.xerneas && Array.isArray(parsedJSON.ubers.xerneas.sets));
-				var sets = parsedJSON.ubers.xerneas.sets;
-				for (var i = 0; i < sets.length; i++) {
-					var thirdMoveAlts = sets[i].moves[2];
+				const sets = parsedJSON.ubers.xerneas.sets;
+				for (let i = 0; i < sets.length; i++) {
+					let thirdMoveAlts = sets[i].moves[2];
 					assert.ok(Array.isArray(thirdMoveAlts));
 					assert.deepEqual(expectedResults[thirdMoveAlts[0]], {
 						ubers: {
@@ -258,8 +258,8 @@ describe("Builder", function () {
 				},
 				output: new OutStream()
 			}, function () {
-				var parsedJSON = JSON.parse(this.setData);
-				var expectedResults = {
+				const parsedJSON = JSON.parse(this.setData);
+				const expectedResults = {
 					'Defog': {
 						ubers: {
 							xerneas: {
@@ -289,9 +289,9 @@ describe("Builder", function () {
 				};
 
 				assert.ok(parsedJSON && parsedJSON.ubers && parsedJSON.ubers.xerneas && Array.isArray(parsedJSON.ubers.xerneas.sets));
-				var sets = parsedJSON.ubers.xerneas.sets;
-				for (var i = 0; i < sets.length; i++) {
-					var fourthMoveAlts = sets[i].moves[3];
+				const sets = parsedJSON.ubers.xerneas.sets;
+				for (let i = 0; i < sets.length; i++) {
+					let fourthMoveAlts = sets[i].moves[3];
 					assert.ok(Array.isArray(fourthMoveAlts));
 					assert.deepEqual(expectedResults[fourthMoveAlts[0]], {
 						ubers: {
@@ -316,8 +316,8 @@ describe("Builder", function () {
 				},
 				output: new OutStream()
 			}, function () {
-				var parsedJSON = JSON.parse(this.setData);
-				var expectedResults = {
+				const parsedJSON = JSON.parse(this.setData);
+				const expectedResults = {
 					'Toxic': {
 						ubers: {
 							klefki: {
@@ -360,9 +360,9 @@ describe("Builder", function () {
 				};
 
 				assert.ok(parsedJSON && parsedJSON.ubers && parsedJSON.ubers.klefki && Array.isArray(parsedJSON.ubers.klefki.sets));
-				var sets = parsedJSON.ubers.klefki.sets;
-				for (var i = 0; i < sets.length; i++) {
-					var moveSlice = sets[i].moves.slice(1, 3);
+				const sets = parsedJSON.ubers.klefki.sets;
+				for (let i = 0; i < sets.length; i++) {
+					let moveSlice = sets[i].moves.slice(1, 3);
 					assert.ok(Array.isArray(moveSlice[0]) && Array.isArray(moveSlice[1]));
 					assert.deepEqual(Object.values(Object.reject(expectedResults, [moveSlice[0][0], moveSlice[1][0]]))[0], {
 						ubers: {

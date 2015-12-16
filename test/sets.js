@@ -1,7 +1,7 @@
 "use strict";
 
-var OutStream = require('./../utils.js').OutputStream;
-var builder = require('./..');
+const OutStream = require('./../utils.js').OutputStream;
+const builder = require('./..');
 
 describe("Collected data", function () {
 	it("should not have any error", function (done) {
