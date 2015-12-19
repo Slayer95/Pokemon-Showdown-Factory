@@ -1330,27 +1330,6 @@ Adamant Nature
 - Earthquake
 
 
-=== [ou] [OU] Gothitelle ===
-
-Gothitelle @ Choice Scarf
-Ability: Shadow Tag
-EVs: 252 SpA / 4 SpD / 252 Spe
-Timid Nature
-- Psyshock
-- Thunderbolt
-- Hidden Power [Fire]
-- Trick
-
-Gothitelle @ Choice Specs
-Ability: Shadow Tag
-EVs: 252 SpA / 4 SpD / 252 Spe
-Modest Nature
-- Psyshock
-- Thunderbolt
-- Hidden Power [Fire]
-- Trick
-
-
 === [ou] [OU] Gallade ===
 
 Gallade @ Galladite
