@@ -61,28 +61,6 @@ Relaxed Nature
 - Knock Off
 
 
-=== [nu] Carbink ===
-
-Carbink @ Leftovers
-Ability: Sturdy
-EVs: 252 HP / 252 Def / 4 SpA
-Bold Nature
-- Calm Mind
-- Rest
-- Sleep Talk
-- Moonblast
-
-Carbink @ Custap Berry
-Ability: Sturdy
-EVs: 252 HP / 252 Def / 4 SpD
-Relaxed Nature
-IVs: 0 Spe
-- Explosion
-- Trick Room
-- Stealth Rock
-- Magic Coat
-
-
 === [nu] Beheeyem ===
 
 Beheeyem @ Life Orb
@@ -136,17 +114,6 @@ Adamant Nature
 - Return
 - Earthquake
 
-=== [nu] Avalugg ===
-
-Avalugg @ Leftovers
-Ability: Sturdy
-EVs: 248 HP / 8 Def / 252 SpD
-Careful Nature
-- Rapid Spin
-- Recover
-- Avalanche
-- Earthquake / Roar
-
 
 === [nu] Aurorus ===
 
@@ -167,6 +134,24 @@ Modest Nature
 - Freeze-Dry
 - Hyper Voice
 - Earth Power
+
+Aurorus @ Focus Sash  
+Ability: Snow Warning  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Stealth Rock  
+- Blizzard  
+- Earth Power  
+- Freeze-Dry
+
+Aurorus @ Choice Scarf
+Ability: Snow Warning
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Earth Power
+- Ancient Power
 
 === [nu] Articuno ===
 
@@ -198,7 +183,7 @@ Careful Nature
 - Coil
 - Rest
 - Gunk Shot
-- Earthquake
+- Earthquake / Seed Bomb
 
 Arbok @ Black Sludge
 Ability: Shed Skin
@@ -207,7 +192,7 @@ Adamant Nature
 - Coil
 - Sucker Punch
 - Gunk Shot
-- Earthquake
+- Earthquake / Seed Bomb
 
 
 === [nu] Zangoose ===
@@ -251,7 +236,7 @@ EVs: 248 HP / 252 Def / 8 SpA
 Bold Nature
 - Will-O-Wisp
 - Sludge Bomb
-- Pain Split / Taunt
+- Pain Split / Taunt / Toxic Spikes
 - Flamethrower 
 
 === [nu] Vivillon ===
@@ -281,7 +266,7 @@ Timid Nature
 - Sleep Powder
 - Quiver Dance
 - Hurricane
-- Bug Buzz
+- Energy Ball
 
 
 === [nu] Vileplume ===
@@ -305,27 +290,6 @@ Modest Nature
 - Synthesis
 
 
-=== [nu] Torkoal ===
-
-Torkoal @ Leftovers
-Ability: Shell Armor
-EVs: 252 HP / 252 Def / 4 SpA
-Bold Nature
-- Rapid Spin
-- Lava Plume
-- Stealth Rock
-- Yawn
-
-Torkoal @ Leftovers
-Ability: Shell Armor
-EVs: 252 HP / 4 Def / 252 SpD
-Calm Nature
-- Rapid Spin
-- Lava Plume
-- Stealth Rock
-- Yawn
-
-
 === [nu] Swellow ===
 
 Swellow @ Choice Specs
@@ -347,6 +311,153 @@ Jolly Nature
 - Quick Attack
 
 
+=== [nu] Steelix ===
+
+Steelix @ Leftovers
+Ability: Sturdy
+EVs: 244 HP / 136 Atk / 128 SpD
+Adamant Nature
+- Earthquake
+- Heavy Slam
+- Stealth Rock
+- Toxic / Roar
+ 
+Steelix @ Life Orb  
+Ability: Sheer Force  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Autotomize  
+- Earthquake  
+- Iron Head  
+- Crunch / Thunder Fang
+ 
+Steelix @ Life Orb  
+Ability: Sheer Force  
+EVs: 80 HP / 252 SpA / 176 Spe  
+Modest Nature  
+- Flash Cannon  
+- Dark Pulse  
+- Earth Power  
+- Stealth Rock / Autotomize
+
+
+=== [nu] Sliggoo ===
+
+Sliggoo @ Eviolite  
+Ability: Sap Sipper  
+EVs: 248 HP / 188 Def / 72 SpD  
+Calm Nature  
+- Rest  
+- Sleep Talk  
+- Outrage  
+- Curse
+ 
+Sliggoo @ Eviolite
+Ability: Sap Sipper  
+EVs: 160 HP / 252 SpA / 96 Spe  
+Modest Nature  
+- Draco Meteor  
+- Muddy Water  
+- Sludge Bomb  
+- Thunderbolt
+
+Sliggoo @ Choice Specs
+Ability: Sap Sipper  
+EVs: 160 HP / 252 SpA / 96 Spe  
+Modest Nature  
+- Draco Meteor  
+- Muddy Water  
+- Sludge Bomb  
+- Thunderbolt
+
+
+=== [nu] Skuntank ===
+
+Skuntank @ Lum Berry
+Ability: Aftermath  
+EVs: 24 HP / 224 Atk / 176 SpD / 84 Spe  
+Adamant Nature  
+- Taunt  
+- Poison Jab  
+- Sucker Punch  
+- Pursuit
+
+Skuntank @ Black Sludge
+Ability: Aftermath  
+EVs: 24 HP / 224 Atk / 176 SpD / 84 Spe  
+Adamant Nature  
+- Taunt  
+- Poison Jab  
+- Sucker Punch  
+- Pursuit
+
+Skuntank @ Dread Plate
+Ability: Aftermath  
+EVs: 24 HP / 224 Atk / 176 SpD / 84 Spe  
+Adamant Nature  
+- Taunt  
+- Poison Jab  
+- Sucker Punch  
+- Pursuit
+
+Skuntank @ Life Orb
+Ability: Aftermath
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+- Dark Pulse  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Defog
+
+Skuntank @ Expert Belt
+Ability: Aftermath
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+- Dark Pulse  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Defog
+
+
+=== [nu] Sceptile ===
+
+Sceptile @ Life Orb  
+Ability: Overgrow  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Giga Drain  
+- Earthquake / Rock Slide
+- Focus Blast  
+- Hidden Power [Ice]
+ 
+Sceptile @ Choice Specs  
+Ability: Overgrow  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Leaf Storm  
+- Giga Drain  
+- Focus Blast  
+- Hidden Power [Ice]
+ 
+Sceptile @ Sitrus Berry  
+Ability: Unburden  
+EVs: 88 HP / 252 Atk / 168 Spe  
+Adamant Nature  
+- Swords Dance  
+- Acrobatics  
+- Leaf Blade  
+- Substitute / Earthquake
+ 
+Sceptile @ Sitrus Berry  
+Ability: Unburden  
+EVs: 252 Atk / 252 Spe / 4 Def
+Jolly Nature  
+- Swords Dance  
+- Acrobatics  
+- Leaf Blade  
+- Earthquake
+
+
 === [nu] Sawk ===
 
 Sawk @ Choice Band
@@ -358,23 +469,32 @@ Adamant Nature
 - Zen Headbutt
 - Stone Edge
 
-Sawk @ Life Orb
+Sawk @ Expert Belt
 Ability: Mold Breaker
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
 - Close Combat
 - Knock Off
-- Ice Punch
-- Poison Jab
+- Stone Edge
+- Zen Headbutt
+
+Sawk @ Lum Berry
+Ability: Mold Breaker
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Knock Off
+- Earthquake
+- Stone Edge
 
 Sawk @ Choice Scarf
-Ability: Mold Breaker
+Ability: Sturdy
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
 - Close Combat
 - Knock Off
-- Ice Punch
-- Poison Jab
+- Stone Edge
+- Zen Headbutt
 
 
 === [nu] Sandslash ===
@@ -549,35 +669,35 @@ Timid Nature
 - Hidden Power [Grass]
 - Overheat / Sleep Talk
 
+Pyroar @ Life Orb
+Ability: Rivalry 
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Fire Blast  
+- Hyper Voice  
+- Hidden Power [Grass]  
+- Will-O-Wisp / Taunt
+
+Pyroar @ Flame Plate
+Ability: Rivalry  
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Fire Blast  
+- Hyper Voice  
+- Hidden Power [Grass]  
+- Will-O-Wisp / Taunt
+
 
 === [nu] Probopass ===
 
-Probopass @ Leftovers
-Ability: Magnet Pull
-EVs: 172 HP / 252 SpA / 84 Spe
-Modest Nature
-- Volt Switch
-- Thunder Wave
-- Flash Cannon
-- Earth Power
-
-Probopass @ Air Balloon
-Ability: Magnet Pull
-EVs: 172 HP / 252 SpA / 84 Spe
-Modest Nature
-- Earth Power
-- Volt Switch
-- Flash Cannon
-- Hidden Power [Fire]
-
-Probopass @ Leftovers
-Ability: Sturdy
-EVs: 252 HP / 4 SpA / 252 SpD
-Calm Nature
-- Stealth Rock
-- Volt Switch
-- Flash Cannon
-- Thunder Wave
+Probopass @ Air Balloon  
+Ability: Magnet Pull  
+EVs: 216 HP / 252 SpA / 40 Spe  
+Modest Nature  
+- Earth Power  
+- Hidden Power [Fire] / Taunt
+- Stealth Rock  
+- Magnet Rise
 
 
 === [nu] Primeape ===
@@ -599,6 +719,54 @@ Jolly Nature
 - U-turn
 - Stone Edge / Earthquake
 - Encore
+
+Primeape @ Fist Plate
+Ability: Defiant
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- U-turn
+- Stone Edge / Earthquake
+- Encore
+
+
+=== [nu] Pinsir ===
+
+Pinsir @ Focus Sash  
+Ability: Mold Breaker  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Stealth Rock  
+- X-Scissor  
+- Earthquake  
+- Stone Edge / Close Combat
+ 
+Pinsir @ Life Orb
+Ability: Mold Breaker  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- X-Scissor  
+- Earthquake  
+- Stone Edge  
+
+Pinsir @ Lum Berry
+Ability: Mold Breaker  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- X-Scissor  
+- Earthquake  
+- Stone Edge  
+ 
+Pinsir @ Choice Band
+Ability: Mold Breaker  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- X-Scissor  
+- Earthquake  
+- Stone Edge  
+- Close Combat
 
 
 === [nu] Pawniard ===
@@ -642,15 +810,6 @@ Bold Nature
 - Moonlight  
 - Stored Power
 
-Musharna @ Life Orb
-Ability: Synchronize
-EVs: 252 HP / 4 Def / 252 SpA
-Quiet Nature
-- Trick Room
-- Psychic
-- Healing Wish / Moonlight
-- Signal Beam
-
 Musharna @ Leftovers
 Ability: Synchronize
 EVs: 240 HP / 252 Def / 16 SpD
@@ -663,24 +822,23 @@ Bold Nature
 
 === [nu] Muk ===
 
+Muk @ Choice Band 
+Ability: Sticky Hold 
+EVs: 252 HP / 252 Atk / 4 Def
+Brave Nature
+- Gunk Shot 
+- Shadow Sneak
+- Focus Punch 
+- Fire Punch / Ice Punch
+
 Muk @ Assault Vest
 Ability: Poison Touch
 EVs: 252 HP / 252 Atk / 4 Def
 Brave Nature
-- Poison Jab / Gunk Shot
+- Poison Jab
 - Shadow Sneak
 - Giga Drain
-- Fire Punch / Ice Punch
-
-Muk @ Black Sludge
-Ability: Poison Touch
-EVs: 252 HP / 4 Atk / 252 SpD
-Careful Nature
-- Poison Jab
-- Curse
-- Shadow Sneak
-- Fire Punch
-
+- Fire punch / Ice Punch / Focus Punch
 
 === [nu] Mismagius ===
 
@@ -725,11 +883,11 @@ Careful Nature
 
 Miltank @ Leftovers
 Ability: Sap Sipper
-EVs: 252 HP / 236 Def / 20 Spe
+EVs: 240 HP / 252 Def / 16 Spe  
 Impish Nature
 - Stealth Rock
-- Seismic Toss / Body Slam
-- Toxic / Thunder Wave
+- Body Slam
+- Earthquake
 - Milk Drink
 
 === [nu] Mesprit ===
@@ -741,15 +899,6 @@ Modest Nature
 - Psychic
 - Energy Ball / Thunderbolt
 - U-turn
-- Healing Wish
- 
-Mesprit @ Choice Scarf
-Ability: Levitate
-EVs: 252 Atk / 4 SpD / 252 Spe
-Adamant Nature
-- Zen Headbutt
-- U-turn
-- Knock Off
 - Healing Wish
 
 Mesprit @ Life Orb
@@ -770,6 +919,14 @@ Timid Nature
 - Hidden Power [Fire] / Signal Beam
 - Healing Wish
 
+Mesprit @ Colbur Berry 
+Ability: Levitate  
+EVs: 248 HP / 252 Def / 4 SpA / 4 Spe  
+Bold Nature  
+- Stealth Rock  
+- U-turn  
+- Psychic  
+- Thunder Wave
 
 === [nu] Mantine ===
 
@@ -1072,6 +1229,18 @@ Adamant Nature
 - Seed Bomb
 
 
+=== [nu] Floatzel ===
+
+Floatzel @ Life Orb  
+Ability: Water Veil  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Hydro Pump  
+- Ice Beam  
+- Focus Blast  
+- Baton Pass / Taunt
+
+
 === [nu] Ferroseed ===
 
 Ferroseed @ Eviolite
@@ -1091,6 +1260,7 @@ Impish Nature
 - Seed Bomb
 - Leech Seed
 - Thunder Wave
+
 
 === [nu] Exeggutor ===
 
@@ -1112,14 +1282,6 @@ Modest Nature
 - Giga Drain
 - Hidden Power [Fire]
 
-Exeggutor @ Lum Berry
-Ability: Harvest
-EVs: 248 HP / 176 SpA / 84 Spe
-Modest Nature
-- Sleep Powder
-- Giga Drain
-- Psychic
-- Rest
 
 === [nu] Electivire ===
 
@@ -1141,25 +1303,6 @@ Naive Nature
 - Earthquake  
 - Hidden Power [Grass]
 
-=== [nu] Cryogonal ===
-
-Cryogonal @ Leftovers
-Ability: Levitate
-EVs: 240 HP / 212 Def / 56 SpD
-Calm Nature
-- Rapid Spin
-- Freeze-Dry
-- Recover
-- Haze
-
-Cryogonal @ Icicle Plate
-Ability: Levitate
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Rapid Spin
-- Freeze-Dry
-- Hidden Power [Ground] / Ice Beam
-- Recover
 
 === [nu] Crustle ===
 
@@ -1201,6 +1344,19 @@ Mild Nature
 - Sucker Punch
 - Spikes
 
+
+=== [nu] Banette ===
+
+Banette @ Life Orb  
+Ability: Insomnia  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Shadow Claw  
+- Gunk Shot  
+- Taunt  
+- Sucker Punch
+
+
 === [nu] Audino ===
 
 Audino @ Audinite  
@@ -1221,14 +1377,6 @@ Modest Nature
 - Fire Blast
 - Psychic 
 
-Audino @ Leftovers
-Ability: Regenerator
-EVs: 252 HP / 4 Atk / 252 SpD
-Careful Nature
-- Wish
-- Protect
-- Heal Bell
-- Knock Off
 
 === [nu] Archeops ===
 
