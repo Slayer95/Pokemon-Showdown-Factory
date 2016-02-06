@@ -311,18 +311,6 @@ Modest Nature
 - Hidden Power [Ice]
 
 
-=== [ou] [OU] Smeargle ===
-
-Smeargle @ Focus Sash
-Ability: Own Tempo
-EVs: 96 HP / 120 Def / 40 SpD / 252 Spe
-Timid Nature
-- Sticky Web
-- Stealth Rock
-- Dark Void
-- Magic Coat
-
-
 === [ou] [OU] Scolipede ===
 
 Scolipede @ Life Orb
@@ -385,7 +373,7 @@ EVs: 252 HP / 4 Def / 252 SpD
 Bold Nature
 - Reflect
 - Light Screen
-- Fairy Lock
+- Spikes
 - Foul Play
 
 Klefki @ Leftovers
@@ -497,7 +485,7 @@ Timid Nature
 - Psychic
 - Shadow Ball
 - Focus Blast
-- Hidden Power [Ice]
+- Hidden Power [Ice] / Encore
 
 Alakazam @ Alakazite
 Ability: Magic Guard
@@ -715,24 +703,6 @@ Modest Nature
 - Psyshock
 - Shadow Ball
 - Baton Pass
-
-Sylveon @ Leftovers
-Ability: Pixilate
-EVs: 252 HP / 220 Def / 36 SpD
-Bold Nature
-- Hyper Voice
-- Wish
-- Protect
-- Heal Bell
-
-Sylveon @ Leftovers
-Ability: Pixilate
-EVs: 252 HP / 4 Def / 252 SpD
-Calm Nature
-- Wish
-- Protect
-- Heal Bell
-- Hyper Voice
 
 
 === [ou] [OU] Slowbro ===

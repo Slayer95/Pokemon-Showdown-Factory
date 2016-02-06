@@ -1,3 +1,48 @@
+=== [pu] Prinplup ===
+
+Prinplup @ Eviolite 
+Ability: Torrent 
+EVs: 248 HP / 252 Def / 8 SpD 
+Bold Nature 
+- Stealth Rock 
+- Scald 
+- Toxic 
+- Defog
+
+
+=== [pu] Ampharos ===
+
+Ampharos @ Life Orb  
+Ability: Static  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Agility  
+- Thunderbolt  
+- Focus Blast  
+- Hidden Power [Ice]
+
+
+=== [pu] Cryogonal ===
+
+Cryogonal @ Life Orb 
+Ability: Levitate 
+EVs: 252 SpA / 4 SpD / 252 Spe 
+Timid Nature 
+- Freeze-Dry 
+- Hidden Power [Fighting]
+- Recover 
+- Rapid Spin
+
+Cryogonal @ Leftovers 
+Ability: Levitate 
+EVs: 248 HP / 156 Def / 104 SpD
+Calm Nature 
+- Freeze-Dry 
+- Rapid Spin
+- Recover 
+- Hidden Power [Fighting]
+
+
 === [pu] Glalie ===
  
 Glalie @ Focus Sash  
@@ -79,45 +124,6 @@ Adamant Nature
 - Earthquake
 - Megahorn
 - Pursuit
- 
- 
-=== [pu] Exeggutor ===
- 
-Exeggutor @ Choice Specs
-Ability: Chlorophyll
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Timid Nature  
-- Leaf Storm  
-- Psychic
-- Hidden Power [Fire]
-- Ancient Power / Sleep Powder
- 
-Exeggutor @ Colbur Berry
-Ability: Harvest
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Timid Nature  
-- Leaf Storm  
-- Psychic
-- Hidden Power [Fire]
-- Ancient Power / Sleep Powder
- 
-Exeggutor @ Life Orb
-Ability: Chlorophyll
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Timid Nature  
-- Leaf Storm  
-- Psychic
-- Hidden Power [Fire]
-- Ancient Power / Sleep Powder
- 
-Exeggutor @ Life Orb  
-Ability: Chlorophyll  
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Timid Nature  
-- Sunny Day
-- Solar Beam
-- Psychic
-- Hidden Power [Fire] / Giga Drain / Sleep Powder
 
  
 === [pu] Gorebyss ===
@@ -175,18 +181,6 @@ Modest Nature
 - Sludge Bomb  
 - Hidden Power [Fighting]  
 - Spikes / Sleep Powder / Toxic Spikes
- 
- 
-=== [pu] Vigoroth ===
- 
-Vigoroth @ Eviolite  
-Ability: Vital Spirit  
-EVs: 252 HP / 240 SpD / 16 Spe  
-Careful Nature  
-- Return / Body Slam
-- Bulk Up  
-- Slack Off  
-- Taunt / Substitute
  
  
 === [pu] Floatzel ===
@@ -1297,27 +1291,6 @@ Nature: Adamant
 - X-Scissor
 - Aerial Ace
 - Toxic
- 
- 
-=== [pu] Pelipper ===
- 
-Pelipper @ Leftovers
-Ability: Keen Eye
-EVs: 248 HP / 8 Def / 252 SpDef
-Calm Nature
-- Scald
-- Roost
-- Defog
-- U-turn / Air Slash / Toxic
- 
-Pelipper @ Leftovers
-Ability: Keen Eye
-EVs: 248 HP / 252 Def / 8 SpDef
-Bold Nature
-- Scald
-- Roost
-- Defog
-- U-turn / Air Slash / Toxic
  
  
 === [pu] Purugly ===

@@ -1,3 +1,106 @@
+=== [ru] Venusaur ===
+
+Venusaur @ Life Orb
+Ability: Overgrow  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Leaf Storm  
+- Sludge Bomb  
+- Synthesis  
+- Hidden Power [Fire]
+
+Venusaur @ Black Sludge  
+Ability: Overgrow  
+EVs: 252 HP / 92 SpA / 164 Spe  
+Modest Nature  
+- Giga Drain  
+- Sludge Bomb  
+- Synthesis  
+- Hidden Power [Fire]
+
+
+=== [ru] Diancie ===
+
+Diancie @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 4 Def / 252 SpD  
+Sassy Nature  
+- Stealth Rock  
+- Heal Bell  
+- Moonblast  
+- Diamond Storm
+
+Diancie @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 252 Def / 4 SpA  
+Bold Nature  
+- Calm Mind  
+- Rest  
+- Sleep Talk  
+- Moonblast
+
+Diancie @ Life Orb  
+Ability: Clear Body  
+EVs: 252 HP / 4 Def / 252 SpA  
+Quiet Nature  
+IVs: 0 Spe  
+- Trick Room  
+- Moonblast  
+- Earth Power  
+- Psychic / Diamond Storm / Explosion
+
+
+=== [ru] Manectric ===
+
+Manectric @ Life Orb  
+Ability: Lightning Rod  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Volt Switch  
+- Thunderbolt  
+- Flamethrower / Overheat
+- Hidden Power [Ice]
+
+Manectric @ Choice Scarf  
+Ability: Lightning Rod  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Volt Switch  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Overheat / Switcheroo
+
+
+=== [ru] Hoopa ===
+
+Hoopa @ Life Orb  
+Ability: Magician  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Substitute / Nasty Plot
+- Shadow Ball  
+- Psyshock  
+- Focus Blast
+
+Hoopa @ Life Orb  
+Ability: Magician  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Mild Nature  
+- Knock Off  
+- Shadow Ball  
+- Psyshock  
+- Focus Blast
+
+Hoopa @ Leftovers  
+Ability: Magician  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Substitute
+- Nasty Plot
+- Shadow Ball    
+- Focus Blast
+
+
 === [ru] Banette ===
 
 Banette @ Banettite
@@ -183,27 +286,6 @@ Bold Nature
 - Hidden Power [Fire] / Stun Spore
 
 
-=== [ru] Shiftry ===
-
-Shiftry @ Life Orb
-Ability: Chlorophyll
-EVs: 252 Atk / 4 SpA / 252 Spe
-Hasty Nature
-- Defog
-- Knock Off
-- Sucker Punch
-- Leaf Storm
-
-Shiftry @ Life Orb
-Ability: Chlorophyll
-EVs: 252 Atk / 4 SpD / 252 Spe
-Jolly Nature
-- Swords Dance
-- Knock Off
-- Sucker Punch
-- Seed Bomb
-
-
 === [ru] Tyrantrum ===
 
 Tyrantrum @ Choice Scarf
@@ -223,6 +305,15 @@ Adamant Nature
 - Head Smash
 - Earthquake
 - Outrage
+
+Tyrantrum @ Lum Berry  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Head Smash  
+- Outrage  
+- Earthquake  
+- Rock Polish
 
 Tyrantrum @ Choice Band
 Ability: Rock Head
@@ -439,7 +530,7 @@ Timid Nature
 - Bug Buzz
 - Focus Blast
 - Spikes
-- Sludge bomb
+- Sludge bomb / Hidden Power [Ice]
 
 
 === [ru] Spiritomb ===
@@ -483,7 +574,7 @@ Careful Nature
 - Toxic Spikes
 - Poison Jab
 
-Drapion @ Lum Berry
+Drapion @ Shuca Berry
 Ability: Battle Armor
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
@@ -757,6 +848,14 @@ Adamant Nature
 - Stealth Rock
 - Roar / Toxic
 
+Steelix @ Steelixite  
+Ability: Sturdy  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+- Heavy Slam  
+- Earthquake  
+- Roar  
+- Stealth Rock
 
 === [ru] Emboar ===
 

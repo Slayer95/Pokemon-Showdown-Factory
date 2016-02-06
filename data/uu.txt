@@ -1,3 +1,153 @@
+=== [uu] Zapdos ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Thunderbolt  
+- Heat Wave  
+- Hidden Power [Grass] / Hidden Power [Ice]
+- Roost
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 248 HP / 236 Def / 24 Spe  
+Bold Nature   
+- Thunderbolt / Discharge
+- Roost  
+- Defog
+- Heat Wave / Toxic
+
+Zapdos @ Choice Scarf  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Thunderbolt  
+- Heat Wave  
+- Hidden Power [Ice] / Hidden Power [Grass]
+- Volt Switch / U-Turn
+
+
+=== [uu] Gardevoir ===
+
+Gardevoir @ Choice Specs  
+Ability: Trace  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Moonblast  
+- Psyshock  
+- Focus Blast / Shadow Ball
+- Trick / Shadow Ball
+
+Gardevoir @ Leftovers  
+Ability: Trace  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Calm Mind  
+- Moonblast  
+- Psyshock  
+- Focus Blast / Substitute
+
+
+=== [uu] Sableye ===
+
+Sableye @ Leftovers  
+Ability: Prankster  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Recover  
+- Will-O-Wisp  
+- Taunt  
+- Knock Off
+
+
+=== [uu] Diancie ===
+
+Diancie @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 4 Atk / 252 SpA  
+Quiet Nature    
+- Stealth Rock  
+- Moonblast  
+- Diamond Storm 
+- Earth Power / Protect
+
+
+=== [uu] Metagross ===
+
+Metagross @ Shuca Berry  
+Ability: Clear Body  
+EVs: 40 HP / 252 Atk / 216 Spe  
+Adamant Nature  
+- Stealth Rock  
+- Earthquake / Ice Punch / Thunder Punch
+- Zen Headbutt 
+- Bullet Punch
+
+
+=== [uu] Gyarados ===
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Waterfall  
+- Bounce  
+- Substitute / Earthquake / Stone Edge
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 216 HP / 60 Atk / 184 Def / 48 Spe  
+Impish Nature  
+- Rest  
+- Sleep Talk  
+- Waterfall  
+- Toxic / Roar
+
+
+=== [uu] Alakazam ===
+
+Alakazam @ Life Orb  
+Ability: Magic Guard  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Psychic  
+- Shadow Ball  
+- Focus Blast / Dazzling Gleam
+- Taunt / Encore / Substitute 
+
+Alakazam @ Focus Sash  
+Ability: Magic Guard  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Psychic  
+- Shadow Ball  
+- Focus Blast / Dazzling Gleam
+- Taunt / Encore / Thunder Wave
+
+
+=== [uu] Hoopa ===
+
+Hoopa @ Life Orb
+Ability: Magician
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Trick Room
+- Shadow Ball
+- Psyshock / Psychic
+- Focus Blast
+
+Hoopa @ Life Orb
+Ability: Magician
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Shadow Ball
+- Focus Blast
+- Psyshock / Nasty Plot
+- Substitute / Nasty Plot
+
+
 === Crobat ===
 
 Crobat @ Choice Band
@@ -1340,27 +1490,6 @@ Adamant Nature
 - Drain Punch
 
 
-=== Trevenant ===
-
-Trevenant @ Lum Berry
-Ability: Harvest
-EVs: 248 HP / 8 Def / 252 SpD
-Careful Nature
-- Rest
-- Will-O-Wisp
-- Leech Seed
-- Horn Leech
-
-Trevenant @ Sitrus Berry
-Ability: Harvest
-EVs: 248 HP / 8 Def / 252 SpD
-Careful Nature
-- Substitute
-- Will-O-Wisp
-- Leech Seed
-- Phantom Force
-
-
 === Umbreon ===
 
 Umbreon (M) @ Leftovers
@@ -1489,7 +1618,7 @@ Careful Nature
 
 === Tornadus ===
 
-Tornadus (M) @ Life Orb
+Tornadus (M)
 Ability: Defiant
 EVs: 252 Atk / 4 SpD / 252 Spe
 Jolly Nature
