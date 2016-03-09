@@ -1,7 +1,7 @@
 factory-sets.json
 /Pokemon-Showdown/*
 /node_modules
-/gulp-cache
+.eslintcache
 npm-debug.log
 
 # boilerplate #

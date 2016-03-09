@@ -51,10 +51,10 @@ module.exports = function parseTeams(text) {
 			curSet.shiny = true;
 		} else if (line.slice(0, 7) === 'Level: ') {
 			line = line.slice(7);
-			curSet.level = parseInt(line, 10);
+			curSet.level = Number(line.trim());
 		} else if (line.slice(0, 11) === 'Happiness: ') {
 			line = line.slice(11);
-			curSet.happiness = parseInt(line, 10);
+			curSet.happiness = Number(line.trim());
 		} else if (line.slice(0, 9) === 'Ability: ') {
 			line = line.slice(9);
 			curSet.ability = line;
@@ -67,7 +67,7 @@ module.exports = function parseTeams(text) {
 				let spaceIndex = evLine.indexOf(' ');
 				if (spaceIndex === -1) continue;
 				let statid = statIDs[evLine.slice(spaceIndex + 1)];
-				let statval = parseInt(evLine.slice(0, spaceIndex), 10);
+				let statval = Number(evLine.slice(0, spaceIndex).trim());
 				if (!statid) continue;
 				curSet.evs[statid] = statval;
 			}
@@ -80,7 +80,7 @@ module.exports = function parseTeams(text) {
 				let spaceIndex = ivLine.indexOf(' ');
 				if (spaceIndex === -1) continue;
 				let statid = statIDs[ivLine.slice(spaceIndex + 1)];
-				let statval = parseInt(ivLine.slice(0, spaceIndex), 10);
+				let statval = Number(ivLine.slice(0, spaceIndex).trim());
 				if (!statid) continue;
 				curSet.ivs[statid] = statval;
 			}

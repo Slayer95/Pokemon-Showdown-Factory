@@ -57,7 +57,7 @@ exports.markConflict = function markConflict(set, conflict) {
 		value: conflict,
 		enumerable: false,
 		writable: true,
-		configurable: true
+		configurable: true,
 	});
 };
 
@@ -66,7 +66,7 @@ const markClone = exports.markClone = function markClone(set) {
 		value: true,
 		enumerable: false,
 		writable: true,
-		configurable: true
+		configurable: true,
 	});
 };
 
@@ -101,7 +101,7 @@ exports.statIDs = {
 	Def: 'def', def: 'def',
 	SpA: 'spa', SAtk: 'spa', SpAtk: 'spa', spa: 'spa',
 	SpD: 'spd', SDef: 'spd', SpDef: 'spd', spd: 'spd',
-	Spe: 'spe', Spd: 'spe', spe: 'spe'
+	Spe: 'spe', Spd: 'spe', spe: 'spe',
 };
 
 function OutputStream() {

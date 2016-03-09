@@ -6,7 +6,7 @@ const builder = require('./..');
 describe("Collected data", function () {
 	it("should not have any error", function (done) {
 		builder.run({
-			output: new OutStream()
+			output: new OutStream(),
 		}, done);
 	});
 });

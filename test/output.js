@@ -23,9 +23,9 @@ describe("Builder", function () {
 			fs.WriteStream.prototype.write = function () {throw new Error("Wrote to file stream");};
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, done);
 		});
 	});
@@ -34,9 +34,9 @@ describe("Builder", function () {
 		it('should be a valid JSON string for an object', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function () {
 				assert.ok(typeof this.setData === 'string');
 				const parsedJSON = JSON.parse(this.setData);
@@ -48,9 +48,9 @@ describe("Builder", function () {
 		it('should consist of correct sets', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function () {
 				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
@@ -60,22 +60,22 @@ describe("Builder", function () {
 							"sets": [{
 								species: "Klefki", gender: "", item: "Leftovers", ability: "Prankster",
 								evs: {"hp": 248, "atk": 8, "def": 0, "spa": 0, "spd": 252, "spe": 0}, nature: "Careful",
-								moves: [["Spikes"], ["Thunder Wave"], ["Toxic"], ["Play Rough"]]
-							}]
+								moves: [["Spikes"], ["Thunder Wave"], ["Toxic"], ["Play Rough"]],
+							}],
 						},
 						zekrom:  {
 							"flags": {},
 							"sets": [{
 								species: "Zekrom", "gender": "", item: "Choice Band", ability: "Teravolt",
 								evs: {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, nature: "Adamant",
-								moves: [["Bolt Strike"], ["Outrage"], ["Dragon Claw"], ["Volt Switch"]]
+								moves: [["Bolt Strike"], ["Outrage"], ["Dragon Claw"], ["Volt Switch"]],
 							}, {
 								species: "Zekrom", gender: "", item: "Choice Scarf", ability: "Teravolt",
 								evs: {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252}, nature: "Lonely",
-								moves: [["Bolt Strike"], ["Volt Switch"], ["Draco Meteor"], ["Outrage"]]
-							}]
-						}
-					}
+								moves: [["Bolt Strike"], ["Volt Switch"], ["Draco Meteor"], ["Outrage"]],
+							}],
+						},
+					},
 				});
 				done();
 			});
@@ -84,9 +84,9 @@ describe("Builder", function () {
 		it('should parse sets with Hidden Power correctly', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-hiddenpower.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-hiddenpower.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function () {
 				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
@@ -97,10 +97,10 @@ describe("Builder", function () {
 								species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
 								evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 								ivs: {"spa":30, "spd":30},
-								moves: [["Geomancy"], ["Moonblast"], ["Hidden Power Ground"], ["Thunder"]]
-							}]
-						}
-					}
+								moves: [["Geomancy"], ["Moonblast"], ["Hidden Power Ground"], ["Thunder"]],
+							}],
+						},
+					},
 				});
 				done();
 			});
@@ -109,9 +109,9 @@ describe("Builder", function () {
 		it('should parse sets with Frustration correctly', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-frustration.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-frustration.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function () {
 				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
@@ -122,10 +122,10 @@ describe("Builder", function () {
 								species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
 								evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 								happiness: 0,
-								moves: [["Geomancy"], ["Moonblast"], ["Frustration"], ["Thunder"]]
-							}]
-						}
-					}
+								moves: [["Geomancy"], ["Moonblast"], ["Frustration"], ["Thunder"]],
+							}],
+						},
+					},
 				});
 				done();
 			});
@@ -134,9 +134,9 @@ describe("Builder", function () {
 		it('should parse sets with Hidden Power and Frustration correctly', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-hiddenpower-frustration.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-hiddenpower-frustration.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function () {
 				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
@@ -147,10 +147,10 @@ describe("Builder", function () {
 								species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
 								evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 								ivs: {"spa":30, "spd":30}, happiness: 0,
-								moves: [["Geomancy"], ["Moonblast"], ["Hidden Power Ground"], ["Frustration"]]
-							}]
-						}
-					}
+								moves: [["Geomancy"], ["Moonblast"], ["Hidden Power Ground"], ["Frustration"]],
+							}],
+						},
+					},
 				});
 				done();
 			});
@@ -159,9 +159,9 @@ describe("Builder", function () {
 		it('should parse sets with options correctly', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function () {
 				const parsedJSON = JSON.parse(this.setData);
 				assert.deepEqual(parsedJSON, {
@@ -172,10 +172,10 @@ describe("Builder", function () {
 								species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
 								evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 								ivs: {"spa":30, "spd":30}, happiness: 0,
-								moves: [["Geomancy"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Frustration"]]
-							}]
-						}
-					}
+								moves: [["Geomancy"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Frustration"]],
+							}],
+						},
+					},
 				});
 				done();
 			});
@@ -184,9 +184,9 @@ describe("Builder", function () {
 		it('should parse sets with complex options correctly', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-complex.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-complex.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function () {
 				const parsedJSON = JSON.parse(this.setData);
 				const expectedResults = {
@@ -198,10 +198,10 @@ describe("Builder", function () {
 									species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
 									evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 									ivs: {"spa":30, "spd":30},
-									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Thunder"]]
-								}]
-							}
-						}
+									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Thunder"]],
+								}],
+							},
+						},
 					},
 					'Return': {
 						ubers: {
@@ -211,10 +211,10 @@ describe("Builder", function () {
 									species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
 									evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 									happiness: 255,
-									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Return"], ["Thunder"]]
-								}]
-							}
-						}
+									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Return"], ["Thunder"]],
+								}],
+							},
+						},
 					},
 					'Hidden Power Ice': {
 						ubers: {
@@ -224,11 +224,11 @@ describe("Builder", function () {
 									species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
 									evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 									ivs: {"atk":30, "def":30},
-									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ice"], ["Thunder"]]
-								}]
-							}
-						}
-					}
+									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ice"], ["Thunder"]],
+								}],
+							},
+						},
+					},
 				};
 
 				assert.ok(parsedJSON && parsedJSON.ubers && parsedJSON.ubers.xerneas && Array.isArray(parsedJSON.ubers.xerneas.sets));
@@ -241,10 +241,10 @@ describe("Builder", function () {
 							xerneas: {
 								"flags": {},
 								"sets": [
-									sets[i]
-								]
-							}
-						}
+									sets[i],
+								],
+							},
+						},
 					});
 				}
 				done();
@@ -254,9 +254,9 @@ describe("Builder", function () {
 		it('should split off Defog', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-defog.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-defog.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function () {
 				const parsedJSON = JSON.parse(this.setData);
 				const expectedResults = {
@@ -268,10 +268,10 @@ describe("Builder", function () {
 									species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
 									evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 									ivs: {"spa":30, "spd":30},
-									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Defog"]]
-								}]
-							}
-						}
+									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Defog"]],
+								}],
+							},
+						},
 					},
 					'Clear Smog': {
 						ubers: {
@@ -281,11 +281,11 @@ describe("Builder", function () {
 									species: "Xerneas", gender: "", item: "Power Herb", ability: "Fairy Aura",
 									evs: {"hp": 184, "atk": 0, "def": 28, "spa": 252, "spd": 0, "spe": 44}, nature: "Modest",
 									ivs: {"spa":30, "spd":30},
-									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Clear Smog"]]
-								}]
-							}
-						}
-					}
+									moves: [["Geomancy", "Reflect", "Light Screen"], ["Moonblast", "Dazzling Gleam"], ["Hidden Power Ground"], ["Clear Smog"]],
+								}],
+							},
+						},
+					},
 				};
 
 				assert.ok(parsedJSON && parsedJSON.ubers && parsedJSON.ubers.xerneas && Array.isArray(parsedJSON.ubers.xerneas.sets));
@@ -298,10 +298,10 @@ describe("Builder", function () {
 							xerneas: {
 								"flags": {},
 								"sets": [
-									sets[i]
-								]
-							}
-						}
+									sets[i],
+								],
+							},
+						},
 					});
 				}
 
@@ -312,9 +312,9 @@ describe("Builder", function () {
 		it('should tolerate duplicate moves and fix them', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-duplicate.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-duplicate.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function () {
 				const parsedJSON = JSON.parse(this.setData);
 				const expectedResults = {
@@ -326,10 +326,10 @@ describe("Builder", function () {
 									"species": "Klefki", "gender": "", "item": "Leftovers", "ability": "Prankster",
 									"evs": {"hp": 248, "atk": 8, "def": 0, "spa": 0, "spd": 252, "spe": 0},
 									"nature": "Careful",
-									"moves": [["Spikes"], ["Thunder Wave"], ["Light Screen"], ["Play Rough"]]
-								}]
-							}
-						}
+									"moves": [["Spikes"], ["Thunder Wave"], ["Light Screen"], ["Play Rough"]],
+								}],
+							},
+						},
 					},
 					'Thunder Wave': {
 						ubers: {
@@ -339,10 +339,10 @@ describe("Builder", function () {
 									"species": "Klefki", "gender": "", "item": "Leftovers", "ability": "Prankster",
 									"evs": {"hp": 248, "atk": 8, "def": 0, "spa": 0, "spd": 252, "spe": 0},
 									"nature": "Careful",
-									"moves": [["Spikes"], ["Toxic"], ["Light Screen"], ["Play Rough"]]
-								}]
-							}
-						}
+									"moves": [["Spikes"], ["Toxic"], ["Light Screen"], ["Play Rough"]],
+								}],
+							},
+						},
 					},
 					'Light Screen': {
 						ubers: {
@@ -352,11 +352,11 @@ describe("Builder", function () {
 									"species": "Klefki", "gender": "", "item": "Leftovers", "ability": "Prankster",
 									"evs": {"hp": 248, "atk": 8, "def": 0, "spa": 0, "spd": 252, "spe": 0},
 									"nature": "Careful",
-									"moves": [["Spikes"], ["Thunder Wave"], ["Toxic"], ["Play Rough"]]
-								}]
-							}
-						}
-					}
+									"moves": [["Spikes"], ["Thunder Wave"], ["Toxic"], ["Play Rough"]],
+								}],
+							},
+						},
+					},
 				};
 
 				assert.ok(parsedJSON && parsedJSON.ubers && parsedJSON.ubers.klefki && Array.isArray(parsedJSON.ubers.klefki.sets));
@@ -369,10 +369,10 @@ describe("Builder", function () {
 							klefki: {
 								"flags": {},
 								"sets": [
-									sets[i]
-								]
-							}
-						}
+									sets[i],
+								],
+							},
+						},
 					});
 				}
 				done();
@@ -382,9 +382,9 @@ describe("Builder", function () {
 		it('should reject sets with invalid combinations', function (done) {
 			builder.run({
 				setData: {
-					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-duplicate-invalid.txt')
+					ubers: path.resolve(__dirname, 'fixtures', 'sample-ubers-options-duplicate-invalid.txt'),
 				},
-				output: new OutStream()
+				output: new OutStream(),
 			}, function (err) {
 				assert.ok(err);
 				done();

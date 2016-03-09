@@ -54,7 +54,7 @@ describe("copySet", function () {
 			species:"Gengar", item: "Choice Scarf", nature: "Timid",
 			evs: {"spe":252, "spa":252, "spd":4}, ivs: {"hp":31, "atk":0, "def":31, "spa":31, "spd":31, "spe":31},
 			moves: ["Will-O-Wisp", "Hex", "Sludge Bomb", "Destiny Bond"],
-			ability:"Levitate", level: 100
+			ability:"Levitate", level: 100,
 		};
 		const copy = utils.copySet(set);
 		assert.notStrictEqual(set, copy);
@@ -66,7 +66,7 @@ describe("copySet", function () {
 			species:"Gengar", item: "Choice Scarf", nature: "Timid",
 			evs: {"spe":252, "spa":252, "spd":4}, ivs: {"hp":31, "atk":0, "def":31, "spa":31, "spd":31, "spe":31},
 			moves: ["Will-O-Wisp", "Hex", "Sludge Bomb", "Destiny Bond"],
-			ability:"Levitate", level: 100
+			ability:"Levitate", level: 100,
 		};
 		const copy = utils.copySet(set);
 		const descriptor = Object.getOwnPropertyDescriptor(copy, 'isClone');

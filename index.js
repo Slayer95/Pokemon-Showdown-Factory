@@ -284,14 +284,14 @@ function buildSets(options, callback) {
 		factoryTiers.forEach(function (tier) {
 			setData.push({
 				tier: tier,
-				path: path.resolve(__dirname, 'data', tier.toLowerCase() + '.txt')
+				path: path.resolve(__dirname, 'data', tier.toLowerCase() + '.txt'),
 			});
 		});
 	} else {
 		for (let tier in options.setData) {
 			setData.push({
 				tier: tier,
-				path: options.setData[tier]
+				path: options.setData[tier],
 			});
 		}
 	}
