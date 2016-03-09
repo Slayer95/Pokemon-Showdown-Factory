@@ -109,8 +109,9 @@ function OutputStream() {
 	this.setData = '';
 }
 util.inherits(OutputStream, stream.Writable);
-OutputStream.prototype.write = function (data) {
+OutputStream.prototype._write = function (data, encoding, cb) {
 	this.setData += data;
+	cb();
 };
 
 exports.OutputStream = OutputStream;
