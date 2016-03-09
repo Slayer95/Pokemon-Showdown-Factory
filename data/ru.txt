@@ -999,27 +999,6 @@ Modest Nature
 - Giga Drain
  
 
-=== [ru] Sharpedo ===
- 
-Sharpedo @ Life Orb  
-Ability: Speed Boost  
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Modest Nature  
-- Hydro Pump  
-- Dark Pulse  
-- Ice Beam  
-- Protect  
- 
-Sharpedo @ Life Orb  
-Ability: Speed Boost  
-EVs: 252 Atk / 4 SpD / 252 Spe  
-Adamant Nature  
-- Waterfall  
-- Crunch  
-- Zen Headbutt
-- Protect  
- 
- 
 === [ru] Smeargle ===
  
 Smeargle @ Focus Sash  
@@ -1120,24 +1099,6 @@ Bold Nature
  
  
 === [ru] Abomasnow ===
- 
-Abomasnow @ Abomasite  
-Ability: Soundproof  
-EVs: 128 Atk / 252 SpA / 128 Spe  
-Mild Nature  
-- Blizzard  
-- Giga Drain  
-- Ice Shard  
-- Focus Blast  
- 
-Abomasnow @ Abomasite  
-Ability: Soundproof  
-EVs: 128 HP / 252 Atk / 128 Spe  
-Adamant Nature  
-- Ice Shard  
-- Wood Hammer  
-- Earthquake  
-- Swords Dance  
  
 Abomasnow @ Life Orb  
 Ability: Snow Warning  
@@ -1501,3 +1462,43 @@ Adamant Nature
 - Ice Shard
 - Earthquake
 - Icicle Crash
+
+
+=== [nu] Sawk ===
+
+Sawk @ Choice Band
+Ability: Sturdy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Knock Off
+- Zen Headbutt
+- Stone Edge
+
+Sawk @ Expert Belt
+Ability: Mold Breaker
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Knock Off
+- Stone Edge
+- Zen Headbutt
+
+Sawk @ Lum Berry
+Ability: Mold Breaker
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Knock Off
+- Earthquake
+- Stone Edge
+
+Sawk @ Choice Scarf
+Ability: Sturdy
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Close Combat
+- Knock Off
+- Stone Edge
+- Zen Headbutt
+

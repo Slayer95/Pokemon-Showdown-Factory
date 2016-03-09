@@ -551,45 +551,6 @@ Jolly Nature
 - Earthquake
 
 
-=== [nu] Sawk ===
-
-Sawk @ Choice Band
-Ability: Sturdy
-EVs: 252 Atk / 4 SpD / 252 Spe
-Adamant Nature
-- Close Combat
-- Knock Off
-- Zen Headbutt
-- Stone Edge
-
-Sawk @ Expert Belt
-Ability: Mold Breaker
-EVs: 4 HP / 252 Atk / 252 Spe
-Adamant Nature
-- Close Combat
-- Knock Off
-- Stone Edge
-- Zen Headbutt
-
-Sawk @ Lum Berry
-Ability: Mold Breaker
-EVs: 4 HP / 252 Atk / 252 Spe
-Adamant Nature
-- Close Combat
-- Knock Off
-- Earthquake
-- Stone Edge
-
-Sawk @ Choice Scarf
-Ability: Sturdy
-EVs: 4 HP / 252 Atk / 252 Spe
-Adamant Nature
-- Close Combat
-- Knock Off
-- Stone Edge
-- Zen Headbutt
-
-
 === [nu] Sandslash ===
 
 Sandslash @ Leftovers
@@ -1258,18 +1219,6 @@ Adamant Nature
 - Knock Off
 - Earthquake
 - Bullet Punch
-
-
-=== [nu] Gurdurr ===
-
-Gurdurr @ Eviolite
-Ability: Guts
-EVs: 252 HP / 136 Atk / 64 Def / 56 SpD
-Adamant Nature
-- Drain Punch
-- Mach Punch
-- Knock Off
-- Bulk Up / Stone Edge
 
 
 === [nu] Golurk ===

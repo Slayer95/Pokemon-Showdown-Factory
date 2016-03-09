@@ -2248,3 +2248,25 @@ Jolly Nature
 - Drain Punch
 - Knock Off
 - Gunk Shot
+
+
+=== [ru] Abomasnow ===
+ 
+Abomasnow @ Abomasite  
+Ability: Soundproof  
+EVs: 128 Atk / 252 SpA / 128 Spe  
+Mild Nature  
+- Blizzard  
+- Giga Drain  
+- Ice Shard  
+- Focus Blast  
+ 
+Abomasnow @ Abomasite  
+Ability: Soundproof  
+EVs: 128 HP / 252 Atk / 128 Spe  
+Adamant Nature  
+- Ice Shard  
+- Wood Hammer  
+- Earthquake  
+- Swords Dance  
+ 
