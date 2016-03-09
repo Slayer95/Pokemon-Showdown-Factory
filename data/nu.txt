@@ -1,3 +1,96 @@
+=== [nu] Ampharos ===
+
+Ampharos @ Life Orb
+Ability: Static
+EVs: 48 HP / 252 SpA / 208 Spe
+Modest Nature
+- Agility
+- Thunderbolt
+- Focus Blast
+- Hidden Power [Ice]
+
+
+=== [nu] Abomasnow ===
+
+Abomasnow @ Life Orb
+Ability: Snow Warning
+EVs: 92 Atk / 252 SpA / 164 Spe
+Rash Nature
+- Ice Shard
+- Wood Hammer
+- Blizzard
+- Earthquake
+
+Abomasnow @ Life Orb
+Ability: Snow Warning
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Swords Dance
+- Wood Hammer
+- Ice Shard
+- Earthquake
+
+
+=== [nu] Charizard ===
+
+Charizard @ Choice Specs  
+Ability: Blaze  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 30 Atk / 30 SpA  
+- Fire Blast  
+- Air Slash  
+- Focus Blast / Hidden Power [Grass]
+- Flamethrower
+
+Charizard @ Choice Scarf
+Ability: Blaze
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Fire Blast
+- Flamethrower / Overheat
+- Focus Blast / Hidden Power [Electric] / Hidden Power [Grass]
+- Air Slash
+
+Charizard @ Life Orb  
+Ability: Blaze  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Fire Blast  
+- Air Slash  
+- Focus Blast  
+- Roost
+
+Charizard  
+Ability: Blaze  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Acrobatics  
+- Earthquake / Will-O-Wisp / Substitute
+- Roost
+
+
+=== [nu] Omastar ===
+
+Omastar @ Focus Sash  
+Ability: Weak Armor  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Stealth Rock  
+- Spikes  
+- Shell Smash  
+- Scald
+
+Omastar @ Life Orb  
+Ability: Shell Armor  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Shell Smash  
+- Hydro Pump  
+- Ice Beam  
+- Earth Power / Ancient Power
+
 === [nu] Dodrio ===
 
 Dodrio @ Choice Band
