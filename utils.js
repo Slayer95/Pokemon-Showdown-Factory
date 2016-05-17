@@ -94,6 +94,14 @@ exports.copySet = function copySet(set) {
 	return markClone(clone);
 };
 
+exports.sumIterate = function (arr) {
+	let sum = 0;
+	for (let i = 0; i < arr.length; i++) {
+		sum += arr[i];
+	}
+	return sum;
+};
+
 // Notations supported by PS teambuilder
 exports.statIDs = {
 	HP: 'hp', hp: 'hp',

@@ -2,31 +2,14 @@
 
 const fs = require('fs');
 const path = require('path');
+
 const cProduct = require('cartesian-product');
+const Tools = global.Tools = require('./Pokemon-Showdown/tools').includeData();
+const toId = global.toId = Tools.getId;
 
-(function () {
-	let psConfig;
-	try {
-		psConfig = require('./Pokemon-Showdown/config/config.js');
-	} catch (err) {
-		if (err.code !== 'MODULE_NOT_FOUND') throw err;
-
-		console.log("config.js doesn't exist - creating one with default settings...");
-		fs.writeFileSync(path.resolve(__dirname, 'Pokemon-Showdown', 'config/config.js'),
-			fs.readFileSync(path.resolve(__dirname, 'Pokemon-Showdown', 'config/config-example.js'))
-		);
-		psConfig = require('./Pokemon-Showdown/config/config.js');
-	}
-
-	psConfig.workers = 0;
-})();
-
-require('./Pokemon-Showdown');
 const utils = require('./utils.js');
 const parseTeams = require('./parser.js');
 
-const toId = global.toId;
-const Tools = global.Tools.includeData();
 const Pokedex = Tools.data.Pokedex;
 // const Movedex = Tools.data.Movedex;
 const Items = Tools.data.Items;
@@ -71,7 +54,7 @@ function proofReadSpeciesSets(setList, startSpecies, tier, strict) {
 		if (set.isClone) throw new Error("Unexpected `isClone` property");
 		if (set.item && !Items.hasOwnProperty(toId(set.item))) errors.push("Invalid item for " + tier + " " + speciesid + ": '" + set.item + "'.");
 		if (set.nature && !Natures.hasOwnProperty(toId(set.nature))) errors.push("Invalid nature for " + tier + " " + speciesid + ": '" + set.nature + "'.");
-		if (set.evs && (!Object.values(set.evs).every(utils.isValidEV) || Object.sum(set.evs) > 510)) errors.push("Invalid EVs for " + tier + " " + speciesid + ": '" + Object.values(set.evs).join(", ") + "'.");
+		if (set.evs && (!Object.values(set.evs).every(utils.isValidEV) || utils.sumIterate(Object.values(set.evs)) > 510)) errors.push("Invalid EVs for " + tier + " " + speciesid + ": '" + Object.values(set.evs).join(", ") + "'.");
 		if (set.ivs && !Object.values(set.ivs).every(utils.isValidIV)) errors.push("Invalid IVs for " + tier + " " + speciesid + ": '" + Object.values(set.evs).join(", ") + "'.");
 		if (set.happiness && !utils.isValidHappiness(set.happiness)) errors.push("Happiness out of bounds for " + tier + " " + speciesid + ": '" + set.happiness + "'.");
 		if ('level' in set && !utils.isValidLevel(set.level)) errors.push("Level out of bounds for " + tier + " " + speciesid + ": '" + set.level + "'.");
