@@ -1,33 +1,3 @@
-=== [uu] Zapdos ===
-
-Zapdos @ Leftovers  
-Ability: Pressure  
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Timid Nature  
-- Thunderbolt  
-- Heat Wave  
-- Hidden Power [Grass] / Hidden Power [Ice]
-- Roost
-
-Zapdos @ Leftovers  
-Ability: Pressure  
-EVs: 248 HP / 236 Def / 24 Spe  
-Bold Nature   
-- Thunderbolt / Discharge
-- Roost  
-- Defog
-- Heat Wave / Toxic
-
-Zapdos @ Choice Scarf  
-Ability: Pressure  
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Timid Nature  
-- Thunderbolt  
-- Heat Wave  
-- Hidden Power [Ice] / Hidden Power [Grass]
-- Volt Switch / U-Turn
-
-
 === [uu] Gardevoir ===
 
 Gardevoir @ Choice Specs  
@@ -1343,36 +1313,6 @@ IVs: 0 Atk
 - Thunder Wave
 - Thunderbolt
 - Ice Beam
-
-
-=== Quagsire ===
-
-Quagsire (M) @ Leftovers
-Ability: Unaware
-EVs: 248 HP / 252 Def / 8 SpD
-Relaxed Nature
-- Recover
-- Toxic
-- Scald
-- Earthquake
-
-Quagsire (M) @ Leftovers
-Ability: Unaware
-EVs: 248 HP / 8 Def / 252 SpD
-Careful Nature
-- Recover
-- Curse
-- Toxic
-- Earthquake
-
-Quagsire (M) @ Leftovers
-Ability: Unaware
-EVs: 248 HP / 86 Def / 174 SpD
-Impish Nature
-- Recover
-- Stockpile
-- Toxic
-- Earthquake
 
 
 === Rotom-H ===

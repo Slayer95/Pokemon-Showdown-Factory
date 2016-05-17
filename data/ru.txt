@@ -274,18 +274,6 @@ Careful Nature
 - Brave Bird
 
 
-=== [ru] Amoonguss ===
-
-Amoonguss @ Black Sludge
-Ability: Regenerator
-EVs: 252 HP / 160 Def / 96 SpD
-Bold Nature
-- Spore
-- Giga Drain
-- Sludge Bomb
-- Hidden Power [Fire] / Stun Spore
-
-
 === [ru] Tyrantrum ===
 
 Tyrantrum @ Choice Scarf
@@ -1210,36 +1198,6 @@ Bold Nature
 -Roost
 -Flamethrower
 -Thunder Wave
- 
- 
-=== [ru] Durant ===
- 
-Durant @ Life Orb  
-Ability: Hustle  
-EVs: 252 Atk / 4 SpD / 252 Spe  
-Jolly Nature  
-- Iron Head  
-- X-Scissor  
-- Superpower  
-- Thunder Fang
- 
-Durant @ Choice Scarf  
-Ability: Hustle  
-EVs: 252 Atk / 4 SpD / 252 Spe  
-Jolly Nature  
-- Iron Head  
-- X-Scissor  
-- Superpower  
-- Baton Pass
- 
-Durant @ Lum Berry
-Ability: Hustle
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Hone Claws
-- Iron Head
-- Superpower
-- X-Scissor
 
 
 === [ru] Gallade ===
