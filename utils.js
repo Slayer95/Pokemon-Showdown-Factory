@@ -102,6 +102,16 @@ exports.sumIterate = function (arr) {
 	return sum;
 };
 
+exports.excludeKeys = function (obj, excludeSet) {
+	const result = Object.create(Object.getPrototypeOf(obj));
+	const keys = Object.keys(obj);
+	for (let i = 0; i < keys.length; i++) {
+		if (excludeSet.has(keys[i])) continue;
+		result[keys[i]] = obj[keys[i]];
+	}
+	return result;
+};
+
 // Notations supported by PS teambuilder
 exports.statIDs = {
 	HP: 'hp', hp: 'hp',

@@ -4,8 +4,10 @@ const fs = require('fs');
 const path = require('path');
 const assert = require('assert');
 
+const utils = require('./../utils.js');
 const builder = require('./..');
-const OutStream = require('./../utils.js').OutputStream;
+
+const OutStream = utils.OutputStream;
 
 describe("Builder", function () {
 	describe("Output stream", function () {
@@ -364,7 +366,7 @@ describe("Builder", function () {
 				for (let i = 0; i < sets.length; i++) {
 					let moveSlice = sets[i].moves.slice(1, 3);
 					assert.ok(Array.isArray(moveSlice[0]) && Array.isArray(moveSlice[1]));
-					assert.deepEqual(Object.values(Object.reject(expectedResults, [moveSlice[0][0], moveSlice[1][0]]))[0], {
+					assert.deepEqual(Object.values(utils.excludeKeys(expectedResults, new Set([moveSlice[0][0], moveSlice[1][0]])))[0], {
 						ubers: {
 							klefki: {
 								"flags": {},
