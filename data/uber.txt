@@ -1,82 +1,44 @@
-=== [ubers] Klefki ===
-
-Klefki @ Leftovers
-Ability: Prankster
-EVs: 248 HP / 8 Atk / 252 SpD
-Careful Nature
-- Spikes
-- Thunder Wave
-- Toxic
-- Play Rough
-
 === [ubers] Zekrom ===
-
-Zekrom @ Choice Band
-Ability: Teravolt
-EVs: 252 Atk / 4 SpA / 252 Spe
-Adamant Nature
-- Bolt Strike
-- Outrage
-- Dragon Claw
-- Volt Switch
-
-Zekrom @ Choice Scarf
-Ability: Teravolt
-EVs: 252 Atk / 4 SpA / 252 Spe
-Lonely Nature
-- Bolt Strike
-- Volt Switch
-- Draco Meteor
-- Outrage
-
-Zekrom @ Choice Scarf
-Ability: Teravolt
-EVs: 252 Atk / 4 SpA / 252 Spe
-Adamant Nature
-- Bolt Strike
-- Volt Switch
-- Sleep Talk
-- Outrage
 
 Zekrom @ Life Orb
 Ability: Teravolt
 EVs: 252 Atk / 4 SpA / 252 Spe
-Lonely Nature
+Naughty Nature
 - Bolt Strike
 - Draco Meteor
-- Dragon Claw
+- Roost
 - Tailwind
 
 Zekrom @ Shuca Berry
 Ability: Teravolt
 EVs: 132 HP / 252 Atk / 124 Spe
 Adamant Nature
-- Substitute / Outrage
+- Outrage
 - Hone Claws
 - Bolt Strike
 - Dragon Claw
 
 === [ubers] Yveltal ===
 
-Yveltal @ Choice Scarf
-Ability: Dark Aura
-EVs: 32 Atk / 4 Def / 248 SpA / 224 Spe
-Modest Nature
-- Dark Pulse
-- Oblivion Wing
-- Foul Play
-- U-turn
-
 Yveltal @ Life Orb
 Ability: Dark Aura
-EVs: 132 HP / 28 Atk / 252 SpA / 96 Spe
+EVs: 168 Atk / 252 SpA / 92 Spe
 Rash Nature
 - Dark Pulse
 - Oblivion Wing
 - Sucker Punch
-- Heat Wave
+- Heat Wave / Knock Off
 
-Yveltal @ Leftovers
+Yveltal @ Choice Band
+Ability: Dark Aura
+EVs: 88 HP / 252 Atk / 168 Spe
+Adamant Nature
+- Knock Off
+- U-turn
+- Foul Play
+- Sucker Punch / Steel Wing
+
+Yveltal @ Charti Berry
 Ability: Dark Aura
 EVs: 248 HP / 252 Def / 8 SpD
 Impish Nature
@@ -96,15 +58,6 @@ Bold Nature
 
 === [ubers] Xerneas ===
 
-Xerneas @ Life Orb
-Ability: Fairy Aura
-EVs: 4 Atk / 252 SpA / 252 Spe
-Mild Nature
-- Moonblast
-- Close Combat
-- Rock Slide
-- Aromatherapy
-
 Xerneas @ Choice Scarf
 Ability: Fairy Aura
 EVs: 76 Atk / 248 SpA / 184 Spe
@@ -114,24 +67,39 @@ Rash Nature
 - Close Combat
 - Rock Slide
 
-Xerneas @ Leftovers
-Ability: Fairy Aura
-EVs: 248 HP / 8 Def / 252 SpD
-Calm Nature
-- Aromatherapy
-- Rest
-- Sleep Talk
-- Moonblast
-
 Xerneas @ Power Herb
 Ability: Fairy Aura
-EVs: 184 HP / 28 Def / 252 SpA / 44 Spe
+EVs: 32 HP / 180 Def / 252 SpA / 44 Spe
 Modest Nature
 - Geomancy
 - Moonblast
-- Hidden Power [Ground] / Focus Blast
-- Thunder
+- Focus Blast / Hidden Power [Ground]
+- Aromatherapy / Thunder
 
+Xerneas @ Power Herb
+Ability: Fairy Aura
+EVs: 212 HP / 252 Def / 44 Spe
+Bold Nature
+- Geomancy
+- Moonblast
+- Rest
+- Sleep Talk
+
+Xerneas @ Choice Specs
+Ability: Fairy Aura
+EVs: 76 Def / 252 SpA / 188 Spe
+Modest Nature
+- Moonblast
+- Sleep Talk
+
+Xerneas @ Choice Specs
+Ability: Fairy Aura
+EVs: 76 Def / 252 SpA / 188 Spe
+Modest Nature
+- Moonblast
+- Focus Blast / Hidden Power [Fire]
+- Thunder / Grass Knot
+- Psyshock / Aromatherapy
 
 === [ubers] Tyranitar ===
 
@@ -149,18 +117,9 @@ Ability: Sand Stream
 EVs: 248 HP / 4 Def / 252 SpD
 Careful Nature
 - Stealth Rock
-- Pursuit
+- Foul Play / Pursuit
 - Rock Slide
-- Thunder Wave / Roar
-
-Tyranitar @ Shuca Berry
-Ability: Sand Stream
-EVs: 248 HP / 72 Atk / 188 SpD
-Careful Nature
-- Stealth Rock
-- Low Kick
-- Rock Slide
-- Thunder Wave / Roar
+- Thunder Wave
 
 === [ubers] Shaymin ===
 
@@ -182,36 +141,25 @@ Timid Nature
 - Seed Flare
 - Air Slash
 
-
 === [ubers] Salamence-Mega ===
 
 Salamence @ Salamencite
 Ability: Intimidate
-EVs: 200 HP / 252 Atk / 56 Spe
+EVs: 248 HP / 124 Atk / 136 Spe
 Adamant Nature
 - Double-Edge / Return 
-- Refresh / Earthquake
+- Facade / Earthquake
 - Roost
 - Dragon Dance
 
 Salamence @ Salamencite
 Ability: Intimidate
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Return
-- Earthquake
+EVs: 80 HP / 252 Atk / 176 Spe
+Adamant Nature
+- Double-Edge / Return
+- Earthquake / Refresh
 - Roost
 - Dragon Dance
-
-Salamence @ Salamencite
-Ability: Intimidate
-EVs: 248 HP / 136 Def / 124 Spe
-Impish Nature
-- Return
-- Refresh
-- Roost
-- Dragon Dance
-
 
 === [ubers] Sableye-Mega ===
 
@@ -224,120 +172,62 @@ Bold Nature
 - Will-O-Wisp
 - Recover
 
-
 === [ubers] Reshiram ===
-
-Reshiram @ Choice Scarf
-Ability: Turboblaze
-EVs: 4 Atk / 252 SpA / 252 Spe
-Naive Nature
-- Blue Flare
-- Draco Meteor
-- Sleep Talk
-- Stone Edge
 
 Reshiram @ Life Orb
 Ability: Turboblaze
 EVs: 4 Atk / 252 SpA / 252 Spe
 Timid Nature
-- Flame Charge
-- Blue Flare
-- Draco Meteor
-- Stone Edge
-
-Reshiram @ Leftovers
-Ability: Turboblaze
-EVs: 252 SpA / 4 SpD / 252 Spe
-Modest Nature
-- Blue Flare
-- Draco Meteor
-- Toxic
 - Roost
-
+- Blue Flare
+- Draco Meteor
+- Stone Edge / Tailwind / Flame Charge
 
 === [ubers] Rayquaza ===
 
 Rayquaza @ Life Orb
 Ability: Air Lock
 EVs: 252 Atk / 4 SpD / 252 Spe
-Adamant Nature
+Jolly Nature
 - Dragon Dance
 - Dragon Ascent
-- Earthquake
+- Aqua Tail / Earthquake
 - Extreme Speed
 
 Rayquaza @ Life Orb
 Ability: Air Lock
-EVs: 40 Atk / 252 SpA / 216 Spe
-Rash Nature
+EVs: 212 Atk / 44 Def / 252 Spe
+Naive Nature
 - Draco Meteor
 - Dragon Ascent
 - Extreme Speed
-- Earthquake
+- V-create / Earthquake
 
-Rayquaza @ Life Orb
-Ability: Air Lock
-EVs: 252 Atk / 4 SpD / 252 Spe
-Adamant Nature
-- Swords Dance
-- Dragon Ascent
-- Earthquake
-- Extreme Speed
+=== [ubers] Palkia ===
 
-
-=== [ubers] [Ubers] Palkia ===
-
-Palkia @ Choice Specs
-Ability: Pressure
-EVs: 252 SpA / 4 SpD / 252 Spe
-Timid Nature
-- Hydro Pump
-- Draco Meteor
-- Spacial Rend
-- Fire Blast
-
-Palkia @ Lustrous Orb
+Palkia @ Life Orb
 Ability: Pressure
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
 - Hydro Pump
 - Spacial Rend
-- Fire Blast
-- Thunder Wave
+- Fire Blast / Focus Punch
+- Thunder
 
-Palkia @ Leftovers
-Ability: Pressure
-EVs: 248 HP / 8 Def / 252 SpD
-Calm Nature
-- Surf
-- Toxic
-- Rest
-- Sleep Talk
-
-Palkia @ Leftovers
-Ability: Pressure
-EVs: 60 HP / 196 SpA / 252 Spe
-Timid Nature
-- Rest
-- Toxic
-- Hydro Pump
-- Spacial Rend
-
-
-=== [ubers] [Ubers] Mewtwo ===
+=== [ubers] Mewtwo ===
 
 Mewtwo @ Mewtwonite X
 Ability: Pressure
-EVs: 252 Atk / 4 Def / 252 Spe
-Naive Nature
-- Ice Beam
+EVs: 112 Atk / 144 Def / 252 Spe
+Jolly Nature
+- Taunt
 - Low Kick
 - Earthquake
-- Rock Slide
+- Stone Edge / Ice Punch
 
 Mewtwo @ Mewtwonite X
 Ability: Pressure
-EVs: 176 HP / 80 Atk / 252 Spe
+EVs: 112 Atk / 144 Def / 252 Spe
 Naive Nature
 - Low Kick
 - Taunt
@@ -349,21 +239,21 @@ Ability: Pressure
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Psystrike
-- Calm Mind
+- Taunt
 - Ice Beam
-- Focus Blast
+- Focus Blast / Fire Blast
 
 Mewtwo @ Mewtwonite Y
 Ability: Pressure
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Psystrike
-- Calm Mind
+- Taunt
 - Ice Beam
-- Focus Blast
+- Focus Blast / Fire Blast
 
 
-=== [ubers] [Ubers] Mawile-Mega ===
+=== [ubers] Mawile-Mega ===
 
 Mawile @ Mawilite
 Ability: Intimidate
@@ -375,11 +265,11 @@ Adamant Nature
 - Baton Pass
 
 
-=== [ubers] [Ubers] Lugia ===
+=== [ubers] Lugia ===
 
 Lugia @ Leftovers
 Ability: Multiscale
-EVs: 248 HP / 252 Def / 8 Spe
+EVs: 248 HP / 252 Def / 8 SpD
 Bold Nature
 - Roost
 - Ice Beam
@@ -387,7 +277,7 @@ Bold Nature
 - Toxic
 
 
-=== [ubers] [Ubers] Lucario-Mega ===
+=== [ubers] Lucario-Mega ===
 
 Lucario @ Lucarionite
 Ability: Justified
@@ -395,7 +285,7 @@ EVs: 252 Atk / 4 SpD / 252 Spe
 Jolly Nature
 - Close Combat
 - Bullet Punch
-- Stone Edge
+- Stone Edge / Swords Dance
 - Iron Tail
 
 
@@ -408,7 +298,7 @@ Timid Nature
 - Draco Meteor
 - Psyshock
 - Defog
-- Hidden Power [Fire] / Memento / Recover
+- Hidden Power [Fire] / Grass Knot / Recover
 
 Latios @ Soul Dew
 Ability: Levitate
@@ -416,7 +306,7 @@ EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Draco Meteor
 - Psyshock
-- Calm Mind
+- Calm Mind / Grass Knot
 - Hidden Power [Fire] / Memento / Recover
 
 
@@ -440,7 +330,30 @@ Timid Nature
 - Psyshock
 - Recover
 
-=== [ubers] [Ubers] Kyurem-White ===
+
+=== [ubers] Landorus ===
+
+Landorus @ Life Orb
+Ability: Sheer Force
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Knock Off
+- Earth Power
+- Rock Slide
+- Sludge Wave / Hidden Power [Ice]
+
+=== [ubers] Landorus-Therian ===
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+EVs: 252 Atk / 100 Def / 156 Spe
+Jolly Nature
+- Earthquake
+- U-Turn
+- Superpower / Explosion
+- Stone Edge
+
+=== [ubers] Kyurem-White ===
 
 Kyurem-White @ Choice Specs
 Ability: Turboblaze
@@ -458,15 +371,15 @@ Timid Nature
 - Draco Meteor
 - Ice Beam
 - Fusion Flare
-- Stone Edge
+- Stone Edge / Roost
 
 
-=== [ubers] [Ubers] Kyogre ===
+=== [ubers] Kyogre ===
 
 Kyogre @ Blue Orb
 Ability: Drizzle
 EVs: 4 HP / 252 SpA / 252 Spe
-Modest Nature
+Timid Nature
 - Origin Pulse
 - Thunder
 - Ice Beam
@@ -490,35 +403,27 @@ Modest Nature
 - Ice Beam
 - Calm Mind
 
-Kyogre @ Choice Specs
-Ability: Drizzle
-EVs: 252 SpA / 4 SpD / 252 Spe
-Timid Nature
-- Water Spout
-- Origin Pulse / Scald
-- Ice Beam
-- Thunder
+=== [ubers] Klefki ===
 
-Kyogre @ Choice Scarf
-Ability: Drizzle
-EVs: 252 SpA / 4 SpD / 252 Spe
-Modest Nature
-- Water Spout
-- Ice Beam
-- Origin Pulse
-- Thunder / Sleep Talk
+Klefki @ Leftovers
+Ability: Prankster
+EVs: 248 HP / 8 Atk / 252 SpD
+Careful Nature
+- Spikes
+- Thunder Wave
+- Toxic / Heal Block
+- Play Rough
 
-
-=== [ubers] [Ubers] Mega Kangaskhan ===
+=== [ubers] Mega Kangaskhan ===
 
 Kangaskhan @ Kangaskhanite
 Ability: Scrappy
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
-- Return
+- Return / Body Slam
 - Fake Out
-- Power-up Punch
-- Crunch
+- Power-up Punch / Ice Punch
+- Crunch / Sucker Punch
 
 Kangaskhan @ Kangaskhanite
 Ability: Scrappy
@@ -526,15 +431,15 @@ EVs: 252 Atk / 4 Def / 252 Spe
 Adamant Nature
 - Return / Double-Edge
 - Fake Out
-- Sucker Punch
+- Crunch
 - Low Kick
 
 
-=== [ubers] [Ubers] Ho-Oh ===
+=== [ubers] Ho-Oh ===
 
 Ho-Oh @ Choice Band
 Ability: Regenerator
-EVs: 248 HP / 208 Atk / 52 SpD
+EVs: 248 HP / 196 Atk / 52 SpD / 12 Spe
 Adamant Nature
 - Brave Bird
 - Sacred Fire
@@ -543,63 +448,71 @@ Adamant Nature
 
 Ho-Oh @ Life Orb
 Ability: Regenerator
-EVs: 248 HP / 208 Atk / 52 SpD
+EVs: 248 HP / 196 Atk / 52 SpD / 12 Spe
 Adamant Nature
 - Brave Bird
 - Sacred Fire
-- Recover
+- Recover / Roost
 - Thunder Wave / Earthquake / Substitute
 
-
-=== [ubers] [Ubers] Groudon ===
-
-Groudon @ Red Orb
-Ability: Drought
-EVs: 252 Atk / 200 SpD / 56 Spe
-Adamant Nature
-- Rock Polish
-- Precipice Blades / Earthquake
-- Stone Edge
-- Swords Dance / Dragon Claw
-
-Groudon @ Red Orb
-Ability: Drought
-EVs: 248 HP / 56 Def / 192 SpD / 12 Spe
-Impish Nature
-- Stealth Rock
-- Precipice Blades / Earthquake
-- Lava Plume / Stone Edge
-- Thunder Wave / Roar
-
-Groudon @ Red Orb
-Ability: Drought
-EVs: 248 HP / 8 SpA / 252 SpD
-Calm Nature
-- Lava Plume
-- Roar
-- Rest 
+Ho-Oh @ Choice Band
+Ability: Regenerator
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Narure
+- Brave Bird
+- Sacred Fire
+- Earthquake
 - Sleep Talk
 
-Groudon @ Leftovers
+
+=== [ubers] Groudon ===
+
+Groudon @ Red Orb
 Ability: Drought
-EVs: 248 HP / 248 Def / 12 Spe
-Impish Nature
-- Precipice Blades
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
 - Stealth Rock
+- Precipice Blades
+- Rock Slide
+- Thunder Wave
+
+Groudon @ Red Orb
+Ability: Drought
+EVs: 248 HP / 8 Atk / 252 SpD
+Sassy Nature
+- Stealth Rock
+- Precipice Blades
+- Lava Plume
+- Roar / Dragon Tail
+
+Groudon @ Red Orb
+Ability: Drought
+EVs: 168 HP / 252 Atk / 32 SpD / 56 Spe
+Adamant Nature
+- Rock Polish
+- Precipice Blades
+- Swords Dance / Fire Punch / Dragon Claw
 - Stone Edge
-- Dragon Tail / Roar
 
+Groudon @ Red Orb
+Ability: Drought
+EVs: 152 HP / 236 Atk / 44 SpD / 76 Spe 
+Adamant Nature
+- Stealth Rock
+- Precipice Blades
+- Fire Punch / Dragon Tail
+- Stone Edge / Rock Tomb
 
-=== [ubers] [Ubers] Greninja ===
-
-Greninja @ Focus Sash
-Ability: Protean
-EVs: 252 Atk / 4 Def / 252 Spe
+Groudon @ Red Orb
+Ability: Drought
+EVs: 168 Atk / 144 SpD / 196 Spe
 Jolly Nature
-- Toxic Spikes
-- Spikes
-- Taunt
-- Shadow Sneak
+- Stealth Rock
+- Swords Dance
+- Precipice Blades
+- Rock Slide
+
+=== [ubers] Greninja ===
 
 Greninja @ Focus Sash
 Ability: Protean
@@ -610,7 +523,16 @@ Jolly Nature
 - Taunt
 - Shadow Sneak
 
-=== [ubers] [Ubers] Giratina ===
+Greninja @ Focus Sash
+Ability: Protean
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Toxic Spikes
+- Spikes
+- Taunt
+- Shadow Sneak
+
+=== [ubers] Giratina ===
 
 Giratina @ Leftovers
 Ability: Pressure
@@ -619,24 +541,15 @@ Careful Nature
 - Rest
 - Sleep Talk
 - Will-O-Wisp
-- Roar
-
-Giratina @ Leftovers
-Ability: Pressure
-EVs: 248 HP / 252 Def / 8 SpD
-Impish Nature
-- Rest
-- Sleep Talk
-- Will-O-Wisp
-- Roar
+- Toxic
 
 Giratina-Origin @ Griseous Orb
 Ability: Levitate
-EVs: 180 Atk / 252 SpA / 76 Spe
-Rash Nature
+EVs: 252 Def / 244 SpA / 76 Spe
+Modest Nature
 - Draco Meteor
-- Shadow Sneak
-- Dragon Tail
+- Thunder Wave / Toxic
+- Hex
 - Defog
 
 Giratina-Origin @ Griseous Orb
@@ -649,16 +562,25 @@ Adamant Nature
 - Shadow Force
 
 
-=== [ubers] [Ubers] Gengar-Mega ===
+=== [ubers] Gengar-Mega ===
 
 Gengar @ Gengarite
 Ability: Levitate
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
-- Taunt
+- Protect / Taunt
 - Destiny Bond
 - Sludge Wave
+- Focus Blast / Shadow Ball
+
+Gengar @ Gengarite
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Will-O-Wisp / Hypnosis
+- Hex
 - Focus Blast
+- Protect
 
 Gengar @ Gengarite
 Ability: Levitate
@@ -667,7 +589,7 @@ Timid Nature
 - Perish Song
 - Taunt
 - Protect
-- Disable
+- Substitute
 
 
 === [ubers] [Ubers] Genesect ===
@@ -686,7 +608,7 @@ Hasty Nature
 Ferrothorn @ Leftovers
 Ability: Iron Barbs
 EVs: 248 HP / 8 Atk / 252 SpD
-Careful Nature
+Sassy Nature
 - Leech Seed
 - Spikes
 - Power Whip / Gyro Ball
@@ -695,7 +617,7 @@ Careful Nature
 Ferrothorn @ Leftovers
 Ability: Iron Barbs
 EVs: 248 HP / 8 Atk / 252 SpD
-Careful Nature
+Sassy Nature
 - Leech Seed
 - Spikes
 - Power Whip
@@ -718,31 +640,22 @@ Ability: Sand Rush
 EVs: 252 Atk / 4 Def / 252 Spe
 - Iron Head
 - Earthquake
-- Swords Dance
+- Swords Dance / Rock Slide
 - Rapid Spin
 
 === [ubers] [Ubers] Dialga ===
 
-Dialga @ Leftovers
-Ability: Pressure
-EVs: 248 HP / 8 SpA / 252 SpD
-Calm Nature
-- Stealth Rock
-- Toxic
-- Draco Meteor
-- Fire Blast
-
 Dialga @ Shuca Berry
 Ability: Pressure
-EVs: 252 SpA / 4 SpD / 252 Spe
+EVs: 160 HP / 252 SpA / 96 Spe
 Modest Nature
 - Draco Meteor
 - Flash Cannon
-- Fire Blast
+- Thunder / Toxic
 - Stealth Rock
 
 
-=== [ubers] [Ubers] Deoxys ===
+=== [ubers] Deoxys ===
 
 Deoxys @ Focus Sash
 Ability: Pressure
@@ -756,10 +669,10 @@ Timid Nature
 Deoxys-Attack @ Life Orb
 Ability: Pressure
 EVs: 4 Atk / 252 SpA / 252 Spe
-Naive Nature
+Rash Nature
 - Psycho Boost
-- Low Kick
-- Ice Beam
+- Low Kick / Superpower
+- Ice Beam / Knock Off
 - Extreme Speed
 
 Deoxys-Attack @ Focus Sash
@@ -768,7 +681,7 @@ EVs: 4 Atk / 252 SpA / 252 Spe
 Naive Nature
 - Spikes
 - Psycho Boost
-- Knock Off
+- Knock Off / Low Kick / Superpower
 - Extreme Speed
 
 Deoxys-Defense @ Mental Herb
@@ -786,29 +699,39 @@ EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
 - Stealth Rock
 - Taunt
-- Spikes
-- Knock Off
+- Magic Coat
+- Skill Swap
 
-Deoxys-Speed @ Light Clay
-Ability: Pressure
-EVs: 252 HP / 4 Def / 252 Spe
+=== [ubers] Diancie ===
+
+Diancie @ Diancite
+Ability: Clear Body
+EVs: 68 Atk / 188 SpA / 252 Spe
 Timid Nature
+- Diamond Storm
+- Moonblast
+- Protect
 - Stealth Rock
-- Taunt
-- Reflect
-- Light Screen
 
+Diancie @ Diancite
+Ability: Clear Body
+EVs: 68 Atk / 188 SpA / 252 Spe
+Timid Nature
+- Diamond Storm
+- Moonblast
+- Earth Power 
+- Protect
 
-=== [ubers] [Ubers] Darkrai ===
+=== [ubers] Darkrai ===
 
 Darkrai @ Life Orb
 Ability: Bad Dreams
-EVs: 4 HP / 252 SpA / 252 Spe
+EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Dark Void
 - Dark Pulse
-- Nasty Plot / Taunt
-- Sludge Bomb / Thunder / Focus Blast
+- Nasty Plot 
+- Thunder / Sludge Bomb
 
 
 === [ubers] Blissey ===
@@ -817,10 +740,10 @@ Blissey @ Leftovers
 Ability: Natural Cure
 EVs: 20 HP / 232 Def / 252 SpD
 Calm Nature
-- Ice Beam
+- Thunder Wave
 - Toxic
-- Soft-Boiled / Wish
-- Heal Bell / Protect
+- Softboiled
+- Seismic Toss
 
 Blissey @ Shed Shell
 Ability: Natural Cure
@@ -828,13 +751,13 @@ Evs: 252 Def / 252 SpD / 4 Spe
 Calm Nature
 - Toxic
 - Seismic Toss / Snatch
-- Softboiled / Wish
-- Heal Bell / Protect
+- Softboiled 
+- Heal Bell 
 
 
-=== [ubers] [Ubers] Blaziken ===
+=== [ubers] Blaziken ===
 
-Blaziken @ Leftovers
+Blaziken @ Life Orb
 Ability: Speed Boost
 EVs: 4 Def / 252 Atk / 252 Spe
 Jolly Nature
@@ -842,24 +765,6 @@ Jolly Nature
 - Protect
 - Swords Dance
 - Flare Blitz
-
-Blaziken @ Blazikenite
-Ability: Speed Boost
-EVs: 4 Def / 252 Atk / 252 Spe
-Jolly Nature
-- Low Kick
-- Flare Blitz
-- Protect
-- Stone Edge / Knock Off
-
-Blaziken @ Blazikenite
-Ability: Speed Boost
-EVs: 4 Def / 252 Atk / 252 Spe
-Naive Nature
-- Low Kick
-- Flare Blitz
-- Protect
-- Hidden Power [Ice]
 
 Blaziken @ Life Orb
 Ability: Speed Boost
@@ -880,14 +785,32 @@ Jolly Nature
 - Stone Edge / Knock Off
 
 
-=== [ubers] [Ubers] Arceus ===
+=== [ubers] Arceus ===
 
 Arceus-Water @ Splash Plate
 Ability: Multitype
-EVs: 248 HP / 204 Def / 56 Spe
+EVs: 248 HP / 240 Def / 16 Spe
 Bold Nature
 - Ice Beam / Judgment
 - Defog
+- Recover
+- Toxic
+
+Arceus-Water @ Splash Plate
+Ability: Multitype
+EVs: 248 HP / 92 Def / 168 Spe
+Bold Nature
+- Ice Beam / Judgment
+- Defog
+- Recover
+- Toxic
+
+Arceus-Water @ Splash Plate
+Ability: Multitype
+EVs: 248 HP / 92 Def / 168 Spe
+Bold Nature
+- Ice Beam 
+- Judgment
 - Recover
 - Toxic
 
@@ -920,7 +843,7 @@ Modest Nature
 
 Arceus-Flying @ Sky Plate
 Ability: Multitype
-EVs: 96 HP / 236 SpA / 176
+EVs: 96 HP / 236 SpA / 176 Spe
 Timid Nature
 - Judgment
 - Calm Mind
@@ -969,17 +892,17 @@ EVs: 248 HP / 204 Def / 56 Spe
 Bold Nature
 - Judgment
 - Recover
-- Defog
-- Toxic
+- Stealth Rock
+- Toxic / Earth Power
 
 Arceus-Fairy @ Pixie Plate
 Ability: Multitype
-EVs: 248 HP / 8 SpA / 252 Spe
+EVs: 248 HP / 8 Def / 252 Spe
 Timid Nature
 - Judgment
-- Calm Mind
 - Recover
-- Earth Power / Thunder
+- Earth Power / Toxic
+- Stone Edge
 
 Arceus-Ice @ Icicle Plate
 Ability: Multitype
@@ -1001,20 +924,11 @@ Timid Nature
 
 Arceus-Ghost @ Spooky Plate
 Ability: Multitype
-EVs: 248 HP / 8 SpA / 252 Spe
-Timid Nature
-- Calm Mind
-- Judgment
-- Recover
-- Will-O-Wisp
-
-Arceus-Ghost @ Spooky Plate
-Ability: Multitype
 EVs: 4 Def / 252 Atk / 252 Spe
 Jolly Nature
 - Swords Dance
-- Shadow Force
-- Shadow Claw / Brick Break
+- Shadow Force / Brick Break
+- Shadow Claw
 - Extreme Speed
 
 Arceus-Ghost @ Spooky Plate
@@ -1035,15 +949,6 @@ Bold Nature
 - Recover
 - Toxic
 
-Arceus-Dragon @ Draco Plate
-Ability: Multitype
-EVs: 248 HP / 84 SpA / 176 Spe
-Timid Nature
-- Calm Mind
-- Judgment
-- Fire Blast
-- Recover
-
 Arceus @ Life Orb
 Ability: Multitype
 EVs: 252 Atk / 4 Def / 252 Spe
@@ -1055,12 +960,12 @@ Jolly Nature
 
 Arceus @ Silk Scarf
 Ability: Multitype
-EVs: 200 HP / 252 Atk / 56 Spe
+EVs: 128 HP / 252 Atk / 128 Spe
 Adamant Nature
 - Swords Dance
 - Extreme Speed
-- Earthquake / Shadow Force
-- Refresh
+- Earthquake / Recover
+- Shadow Claw
 
 Arceus-Dark @ Dread Plate
 Ability: Multitype
@@ -1099,7 +1004,7 @@ Jolly Nature
 - Recover / Extreme Speed
 
 
-=== [ubers] [Ubers] Aegislash ===
+=== [ubers] Aegislash ===
 
 Aegislash @ Leftovers
 Ability: Stance Change
@@ -1109,47 +1014,3 @@ Sassy Nature
 - Toxic
 - Gyro Ball
 - Pursuit
-
-=== [ubers] [Ubers] Scizor ===
-
-Scizor @ Scizorite
-Ability: Technician
-EVs: 212 HP / 60 Atk / 152 Def / 84 SpD
-Impish Nature
-- Toxic
-- Roost
-- Defog
-- Bullet Punch
-
-=== [ubers] [Ubers] Diancie ===
-
-Diancie @ Diancite
-Ability: Clear Body
-EVs: 68 Atk / 188 SpA / 252 Spe
-Hasty Nature
-- Diamond Storm
-- Moonblast
-- Earth Power / Protect
-- Stealth Rock
-
-Diancie @ Diancite
-Ability: Clear Body
-EVs: 68 Atk / 188 SpA / 252 Spe
-Hasty Nature
-- Diamond Storm
-- Moonblast
-- Earth Power 
-- Protect
-
-
-=== [ubers] Landorus ===
-
-Landorus @ Life Orb
-Ability: Sheer Force
-EVs: 4 Atk / 252 SpA / 252 Spe
-Timid Nature
-- Knock Off
-- Earth Power
-- Rock Slide
-- Sludge Wave / Hidden Power [Ice]
-
