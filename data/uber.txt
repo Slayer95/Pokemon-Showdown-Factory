@@ -87,7 +87,7 @@ Bold Nature
 
 Xerneas @ Choice Specs
 Ability: Fairy Aura
-EVs: 74 Def / 252 SpA / 188 Spe
+EVs: 70 Def / 252 SpA / 188 Spe
 Modest Nature
 - Moonblast
 - Focus Blast / Hidden Power [Fire]
