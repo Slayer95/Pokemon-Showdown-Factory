@@ -1,0 +1,1344 @@
+=== [doublesou] Abomasnow ===
+
+Abomasnow @ Abomasite
+Ability: Snow Warning
+EVs: 252 HP / 4 Atk / 252 SpA
+Quiet Nature
+- Blizzard
+- Giga Drain
+- Ice Shard
+- Protect
+
+Abomasnow @ Focus Sash
+Ability: Snow Warning
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Blizzard
+- Energy Ball
+- Ice Shard
+- Protect
+
+=== [doublesou] Aegislash ===
+
+Aegislash @ Weakness Policy
+Ability: Stance Change
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+- Shadow Ball
+- Flash Cannon
+- Wide Guard
+- King's Shield
+
+Aegislash @ Life Orb
+Ability: Stance Change
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+- Shadow Ball
+- Flash Cannon
+- Shadow Sneak
+- King's Shield
+
+Aegislash @ Leftovers
+Ability: Stance Change
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+- Shadow Ball
+- Flash Cannon / Wide Guard
+- Substitute
+- King's Shield
+
+=== [doublesou] Aerodactyl ===
+
+Aerodactyl @ Aerodactylite  
+Ability: Unnerve  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide
+- Aerial Ace / Sky Drop
+- Aqua Tail  
+- Wide Guard
+
+Aerodactyl @ Aerodactylite  
+Ability: Unnerve  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Aerial Ace
+- Tailwind
+- Wide Guard
+
+=== [doublesou] Amoonguss ===
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+EVs: 252 HP / 184 Def / 72 SpD
+Relaxed Nature
+- Rage Powder
+- Spore
+- Giga Drain
+- Protect / Sludge Bomb
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+EVs: 252 HP / 184 Def / 72 SpD
+Relaxed Nature
+- Rage Powder
+- Spore
+- Giga Drain
+- Protect / Sludge Bomb
+
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+EVs: 252 HP / 184 Def / 72 SpD
+Relaxed Nature
+- Rage Powder
+- Spore
+- Giga Drain / Sludge Bomb
+- Protect
+
+Amoonguss @ Sitrus Berry
+Ability: Regenerator
+EVs: 252 HP / 184 Def / 72 SpD
+Relaxed Nature
+- Rage Powder
+- Spore
+- Giga Drain / Sludge Bomb
+- Protect
+
+=== [doublesou] Azumarill ===
+
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Aqua Jet
+- Play Rough / Knock Off
+- Belly Drum
+- Protect
+
+=== [doublesou] Bisharp ===
+
+Bisharp @ Life Orb
+Ability: Defiant
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Knock Off
+- Sucker Punch
+- Iron Head
+- Protect
+
+Bisharp @ Focus Sash
+Ability: Defiant
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Knock Off
+- Sucker Punch
+- Iron Head
+- Protect
+
+=== [doublesou] Blaziken ===
+
+Blaziken @ Life Orb
+Ability: Speed Boost
+EVs: 84 Atk / 172 SpA / 252 Spe
+Hasty Nature
+- Overheat
+- Superpower
+- Stone Edge / Hidden Power [Ice]
+- Protect
+
+=== [doublesou] Breloom ===
+
+Breloom @ Focus Sash
+Ability: Technician
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Spore
+- Mach Punch
+- Bullet Seed
+- Protect
+
+Breloom @ Choice Scarf
+Ability: Technician
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Spore
+- Superpower
+- Bullet Seed
+- Rock Tomb
+
+=== [doublesou] Charizard ===
+
+Charizard @ Charizardite Y
+Ability: Blaze
+EVs: 248 HP / 64 Def / 88 SpA / 108 Spe
+Modest Nature
+- Heat Wave
+- Solar Beam
+- Overheat / Hidden Power [Ground]
+- Protect
+
+Charizard @ Charizardite X
+Ability: Blaze
+EVs: 48 HP / 216 Atk / 16 Def / 228 Spe
+Adamant Nature
+- Flare Blitz
+- Dragon Claw
+- Dragon Dance
+- Protect
+
+=== [doublesou] Chesnaught ===
+
+Chesnaught @ Sitrus Berry  
+Ability: Bulletproof  
+EVs: 252 HP / 60 Atk / 196 SpD  
+Adamant Nature  
+- Drain Punch  
+- Seed Bomb  
+- Leech Seed  
+- Spiky Shield
+
+Chesnaught @ Sitrus Berry  
+Ability: Bulletproof  
+EVs: 252 HP / 60 Atk / 196 SpD  
+Adamant Nature  
+- Wood Hammer
+- Hammer Arm
+- Feint
+- Spiky Shield
+
+Chesnaught @ Sitrus Berry  
+Ability: Bulletproof  
+EVs: 252 HP / 60 Atk / 196 SpD  
+Adamant Nature  
+- Hammer Arm
+- Seed Bomb  
+- Quick Guard
+- Spiky Shield
+
+=== [doublesou] Clefable ===
+
+Clefable @ Sitrus Berry
+Ability: Unaware
+EVs: 252 HP / 72 Def / 184 SpD
+Calm Nature
+- Follow Me
+- Moonblast
+- Helping Hand / Thunder Wave
+- Protect
+
+=== [doublesou] Clefairy ===
+
+Clefairy @ Eviolite
+Ability: Friend Guard
+EVs: 252 HP / 192 Def / 64 SpD
+Bold Nature
+- Follow Me
+- Icy Wind
+- Heal Pulse / Helping Hand
+- Protect
+
+=== [doublesou] Conkeldurr ===
+
+Conkeldurr @ Life Orb  
+Ability: Iron Fist  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Brave Nature  
+- Hammer Arm  
+- Mach Punch  
+- Ice Punch / Knock Off
+- Protect
+
+Conkeldurr @ Life Orb  
+Ability: Guts
+EVs: 252 HP / 252 Atk / 4 SpD  
+Brave Nature  
+- Hammer Arm  
+- Mach Punch  
+- Ice Punch  / Knock Off
+- Protect
+
+Conkeldurr @ Sitrus Berry
+Ability: Iron Fist  
+EVs: 252 HP / 240 Atk / 16 Def  
+Adamant Nature  
+- Drain Punch  
+- Mach Punch  
+- Ice Punch  
+- Knock Off / Wide Guard / Detect
+
+Conkeldurr @ Assault Vest
+Ability: Iron Fist  
+EVs: 252 HP / 240 Atk / 16 Def  
+Adamant Nature  
+- Drain Punch  
+- Mach Punch  
+- Ice Punch  
+- Knock Off
+
+=== [doublesou] Cresselia ===
+
+Cresselia @ Expert Belt
+Ability: Levitate
+EVs: 252 HP / 12 Def / 228 SpA / 16 SpD
+Sassy Nature
+- Psychic
+- Ice Beam
+- Hidden Power [Ground]
+- Trick Room
+
+Cresselia @ Safety Goggles
+Ability: Levitate
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Calm Mind
+- Psyshock
+- Moonlight
+- Trick Room
+
+Cresselia @ Sitrus Berry
+Ability: Levitate
+EVs: 252 HP / 100 Def / 44 SpA / 112 SpD
+Calm Nature
+- Ice Beam
+- Helping Hand
+- Psyshock
+- Trick Room
+
+=== [doublesou] Darkrai ===
+
+Darkrai @ Life Orb
+Ability: Bad Dreams
+EVs: 80 HP / 252 SpA / 176 Spe
+Timid Nature
+- Dark Pulse
+- Ice Beam / Thunderbolt
+- Will-O-Wisp
+- Protect
+
+Darkrai @ Life Orb
+Ability: Bad Dreams
+EVs: 80 HP / 252 SpA / 176 Spe
+Timid Nature
+- Dark Pulse
+- Psychic
+- Focus Blast
+- Protect
+
+Darkrai @ Life Orb
+Ability: Bad Dreams
+EVs: 80 HP / 252 SpA / 176 Spe
+Timid Nature
+- Dark Pulse
+- Ice Beam
+- Thunderbolt
+- Protect
+
+=== [doublesou] Deoxys-Attack ===
+
+Deoxys-Attack @ Focus Sash
+Ability: Pressure
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Psycho Boost
+- Superpower
+- Extreme Speed / Knock Off
+- Detect
+
+=== [doublesou] Diancie ===
+
+Diancie @ Diancite
+Ability: Clear Body
+EVs: 208 Atk / 48 SpA / 252 Spe
+Hasty Nature
+- Diamond Storm
+- Moonblast
+- Earth Power / Substitute
+- Protect
+
+=== [doublesou] Entei ===
+
+Entei @ Safety Goggles
+Ability: Pressure
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sacred Fire
+- Extreme Speed
+- Protect
+- Stone Edge
+
+Entei @ Leftovers
+Ability: Pressure
+EVs: 220 HP / 20 Atk / 112 Def / 48 SpD / 108 Spe 
+Impish Nature
+- Sacred Fire
+- Snarl
+- Substitute
+- Protect
+
+=== [doublesou] Excadrill ===
+
+Excadrill @ Choice Scarf
+Ability: Mold Breaker
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Iron Head
+- Drill Run
+
+=== [doublesou] Ferrothorn ===
+
+Ferrothorn @ Rocky Helmet  
+Ability: Iron Barbs  
+EVs: 252 HP / 176 Atk / 80 Def  
+Adamant Nature  
+- Power Whip  
+- Leech Seed  
+- Gyro Ball / Stealth Rock  
+- Protect
+
+Ferrothorn @ Lum Berry
+Ability: Iron Barbs  
+EVs: 252 HP / 176 Atk / 80 Def  
+Adamant Nature  
+- Power Whip  
+- Leech Seed  
+- Gyro Ball / Stealth Rock  
+- Protect
+
+=== [doublesou] Garchomp ===
+
+Garchomp @ Life Orb  
+Ability: Rough Skin  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Mild Nature  
+- Draco Meteor  
+- Earthquake  
+- Fire Blast  
+- Protect / Rock Slide
+
+=== [doublesou] Gardevoir ===
+
+Gardevoir @ Gardevoirite
+Ability: Telepathy
+EVs: 72 HP / 108 Def / 220 SpA / 108 Spe
+Modest Nature
+- Hyper Voice
+- Psyshock
+- Shadow Ball / Taunt / Encore / Will-O-Wisp
+- Protect
+
+=== [doublesou] Genesect ===
+
+Genesect @ Choice Scarf
+Ability: Download
+EVs: 4 Atk / 252 SAtk / 252 Spe
+Naive Nature
+- U-turn
+- Ice Beam
+- Flamethrower / Thunderbolt
+- Iron Head
+
+=== [doublesou] Gengar ===
+
+Gengar @ Gengarite
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Shadow Ball
+- Sludge Bomb / Substitute
+- Will-O-Wisp
+- Protect
+
+Gengar @ Focus Sash
+Ability: Levitate
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Sludge Bomb
+- Shadow Ball
+- Will-O-Wisp
+- Taunt
+
+=== [doublesou] Gothitelle ===
+
+Gothitelle @ Sitrus Berry
+Ability: Shadow Tag
+EVs: 252 HP / 160 Def / 40 SpA / 56 SpD
+Sassy Nature
+- Psychic
+- Trick Room
+- Helping Hand / Charm
+- Protect / Heal Pulse
+
+=== [doublesou] Gourgeist-Super ===
+
+Gourgeist-Super @ Leftovers
+Ability: Frisk
+EVs: 248 HP / 88 Def / 172 SpD
+Relaxed Nature
+- Trick Room
+- Phantom Force
+- Will-O-Wisp
+- Leech Seed
+
+=== [doublesou] Greninja  ===
+
+Greninja @ Life Orb  
+Ability: Torrent  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Hydro Pump  
+- Ice Beam / Blizzard
+- Rock Slide / Gunk Shot / Low Kick
+- Protect
+
+=== [doublesou] Gyarados ===
+
+Gyarados @ Sitrus Berry  
+Ability: Intimidate  
+EVs: 252 HP / 8 Atk / 192 Def / 56 Spe  
+Impish Nature  
+- Waterfall  
+- Taunt  
+- Thunder Wave  
+- Protect
+
+Gyarados @ Safety Goggles
+Ability: Intimidate  
+EVs: 252 HP / 8 Atk / 192 Def / 56 Spe  
+Impish Nature  
+- Waterfall  
+- Taunt  
+- Thunder Wave  
+- Protect
+
+Gyarados @ Choice Band  
+Ability: Intimidate  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Waterfall  
+- Earthquake  
+- Return / Double-Edge
+- Ice Fang / Stone Edge
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Waterfall  
+- Return / Stone Edge
+- Protect
+
+=== [doublesou] Hariyama ===
+
+Hariyama @ Sitrus Berry
+Ability: Guts
+EVs: 252 Atk / 128 Def / 128 SpD
+Brave Nature
+- Fake Out
+- Close Combat
+- Knock Off
+- Wide Guard
+
+Hariyama @ Assault Vest
+Ability: Guts
+EVs: 252 Atk / 128 Def / 128 SpD
+Brave Nature
+- Fake Out
+- Close Combat
+- Knock Off
+- Feint / Ice Punch / Rock Slide
+
+Hariyama @ Assault Vest
+Ability: Thick Fat
+EVs: 252 Atk / 128 Def / 128 SpD
+Brave Nature
+- Fake Out
+- Close Combat
+- Knock Off
+- Feint / Ice Punch / Rock Slide
+
+=== [doublesou] Heatran ===
+
+Heatran @ Leftovers
+Ability: Flash Fire
+EVs: 56 HP / 252 SpA / 200 Spe
+Modest Nature
+- Substitute
+- Heat Wave
+- Earth Power
+- Protect
+
+Heatran @ Life Orb
+Ability: Flash Fire
+EVs: 56 HP / 252 SpA / 200 Spe
+Modest Nature
+- Heat Wave
+- Earth Power
+- Protect
+- Flash Cannon
+
+Heatran @ Safety Goggles
+Ability: Flash Fire
+EVs: 56 HP / 252 SpA / 200 Spe
+Modest Nature
+- Stealth Rock
+- Heat Wave
+- Earth Power
+- Protect
+
+=== [doublesou] Hoopa-Unbound ===
+
+Hoopa-Unbound @ Life Orb
+Ability: Magician
+EVs: 192 Atk / 140 SpA / 176 Spe
+Hasty Nature
+- Hyperspace Hole
+- Hyperspace Fury
+- Gunk Shot
+- Protect
+
+Hoopa-Unbound @ Life Orb
+Ability: Magician
+EVs: 152 HP / 128 Atk / 176 SpA / 52 Spe
+Mild Nature  
+- Hyperspace Hole
+- Hyperspace Fury
+- Trick Room
+- Protect
+
+=== [doublesou] Hoopa-Unbound ===
+
+Hoopa-Unbound @ Life Orb
+Ability: Magician
+EVs: 192 Atk / 140 SpA / 176 Spe
+Hasty Nature
+- Hyperspace Hole
+- Hyperspace Fury
+- Gunk Shot
+- Protect
+
+Hoopa-Unbound @ Life Orb
+Ability: Magician
+EVs: 152 HP / 128 Atk / 176 SpA / 52 Spe
+Mild Nature  
+- Hyperspace Hole
+- Hyperspace Fury
+- Trick Room
+- Protect
+
+=== [doublesou] Hydreigon ===
+
+Hydreigon @ Life Orb
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Draco Meteor
+- Dark Pulse
+- Earth Power / Fire Blast / Tailwind
+- Protect
+
+Hydreigon @ Life Orb
+Ability: Levitate
+EVs: 216 HP / 152 SpA / 16 SpD / 124 Spe
+Modest Nature
+- Roost
+- Draco Meteor
+- Dark Pulse
+- Protect
+
+=== [doublesou] Infernape ===
+
+Infernape @ Life Orb
+Ability: Blaze
+EVs: 36 Atk / 220 SpA / 252 Spe
+Naive Nature
+- Overheat
+- Close Combat
+- Fake Out
+- Encore / Feint
+
+=== [doublesou] Jellicent ===
+
+Jellicent @ Safety Goggles
+Ability: Water Absorb
+EVs: 252 HP / 204 Def / 52 SpD
+Relaxed Nature
+- Trick Room
+- Scald
+- Will-O-Wisp
+- Protect
+
+=== [doublesou] Jirachi ===
+
+Jirachi @ Sitrus Berry
+Ability: Serene Grace
+EVs: 252 HP / 68 Def / 80 SpD / 108 Spe
+Careful Nature
+- Follow Me
+- Icy Wind / Thunder Wave
+- Iron Head
+- Protect / Helping Hand
+
+Jirachi @ Safety Goggles
+Ability: Serene Grace
+EVs: 252 HP / 68 Def / 80 SpD / 108 Spe
+Careful Nature
+- Follow Me
+- Icy Wind / Thunder Wave
+- Iron Head
+- Protect / Helping Hand
+
+=== [doublesou] Kangaskhan ===
+
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Return
+- Power-Up Punch
+- Sucker Punch
+- Fake Out
+
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Double-Edge
+- Low Kick / Seismic Toss
+- Sucker Punch
+- Fake Out
+
+=== [doublesou] Keldeo  ===
+
+Keldeo @ Life Orb
+Ability: Justified
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Hydro Pump
+- Secret Sword
+- Quick Guard / Taunt / Icy Wind
+- Protect
+
+=== [doublesou] Kingdra ===
+
+Kingdra @ Life Orb
+Ability: Swift Swim
+EVs: 112 HP / 252 SpA / 8 SpD / 136 Spe
+Modest Nature
+- Muddy Water
+- Draco Meteor
+- Protect
+- Ice Beam / Hydro Pump / Substitute / Disable
+
+=== [doublesou] Kyurem-Black ===
+
+Kyurem-Black @ Leftovers
+Ability: Teravolt
+EVs: 108 HP / 252 SpA / 148 Spe
+Modest Nature
+- Substitute
+- Ice Beam
+- Earth Power
+- Protect
+
+Kyurem-Black @ Choice Scarf
+Ability: Teravolt
+EVs: 252 Atk / 32 SpA / 224 Spe
+Naive Nature
+- Ice Beam
+- Fusion Bolt
+- Dragon Claw
+- Rock Slide / Iron Head / Earth Power
+
+=== [doublesou] Landorus ===
+
+Landorus @ Life Orb
+Ability: Sheer Force
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Earth Power
+- Sludge Bomb / Psychic
+- Rock Slide / Focus Blast / Hidden Power [Ice]
+- Protect
+
+=== [doublesou] Landorus-Therian ===
+
+Landorus-Therian @ Choice Scarf
+Ability: Intimidate
+EVs: 44 HP / 252 Atk / 212 Spe
+Adamant Nature
+- Earthquake
+- U-turn
+- Rock Slide / Stone Edge
+- Superpower / Explosion
+
+Landorus-Therian @ Sitrus Berry
+Ability: Intimidate
+EVs: 248 HP / 52 Atk / 116 Def / 92 SpD
+Adamant Nature
+- Earthquake
+- Stone Edge
+- Stealth Rock
+- Protect
+
+Landorus-Therian @ Life Orb
+Ability: Intimidate
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Superpower / Stealth Rock
+- Protect
+
+=== [doublesou] Latios ===
+
+Latios @ Life Orb
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Draco Meteor
+- Psyshock / Psychic
+- Tailwind / Hidden Power [Ground]
+- Protect
+
+Latios @ Life Orb
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Dragon Pulse
+- Psyshock
+- Recover
+- Protect
+
+=== [doublesou] Ludicolo ===
+
+Ludicolo @ Assault Vest
+Ability: Swift Swim
+EVs: 104 HP / 252 SpA / 152 Spe
+Modest Nature
+- Fake Out
+- Hydro Pump
+- Giga Drain
+- Ice Beam
+
+Ludicolo @ Life Orb
+Ability: Swift Swim
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Hydro Pump
+- Giga Drain
+- Ice Beam
+- Protect
+
+=== [doublesou] Manaphy ===
+
+Manaphy @ Sitrus Berry  
+Ability: Hydration  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+- Scald  
+- Ice Beam  
+- Tail Glow  
+- Protect
+
+=== [doublesou] Metagross ===
+
+Metagross @ Metagrossite
+Ability: Clear Body
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Zen Headbutt
+- Iron Head  
+- Protect
+- Hammer Arm / Substitute / Ice Punch
+
+Metagross @ Metagrossite  
+Ability: Clear Body  
+EVs: 72 HP / 252 Atk / 184 Spe  
+Adamant Nature  
+- Iron Head  
+- Zen Headbutt  
+- Hammer Arm  
+- Protect
+
+=== [doublesou] Mew ===
+
+Mew @ Sitrus Berry
+Ability: Synchronize
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- Transform
+- Will-O-Wisp
+- Protect
+
+=== [doublesou] Milotic ===
+
+Milotic @ Life Orb  
+Ability: Competitive  
+EVs: 72 HP / 80 Def / 188 SpA / 168 Spe  
+Modest Nature  
+- Hydro Pump  
+- Ice Beam  
+- Recover  
+- Protect
+
+=== [doublesou] Politoed ===
+
+Politoed @ Sitrus Berry
+Ability: Drizzle
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+- Hydro Pump
+- Ice Beam
+- Encore / Helping Hand
+- Protect
+
+Politoed @ Choice Specs
+Ability: Drizzle
+EVs: 252 HP / 4 Def / 252 SpA
+Quiet Nature
+- Hydro Pump
+- Scald
+- Ice Beam
+- Focus Blast / Psychic
+
+Politoed @ Sitrus Berry
+Ability: Drizzle
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Scald
+- Icy Wind
+- Helping Hand / Encore
+- Protect
+
+=== [doublesou] Porygon2 ===
+
+Porygon2 @ Eviolite
+Ability: Download
+EVs: 252 HP / 160 Def / 20 SpA / 76 SpD
+Sassy Nature
+- Trick Room
+- Ice Beam
+- Tri Attack / Thunderbolt / Foul Play
+- Recover
+
+=== [doublesou] Raichu ===
+
+Raichu @ Air Balloon
+Ability: Lightningrod
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+- Fake Out
+- Encore
+- Thunderbolt
+- Feint / Nuzzle
+
+Raichu @ Focus Sash
+Ability: Lightningrod
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+- Fake Out
+- Encore
+- Thunderbolt
+- Feint / Nuzzle
+
+=== [doublesou] Raikou ===
+
+Raikou @ Sitrus Berry  
+Ability: Pressure  
+EVs: 252 HP / 24 SpA / 232 Spe  
+Timid Nature  
+- Thunderbolt  
+- Thunder Wave
+- Snarl  
+- Protect
+
+Raikou @ Leftovers
+Ability: Pressure  
+EVs: 252 HP / 24 SpA / 232 Spe  
+Timid Nature  
+- Thunderbolt  
+- Thunder Wave
+- Snarl  
+- Substitute
+
+=== [doublesou] Reuniclus ===
+
+Reuniclus @ Life Orb
+Ability: Overcoat
+EVs: 152 HP / 36 Def / 252 SpA / 68 SpD
+Quiet Nature
+- Psychic
+- Focus Blast
+- Trick Room
+- Protect
+
+=== [doublesou] Rhydon ===
+
+Rhydon @ Eviolite
+Ability: Lightning Rod
+EVs: 168 HP / 176 Atk / 164 SpD
+Adamant Nature
+- Earthquake / Drill Run
+- Stone Edge / Rock Slide
+- Ice Punch
+- Protect
+
+=== [doublesou] Rhyperior ===
+
+Rhyperior @ Life Orb
+Ability: Lightning Rod
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+- Earthquake / Drill Run
+- Stone Edge / Rock Slide
+- Ice Punch / Substitute / Hammer Arm
+- Protect
+
+Rhyperior @ Life Orb
+Ability: Lightning Rod
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+- Earthquake / Drill Run
+- Stone Edge / Rock Slide
+- Ice Punch / Substitute / Hammer Arm
+- Protect
+
+=== [doublesou] Rotom-Heat ===
+
+Rotom-Heat @ Safety Goggles
+Ability: Levitate
+EVs: 252 HP / 156 Def / 24 SpA / 76 SpD
+Calm Nature
+- Thunderbolt
+- Overheat
+- Will-O-Wisp / Thunder Wave
+- Protect
+
+=== [doublesou] Rotom-Wash ===
+
+Rotom-Wash @ Sitrus Berry
+Ability: Levitate
+EVs: 252 HP / 100 Def / 116 SpA / 40 SpD
+Modest Nature
+- Hydro Pump
+- Thunderbolt
+- Will-O-Wisp / Thunder Wave
+- Protect
+
+Rotom-Wash @ Choice Scarf  
+Ability: Levitate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Hydro Pump  
+- Thunderbolt  
+- Volt Switch  
+- Trick / Thunder Wave / Will-O-Wisp
+
+Rotom-Wash @ Choice Specs  
+Ability: Levitate  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Modest Nature  
+- Hydro Pump  
+- Thunderbolt  
+- Volt Switch  
+- Trick / Will-O-Wisp / Thunder Wave
+
+=== [doublesou] Sableye ===
+
+Sableye @ Sitrus Berry
+Ability: Prankster
+EVs: 252 HP / 72 Def / 184 SpD
+Impish Nature
+- Will-O-Wisp
+- Quash
+- Feint / Taunt
+- Recover
+
+=== [doublesou] Salamence ===
+
+Salamence @ Life Orb
+Ability: Intimidate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Draco Meteor
+- Fire Blast
+- Hydro Pump / Tailwind
+- Protect
+
+Salamence @ Choice Scarf
+Ability: Intimidate
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Draco Meteor
+- Fire Blast
+- Hydro Pump
+- Stone Edge
+
+=== [doublesou] Serperior ===
+
+Serperior @ Life Orb
+Ability: Contrary
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Leaf Storm
+- Dragon Pulse
+- Hidden Power [Ground] / Glare
+- Protect
+
+=== [doublesou] Scrafty ===
+
+Scrafty @ Life Orb
+Ability: Intimidate
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+- Fake Out
+- Drain Punch / Low Kick
+- Knock Off
+- Head Smash / Ice Punch / Detect
+
+Scrafty @ Assault Vest
+Ability: Intimidate
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+- Fake Out
+- Drain Punch
+- Knock Off
+- Ice Punch / Super Fang
+
+Scrafty @ Lum Berry
+Ability: Intimidate
+EVs: 252 HP / 252 Atk / 4 SpD
+Brave Nature
+- Fake Out
+- Drain Punch
+- Knock Off
+- Detect / Ice Punch
+
+=== [doublesou] Suicune ===
+
+Suicune @ Sitrus Berry
+Ability: Pressure
+EVs: 252 HP / 100 Def / 112 SpA / 24 SpD / 20 Spe
+Bold Nature
+- Tailwind
+- Scald
+- Ice Beam
+- Snarl
+
+Suicune @ Sitrus Berry
+Ability: Pressure
+EVs: 252 HP / 16 Def / 144 SpA / 40 SpD / 56 Spe
+Bold Nature
+- Hydro Pump
+- Ice Beam
+- Tailwind
+- Protect
+
+=== [doublesou] Swampert ===
+
+Swampert @ Swampertite
+Ability: Damp
+EVs: 168 HP / 252 Atk / 88 Spe
+Adamant Nature
+- Waterfall
+- Earthquake
+- Ice Punch / Superpower
+- Protect
+
+=== [doublesou] Sylveon ===
+
+Sylveon @ Choice Specs
+Ability: Pixilate
+EVs: 56 HP / 200 Def / 252 SpA
+Modest Nature
+- Hyper Voice
+- Hyper Beam
+- Psyshock
+- Hidden Power [Ground]
+
+Sylveon @ Life Orb  
+Ability: Pixilate  
+EVs: 32 HP / 12 Def / 252 SpA / 212 Spe  
+Modest Nature  
+- Hyper Voice  
+- Psyshock  
+- Hidden Power [Ground]  
+- Protect
+
+=== [doublesou] Talonflame ===
+
+Talonflame @ Life Orb
+Ability: Gale Wings
+EVs: 252 Atk / 4 Def / 252 Spe
+Naughty Nature
+- Brave Bird
+- Overheat
+- Tailwind / Will-O-Wisp / Steel Wing
+- Protect
+
+Talonflame @ Life Orb
+Ability: Gale Wings
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brave Bird
+- Flare Blitz
+- Tailwind / Will-O-Wisp / Steel Wing
+- Protect
+
+=== [doublesou] Terrakion ===
+
+Terrakion @ Life Orb
+Ability: Justified
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Close Combat
+- Quick Guard / Taunt
+- Protect
+
+Terrakion @ Focus Sash
+Ability: Justified
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Close Combat
+- Quick Guard / Taunt
+- Protect
+
+=== [doublesou] Thundurus ===
+
+Thundurus @ Sitrus Berry
+Ability: Prankster
+EVs: 244 HP / 108 Def / 64 SpA / 72 SpD / 20 Spe
+Calm Nature
+- Thunder Wave
+- Thunderbolt
+- Hidden Power [Ice]
+- Taunt
+
+Thundurus @ Life Orb
+Ability: Prankster
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Flash Cannon
+- Thunder Wave
+- Protect
+
+=== [doublesou] Togekiss ===
+
+Togekiss @ Safety Goggles
+Ability: Serene Grace
+EVs: 236 HP / 192 Def / 20 SpD / 60 Spe
+Calm Nature
+- Air Slash
+- Follow Me
+- Tailwind / Thunder Wave
+- Encore / Roost / Helping Hand
+
+=== [doublesou] Venusaur ===
+
+Venusaur @ Life Orb
+Ability: Chlorophyll
+EVs: 112 HP / 252 SpA / 144 Spe
+Modest Nature
+- Giga Drain
+- Sludge Bomb
+- Sleep Powder
+- Protect
+
+Venusaur @ Wide Lens
+Ability: Chlorophyll
+EVs: 112 HP / 252 SpA / 144 Spe
+Modest Nature
+- Leaf Storm
+- Sludge Bomb
+- Sleep Powder
+- Protect
+
+Venusaur @ Venusaurite
+Ability: Chlorophyll
+EVs: 200 HP / 252 SpA / 56 Spe
+Modest Nature
+- Giga Drain
+- Sludge Bomb
+- Sleep Powder
+- Synthesis / Leech Seed
+
+=== [doublesou] Victini ===
+
+Victini @ Choice Scarf  
+Ability: Victory Star  
+EVs: 24 HP / 252 Atk / 232 Spe  
+Adamant Nature  
+- V-create  
+- Bolt Strike  
+- U-turn  
+- Final Gambit
+
+=== [doublesou] Virizion ===
+
+Virizion @ Life Orb
+Ability: Justified
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Leaf Blade
+- Close Combat
+- Stone Edge / Quick Guard / Taunt
+- Protect
+
+=== [doublesou] Volcarona ===
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+EVs: 160 HP / 16 Def / 148 SpA / 184 Spe
+Modest Nature
+- Heat Wave
+- Bug Buzz / Giga Drain
+- Quiver Dance
+- Protect
+
+Volcarona @ Sitrus Berry
+Ability: Flame Body
+EVs: 252 HP / 48 Def / 100 SpA / 108 Spe
+Modest Nature
+- Overheat
+- Tailwind
+- Rage Powder
+- Protect
+
+=== [doublesou] Weavile ===
+
+Weavile @ Focus Sash  
+Ability: Pressure  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Fake Out  
+- Knock Off
+- Icicle Crash / Ice Shard
+- Feint / Protect 
+
+=== [doublesou] Zapdos ===
+
+Zapdos @ Rocky Helmet  
+Ability: Pressure  
+EVs: 252 HP / 32 Def / 84 SpA / 124 SpD / 16 Spe  
+Modest Nature  
+- Thunderbolt  
+- Hidden Power [Ice] / Heat Wave
+- Tailwind  
+- Roost
+
+Zapdos @ Safety Goggles
+Ability: Pressure  
+EVs: 252 HP / 32 Def / 84 SpA / 124 SpD / 16 Spe  
+Modest Nature  
+- Thunderbolt  
+- Hidden Power [Ice] / Heat Wave
+- Tailwind  
+- Roost
