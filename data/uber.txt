@@ -538,7 +538,7 @@ Careful Nature
 
 Giratina-Origin @ Griseous Orb
 Ability: Levitate
-EVs: 252 Def / 244 SpA / 76 Spe
+EVs: 252 Def / 244 SpA / 12 Spe
 Modest Nature
 - Draco Meteor
 - Thunder Wave / Toxic
