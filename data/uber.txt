@@ -22,7 +22,7 @@ Adamant Nature
 
 Yveltal @ Life Orb
 Ability: Dark Aura
-EVs: 168 Atk / 252 SpA / 92 Spe
+EVs: 166 Atk / 252 SpA / 92 Spe
 Rash Nature
 - Dark Pulse
 - Oblivion Wing
@@ -87,14 +87,7 @@ Bold Nature
 
 Xerneas @ Choice Specs
 Ability: Fairy Aura
-EVs: 76 Def / 252 SpA / 188 Spe
-Modest Nature
-- Moonblast
-- Sleep Talk
-
-Xerneas @ Choice Specs
-Ability: Fairy Aura
-EVs: 76 Def / 252 SpA / 188 Spe
+EVs: 74 Def / 252 SpA / 188 Spe
 Modest Nature
 - Moonblast
 - Focus Blast / Hidden Power [Fire]
