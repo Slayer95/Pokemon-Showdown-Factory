@@ -76,27 +76,6 @@ Impish Nature
 - Toxic / Roar
 
 
-=== [uu] Alakazam ===
-
-Alakazam @ Life Orb  
-Ability: Magic Guard  
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Timid Nature  
-- Psychic  
-- Shadow Ball  
-- Focus Blast / Dazzling Gleam
-- Taunt / Encore / Substitute 
-
-Alakazam @ Focus Sash  
-Ability: Magic Guard  
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Timid Nature  
-- Psychic  
-- Shadow Ball  
-- Focus Blast / Dazzling Gleam
-- Taunt / Encore / Thunder Wave
-
-
 === [uu] Hoopa ===
 
 Hoopa @ Life Orb

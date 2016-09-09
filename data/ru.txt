@@ -274,45 +274,6 @@ Careful Nature
 - Brave Bird
 
 
-=== [ru] Tyrantrum ===
-
-Tyrantrum @ Choice Scarf
-Ability: Rock Head
-EVs: 4 HP / 252 Atk / 252 Spe
-Jolly Nature
-- Head Smash
-- Superpower
-- Dragon Claw
-- Outrage
-
-Tyrantrum @ Life Orb
-Ability: Rock Head
-EVs: 4 HP / 252 Atk / 252 Spe
-Adamant Nature
-- Rock Polish
-- Head Smash
-- Earthquake
-- Outrage
-
-Tyrantrum @ Lum Berry  
-Ability: Rock Head  
-EVs: 252 Atk / 4 SpD / 252 Spe  
-Adamant Nature  
-- Head Smash  
-- Outrage  
-- Earthquake  
-- Rock Polish
-
-Tyrantrum @ Choice Band
-Ability: Rock Head
-EVs: 4 HP / 252 Atk / 252 Spe
-Adamant Nature
-- Head Smash
-- Superpower
-- Dragon Claw
-- Outrage
-
-
 === [ru] Registeel ===
 
 Registeel @ Leftovers
@@ -825,26 +786,6 @@ Calm Nature
 - Toxic
 
 
-=== [ru] Steelix ===
-
-Steelix @ Steelixite
-Ability: Sturdy
-EVs: 252 HP / 96 Atk / 76 SpD / 84 Spe
-Adamant Nature
-- Heavy Slam
-- Earthquake
-- Stealth Rock
-- Roar / Toxic
-
-Steelix @ Steelixite  
-Ability: Sturdy  
-EVs: 248 HP / 248 SpD / 12 Spe  
-Careful Nature  
-- Heavy Slam  
-- Earthquake  
-- Roar  
-- Stealth Rock
-
 === [ru] Emboar ===
 
 Emboar @ Choice Band
@@ -966,27 +907,6 @@ Jolly Nature
 - Drain Punch / Trick 
  
  
-=== [ru] Tangrowth ===
- 
-Tangrowth @ Life Orb  
-Ability: Regenerator  
-EVs: 132 HP / 252 SpA / 124 Spe  
-Modest Nature  
-- Leaf Storm  
-- Hidden Power [Fire] / Focus Blast  
-- Sludge Bomb  
-- Knock Off / Sleep Powder
- 
-Tangrowth @ Assault Vest  
-Ability: Regenerator  
-EVs: 252 HP / 252 SpA / 4 SpD  
-Modest Nature  
-- Leaf Storm  
-- Knock Off  
-- Focus Blast  
-- Giga Drain
- 
-
 === [ru] Smeargle ===
  
 Smeargle @ Focus Sash  

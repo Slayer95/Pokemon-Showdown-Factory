@@ -511,27 +511,6 @@ IVs: 0 Atk / 30 Def
 - Focus Blast
  
  
-=== [pu] Machoke ===
- 
-Machoke @ Eviolite  
-Ability: No Guard  
-EVs: 160 HP / 252 Atk / 16 Def / 20 SpD / 60 Spe  
-Adamant Nature  
-- Dynamic Punch  
-- Knock Off  
-- Bullet Punch  
-- Ice Punch  
- 
-Machoke @ Eviolite  
-Ability: No Guard  
-EVs: 160 HP / 252 Atk / 16 Def / 20 SpD / 60 Spe  
-Adamant Nature  
-- Dynamic Punch  
-- Knock Off  
-- Rest
-- Sleep Talk
- 
- 
 === [pu] Regice ===
  
 Regice @ Life Orb
