@@ -2,6 +2,33 @@
 
 Diancie @ Diancite
 Ability: Clear Body
+EVs: 8 Atk / 248 SpA / 252 Spe
+Naive Nature
+- Diamond Storm
+- Moonblast
+- Hidden Power [Fire]
+- Protect
+
+Diancie @ Diancite
+Ability: Clear Body
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Diamond Storm
+- Moonblast
+- Hidden Power [Fire]
+- Protect
+
+Diancie @ Diancite
+Ability: Clear Body
+EVs: 8 Atk / 248 SpA / 252 Spe
+Naive Nature
+- Diamond Storm
+- Moonblast
+- Earth Power
+- Protect
+
+Diancie @ Diancite
+Ability: Clear Body
 EVs: 44 HP / 32 Atk / 252 SpA / 180 Spe
 Rash Nature
 - Moonblast
@@ -9,26 +36,35 @@ Rash Nature
 - Earth Power
 - Rock Polish
 
-Diancie @ Diancite
-Ability: Clear Body
-EVs: 4 Def / 252 SpA / 252 Spe
-Timid Nature
-- Calm Mind
-- Moonblast
-- Earth Power
-- Hidden Power [Fire]
-
-Diancie @ Diancite
-Ability: Clear Body
-EVs: 32 Atk / 224 SpA / 252 Spe
-Naive Nature
-- Diamond Storm
-- Moonblast
-- Earth Power
-- Protect
-
 
 === Hippowdon ===
+
+Hippowdon (M) @ Leftovers
+Ability: Sand Stream
+EVs: 252 HP / 144 Def / 112 SpD
+Impish Nature
+- Slack Off
+- Stealth Rock
+- Stone Edge
+- Earthquake
+
+Hippowdon (M) @ Leftovers
+Ability: Sand Stream
+EVs: 252 HP / 144 Def / 112 SpD
+Impish Nature
+- Slack Off
+- Stealth Rock
+- Toxic
+- Earthquake
+
+Hippowdon (M) @ Leftovers
+Ability: Sand Stream
+EVs: 252 HP / 144 Def / 112 SpD
+Impish Nature
+- Slack Off
+- Stealth Rock
+- Whirlwind
+- Earthquake
 
 Hippowdon (M) @ Leftovers
 Ability: Sand Stream
@@ -39,26 +75,26 @@ Impish Nature
 - Stone Edge
 - Earthquake
 
-Hippowdon (M) @ Leftovers
-Ability: Sand Stream
-EVs: 252 HP / 4 Def / 252 SpD
-Careful Nature
-- Slack Off
-- Stealth Rock
-- Stone Edge
-- Earthquake
-
-Hippowdon (M) @ Leftovers
-Ability: Sand Stream
-EVs: 252 HP / 144 Def / 112 SpD
-Careful Nature
-- Slack Off
-- Stealth Rock
-- Whirlwind
-- Earthquake
-
 
 === [ou] [OU] Jirachi ===
+
+Jirachi @ Choice Scarf
+Ability: Serene Grace
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- U-turn
+- Iron Head
+- Fire Punch
+- Healing Wish
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 252 HP / 224 SpD / 32 Spe
+Careful Nature
+- Iron Head
+- Stealth Rock
+- U-turn
+- Healing Wish
 
 Jirachi @ Leftovers
 Ability: Serene Grace
@@ -73,20 +109,10 @@ Jirachi @ Leftovers
 Ability: Serene Grace
 EVs: 252 HP / 224 SpD / 32 Spe
 Careful Nature
-- Wish
-- Protect
 - Iron Head
 - Body Slam
-
-Jirachi @ Choice Scarf
-Ability: Serene Grace
-EVs: 252 Atk / 4 SpD / 252 Spe
-Jolly Nature
-- U-turn
-- Iron Head
-- Ice Punch
-- Fire Punch
-
+- Wish
+- Protect
 
 === [ou] [OU] Celebi ===
 
@@ -119,6 +145,15 @@ Adamant Nature
 - Outrage
 - Extreme Speed
 
+Zygarde @ Lum Berry
+Ability: Aura Break
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Dance
+- Earthquake
+- Outrage
+- Stone Edge
+
 Zygarde @ Leftovers
 Ability: Aura Break
 EVs: 200 HP / 252 SpD / 56 Spe
@@ -140,7 +175,7 @@ Jolly Nature
 - Ice Shard
 - Low Kick
 
-Weavile @ Life Orb
+Weavile @ Choice Band
 Ability: Pressure
 EVs: 252 Atk / 4 Def / 252 Spe
 Jolly Nature
@@ -152,26 +187,35 @@ Jolly Nature
 
 === [ou] [OU] Volcarona ===
 
-Volcarona @ Leftovers
-Ability: Flame Body
-EVs: 248 HP / 136 Def / 124 Spe
-Bold Nature
-- Quiver Dance
-- Fiery Dance
-- Giga Drain
-- Roost
-
 Volcarona @ Lum Berry
 Ability: Flame Body
-EVs: 96 HP / 252 SpA / 160 Spe
-Modest Nature
+EVs: 72 HP / 252 SpA / 184 Spe
+Timid Nature
 - Quiver Dance
 - Fire Blast
 - Giga Drain
 - Bug Buzz
 
+Volcarona @ Passho Berry
+Ability: Flame Body
+EVs: 72 HP / 252 SpA / 184 Spe
+Timid Nature
+- Quiver Dance
+- Fire Blast
+- Giga Drain
+- Hidden Power [Ground]
+
 
 === [ou] [OU] Victini ===
+
+Victini @ Life Orb
+Ability: Victory Star
+EVs: 96 Atk / 160 SpA / 252 Spe
+Naive Nature
+- V-create
+- Bolt Strike
+- Icy Wind
+- Energy Ball
 
 Victini @ Choice Band
 Ability: Victory Star
@@ -182,43 +226,6 @@ Adamant Nature
 - Brick Break
 - U-turn
 
-Victini @ Choice Scarf
-Ability: Victory Star
-EVs: 252 Atk / 4 Def / 252 Spe
-Adamant Nature
-- V-create
-- Bolt Strike
-- U-turn
-- Final Gambit
-
-Victini @ Expert Belt
-Ability: Victory Star
-EVs: 4 Def / 252 SpA / 252 Spe
-Modest Nature
-- Blue Flare
-- Thunder
-- Glaciate
-- Focus Blast
-
-Victini @ Leftovers
-Ability: Victory Star
-EVs: 248 HP / 32 Atk / 68 Def / 160 Spe
-Adamant Nature
-- Taunt
-- V-create
-- Will-O-Wisp
-- Bolt Strike
-
-Victini @ Leftovers
-Ability: Victory Star
-EVs: 96 HP / 252 Atk / 160 Spe
-Adamant Nature
-- Substitute
-- V-create
-- Bolt Strike
-- Power-Up Punch
-
-
 === [ou] [OU] Tornadus-Therian ===
 
 Tornadus-Therian @ Assault Vest
@@ -226,7 +233,7 @@ Ability: Regenerator
 EVs: 132 HP / 160 SpA / 216 Spe
 Timid Nature
 - Hurricane
-- Focus Blast
+- Heat wave
 - Knock Off
 - U-turn
 
@@ -238,7 +245,6 @@ Naive Nature
 - Superpower
 - U-turn
 - Taunt
-
 
 === [ou] [OU] Togekiss ===
 
@@ -259,7 +265,6 @@ Calm Nature
 - Air Slash
 - Defog
 - Roost
-
 
 === [ou] [OU] Staraptor ===
 
@@ -283,7 +288,7 @@ Jolly Nature
 
 === [ou] [OU] Thundurus-Therian ===
 
-Thundurus-Therian @ Leftovers
+Thundurus-Therian @ Life Orb
 Ability: Volt Absorb
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
@@ -318,10 +323,18 @@ Ability: Speed Boost
 EVs: 16 HP / 252 Atk / 4 Def / 236 Spe
 Adamant Nature
 - Megahorn
-- Earthquake
+- Aqua Tail
 - Poison Jab
 - Protect
 
+Scolipede @ Focus Sash
+Ability: Speed Boost
+EVs: 16 HP / 252 Atk / 4 Def / 236 Spe
+Adamant Nature
+- Megahorn
+- Toxic Spikes
+- Endeavor
+- Baton Pass
 
 === [ou] [OU] Medicham ===
 
@@ -334,6 +347,23 @@ Adamant Nature
 - Fake Out
 - Ice Punch
 
+Medicham @ Medichamite
+Ability: Pure Power
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- High Jump Kick
+- Ice Punch
+- Thunder Punch
+- Fake Out
+
+Medicham @ Medichamite
+Ability: Pure Power
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- High Jump Kick
+- Zen Headbutt
+- Fake Out
+- Bullet Punch
 
 === [ou] [OU] Manaphy ===
 
@@ -367,14 +397,14 @@ Timid Nature
 
 === [ou] [OU] Klefki ===
 
-Klefki @ Light Clay
+Klefki @ Leftovers
 Ability: Prankster
 EVs: 252 HP / 4 Def / 252 SpD
-Bold Nature
-- Reflect
-- Light Screen
+Careful Nature
+- Thunder Wave
+- Toxic
 - Spikes
-- Foul Play
+- Flash Cannon
 
 Klefki @ Leftovers
 Ability: Prankster
@@ -384,7 +414,6 @@ Careful Nature
 - Magnet Rise
 - Spikes
 - Play Rough
-
 
 === [ou] [OU] Hawlucha ===
 
@@ -418,15 +447,6 @@ Adamant Nature
 - Fire Punch
 - U-turn
 
-Diggersby @ Focus Sash
-Ability: Huge Power
-EVs: 4 HP / 252 Atk / 252 Spe
-Adamant Nature
-- Swords Dance
-- Earthquake
-- Return
-- Quick Attack
-
 Diggersby @ Life Orb
 Ability: Huge Power
 EVs: 4 HP / 252 Atk / 252 Spe
@@ -440,7 +460,7 @@ Diggersby @ Focus Sash
 Ability: Huge Power
 EVs: 4 HP / 252 Atk / 252 Spe
 Adamant Nature
-- Swords Dance
+-Quick Attack
 - Earthquake
 - Return
 - Fire Punch
@@ -475,7 +495,7 @@ EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
 - Psychic
 - Shadow Ball
-- Hidden Power [Ice]
+- Focus Blast
 - Thunder Wave
 
 Alakazam @ Life Orb
@@ -485,7 +505,7 @@ Timid Nature
 - Psychic
 - Shadow Ball
 - Focus Blast
-- Hidden Power [Ice] / Encore
+- Hidden Power [Fire] / Encore
 
 Alakazam @ Alakazite
 Ability: Magic Guard
@@ -496,17 +516,35 @@ Timid Nature
 - Focus Blast
 - Encore
 
+Alakazam @ Alakazite
+Ability: Magic Guard
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Shadow Ball
+- Focus Blast
+- Calm Mind
+
 
 === [ou] [OU] Zapdos ===
 
 Zapdos @ Leftovers
 Ability: Pressure
-EVs: 252 HP / 168 Def / 68 SpA / 20 Spe
+EVs: 248 HP / 176 Def / 68 SpA / 16 Spe
 Bold Nature
 - Thunderbolt
 - Roost
 - Defog
 - Heat Wave
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 176 Def / 68 SpA / 16 Spe
+Bold Nature
+- Thunderbolt
+- Roost
+- Substitute
+- Toxic
 
 
 === [ou] [OU] Venusaur ===
@@ -550,7 +588,7 @@ Jolly Nature
 - Superpower
 - Ice Punch
 
-Tyranitar @ Leftovers
+Tyranitar @ Chople Berry
 Ability: Sand Stream
 EVs: 248 HP / 80 Def / 180 SpD
 Relaxed Nature
@@ -600,14 +638,23 @@ Timid Nature
 
 === [ou] [OU] Terrakion ===
 
+Terrakion @ Choice Band
+Ability: Justified
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Stone Edge
+- Rock Slide
+- Quick Attack
+
 Terrakion @ Choice Scarf
 Ability: Justified
 EVs: 252 Atk / 4 SpD / 252 Spe
 Jolly Nature
 - Close Combat
 - Stone Edge
-- X-Scissor
 - Rock Slide
+- Iron Head
 
 Terrakion @ Life Orb
 Ability: Justified
@@ -616,16 +663,7 @@ Naive Nature
 - Close Combat
 - Stone Edge
 - Swords Dance
-- Hidden Power [Ice]
-
-Terrakion @ Focus Sash
-Ability: Justified
-EVs: 252 Atk / 4 SpD / 252 Spe
-Jolly Nature
-- Stealth Rock
-- Close Combat
-- Stone Edge
-- Taunt
+- Substitute
 
 Terrakion @ Lum Berry
 Ability: Justified
@@ -693,18 +731,6 @@ Jolly Nature
 - Will-O-Wisp
 - Roost
 
-=== [ou] [OU] Sylveon ===
-
-Sylveon @ Choice Specs
-Ability: Pixilate
-EVs: 244 HP / 252 SpA / 12 Spe
-Modest Nature
-- Hyper Voice
-- Psyshock
-- Shadow Ball
-- Baton Pass
-
-
 === [ou] [OU] Slowbro ===
 
 Slowbro @ Slowbronite
@@ -716,15 +742,6 @@ Bold Nature
 - Slack Off
 - Psyshock
 
-Slowbro @ Slowbronite
-Ability: Regenerator
-EVs: 252 HP / 252 SpA / 4 SpD
-Modest Nature
-- Fire Blast
-- Scald
-- Psyshock
-- Slack Off
-
 Slowbro @ Leftovers
 Ability: Regenerator
 EVs: 252 HP / 232 Def / 24 SpD
@@ -733,7 +750,6 @@ Bold Nature
 - Psyshock
 - Thunder Wave
 - Slack Off
-
 
 === [ou] [OU] Skarmory ===
 
@@ -754,16 +770,6 @@ Bold Nature
 - Defog
 - Brave Bird
 - Whirlwind
-
-Skarmory (F) @ Custap Berry
-Ability: Sturdy
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Brave Bird
-- Spikes
-- Taunt
-- Stealth Rock
-
 
 === [ou] [OU] Scizor ===
 
@@ -803,7 +809,6 @@ Adamant Nature
 - Bug Bite
 - Superpower
 
-
 === [ou] [OU] Sableye ===
 
 Sableye @ Sablenite
@@ -824,7 +829,6 @@ Careful Nature
 - Will-O-Wisp
 - Foul Play
 
-
 === [ou] [OU] Rotom-Wash ===
 
 Rotom-Wash @ Leftovers
@@ -835,7 +839,6 @@ Bold Nature
 - Hydro Pump
 - Will-O-Wisp
 - Pain Split
-
 
 === [ou] [OU] Pinsir ===
 
@@ -857,7 +860,6 @@ Jolly Nature
 - Earthquake
 - Quick Attack
 
-
 === [ou] [OU] Mew ===
 
 Mew @ Leftovers
@@ -878,8 +880,16 @@ Impish Nature
 - Will-O-Wisp
 - Knock Off
 
-
 === [ou] [OU] Metagross ===
+
+Metagross @ Metagrossite
+Ability: Clear Body
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Meteor Mash
+- Thunder Punch
+- Hammer Arm
+- Ice Punch
 
 Metagross @ Metagrossite
 Ability: Clear Body
@@ -888,7 +898,7 @@ Jolly Nature
 - Meteor Mash
 - Zen Headbutt
 - Hammer Arm
-- Grass Knot
+- Bullet Punch
 
 Metagross @ Metagrossite
 Ability: Clear Body
@@ -898,16 +908,6 @@ Jolly Nature
 - Zen Headbutt
 - Hammer Arm
 - Pursuit
-
-Metagross @ Metagrossite
-Ability: Clear Body
-EVs: 80 HP / 252 Atk / 176 Spe
-Adamant Nature
-- Meteor Mash
-- Zen Headbutt
-- Earthquake
-- Agility
-
 
 === [ou] [OU] Manectric ===
 
@@ -941,7 +941,6 @@ Bold Nature
 - Taunt
 - Defog
 
-
 === [ou] [OU] Mamoswine ===
 
 Mamoswine @ Focus Sash
@@ -961,7 +960,6 @@ Naive Nature
 - Ice Shard
 - Icicle Crash
 - Freeze-Dry
-
 
 === [ou] [OU] Magnezone ===
 
@@ -983,7 +981,6 @@ Modest Nature
 - Flash Cannon
 - Thunderbolt
 
-
 === [ou] [OU] Lopunny ===
 
 Lopunny @ Lopunnite
@@ -1003,15 +1000,6 @@ Jolly Nature
 - Return
 - Fake Out
 - Power-Up Punch
-
-Lopunny @ Lopunnite
-Ability: Limber
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- High Jump Kick
-- Return
-- Substitute
-- Encore
 
 === [ou] [OU] Latios ===
 
@@ -1069,7 +1057,6 @@ Hasty Nature
 - Earthquake
 - Hidden Power [Fire]
 
-
 === [ou] [OU] Latias ===
 
 Latias @ Life Orb
@@ -1110,6 +1097,15 @@ IVs: 0 Atk
 - Recover
 - Dragon Pulse
 
+Latias (F) @ Latiasite
+Ability: Levitate
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Recover
+- Thunderbolt
+- Ice Beam
+- Reflect Type
 
 === [ou] [OU] Landorus-Therian ===
 
@@ -1122,7 +1118,7 @@ Jolly Nature
 - Explosion
 - Stone Edge
 
-Landorus-Therian @ Leftovers
+Landorus-Therian @ Rocky Helmet
 Ability: Intimidate
 EVs: 252 HP / 240 Def / 8 SpD / 8 Spe
 Impish Nature
@@ -1218,17 +1214,16 @@ Timid Nature
 - Substitute
 - Calm Mind
 
-Keldeo @ Salac Berry
-Ability: Justified
-EVs: 8 HP / 248 SpA / 252 Spe
-Timid Nature
-- Endeavor
-- Substitute
-- Hydro Pump
-- Secret Sword
-
-
 === [ou] [OU] Heracross ===
+
+Heracross @ Heracronite
+Ability: Guts
+EVs: 240 HP / 136 Def / 132 Spe
+Jolly Nature
+- Close Combat
+- Pin Missile
+- Rock Blast
+- Swords Dance
 
 Heracross @ Heracronite
 Ability: Guts
@@ -1269,6 +1264,15 @@ Timid Nature
 - Taunt
 - Earth Power
 
+Heatran @ Power Herb
+Ability: Flash Fire
+EVs: 12 HP / 252 SpA / 244 Spe
+Timid Nature
+- Stealth Rock
+- Magma Storm
+- Taunt
+- Solarbeam
+
 Heatran @ Leftovers
 Ability: Flash Fire
 EVs: 248 HP / 192 SpD / 68 Spe
@@ -1293,7 +1297,7 @@ Adamant Nature
 Gyarados @ Gyaradosite
 Ability: Intimidate
 EVs: 252 Atk / 4 Def / 252 Spe
-Adamant Nature
+Jolly Nature
 - Dragon Dance
 - Waterfall
 - Crunch
@@ -1359,7 +1363,6 @@ Impish Nature
 - Protect
 - Earthquake
 
-
 === [ou] [OU] Gengar ===
 
 Gengar @ Black Sludge
@@ -1382,12 +1385,12 @@ Timid Nature
 
 Gengar @ Life Orb
 Ability: Levitate
-EVs: 4 Def / 252 SpA / 252 Spe
+EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
-- Substitute
-- Pain Split
 - Shadow Ball
+- Sludge Wave
 - Focus Blast
+- Icy Wind
 
 
 === [ou] [OU] Gardevoir ===
@@ -1467,6 +1470,24 @@ Jolly Nature
 - Stone Edge
 - Dragon Claw
 
+Garchomp @ Life Orb
+Ability: Rough Skin
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Earthquake
+- Outrage
+- Fire Fang
+
+Garchomp @ Life Orb
+Ability: Rough Skin
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Draco Meteor
+- Earthquake
+- Fire Blast
+- Stealth Rock
+
 
 === [ou] [OU] Ferrothorn ===
 
@@ -1527,15 +1548,6 @@ Jolly Nature
 - Rock Slide
 - Rapid Spin
 
-Excadrill @ Leftovers
-Ability: Mold Breaker
-EVs: 252 HP / 4 Atk / 252 SpD
-Careful Nature
-- Earthquake
-- Iron Head
-- Rapid Spin
-- Toxic
-
 === [ou] [OU] Dragonite ===
 
 Dragonite @ Choice Band
@@ -1565,28 +1577,16 @@ Adamant Nature
 - Extreme Speed
 - Fire Punch
 
-=== [ou] [OU] Conkeldurr ===
-
-Conkeldurr @ Assault Vest
-Ability: Guts
-EVs: 252 Atk / 236 SpD / 20 Spe
-Adamant Nature
-- Drain Punch
-- Mach Punch
-- Ice Punch
-- Poison Jab
-
-Conkeldurr @ Life Orb
-Ability: Sheer Force
-EVs: 48 HP / 252 Atk / 208 SpD
-Adamant Nature
-- Drain Punch
-- Mach Punch
-- Ice Punch
-- Thunder Punch
-
-
 === [ou] [OU] Clefable ===
+
+Clefable @ Leftovers
+Ability: Magic Guard
+EVs: 252 HP / 172 Def / 84 SpD
+Calm Nature
+- Calm Mind
+- Moonblast
+- Soft-Boiled
+- Thunder Wave
 
 Clefable @ Leftovers
 Ability: Magic Guard
@@ -1653,7 +1653,6 @@ Adamant Nature
 - Flare Blitz
 - Swords Dance
 
-
 === [ou] [OU] Charizard-Mega-Y ===
 
 Charizard @ Charizardite Y
@@ -1664,7 +1663,6 @@ Timid Nature
 - Solar Beam
 - Focus Blast
 - Roost
-
 
 === [ou] [OU] Chansey ===
 
@@ -1686,7 +1684,6 @@ Bold Nature
 - Seismic Toss
 - Toxic
 
-
 === [ou] [OU] Breloom ===
 
 Breloom @ Toxic Orb
@@ -1706,6 +1703,15 @@ Jolly Nature
 - Bullet Seed
 - Mach Punch
 - Rock Tomb
+
+Breloom @ Life Orb
+Ability: Technician
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Spore
+- Bullet Seed
+- Mach Punch
+- Rock Tpmb
 
 Breloom @ Life Orb
 Ability: Technician
@@ -1737,34 +1743,7 @@ Jolly Nature
 - Iron Head
 - Sucker Punch
 
-Bisharp @ Life Orb
-Ability: Defiant
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Knock Off
-- Low Kick
-- Iron Head
-- Sucker Punch
-
-Bisharp @ BlackGlasses
-Ability: Defiant
-EVs: 252 Atk / 4 Def / 252 Spe
-Jolly Nature
-- Knock Off
-- Low Kick
-- Iron Head
-- Sucker Punch
-
 === [ou] [OU] Azumarill ===
-
-Azumarill @ Assault Vest
-Ability: Huge Power
-EVs: 240 HP / 252 Atk / 16 SpD
-Adamant Nature
-- Play Rough
-- Waterfall
-- Aqua Jet
-- Knock Off
 
 Azumarill @ Sitrus Berry
 Ability: Huge Power
@@ -1783,7 +1762,6 @@ Adamant Nature
 - Waterfall
 - Aqua Jet
 - Superpower
-
 
 === [ou] [OU] Altaria ===
 
@@ -1866,38 +1844,9 @@ Ability: Contrary
 EVs: 252 SpA / 4 SpD / 252 Spe
 Timid Nature
 - Leaf Storm
-- Dragon Pulse
-- Hidden Power [Ground]
-- Substitute
-
-Serperior @ Life Orb
-Ability: Contrary
-EVs: 252 SpA / 4 SpD / 252 Spe
-Timid Nature
-- Leaf Storm
-- Dragon Pulse
 - Hidden Power [Fire]
-- Giga Drain
-
-=== [ou] Feraligatr ===
-
-Feraligatr @ Life Orb
-Ability: Sheer Force
-EVs: 252 Atk / 4 SpD / 252 Spe
-Adamant Nature
-- Waterfall
-- Ice Punch
-- Superpower
-- Dragon Dance
-
-Feraligatr @ Life Orb
-Ability: Sheer Force
-EVs: 252 Atk / 4 SpD / 252 Spe
-Adamant Nature
-- Waterfall
-- Ice Punch
-- Crunch
-- Dragon Dance
+- Substitute
+- Leech Seed
 
 === [ou] Raikou ===
 
@@ -1906,6 +1855,15 @@ Ability: Pressure
 EVs: 4 Def / 252 SpA / 252 Spe
 Timid Nature
 - Substitute
+- Calm Mind
+- Thunderbolt
+- Hidden Power [Ice]
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Volt Switch
 - Calm Mind
 - Thunderbolt
 - Hidden Power [Ice]
